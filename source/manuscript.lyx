@@ -138,7 +138,20 @@ butt@mpip-mainz.mpg.de
 \end_layout
 
 \begin_layout Abstract
-Insects
+Many creatures ranging from geckos to flies can easily climb on surfaces
+ with the help of hairy adhesive pads on their legs.
+ The hairy pad's design allows the animal to rapidly switch between strong
+ adhesion during attachment and weak adhesion during detachment.
+ Several studies explain this mechanism based on the asymmetric geometry
+ of the hairs, which imparts direction dependent adhesion properties.
+ Here, we propose a mechanism for controlling adhesion of a hairy pad based
+ on the Spring Contact Model.
+ We show that the adhesion force can be decreased by an order of magnitude
+ just by slightly tilting the pad during pull-off.
+ Further, deformation of the pad's soft backing layer can trigger its spontaneou
+s detachment at low tilt angles.
+ Our model provides a new approach to switch the adhesion state in bio-inspired
+ synthetic adhesives without the need of asymmetric structures.
 \end_layout
 
 \begin_layout Section
@@ -150,10 +163,6 @@ The
 \end_layout
 
 \begin_layout Section
-Theory
-\end_layout
-
-\begin_layout Subsection
 Model
 \end_layout
 
@@ -161,16 +170,8 @@ Model
 The
 \end_layout
 
-\begin_layout Subsection
-Results
-\end_layout
-
-\begin_layout Standard
-The
-\end_layout
-
 \begin_layout Section
-Discussion
+Results
 \end_layout
 
 \begin_layout Standard
@@ -178,7 +179,15 @@ Our
 \end_layout
 
 \begin_layout Section
-Acknowledgement
+Conclusion
+\end_layout
+
+\begin_layout Standard
+yes
+\end_layout
+
+\begin_layout Section
+Acknowledgment
 \end_layout
 
 \begin_layout Standard
