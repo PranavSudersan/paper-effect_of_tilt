@@ -138,14 +138,22 @@ butt@mpip-mainz.mpg.de
 \end_layout
 
 \begin_layout Abstract
-Many creatures ranging from geckos to flies can easily climb on surfaces
+Many creatures ranging from geckos to beetles can easily climb on surfaces
  with the help of hairy adhesive pads on their legs.
  The hairy pad's design allows the animal to rapidly switch between strong
  adhesion during attachment and weak adhesion during detachment.
  Several studies explain this mechanism based on the asymmetric geometry
  of the hairs, which imparts direction dependent adhesion properties.
  Here, we propose a mechanism for controlling adhesion of a hairy pad based
- on the Spring Contact Model.
+ on the 
+\begin_inset Quotes eld
+\end_inset
+
+spring contact model
+\begin_inset Quotes erd
+\end_inset
+
+.
  We show that the adhesion force can be decreased by an order of magnitude
  just by slightly tilting the pad during pull-off.
  Further, deformation of the pad's soft backing layer can trigger its spontaneou
@@ -159,7 +167,207 @@ Introduction
 \end_layout
 
 \begin_layout Standard
-The 
+Over the past few decades, there has been numerous studies to understand
+ how animals such as geckos and insects are able to walk on surfaces defying
+ gravity.
+ A microscopic observation reveals that, in many cases, animals have a dense
+ array of hairy structures at the end of their legs 
+\begin_inset CommandInset citation
+LatexCommand cite
+key "RN198,RN59"
+literal "false"
+
+\end_inset
+
+.
+ These hairy adhesive pads help the animal to stay attached to any surface,
+ supporting its weight, and detach easily at will.
+ Previous attempts to theoretically explain adhesion in hairy pads
+\begin_inset CommandInset citation
+LatexCommand cite
+key "RN40,RN120"
+literal "false"
+
+\end_inset
+
+ has followed two fundamental approaches: either by energy balance, or by
+ force balance.
+ 
+\end_layout
+
+\begin_layout Standard
+In the energy balance approach, adhesion is characterized by 
+\begin_inset Quotes eld
+\end_inset
+
+work of adhesion
+\begin_inset Quotes erd
+\end_inset
+
+ (W
+\begin_inset script subscript
+
+\begin_layout Plain Layout
+adh
+\end_layout
+
+\end_inset
+
+) which is the energy required to separate two surfaces from contact.
+ During detachment, elastic energy stored in the hair is dissipated, which
+ increases W
+\begin_inset script subscript
+
+\begin_layout Plain Layout
+adh
+\end_layout
+
+\end_inset
+
+and thus adhesion is enhanced
+\begin_inset CommandInset citation
+LatexCommand cite
+key "RN29,RN114"
+literal "false"
+
+\end_inset
+
+.
+ Detachment of the pad can be explained based on Kendall's peeling theory
+\begin_inset CommandInset citation
+LatexCommand cite
+key "RN147"
+literal "false"
+
+\end_inset
+
+, which predicts low forces at high peeling angles.
+\end_layout
+
+\begin_layout Standard
+In the force balance approach, adhesion is characterized by pull-off force
+ (F
+\begin_inset script subscript
+
+\begin_layout Plain Layout
+p
+\end_layout
+
+\end_inset
+
+) or stress (σ
+\begin_inset script subscript
+
+\begin_layout Plain Layout
+p
+\end_layout
+
+\end_inset
+
+), which is the maximum force necessary to separate two surfaces from contact.
+ Based on a 
+\begin_inset Quotes eld
+\end_inset
+
+cohesive zone model
+\begin_inset Quotes erd
+\end_inset
+
+, Hui et.
+ al.
+\begin_inset CommandInset citation
+LatexCommand cite
+key "RN72"
+literal "false"
+
+\end_inset
+
+ has identified two regimes of hair detachment: 1) flaw sensitive regime,
+ where contact failure occurs due to crack propagation leading to low σ
+\begin_inset script subscript
+
+\begin_layout Plain Layout
+p
+\end_layout
+
+\end_inset
+
+, 2) flaw insensitive regime, where contact interface fails simultaneously,
+ leading to high σ
+\begin_inset script subscript
+
+\begin_layout Plain Layout
+p
+\end_layout
+
+\end_inset
+
+.
+ Tian et.
+ al.
+ 
+\begin_inset CommandInset citation
+LatexCommand cite
+key "RN230"
+literal "false"
+
+\end_inset
+
+ has shown that the spatula shaped hair tips in a gecko's toe allows it
+ change adhesion by three orders of magnitude by laterally sliding and controlli
+ng the pulling angle.
+ Federle
+\begin_inset CommandInset citation
+LatexCommand cite
+key "RN20"
+literal "false"
+
+\end_inset
+
+ has further argued that curved shape of hairs helps the pad to stay attached
+ when pulled proximally, and easily detached by elastic recoil when pushed
+ distally.
+ 
+\end_layout
+
+\begin_layout Standard
+The theories presented so far suggests that low detachment force of a hairy
+ pad can be attained by 1) increasing the stress concentration by peeling
+ the pad at high angles, or 2) laterally shearing the pad before pull-off,
+ which requires the hairs have an asymmetric geometry.
+ Fabricating synthetic mimics with asymmetric micro hair structures however
+ are generally difficult.
+ It is thus desired to have alternate strategies to achieve reversible adhesion
+ suited for practical applications.
+\end_layout
+
+\begin_layout Standard
+In this work, we present a new method of detachment by changing the tilt
+ of the pad relative to the surface.
+ Tilling the pad will result in an elastic penalty due to the deformation
+ of hairs, which can potentially reduce the net pull-off force.
+ To investigate this, we model the hairy pad by 
+\begin_inset Quotes eld
+\end_inset
+
+spring contact model
+\begin_inset Quotes erd
+\end_inset
+
+
+\begin_inset CommandInset citation
+LatexCommand cite
+key "RN117"
+literal "false"
+
+\end_inset
+
+.
+ This model is based on the force-balance approach, which assumes the hairy
+ pad to behave like an array of springs.
+ We hope our work to provide new strategies to control adhesion force of
+ an artificial micro-pillar adhesive, with applications in bio inspired
+ robotic systems.
 \end_layout
 
 \begin_layout Section
@@ -167,7 +375,534 @@ Model
 \end_layout
 
 \begin_layout Standard
-The
+The hairy pad is assumed to be a system of N
+\begin_inset script subscript
+
+\begin_layout Plain Layout
+t
+\end_layout
+
+\end_inset
+
+ springs as hairs with spring constant, k
+\begin_inset script subscript
+
+\begin_layout Plain Layout
+h
+\end_layout
+
+\end_inset
+
+, and natural length, l
+\begin_inset script subscript
+
+\begin_layout Plain Layout
+h,0
+\end_layout
+
+\end_inset
+
+, making contact with a flat smooth surface (Figure 
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "fig:Schematic"
+plural "false"
+caps "false"
+noprefix "false"
+
+\end_inset
+
+).
+ The hairs are attached to a backing layer, assumed to be another spring
+ with spring constant, k
+\begin_inset script subscript
+
+\begin_layout Plain Layout
+b
+\end_layout
+
+\end_inset
+
+, and natural length, l
+\begin_inset script subscript
+
+\begin_layout Plain Layout
+b,0
+\end_layout
+
+\end_inset
+
+.
+ The hairs are spaced apart with width w.
+ The pad is oriented at a tilt angle, 𝜃, with the surface.
+ Each hair can attain a maximum length, l
+\begin_inset script subscript
+
+\begin_layout Plain Layout
+h,p
+\end_layout
+
+\end_inset
+
+, before pull-off, such that its pull-off force, 
+\begin_inset Formula $f_{p}=k_{h}\left(l_{h,p}-l_{h,0}\right)$
+\end_inset
+
+.
+ The pad is pulled vertically upward will maintaining the given tilt angle.
+ Excess torque in the system is assumed to be balanced externally and is
+ not considered for our analysis.
+ F
+\begin_inset script subscript
+
+\begin_layout Plain Layout
+adh
+\end_layout
+
+\end_inset
+
+ is the maximum force required to detach all hairs from the surface.
+ 
+\end_layout
+
+\begin_layout Standard
+\begin_inset Float figure
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+\begin_inset Graphics
+	filename Figure1-model_schematic.tif
+	lyxscale 50
+
+\end_inset
+
+
+\begin_inset Caption Standard
+
+\begin_layout Plain Layout
+Schematic
+\begin_inset CommandInset label
+LatexCommand label
+name "fig:Schematic"
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+We consider three modes of detachment:
+\end_layout
+
+\begin_layout Paragraph
+Simultaneous detachment:
+\end_layout
+
+\begin_layout Standard
+All hairs detach simultaneously when 𝜃 = 0°.
+ Here the hairy pad shows the maximum possible adhesion, given by
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\begin{equation}
+F_{adh}=N_{t}f_{p}\label{eq:simul_detach}
+\end{equation}
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Paragraph
+Sequential detachment:
+\end_layout
+
+\begin_layout Standard
+When 𝜃 > 0°, the hairs will detach sequentially from left to right (Figure
+ 
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "fig:Schematic"
+plural "false"
+caps "false"
+noprefix "false"
+
+\end_inset
+
+).
+ Let us consider the situation when the left most spring is stretched to
+ its maximum length, l
+\begin_inset script subscript
+
+\begin_layout Plain Layout
+h,p
+\end_layout
+
+\end_inset
+
+, just before pull-off.
+ The net force on the pad when n hairs are in contact with the surface is:
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\[
+F_{net}=\stackrel[i=1]{n}{\sum}k_{h}\left(l_{h,i}-l_{h,0}\right)
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+This can be simplified into:
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\begin{eqnarray}
+F_{net}=nf_{p}-\frac{n\left(n-1\right)}{2}k_{h}w\sin\theta & \qquad & n\geq N_{t}\label{eq:seq_detach}
+\end{eqnarray}
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+Equation 
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "eq:seq_detach"
+plural "false"
+caps "false"
+noprefix "false"
+
+\end_inset
+
+ describes the net force required to detach the left most hair.
+ The maximum adhesion force for given N
+\begin_inset script subscript
+
+\begin_layout Plain Layout
+t
+\end_layout
+
+\end_inset
+
+ hairs can then be calculated as:
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\begin{eqnarray}
+F_{adh} & = & \left\{ \begin{array}{ccc}
+\frac{f_{p}}{2}\left[\frac{f_{p}}{k_{h}w\sin\theta}+1\right]+\frac{k_{h}w\sin\theta}{8} & \qquad & N_{t}\geq N_{max}\\
+N_{t}f_{p}-\frac{N_{t}\left(N_{t}-1\right)}{2}k_{h}w\sin\theta & \qquad & N_{t}<N_{max}
+\end{array}\right.\label{eq:seq_adh}
+\end{eqnarray}
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\begin{equation}
+N_{max}=\frac{f_{p}}{k_{h}w\sin\theta}+\frac{1}{2}\label{eq:n_max}
+\end{equation}
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+Here, N
+\begin_inset script subscript
+
+\begin_layout Plain Layout
+max
+\end_layout
+
+\end_inset
+
+ is the number of hairs required to get maximum adhesion at a fixed tilt
+ angle.
+\end_layout
+
+\begin_layout Paragraph
+Detachment propagation:
+\end_layout
+
+\begin_layout Standard
+When a hair detaches from the surface, the backing layer undergoes an elastic
+ recoil due to an unbalanced force.
+ Suppose the backing layer spring relaxes upward by a length Δl (Figure
+ 
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "fig:Schematic"
+plural "false"
+caps "false"
+noprefix "false"
+
+\end_inset
+
+).
+ For n hairs in contact, the force balance before and after a hair detaches
+ is given respectively by:
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\[
+\stackrel[i=1]{n}{\sum}k_{h}\left(l_{h,i}-l_{h,0}\right)=k_{b}\left(l_{b}-l_{b,0}\right)
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\[
+\stackrel[i=1]{n-1}{\sum}k_{h}\left(l_{h,i}+\Delta l-l_{h,0}\right)=k_{b}\left(l_{b}-\Delta l-l_{b,0}\right)
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+Solving the above two equations for Δl, we get:
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\begin{equation}
+\Delta l=\frac{f_{p}}{k_{h}\left(n-1\right)+k_{b}}\label{eq:backing_deform}
+\end{equation}
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+The length difference between the detached hair and its adjacent hair just
+ before it breaks contact is 
+\begin_inset Formula $w\sin\theta$
+\end_inset
+
+.
+ If 
+\begin_inset Formula $\Delta l>w\sin\theta$
+\end_inset
+
+, the adjacent hair will be stretched more than l
+\begin_inset script subscript
+
+\begin_layout Plain Layout
+h,p
+\end_layout
+
+\end_inset
+
+and thus also detach.
+ Equation 
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "eq:backing_deform"
+plural "false"
+caps "false"
+noprefix "false"
+
+\end_inset
+
+ shows that Δl increases for lesser number of hairs in contact.
+ This implies that hair detachment will propagate and the pad completely
+ breaks contact with the surface.
+ The critical number of hairs, N
+\begin_inset script subscript
+
+\begin_layout Plain Layout
+c
+\end_layout
+
+\end_inset
+
+, necessary for detachment propagation at a given tilt angle is thus given
+ by:
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\begin{equation}
+N_{c}=\frac{f_{p}}{k_{h}w\sin\theta}-\frac{k_{b}}{k_{h}}+1\label{eq:prop_nc}
+\end{equation}
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+Alternatively, for a given pad with N
+\begin_inset script subscript
+
+\begin_layout Plain Layout
+t
+\end_layout
+
+\end_inset
+
+ hairs, the critical tilt angle below which detachment propagates is:
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\begin{equation}
+\theta_{c}=\arcsin\left[\frac{f_{p}}{k_{h}w}\left(\frac{1}{\frac{k_{b}}{k_{h}}+N-1}\right)\right]\label{eq:prop_thetac}
+\end{equation}
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+Hairs will propagate when n < N
+\begin_inset script subscript
+
+\begin_layout Plain Layout
+c
+\end_layout
+
+\end_inset
+
+ or 𝜃 < 𝜃
+\begin_inset script subscript
+
+\begin_layout Plain Layout
+c
+\end_layout
+
+\end_inset
+
+.
+ If we assume the hairs to be softer than the backing layer (i.e.
+ k
+\begin_inset script subscript
+
+\begin_layout Plain Layout
+b
+\end_layout
+
+\end_inset
+
+/k
+\begin_inset script subscript
+
+\begin_layout Plain Layout
+h
+\end_layout
+
+\end_inset
+
+ > 1), then from equation 
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "eq:n_max"
+plural "false"
+caps "false"
+noprefix "false"
+
+\end_inset
+
+ and 
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "eq:prop_nc"
+plural "false"
+caps "false"
+noprefix "false"
+
+\end_inset
+
+, we get N
+\begin_inset script subscript
+
+\begin_layout Plain Layout
+c
+\end_layout
+
+\end_inset
+
+ < N
+\begin_inset script subscript
+
+\begin_layout Plain Layout
+max
+\end_layout
+
+\end_inset
+
+.
+ This implies that, for a given pad with N
+\begin_inset script subscript
+
+\begin_layout Plain Layout
+t
+\end_layout
+
+\end_inset
+
+ hairs, the adhesion force will be given by equation 
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "eq:seq_adh"
+plural "false"
+caps "false"
+noprefix "false"
+
+\end_inset
+
+, as before.
+ The backing layer deformation has no effect on the adhesion.
+ It only affects the dynamics by spontaneous detachment of hairs when n
+ < N
+\begin_inset script subscript
+
+\begin_layout Plain Layout
+c
+\end_layout
+
+\end_inset
+
+ or 𝜃 < 𝜃
+\begin_inset script subscript
+
+\begin_layout Plain Layout
+c
+\end_layout
+
+\end_inset
+
+, independent of the retraction speed.
 \end_layout
 
 \begin_layout Section
@@ -201,12 +936,8 @@ We acknowledge Deutsche Forschungsgemeinschaft for providing funding to
 Appendix
 \end_layout
 
-\begin_layout Subsection
-Simulation method
-\end_layout
-
 \begin_layout Standard
-The
+Derivation
 \end_layout
 
 \begin_layout Standard
