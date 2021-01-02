@@ -556,7 +556,7 @@ h,p
 \begin_layout Standard
 \begin_inset Formula 
 \[
-F_{net}=\stackrel[i=1]{n}{\sum}k_{h}\left(l_{h,i}-l_{h,0}\right)
+F_{net}\left(n\right)=\stackrel[i=1]{n}{\sum}k_{h}\left(l_{h,i}-l_{h,0}\right)
 \]
 
 \end_inset
@@ -571,7 +571,7 @@ This can be simplified into:
 \begin_layout Standard
 \begin_inset Formula 
 \begin{eqnarray}
-F_{net}=nf_{p}-\frac{n\left(n-1\right)}{2}k_{h}w\sin\theta & \qquad & n\geq N_{t}\label{eq:seq_detach}
+F_{net}\left(n\right)=nf_{p}-\frac{n\left(n-1\right)}{2}k_{h}w\sin\theta & \qquad & n\geq N_{t}\label{eq:seq_detach}
 \end{eqnarray}
 
 \end_inset
@@ -647,7 +647,9 @@ Detachment propagation:
 \end_layout
 
 \begin_layout Standard
-When a hair detaches from the surface, the backing layer undergoes an elastic
+Let us consider a special case of sequential detachment where the backing
+ layer deforms.
+ When a hair detaches from the surface, the backing layer undergoes an elastic
  recoil due to an unbalanced force.
  Suppose the backing layer spring relaxes upward by a length Δl (Figure
  
@@ -881,7 +883,7 @@ noprefix "false"
 
 \end_inset
 
-, as before.
+, like sequential detachment.
  The backing layer deformation has no effect on the adhesion.
  It only affects the dynamics by spontaneous detachment of hairs when n
  < N
@@ -905,12 +907,784 @@ c
 , independent of the retraction speed.
 \end_layout
 
-\begin_layout Section
-Results
+\begin_layout Standard
+For our analysis, we define non-dimensional forces as below:
 \end_layout
 
 \begin_layout Standard
-Our 
+\begin_inset Formula 
+\begin{eqnarray*}
+\hat{f}_{p}=\frac{f_{p}}{k_{h}w} & \hat{F}_{net}=\frac{F_{net}}{k_{h}w} & \hat{F}_{adh}=\frac{F_{adh}}{k_{h}w}
+\end{eqnarray*}
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+Here, 
+\begin_inset Formula $\hat{f_{p}}$
+\end_inset
+
+ is a parameter which encapsulates the hair's adhesion force, stiffness
+ and geometry.
+ Positive force values represent attraction by convention.
+\end_layout
+
+\begin_layout Section
+Discussion
+\end_layout
+
+\begin_layout Paragraph
+Detachment mechanism:
+\end_layout
+
+\begin_layout Standard
+The three modes of detachment can be understood by looking at the net force
+ as hairs detach from the surface (Figure 
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "fig:Mechanism-of-detachment"
+plural "false"
+caps "false"
+noprefix "false"
+
+\end_inset
+
+).
+ We use equations 
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "eq:simul_detach"
+plural "false"
+caps "false"
+noprefix "false"
+
+\end_inset
+
+, 
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "eq:seq_detach"
+plural "false"
+caps "false"
+noprefix "false"
+
+\end_inset
+
+ and 
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "eq:prop_nc"
+plural "false"
+caps "false"
+noprefix "false"
+
+\end_inset
+
+ to describe the forces.
+ Let us assume that the pad has N
+\begin_inset script subscript
+
+\begin_layout Plain Layout
+t
+\end_layout
+
+\end_inset
+
+=25 hairs.
+ We consider two cases: a pad with stiff backing (k
+\begin_inset script subscript
+
+\begin_layout Plain Layout
+b
+\end_layout
+
+\end_inset
+
+→
+\begin_inset Formula $\infty$
+\end_inset
+
+) and a pad with soft backing (k
+\begin_inset script subscript
+
+\begin_layout Plain Layout
+b
+\end_layout
+
+\end_inset
+
+/k
+\begin_inset script subscript
+
+\begin_layout Plain Layout
+h
+\end_layout
+
+\end_inset
+
+ = 10).
+ Figure 
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "fig:Mechanism-of-detachment"
+plural "false"
+caps "false"
+noprefix "false"
+
+\end_inset
+
+ shows that by increasing the tilt angle, the detachment force shows lower
+ attraction or even repulsion as the hairs detach sequentially.
+ Tilting the pad compresses the hairs at one end, which ultimately results
+ in a decrease in the net force.
+ In comparison, when the hairs detach simultaneously (i.e.
+ 𝜃 = 0°), the pad shows much larger attractive force.
+ 
+\end_layout
+
+\begin_layout Standard
+For a stiff backing, the detachment progresses smoothly for both values
+ of 𝜃.
+ For a soft backing, we observe that for a tilt angle of 2°, the force abruptly
+ drops to zero after the 6
+\begin_inset script superscript
+
+\begin_layout Plain Layout
+th
+\end_layout
+
+\end_inset
+
+ hair breaks contact (n = 20).
+ This represents the spontaneous propagation of hair detachment as a result
+ of the elastic recoil of the backing layer once the 6
+\begin_inset script superscript
+
+\begin_layout Plain Layout
+th
+\end_layout
+
+\end_inset
+
+ hair snaps off.
+ No such force drop is seen when 𝜃 = 8°, because N
+\begin_inset script subscript
+
+\begin_layout Plain Layout
+c
+\end_layout
+
+\end_inset
+
+ is too small.
+ Thus here, the hairs detach exactly like for a pad with stiff backing.
+\end_layout
+
+\begin_layout Standard
+\begin_inset Float figure
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Graphics
+	filename Figure2-Detachment_mechanism.svg
+
+\end_inset
+
+
+\begin_inset Caption Standard
+
+\begin_layout Plain Layout
+Mechanism of detachment
+\begin_inset CommandInset label
+LatexCommand label
+name "fig:Mechanism-of-detachment"
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Paragraph
+Effect of tilt on adhesion:
+\end_layout
+
+\begin_layout Standard
+The adhesion force, which is the maxima of the force curves from Figure
+ 
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "fig:Mechanism-of-detachment"
+plural "false"
+caps "false"
+noprefix "false"
+
+\end_inset
+
+ is compared for different tilt angles, 
+\begin_inset Formula $\hat{f_{p}}$
+\end_inset
+
+ and number of hairs (Figure 
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "fig:Adhesion-force-of"
+plural "false"
+caps "false"
+noprefix "false"
+
+\end_inset
+
+).
+ Adhesion force obviously increases with increase in 
+\begin_inset Formula $\hat{f_{p}}$
+\end_inset
+
+, due to the stronger pull-off force of the individual hairs.
+ For a fixed value of 
+\begin_inset Formula $\hat{f_{p}}$
+\end_inset
+
+, adhesion force decreases with increasing tilt angles until a minima, then
+ increases again.
+ This is because, the net force on a tilted pad depends on a balance between
+ the stretched hairs, on one end, and the compressed hairs, on the other
+ end.
+ When the pad is tilted, initially the compressed hair dominates in its
+ contribution to the new force and thus adhesion force initially decreases.
+ On further tilting, more number of stretched hairs increases and eventually
+ dominates the force contribution.
+ This results in an increase in adhesion force at large tilt angles.
+ We can calculate the minimum force F
+\begin_inset script subscript
+
+\begin_layout Plain Layout
+min
+\end_layout
+
+\end_inset
+
+ and angle 𝜃
+\begin_inset script subscript
+
+\begin_layout Plain Layout
+min
+\end_layout
+
+\end_inset
+
+ at F
+\begin_inset script subscript
+
+\begin_layout Plain Layout
+min
+\end_layout
+
+\end_inset
+
+ from equation 
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "eq:seq_adh"
+plural "false"
+caps "false"
+noprefix "false"
+
+\end_inset
+
+ as:
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\begin{eqnarray}
+F_{min}=f_{p} & \qquad & \theta_{min}=\arcsin\left(\frac{2f_{p}}{k_{h}w}\right)\label{eq:f_min}
+\end{eqnarray}
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+Larger values of 
+\begin_inset Formula $\hat{f_{p}}$
+\end_inset
+
+ shifts 𝜃
+\begin_inset script subscript
+
+\begin_layout Plain Layout
+min
+\end_layout
+
+\end_inset
+
+ to a larger angle (Figure 
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "fig:Adhesion-force-of"
+plural "false"
+caps "false"
+noprefix "false"
+
+\end_inset
+
+ inset).
+ Maximum adhesion is seen when 𝜃 = 0°, i.e.
+ 
+\begin_inset Formula $F_{max}=F_{adh}=N_{t}f_{p}$
+\end_inset
+
+.
+ Taking the ratio of the two extreme forces:
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\begin{equation}
+r=\frac{F_{max}}{F_{min}}=N_{t}\label{eq:force_ratio}
+\end{equation}
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+We can think of r to represent the 
+\begin_inset Quotes eld
+\end_inset
+
+reversibility
+\begin_inset Quotes erd
+\end_inset
+
+ of adhesion.
+ A large value of r implies a greater difference between the maximum and
+ minimum possible adhesion in a hairy pad, and thus more suitable to achieve
+ reversible adhesion.
+ Equation 
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "eq:force_ratio"
+plural "false"
+caps "false"
+noprefix "false"
+
+\end_inset
+
+ implies that having a larger number hairs favor reversible adhesion.
+ Adhesion can be controlled just be changing the tilt of the pad.
+ 
+\end_layout
+
+\begin_layout Standard
+The hairy pad must have a reasonable value of 
+\begin_inset Formula $\hat{f_{p}}$
+\end_inset
+
+ such that 𝜃
+\begin_inset script subscript
+
+\begin_layout Plain Layout
+min
+\end_layout
+
+\end_inset
+
+ is small enough to be practically feasible.
+ If we restrict 𝜃
+\begin_inset script subscript
+
+\begin_layout Plain Layout
+min
+\end_layout
+
+\end_inset
+
+ to lie below 10°, then 
+\begin_inset Formula $\hat{f_{p}}\leq0.1$
+\end_inset
+
+ (Figure 
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "fig:Adhesion-force-of"
+plural "false"
+caps "false"
+noprefix "false"
+
+\end_inset
+
+) will be the constraint to be considered when designing bio-inspired artificial
+ mimics.
+ In live animals, as far as our knowledge, there is no experimental evidence
+ that it can modulate adhesion by changing its pad's tilt.
+ If we consider the case of a dock beetle
+\begin_inset CommandInset citation
+LatexCommand cite
+key "RN79"
+literal "false"
+
+\end_inset
+
+, its pointed tipped hair has a pull off force and spring constant of 0.1
+ μN and 0.2 Nm
+\begin_inset script superscript
+
+\begin_layout Plain Layout
+-1
+\end_layout
+
+\end_inset
+
+respectively, while its disc tipped hair have the corresponding values of
+ 0.9 μN and 0.7 Nm
+\begin_inset script superscript
+
+\begin_layout Plain Layout
+-1
+\end_layout
+
+\end_inset
+
+receptively.
+ The beetle's hairs are approximately spaced apart by 10 μm.
+ We can thus calculate 
+\begin_inset Formula $\hat{f_{p}}$
+\end_inset
+
+ for the beetle's pointed and disc tipped hairs to be 0.05 and 0.13 respectively.
+ Since both types of hairs are present in the beetle's pad, let us thus
+ assume an effective 
+\begin_inset Formula $\hat{f_{p}}$
+\end_inset
+
+ = 0.1.
+ Assuming the pad to have 100 hairs, a one dimensional analogue of the system
+ will put N
+\begin_inset script subscript
+
+\begin_layout Plain Layout
+t
+\end_layout
+
+\end_inset
+
+ =10 in our model.
+ From Figure 
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "fig:Adhesion-force-of"
+plural "false"
+caps "false"
+noprefix "false"
+
+\end_inset
+
+ and equation 
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "eq:force_ratio"
+plural "false"
+caps "false"
+noprefix "false"
+
+\end_inset
+
+, we see that the beetle can reduce its adhesion force up to 10 times by
+ tilting its pad to roughly 10°.
+ Thus, the model seems consistent with nature's design of the beetle's pad.
+ Further experimental investigation is required to prove if such a tilting
+ mechanism is employed by animals to switch adhesion.
+\end_layout
+
+\begin_layout Standard
+\begin_inset Float figure
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+\begin_inset Graphics
+	filename Figure3a-Pad_adhesion_force.svg
+
+\end_inset
+
+
+\begin_inset Caption Standard
+
+\begin_layout Plain Layout
+Adhesion force of hairy pad
+\begin_inset CommandInset label
+LatexCommand label
+name "fig:Adhesion-force-of"
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Paragraph
+Spontaneous propagation of detachment:
+\end_layout
+
+\begin_layout Standard
+Presence of a soft backing layer can trigger a spontaneous detachment of
+ hairs which propagates by elastic recoil as the they are detached sequentially.
+ Such a mode of detachment is triggered when the tilt angle is less than
+ a critical value, 𝜃
+\begin_inset script subscript
+
+\begin_layout Plain Layout
+c
+\end_layout
+
+\end_inset
+
+(equation 
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "eq:prop_thetac"
+plural "false"
+caps "false"
+noprefix "false"
+
+\end_inset
+
+).
+ A softer backing layer (i.e.
+ low k
+\begin_inset script subscript
+
+\begin_layout Plain Layout
+b
+\end_layout
+
+\end_inset
+
+/k
+\begin_inset script subscript
+
+\begin_layout Plain Layout
+h
+\end_layout
+
+\end_inset
+
+) or a large value of 
+\begin_inset Formula $\hat{f_{p}}$
+\end_inset
+
+ shifts 𝜃
+\begin_inset script subscript
+
+\begin_layout Plain Layout
+c
+\end_layout
+
+\end_inset
+
+ to higher values, thus increasing the available range of tilt angles to
+ trigger spontaneous detachment (Figure 
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "fig:Critical-tilt-angle"
+plural "false"
+caps "false"
+noprefix "false"
+
+\end_inset
+
+).
+ This is explained from equation 
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "eq:backing_deform"
+plural "false"
+caps "false"
+noprefix "false"
+
+\end_inset
+
+, where a high 
+\begin_inset Formula $\hat{f_{p}}$
+\end_inset
+
+ or low k
+\begin_inset script subscript
+
+\begin_layout Plain Layout
+b
+\end_layout
+
+\end_inset
+
+/k
+\begin_inset script subscript
+
+\begin_layout Plain Layout
+h
+\end_layout
+
+\end_inset
+
+ will increase the backing layer's elastic recoil when a hair breaks contact,
+ thus increasing 𝜃
+\begin_inset script subscript
+
+\begin_layout Plain Layout
+c
+\end_layout
+
+\end_inset
+
+.
+ However, we see that larger value of N
+\begin_inset script subscript
+
+\begin_layout Plain Layout
+t
+\end_layout
+
+\end_inset
+
+ will decrease 𝜃
+\begin_inset script subscript
+
+\begin_layout Plain Layout
+c
+\end_layout
+
+\end_inset
+
+, making it less feasible to trigger spontaneous detachment.
+\end_layout
+
+\begin_layout Standard
+We see a trade-off in the conditions for reducing adhesion or to trigger
+ spontaneous detachment.
+ Low 
+\begin_inset Formula $\hat{f_{p}}$
+\end_inset
+
+ and high N
+\begin_inset script subscript
+
+\begin_layout Plain Layout
+t
+\end_layout
+
+\end_inset
+
+ is suitable for enhanced reversibility in adhesion at a feasible 𝜃
+\begin_inset script subscript
+
+\begin_layout Plain Layout
+min
+\end_layout
+
+\end_inset
+
+, while high 
+\begin_inset Formula $\hat{f_{p}}$
+\end_inset
+
+ and low N
+\begin_inset script subscript
+
+\begin_layout Plain Layout
+t
+\end_layout
+
+\end_inset
+
+ is favorable to trigger spontaneous detachment within a feasible 𝜃
+\begin_inset script subscript
+
+\begin_layout Plain Layout
+c
+\end_layout
+
+\end_inset
+
+.
+ Depending on whether a higher range of controllable adhesion or an instantaneou
+s detachment is more desirable, one can consider the above conditions in
+ the design of artificial adhesive suited for the particular application.
+\end_layout
+
+\begin_layout Standard
+\begin_inset Float figure
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+\begin_inset Graphics
+	filename Figure3b-Critical_tilt_angle.svg
+
+\end_inset
+
+
+\begin_inset Caption Standard
+
+\begin_layout Plain Layout
+Critical tilt angle
+\begin_inset CommandInset label
+LatexCommand label
+name "fig:Critical-tilt-angle"
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+
 \end_layout
 
 \begin_layout Section
@@ -918,7 +1692,44 @@ Conclusion
 \end_layout
 
 \begin_layout Standard
-yes
+We have proposed a method to control the adhesion of a hairy adhesive pad
+ by changing the tilt.
+ Increasing the tilt reduces adhesion due to the elastic force balance between
+ the compressed and stretched hairs.
+ Based on the spring contact model, we show that increasing the number of
+ hairy structures will enhance the range of tunable adhesion force.
+ Further, having a soft backing layer can trigger a spontaneous detachment
+ of hairs as a result of its elastic recoil.
+ High N
+\begin_inset script subscript
+
+\begin_layout Plain Layout
+t
+\end_layout
+
+\end_inset
+
+ and 
+\begin_inset Formula $\hat{f_{p}}\leq0.1$
+\end_inset
+
+ is suitable for enhancing reversibility of adhesion.
+ One the other hand, low N
+\begin_inset script subscript
+
+\begin_layout Plain Layout
+t
+\end_layout
+
+\end_inset
+
+, 
+\begin_inset Formula $\hat{f_{p}}\geq0.1$
+\end_inset
+
+ and softer backing layer favors spontaneous detachment.
+ The model is consistent with the design of a dock beetle's hairy pad and
+ provides new strategies to design artificial reversible adhesives.
 \end_layout
 
 \begin_layout Section
