@@ -573,7 +573,7 @@ This can be simplified into:
 \begin_layout Standard
 \begin_inset Formula 
 \begin{eqnarray}
-F_{net}\left(n,\theta\right)=nf_{p}-\frac{n\left(n-1\right)}{2}k_{h}w\sin\theta & \qquad & n\geq N_{t}\label{eq:seq_detach}
+F_{net}\left(n,\theta\right)=nf_{p}-\frac{n\left(n-1\right)}{2}k_{h}w\sin\theta & \qquad & n\leq N_{t}\label{eq:seq_detach}
 \end{eqnarray}
 
 \end_inset
@@ -1240,9 +1240,13 @@ noprefix "false"
 
 \begin_layout Standard
 \begin_inset Formula 
-\begin{eqnarray}
-F_{min}=f_{p} & r_{max}=\frac{F_{max}}{F_{min}}=N_{t} & \theta_{min}=\arcsin\left(\frac{2f_{p}}{k_{h}w}\right)\label{eq:f_min}
-\end{eqnarray}
+\[
+\begin{array}{c}
+F_{min}=f_{p}\\
+r_{max}=\frac{F_{max}}{F_{min}}=N_{t}\\
+\theta_{max}=\arcsin\left(\frac{2f_{p}}{k_{h}w}\right)
+\end{array}
+\]
 
 \end_inset
 
@@ -1612,7 +1616,7 @@ max
 
 \end_inset
 
-must be less than 𝜃
+ must be less than 𝜃
 \begin_inset script subscript
 
 \begin_layout Plain Layout
@@ -1621,7 +1625,7 @@ limit
 
 \end_inset
 
-to achieve maximum possible reversibility.
+ to achieve maximum possible reversibility.
  
 \end_layout
 
