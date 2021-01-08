@@ -550,7 +550,7 @@ h,p
 \begin_layout Standard
 \begin_inset Formula 
 \[
-F_{net}\left(n\right)=\stackrel[i=1]{n}{\sum}k_{h}\left(l_{h,i}-l_{h,0}\right)
+F_{net}\left(d,n\right)=\stackrel[i=1]{n}{\sum}k_{h}\left(l_{h,i}-l_{h,0}\right)
 \]
 
 \end_inset
