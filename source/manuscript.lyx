@@ -148,8 +148,8 @@ Many creatures ranging from geckos to beetles can easily climb on surfaces
  on a simple spring model.
  We show that the adhesion force can be decreased just by slightly tilting
  the pad during pull-off.
- Larger number of hairs can decrease adhesion by a larger factor for a similar
- tilt.
+ Larger number of hairs are shown to decrease adhesion by a larger factor
+ for a similar tilt.
  Further, deformation of the pad's soft backing layer can trigger its spontaneou
 s detachment at low tilt angles due to an elastic recoil effect.
  Our model provides a new approach to switch the adhesion state in bio-inspired
@@ -162,8 +162,8 @@ Introduction
 
 \begin_layout Standard
 Over the past few decades, there has been numerous studies to understand
- how animals such as geckos and insects are able to walk on surfaces defying
- gravity.
+ how animals such as geckos and insects are able to walk on surfaces in
+ any direction defying gravity.
  A microscopic observation reveals that, in many cases, animals have a dense
  array of hairy structures at the end of their legs 
 \begin_inset CommandInset citation
@@ -207,7 +207,7 @@ adh
 
 \end_inset
 
-) which is the energy required to separate two surfaces from contact.
+) which is the energy required to separate a pad from the surface.
  During detachment, elastic energy stored in the hair is dissipated, which
  increases W
 \begin_inset script subscript
@@ -218,7 +218,7 @@ adh
 
 \end_inset
 
-and thus adhesion is enhanced
+ and thus adhesion is enhanced
 \begin_inset CommandInset citation
 LatexCommand cite
 key "RN29,RN114"
@@ -227,7 +227,8 @@ literal "false"
 \end_inset
 
 .
- Detachment of the pad can be explained based on Kendall's peeling theory
+ Detachment of an individual hair can be explained based on Kendall's peeling
+ theory
 \begin_inset CommandInset citation
 LatexCommand cite
 key "RN147"
@@ -239,8 +240,8 @@ literal "false"
 \end_layout
 
 \begin_layout Standard
-In the force balance approach, adhesion is characterized by pull-off force
- (F
+In the force balance approach, adhesion is characterized by pull-off force,
+ F
 \begin_inset script subscript
 
 \begin_layout Plain Layout
@@ -249,7 +250,7 @@ p
 
 \end_inset
 
-) or stress (σ
+ (or stress, σ
 \begin_inset script subscript
 
 \begin_layout Plain Layout
@@ -276,7 +277,7 @@ literal "false"
 
 \end_inset
 
- has identified two regimes of hair detachment: 1) flaw sensitive regime,
+ had identified two regimes of hair detachment: 1) a flaw sensitive regime,
  where contact failure occurs due to crack propagation leading to low σ
 \begin_inset script subscript
 
@@ -286,8 +287,8 @@ p
 
 \end_inset
 
-, 2) flaw insensitive regime, where contact interface fails simultaneously,
- leading to high σ
+, 2) a flaw insensitive regime, where the contact interface fails simultaneously
+, leading to high σ
 \begin_inset script subscript
 
 \begin_layout Plain Layout
@@ -307,7 +308,7 @@ literal "false"
 
 \end_inset
 
- has shown that the spatula shaped hair tips in a gecko's toe allows it
+ had shown that the spatula shaped hair tips in a gecko's toe allows it
  change adhesion by three orders of magnitude by laterally sliding and controlli
 ng the pulling angle.
  Federle
@@ -318,9 +319,9 @@ literal "false"
 
 \end_inset
 
- has further argued that curved shape of hairs helps the pad to stay attached
- when pulled proximally, and easily detached by elastic recoil when pushed
- distally.
+ had further argued that the curved shape of hairs helps the pad to stay
+ attached when pulled proximally, and easily detached by elastic recoil
+ when pushed distally.
  
 \end_layout
 
@@ -328,7 +329,7 @@ literal "false"
 The theories presented so far suggests that low detachment force of a hairy
  pad can be attained by 1) increasing the stress concentration by peeling
  the pad at high angles, or 2) laterally shearing the pad before pull-off,
- which requires the hairs have an asymmetric geometry.
+ which requires the hairs to have an asymmetric geometry.
  Fabricating synthetic mimics with asymmetric micro hair structures however
  are generally difficult.
  It is thus desired to have alternate strategies to achieve reversible adhesion
@@ -338,8 +339,8 @@ The theories presented so far suggests that low detachment force of a hairy
 \begin_layout Standard
 In this work, we present a new method of detachment by changing the tilt
  of the pad relative to the surface.
- Tilling the pad will result in an elastic penalty due to the deformation
- of hairs, which can potentially reduce the net pull-off force.
+ Tilling the pad will result in an unbalanced elastic force due to the deformati
+on of hairs, which can potentially reduce the net pull-off force.
  To investigate this, we model the hairy pad by 
 \begin_inset Quotes eld
 \end_inset
@@ -369,34 +370,19 @@ Model
 \end_layout
 
 \begin_layout Standard
-The hairy pad is assumed to be a one dimensional system of N
-\begin_inset script subscript
-
-\begin_layout Plain Layout
-t
-\end_layout
-
+The hairy pad is assumed to be a one dimensional system of 
+\begin_inset Formula $N_{t}$
 \end_inset
 
- springs as hairs with spring constant, k
-\begin_inset script subscript
-
-\begin_layout Plain Layout
-h
-\end_layout
-
+ hairs, each behaving like a spring with spring constant, 
+\begin_inset Formula $k_{h}$
 \end_inset
 
-, and natural length, l
-\begin_inset script subscript
-
-\begin_layout Plain Layout
-h,0
-\end_layout
-
+, and natural length, 
+\begin_inset Formula $l_{h,0}$
 \end_inset
 
-, making contact with a flat smooth surface (Figure 
+ (Figure 
 \begin_inset CommandInset ref
 LatexCommand ref
 reference "fig:Schematic"
@@ -408,35 +394,32 @@ noprefix "false"
 
 ).
  The hairs are attached to a backing layer, assumed to be another spring
- with spring constant, k
-\begin_inset script subscript
-
-\begin_layout Plain Layout
-b
-\end_layout
-
+ with spring constant, 
+\begin_inset Formula $k_{b}$
 \end_inset
 
-, and natural length, l
-\begin_inset script subscript
-
-\begin_layout Plain Layout
-b,0
-\end_layout
-
+, and natural length, 
+\begin_inset Formula $l_{b,0}$
 \end_inset
 
 .
- The hairs are spaced apart with width w.
- The pad is oriented at a tilt angle, 𝜃, with the surface.
- The center of the pad is at a distance d from the surface.
- Each hair can attain a maximum length, l
-\begin_inset script subscript
+ The hairs are spaced apart by width 
+\begin_inset Formula $w$
+\end_inset
 
-\begin_layout Plain Layout
-h,p
-\end_layout
+.
+ The pad is oriented at a tilt angle, 
+\begin_inset Formula $\theta$
+\end_inset
 
+, while making contact with a flat smooth surface.
+ The center of the pad is at a distance 
+\begin_inset Formula $d$
+\end_inset
+
+ from the surface.
+ Each hair can attain a maximum length, 
+\begin_inset Formula $l_{h,p}$
 \end_inset
 
 , before pull-off, such that its pull-off force, 
@@ -448,13 +431,13 @@ h,p
  with the surface.
  Excess torque in the system is assumed to be balanced externally and is
  not considered for our analysis.
- F
-\begin_inset script subscript
+ 
+\begin_inset Formula $F_{net}$
+\end_inset
 
-\begin_layout Plain Layout
-adh
-\end_layout
-
+ is the net force on the pad at a particular instant during the detachment
+ process and 
+\begin_inset Formula $F_{adh}$
 \end_inset
 
  is the maximum force required to detach 
@@ -483,18 +466,27 @@ status open
 
 \begin_layout Plain Layout
 Spring contact model of a hairy adhesive pad with a soft backing layer.
- The pad is oriented at a tilt angle, 𝜃, with the surface.
- Here, n number of hairs are in contact with the surface, while, the pad
- has a total number of hairs, N
-\begin_inset script subscript
-
-\begin_layout Plain Layout
-t
-\end_layout
-
+ The pad is oriented at a tilt angle, 
+\begin_inset Formula $\theta$
 \end_inset
 
-.
+, with the surface.
+ The pad has a total number of hairs, 
+\begin_inset Formula $N_{t}$
+\end_inset
+
+, of which, 
+\begin_inset Formula $n$
+\end_inset
+
+ number of hairs are in contact with the surface at a particular instant.
+ The left most hair in contact is at its maximum length, 
+\begin_inset Formula $l_{h,p}$
+\end_inset
+
+, just before it detaches.
+ The arrow along the surface indicates positive axis direction, and its
+ corresponding origin is labeled as thus.
 \begin_inset CommandInset label
 LatexCommand label
 name "fig:Schematic"
@@ -519,7 +511,11 @@ Sequential detachment:
 \end_layout
 
 \begin_layout Standard
-When 𝜃 > 0°, the hairs will detach sequentially from left to right.
+When 
+\begin_inset Formula $\theta>0\textdegree$
+\end_inset
+
+, the hairs will detach sequentially from left to right.
  Suppose at a particular instant (Figure 
 \begin_inset CommandInset ref
 LatexCommand ref
@@ -530,12 +526,31 @@ noprefix "false"
 
 \end_inset
 
-), there are n hairs in contact with the surface.
+), there are 
+\begin_inset Formula $n$
+\end_inset
+
+ hairs in contact with the surface.
  The origin is assumed to lie at the midpoint along the surface where the
- n hairs are making contact.
- The pad is at a vertical distance, d', from the origin.
- For a particular tilt angle, 𝜃, the net force on the whole pad at a distance
- d from the surface is,
+ 
+\begin_inset Formula $n$
+\end_inset
+
+ hairs are making contact.
+ The pad is at a vertical distance, 
+\begin_inset Formula $d'$
+\end_inset
+
+, from the origin.
+ For a particular tilt angle, 
+\begin_inset Formula $\theta$
+\end_inset
+
+, the net force on the whole pad at a distance 
+\begin_inset Formula $d$
+\end_inset
+
+ from the surface is,
 \end_layout
 
 \begin_layout Standard
@@ -550,25 +565,18 @@ F_{net}\left(d,n,\theta\right)=\stackrel[i=1]{n}{\sum}k_{h}\left(l_{h,i}-l_{h,0}
 \end_layout
 
 \begin_layout Standard
-l
-\begin_inset script subscript
-
-\begin_layout Plain Layout
-h,i
-\end_layout
-
+\begin_inset Formula $l_{h,i}$
 \end_inset
 
- is the length of the i
-\begin_inset script superscript
-
-\begin_layout Plain Layout
-th
-\end_layout
-
+ is the length of the 
+\begin_inset Formula $i^{th}$
 \end_inset
 
- hair, which is at a distance x from the origin.
+ hair, which is at a distance 
+\begin_inset Formula $x$
+\end_inset
+
+ from the origin.
  From simple geometry, 
 \begin_inset Formula $l_{h,i}=d'-x\tan\theta$
 \end_inset
@@ -593,7 +601,15 @@ F_{net}\left(d,n,\theta\right)=nk_{h}\left(d'-l_{h,0}\right)
 \end_layout
 
 \begin_layout Standard
-From geometry, d and d' is related as:
+From geometry, 
+\begin_inset Formula $d$
+\end_inset
+
+ and 
+\begin_inset Formula $d'$
+\end_inset
+
+ is related as:
 \end_layout
 
 \begin_layout Standard
@@ -608,8 +624,12 @@ From geometry, d and d' is related as:
 \end_layout
 
 \begin_layout Standard
-Eliminating d' from the above two equations, we find the net force on the
- pad as a function of distance to be:
+Eliminating 
+\begin_inset Formula $d'$
+\end_inset
+
+ from the above two equations, we find the net force on the pad as a function
+ of distance to be:
 \end_layout
 
 \begin_layout Standard
@@ -624,7 +644,11 @@ F_{net}\left(d,n,\theta\right)=nk_{h}\left(d-l_{h,0}-\frac{N_{t}-n}{2}w\sin\thet
 \end_layout
 
 \begin_layout Standard
-For a particular value of n, equation 
+For a particular value of 
+\begin_inset Formula $n$
+\end_inset
+
+, equation 
 \begin_inset CommandInset ref
 LatexCommand ref
 reference "eq:force_n_d"
@@ -634,45 +658,25 @@ noprefix "false"
 
 \end_inset
 
- is valid until a certain distance, d
-\begin_inset script subscript
-
-\begin_layout Plain Layout
-max
-\end_layout
-
+ is valid until a certain distance, 
+\begin_inset Formula $d_{max}$
 \end_inset
 
 , above which its left most hair will detach.
- Just before detachment, this hair will be at its maximum length, l
-\begin_inset script subscript
-
-\begin_layout Plain Layout
-h,p
-\end_layout
-
+ Just before detachment, this hair will be at its maximum length, 
+\begin_inset Formula $l_{h,p}$
 \end_inset
 
 .
- Once again from geometry, we see that d
-\begin_inset script subscript
-
-\begin_layout Plain Layout
-max
-\end_layout
-
+ Once again from geometry, we see that 
+\begin_inset Formula $d_{max}$
 \end_inset
 
- and l
-\begin_inset script subscript
-
-\begin_layout Plain Layout
-h,p
-\end_layout
-
+ and 
+\begin_inset Formula $l_{h,p}$
 \end_inset
 
-is related as:
+ is related as:
 \end_layout
 
 \begin_layout Standard
@@ -697,7 +701,7 @@ Substituting
 \begin_layout Standard
 \begin_inset Formula 
 \begin{equation}
-d_{max}=l_{h,0}+\frac{f_{p}}{k_{h}}+\left(\frac{N_{t}+1}{2}-n\right)w\sin\theta\label{eq:d_max}
+d_{max}\left(n,\theta\right)=l_{h,0}+\frac{f_{p}}{k_{h}}+\left(\frac{N_{t}+1}{2}-n\right)w\sin\theta\label{eq:d_max}
 \end{equation}
 
 \end_inset
@@ -721,13 +725,8 @@ noprefix "false"
 \end_inset
 
 .
- We can substitute d
-\begin_inset script subscript
-
-\begin_layout Plain Layout
-max
-\end_layout
-
+ We can substitute 
+\begin_inset Formula $d_{max}$
 \end_inset
 
  in equation 
@@ -765,16 +764,15 @@ noprefix "false"
 
 \end_inset
 
- is the maximum force necessary to detach the pad by one hair when there
- are n hairs in contact.
+ is the maximum force necessary to detach one hair of the pad when there
+ are 
+\begin_inset Formula $n$
+\end_inset
+
+ hairs in contact.
  During this sequential detachment of hairs, there exists a maxima in force
- at a particular number of contacts, N
-\begin_inset script subscript
-
-\begin_layout Plain Layout
-max
-\end_layout
-
+ at a particular number of contacts, 
+\begin_inset Formula $N_{max}$
 \end_inset
 
 .
@@ -814,13 +812,8 @@ noprefix "false"
 \end_inset
 
 , the maximum adhesion force of a pad during a sequential detachment of
- its N
-\begin_inset script subscript
-
-\begin_layout Plain Layout
-t
-\end_layout
-
+ its 
+\begin_inset Formula $N_{t}$
 \end_inset
 
  hairs will be:
@@ -845,7 +838,11 @@ Simultaneous detachment:
 \end_layout
 
 \begin_layout Standard
-All hairs detach simultaneously when 𝜃 = 0°.
+All hairs detach simultaneously when 
+\begin_inset Formula $\theta=0\textdegree$
+\end_inset
+
+.
  Here, the hairy pad shows the maximum possible adhesion, as given by:
 \end_layout
 
@@ -861,13 +858,8 @@ F_{adh}=F_{max}=N_{t}f_{p}\label{eq:simul_detach}
 \end_layout
 
 \begin_layout Standard
-Force as a function of distance can be obtained by setting n = N
-\begin_inset script subscript
-
-\begin_layout Plain Layout
-t
-\end_layout
-
+Force as a function of distance can be obtained by setting 
+\begin_inset Formula $n=N_{t}$
 \end_inset
 
  in equation 
@@ -892,8 +884,11 @@ Let us consider a special case of sequential detachment where even the pad
  backing layer deforms, along with the hairs.
  When a hair detaches from the surface, the backing layer undergoes an elastic
  recoil due to the stored elastic energy.
- Suppose the backing layer spring relaxes upward by a length Δl (Figure
- 
+ Suppose the backing layer spring relaxes upward by a length 
+\begin_inset Formula $\Delta l$
+\end_inset
+
+ (Figure 
 \begin_inset CommandInset ref
 LatexCommand ref
 reference "fig:Schematic"
@@ -904,8 +899,12 @@ noprefix "false"
 \end_inset
 
 ).
- For n hairs in contact, the force balance before and after a hair detaches
- is given respectively by:
+ For 
+\begin_inset Formula $n$
+\end_inset
+
+ hairs in contact, the force balance before and after a hair detaches is
+ given respectively by:
 \end_layout
 
 \begin_layout Standard
@@ -931,7 +930,11 @@ noprefix "false"
 \end_layout
 
 \begin_layout Standard
-Solving the above two equations for Δl, we get:
+Solving the above two equations for 
+\begin_inset Formula $\Delta l$
+\end_inset
+
+, we get:
 \end_layout
 
 \begin_layout Standard
@@ -946,8 +949,8 @@ Solving the above two equations for Δl, we get:
 \end_layout
 
 \begin_layout Standard
-The length difference between the detached hair and its adjacent hair just
- before it breaks contact is 
+The length difference between the detached hair just before it breaks contact
+ and its adjacent hair is 
 \begin_inset Formula $w\sin\theta$
 \end_inset
 
@@ -956,13 +959,8 @@ The length difference between the detached hair and its adjacent hair just
 \begin_inset Formula $\Delta l>w\sin\theta$
 \end_inset
 
-, the adjacent hair will be stretched more than its maximum length (l
-\begin_inset script subscript
-
-\begin_layout Plain Layout
-h,p
-\end_layout
-
+, the adjacent hair will be stretched more than its maximum length (
+\begin_inset Formula $l_{h,p}$
 \end_inset
 
 ), and thus will also detach.
@@ -980,20 +978,23 @@ noprefix "false"
 \begin_inset Formula $\Delta l$
 \end_inset
 
- increases with every loss of hair contact due to lower n.
+ increases with every loss of hair contact due to decreasing value of 
+\begin_inset Formula $n$
+\end_inset
+
+.
  This implies that, hair detachment will propagate and the pad completely
  breaks contact with the surface.
- The critical number of hairs in contact, N
-\begin_inset script subscript
-
-\begin_layout Plain Layout
-c
-\end_layout
-
+ The critical number of hairs in contact, 
+\begin_inset Formula $N_{c}$
 \end_inset
 
 , below which detachment propagates for a given tilt angle can be calculated
- from the above inequality condition and equation 
+ by substituting 
+\begin_inset Formula $\Delta l$
+\end_inset
+
+ from equation 
 \begin_inset CommandInset ref
 LatexCommand ref
 reference "eq:backing_deform"
@@ -1003,7 +1004,7 @@ noprefix "false"
 
 \end_inset
 
-, to get:
+ into the above inequality condition, to get:
 \end_layout
 
 \begin_layout Standard
@@ -1028,7 +1029,11 @@ noprefix "false"
 
 \end_inset
 
-, we can find the critical distance, dc, above which detachment propagates:
+, we can find the critical distance, 
+\begin_inset Formula $d_{c}$
+\end_inset
+
+, above which detachment propagates:
 \end_layout
 
 \begin_layout Standard
@@ -1053,14 +1058,12 @@ noprefix "false"
 
 \end_inset
 
- can also be rearranged to give us the critical tilt angle below which detachmen
-t propagates for a given pad with N
-\begin_inset script subscript
+ can also be rearranged to give us the critical tilt angle, 
+\begin_inset Formula $\theta_{c}$
+\end_inset
 
-\begin_layout Plain Layout
-t
-\end_layout
-
+, below which detachment propagates for a given pad with 
+\begin_inset Formula $N_{t}$
 \end_inset
 
  hairs:
@@ -1078,31 +1081,16 @@ t
 \end_layout
 
 \begin_layout Standard
-Hairs will propagate when n < N
-\begin_inset script subscript
-
-\begin_layout Plain Layout
-c
-\end_layout
-
+Hairs will propagate when 
+\begin_inset Formula $n<N_{c}$
 \end_inset
 
- or d > d
-\begin_inset script subscript
-
-\begin_layout Plain Layout
-max
-\end_layout
-
+ or 
+\begin_inset Formula $d>d_{c}$
 \end_inset
 
- or 𝜃 < 𝜃
-\begin_inset script subscript
-
-\begin_layout Plain Layout
-c
-\end_layout
-
+ or 
+\begin_inset Formula $\theta<\theta_{c}$
 \end_inset
 
 .
@@ -1111,25 +1099,11 @@ c
 
 \begin_layout Standard
 If we assume the hairs to be softer than the backing layer (i.e.
- k
-\begin_inset script subscript
-
-\begin_layout Plain Layout
-b
-\end_layout
-
+ 
+\begin_inset Formula $k_{b}/k_{h}>1$
 \end_inset
 
-/k
-\begin_inset script subscript
-
-\begin_layout Plain Layout
-h
-\end_layout
-
-\end_inset
-
- > 1), then from equation 
+), then from equations 
 \begin_inset CommandInset ref
 LatexCommand ref
 reference "eq:n_max"
@@ -1149,34 +1123,15 @@ noprefix "false"
 
 \end_inset
 
-, we see that N
-\begin_inset script subscript
-
-\begin_layout Plain Layout
-c
-\end_layout
-
-\end_inset
-
- < N
-\begin_inset script subscript
-
-\begin_layout Plain Layout
-max
-\end_layout
-
+, we see that 
+\begin_inset Formula $N_{c}<N_{max}$
 \end_inset
 
 .
  Spontaneous detachment of the pad occurs only after it has reached maximum
  adhesion force by sequential detachment of hairs.
- So in this case, for a given pad with N
-\begin_inset script subscript
-
-\begin_layout Plain Layout
-t
-\end_layout
-
+ So in this case, for a given pad with 
+\begin_inset Formula $N_{t}$
 \end_inset
 
  hairs, the adhesion force will be given by the same equation as for sequential
@@ -1191,19 +1146,15 @@ noprefix "false"
 \end_inset
 
 ).
- The adhesion remains uneffected by the backing layer deformation.
+ The adhesion remains unaffected by the backing layer deformation.
  It only affects the dynamics of detachment.
- The hairs lose contact spontaneously when n < N
-\begin_inset script subscript
-
-\begin_layout Plain Layout
-c
-\end_layout
-
+ The hairs lose contact spontaneously when 
+\begin_inset Formula $n<N_{c}$
 \end_inset
 
 , independent of the speed at which the pad is retracted.
- The force as a function of distance will be given by equation 
+ One the other hand, the net force as a function of distance will be given
+ by equation 
 \begin_inset CommandInset ref
 LatexCommand ref
 reference "eq:force_n_d"
@@ -1213,29 +1164,23 @@ noprefix "false"
 
 \end_inset
 
- when d ≤ d
-\begin_inset script subscript
-
-\begin_layout Plain Layout
-max
-\end_layout
-
+ when 
+\begin_inset Formula $d\leq d_{max}$
 \end_inset
 
 .
- The distance, d, will be shifted by 
+ The distance, 
+\begin_inset Formula $d$
+\end_inset
+
+, will however be shifted by 
 \begin_inset Formula $\Delta l$
 \end_inset
 
  each time a hair detaches from the surface, due to the backing layer's
- deformation, resulting in a 'dampening' of the force-distance curves.
- For d > d
-\begin_inset script subscript
-
-\begin_layout Plain Layout
-max
-\end_layout
-
+ deformation.
+ For 
+\begin_inset Formula $d>d_{max}$
 \end_inset
 
 , all hairs will detach spontaneously and the force will drop to zero.
@@ -1261,10 +1206,18 @@ r=\frac{F_{max}}{F_{adh}\left(\theta\right)}\label{eq:reversib}
 \end_layout
 
 \begin_layout Standard
-Reversibility, r, represents the extent to which adhesion can be controlled
- by changing tilt.
- A large value of r implies that adhesion can reduced by a higher factor,
- and thus is more suitable to achieve reversible adhesion.
+Reversibility, 
+\begin_inset Formula $r$
+\end_inset
+
+, represents the extent to which adhesion can be controlled by changing
+ tilt.
+ A large value of 
+\begin_inset Formula $r$
+\end_inset
+
+ implies that adhesion can reduced by a higher factor, and thus is more
+ suitable to achieve reversible adhesion.
 \end_layout
 
 \begin_layout Standard
@@ -1273,9 +1226,9 @@ The forces and distance are expressed in non-dimensional forms, as below:
 
 \begin_layout Standard
 \begin_inset Formula 
-\begin{eqnarray*}
-\hat{f}_{p}=\frac{f_{p}}{k_{h}w} & \hat{F}_{net}=\frac{F_{net}}{k_{h}w} & \hat{d}=\frac{d-l_{h,0}}{w}
-\end{eqnarray*}
+\[
+\hat{f}_{p}=\frac{f_{p}}{k_{h}w},\quad\hat{F}_{net}=\frac{F_{net}}{k_{h}w},\quad\hat{d}=\frac{d-l_{h,0}}{w}
+\]
 
 \end_inset
 
@@ -1304,31 +1257,16 @@ Detachment mechanism:
 \begin_layout Standard
 The three modes of detachment can be understood by looking at the net force
  as hairs detaches from the surface.
- Let us look at the case when the pad has N
-\begin_inset script subscript
-
-\begin_layout Plain Layout
-t
-\end_layout
-
+ Let us look at the case when the pad has 
+\begin_inset Formula $N_{t}=25$
 \end_inset
 
-=25 hairs and 
+ hairs and 
 \begin_inset Formula $\hat{f_{p}}=1$
 \end_inset
 
 .
  From equations 
-\begin_inset CommandInset ref
-LatexCommand ref
-reference "eq:simul_detach"
-plural "false"
-caps "false"
-noprefix "false"
-
-\end_inset
-
-, 
 \begin_inset CommandInset ref
 LatexCommand ref
 reference "eq:force_n_d"
@@ -1342,6 +1280,16 @@ noprefix "false"
 \begin_inset CommandInset ref
 LatexCommand ref
 reference "eq:d_max"
+plural "false"
+caps "false"
+noprefix "false"
+
+\end_inset
+
+, 
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "eq:simul_detach"
 plural "false"
 caps "false"
 noprefix "false"
@@ -1369,54 +1317,47 @@ noprefix "false"
 \end_inset
 
 ).
- We consider two cases: a pad with a stiff backing (k
-\begin_inset script subscript
-
-\begin_layout Plain Layout
-b
-\end_layout
-
+ We consider two cases: a pad with a stiff backing (
+\begin_inset Formula $k_{b}\rightarrow\infty$
 \end_inset
 
-→
-\begin_inset Formula $\infty$
+) and a pad with a soft backing (
+\begin_inset Formula $k_{b}/k_{h}=10$
 \end_inset
 
-) and a pad with a soft backing (k
-\begin_inset script subscript
-
-\begin_layout Plain Layout
-b
-\end_layout
-
-\end_inset
-
-/k
-\begin_inset script subscript
-
-\begin_layout Plain Layout
-h
-\end_layout
-
-\end_inset
-
- = 10).
+ ).
  
 \end_layout
 
 \begin_layout Standard
 At small distances, all hairs of the pad are in contact and under compression,
- showing a linear 'Hookian' trend as the pad is pulled upwards maintaining
+ showing a linear Hookian response as the pad is pulled upwards maintaining
  a tilt.
- On further pullling, the pad with a higher tilt will start to detach first,
- followed by the one with a lower tilt.
- The range of detachment is higher when the pad is tilted more.
+ On further pulling, the hairs of the pad with a higher tilt will start
+ to detach first, followed by the ones with a lower tilt.
  The force curves for the pad with a stiff backing shows a characteristic
- 'saw-tooth' shaped fluctuation, indicating the sequential events of individual
- hair detachment as the pad is retracted away from the surface.
+ 
+\begin_inset Quotes eld
+\end_inset
+
+saw-tooth
+\begin_inset Quotes erd
+\end_inset
+
+ shaped fluctuation, indicating the sequential events of individual hair
+ detachment as the pad is retracted away from the surface.
  In the case for the pad with a soft backing, such fluctuations are minimized
- due to the backing layer's deformation after each hair detaches, resulting
- in a 'dampening' effect.
+ due to the backing layer's deformation after each hair detaches, leading
+ to a 
+\begin_inset Quotes eld
+\end_inset
+
+dampened
+\begin_inset Quotes erd
+\end_inset
+
+ force response.
+ 
 \end_layout
 
 \begin_layout Standard
@@ -1462,23 +1403,17 @@ th
 
 \end_inset
 
- hair (N
-\begin_inset script subscript
-
-\begin_layout Plain Layout
-c
-\end_layout
-
+ hair (
+\begin_inset Formula $N_{c}=10$
 \end_inset
 
- = 10) snaps off.
- No such force drop is seen when 𝜃 = 6°, because N
-\begin_inset script subscript
+) snaps off.
+ No such force drop is seen when 
+\begin_inset Formula $\theta=6\textdegree$
+\end_inset
 
-\begin_layout Plain Layout
-c
-\end_layout
-
+, because 
+\begin_inset Formula $N_{c}$
 \end_inset
 
  is less than 1 (equation 
@@ -1519,39 +1454,16 @@ status open
 \begin_inset Caption Standard
 
 \begin_layout Plain Layout
-Force distance curves for a hairy pad with a stiff (k
-\begin_inset script subscript
-
-\begin_layout Plain Layout
-b
-\end_layout
-
+Force distance curves for a hairy pad with a stiff (
+\begin_inset Formula $k_{b}\rightarrow\infty$
 \end_inset
 
-→
-\begin_inset Formula $\infty$
+) and a soft (
+\begin_inset Formula $k_{b}/k_{h}=10$
 \end_inset
 
-) and a soft (k
-\begin_inset script subscript
-
-\begin_layout Plain Layout
-b
-\end_layout
-
-\end_inset
-
-/k
-\begin_inset script subscript
-
-\begin_layout Plain Layout
-h
-\end_layout
-
-\end_inset
-
-=10) backing, pulled normally upwards while maintaining a constant tilt
- with the surface.
+) backing, pulled normally upwards while maintaining a constant tilt with
+ the surface.
  Positive force values represent attraction.
  The green dashed line represents the maximum possible adhesion for the
  pad, which occurs at no tilt.
@@ -1615,17 +1527,29 @@ noprefix "false"
  end.
  When the pad is tilted, initially the compressed hair dominates in its
  contribution to the new force and thus adhesion force initially decreases,
- increasing r.
- On further tilting, more number of stretched hairs increases and eventually
+ increasing 
+\begin_inset Formula $r$
+\end_inset
+
+.
+ On further tilting, the number of stretched hairs increases and eventually
  dominates the force contribution.
  This results in an increase in adhesion force at large tilt angles, and
- thus decreases r.
+ thus decreases 
+\begin_inset Formula $r$
+\end_inset
+
+.
  
 \end_layout
 
 \begin_layout Standard
 We can calculate the maximum reversibility from the minima of adhesion w.r.t.
- 𝜃 (
+ 
+\begin_inset Formula $\theta$
+\end_inset
+
+ (equation 
 \begin_inset CommandInset ref
 LatexCommand ref
 reference "eq:seq_adh"
@@ -1640,22 +1564,12 @@ noprefix "false"
 \end_inset
 
 .
- The corresponding tilt angle, 𝜃
-\begin_inset script subscript
-
-\begin_layout Plain Layout
-max
-\end_layout
-
+ The corresponding tilt angle, 
+\begin_inset Formula $\theta_{max}$
 \end_inset
 
-, for maximum reversibility, r
-\begin_inset script subscript
-
-\begin_layout Plain Layout
-max
-\end_layout
-
+, for maximum reversibility, 
+\begin_inset Formula $r_{max}$
 \end_inset
 
 , will be:
@@ -1664,10 +1578,10 @@ max
 \begin_layout Standard
 \begin_inset Formula 
 \begin{equation}
-\begin{array}{c}
-\theta_{max}=\arcsin\left(\frac{2f_{p}}{k_{h}w}\right)\\
-r_{max}=\frac{F_{max}}{F_{min}}=N_{t}
-\end{array}\label{eq:rev_max}
+\begin{alignedat}{1}\theta_{max} & =\arcsin\left(\frac{2f_{p}}{k_{h}w}\right)\\
+r_{max} & =\frac{F_{max}}{F_{min}}=N_{t}
+\end{alignedat}
+\label{eq:rev_max}
 \end{equation}
 
 \end_inset
@@ -1680,13 +1594,8 @@ Larger
 \begin_inset Formula $\hat{f_{p}}$
 \end_inset
 
- shifts 𝜃
-\begin_inset script subscript
-
-\begin_layout Plain Layout
-max
-\end_layout
-
+ shifts 
+\begin_inset Formula $\theta_{max}$
 \end_inset
 
  to a larger angle (Figure 
@@ -1700,13 +1609,8 @@ noprefix "false"
 \end_inset
 
  inset), making it more difficult to reduce adhesion.
- On the other hand, a larger number hairs increases r
-\begin_inset script subscript
-
-\begin_layout Plain Layout
-max
-\end_layout
-
+ On the other hand, a larger number hairs increases 
+\begin_inset Formula $r_{max}$
 \end_inset
 
 , and is thus more favorable for reversible adhesion.
@@ -1723,7 +1627,7 @@ status open
 
 \begin_layout Plain Layout
 \begin_inset Graphics
-	filename Figure3a-Pad_adhesion_force.svg
+	filename Figure3-Reversibility.svg
 
 \end_inset
 
@@ -1731,9 +1635,8 @@ status open
 \begin_inset Caption Standard
 
 \begin_layout Plain Layout
-Reversibility of the hairy pad.
- Inset shows the tilt angle to get maximum reversibility as a function of
- 
+Reversibility of the hairy pad for a range of tilt angles.
+ Inset shows the tilt angle for maximum reversibility as a function of 
 \begin_inset Formula $\hat{f_{p}}$
 \end_inset
 
@@ -1766,16 +1669,11 @@ Spontaneous propagation of detachment:
 Presence of a soft backing layer can trigger a spontaneous detachment of
  hairs, which propagates by elastic recoil as the they are detached sequentially.
  Such a mode of detachment is triggered when the tilt angle is less than
- a critical value, 𝜃
-\begin_inset script subscript
-
-\begin_layout Plain Layout
-c
-\end_layout
-
+ a critical value, 
+\begin_inset Formula $\theta_{c}$
 \end_inset
 
-(equation 
+ (equation 
 \begin_inset CommandInset ref
 LatexCommand ref
 reference "eq:prop_thetac"
@@ -1787,35 +1685,16 @@ noprefix "false"
 
 ).
  A softer backing layer (i.e.
- low k
-\begin_inset script subscript
-
-\begin_layout Plain Layout
-b
-\end_layout
-
-\end_inset
-
-/k
-\begin_inset script subscript
-
-\begin_layout Plain Layout
-h
-\end_layout
-
+ low 
+\begin_inset Formula $k_{b}/k_{h}$
 \end_inset
 
 ) or a large value of 
 \begin_inset Formula $\hat{f_{p}}$
 \end_inset
 
- shifts 𝜃
-\begin_inset script subscript
-
-\begin_layout Plain Layout
-c
-\end_layout
-
+ shifts 
+\begin_inset Formula $\theta_{c}$
 \end_inset
 
  to higher values, thus increasing the available range of tilt angles to
@@ -1830,7 +1709,7 @@ noprefix "false"
 \end_inset
 
 ).
- This is explained from equation 
+ This can be explained from equation 
 \begin_inset CommandInset ref
 LatexCommand ref
 reference "eq:backing_deform"
@@ -1844,51 +1723,22 @@ noprefix "false"
 \begin_inset Formula $\hat{f_{p}}$
 \end_inset
 
- or low k
-\begin_inset script subscript
-
-\begin_layout Plain Layout
-b
-\end_layout
-
-\end_inset
-
-/k
-\begin_inset script subscript
-
-\begin_layout Plain Layout
-h
-\end_layout
-
+ or low 
+\begin_inset Formula $k_{b}/k_{h}$
 \end_inset
 
  will increase the backing layer's elastic recoil when a hair breaks contact,
- thus increasing 𝜃
-\begin_inset script subscript
-
-\begin_layout Plain Layout
-c
-\end_layout
-
+ thus increasing 
+\begin_inset Formula $\theta_{c}$
 \end_inset
 
 .
- However, we see that larger value of N
-\begin_inset script subscript
-
-\begin_layout Plain Layout
-t
-\end_layout
-
+ However, a larger value of 
+\begin_inset Formula $N_{t}$
 \end_inset
 
- will decrease 𝜃
-\begin_inset script subscript
-
-\begin_layout Plain Layout
-c
-\end_layout
-
+ will decrease 
+\begin_inset Formula $\theta_{c}$
 \end_inset
 
 , making it less feasible to trigger spontaneous detachment.
@@ -1902,7 +1752,7 @@ status open
 
 \begin_layout Plain Layout
 \begin_inset Graphics
-	filename Figure3b-Critical_tilt_angle.svg
+	filename Figure4-Critical_tilt_angle.svg
 
 \end_inset
 
@@ -1910,7 +1760,8 @@ status open
 \begin_inset Caption Standard
 
 \begin_layout Plain Layout
-Critical tilt angle
+Critical tilt angle, below which spontaneous detachment of hairs is triggered,
+ is shown for a range of stiffness ratios.
 \begin_inset CommandInset label
 LatexCommand label
 name "fig:Critical-tilt-angle"
@@ -1937,26 +1788,16 @@ Limitation of tilt:
 \begin_layout Standard
 There exists a limit to how much one can tilt a hairy pad, depending on
  the pad's geometry and material properties.
- Suppose the hair has a maximum linear elastic strain limit, ε
-\begin_inset script subscript
-
-\begin_layout Plain Layout
-m
-\end_layout
-
+ Suppose the hair has a maximum linear elastic strain limit, 
+\begin_inset Formula $\varepsilon_{m}$
 \end_inset
 
-, and natural length, l
-\begin_inset script subscript
-
-\begin_layout Plain Layout
-h,0
-\end_layout
-
+, and natural length, 
+\begin_inset Formula $l_{h,0}$
 \end_inset
 
 .
- Based on figure 
+ Based on Figure 
 \begin_inset CommandInset ref
 LatexCommand ref
 reference "fig:Schematic"
@@ -1976,33 +1817,22 @@ noprefix "false"
 
 \end_inset
 
-.
- 𝜃
-\begin_inset script subscript
 
-\begin_layout Plain Layout
-max
-\end_layout
-
+\begin_inset Formula $\theta_{limit}$
 \end_inset
 
- must be less than 𝜃
-\begin_inset script subscript
+ represents the elastic limit in tilting a hairy pad.
+ 
+\begin_inset Formula $\theta_{max}$
+\end_inset
 
-\begin_layout Plain Layout
-limit
-\end_layout
-
+ must be less than 
+\begin_inset Formula $\theta_{limit}$
 \end_inset
 
  to allow maximum possible reversibility to be feasible.
- Else, the pad's reversibility is limited to its value at 𝜃
-\begin_inset script subscript
-
-\begin_layout Plain Layout
-limit
-\end_layout
-
+ Else, the pad's reversibility will be limited to its value at 
+\begin_inset Formula $\theta_{limit}$
 \end_inset
 
 , as per Figure 
@@ -2025,26 +1855,16 @@ We see a trade-off in the conditions for reducing adhesion or to trigger
 \begin_inset Formula $\hat{f_{p}}$
 \end_inset
 
- and high N
-\begin_inset script subscript
-
-\begin_layout Plain Layout
-t
-\end_layout
-
+ and high 
+\begin_inset Formula $N_{t}$
 \end_inset
 
  is suitable for enhanced reversibility in adhesion, while high 
 \begin_inset Formula $\hat{f_{p}}$
 \end_inset
 
- and low N
-\begin_inset script subscript
-
-\begin_layout Plain Layout
-t
-\end_layout
-
+ and low 
+\begin_inset Formula $N_{t}$
 \end_inset
 
  is favorable to trigger spontaneous detachment.
@@ -2052,36 +1872,21 @@ t
 \begin_inset Formula $\hat{f_{p}}$
 \end_inset
 
- and N
-\begin_inset script subscript
-
-\begin_layout Plain Layout
-t
-\end_layout
-
+ and 
+\begin_inset Formula $N_{t}$
 \end_inset
 
- such that 𝜃
-\begin_inset script subscript
-
-\begin_layout Plain Layout
-max
-\end_layout
-
+ such that 
+\begin_inset Formula $\theta_{max}$
 \end_inset
 
-does not exceed 𝜃
-\begin_inset script subscript
-
-\begin_layout Plain Layout
-limit
-\end_layout
-
+ does not exceed 
+\begin_inset Formula $\theta_{limit}$
 \end_inset
 
 .
  Depending on whether a higher range of controllable adhesion or an instantaneou
-s detachment is more desirable, one can utilize figures 
+s detachment is more desirable, one can utilize Figures 
 \begin_inset CommandInset ref
 LatexCommand ref
 reference "fig:Adhesion-force-of"
@@ -2111,8 +1916,8 @@ noprefix "false"
 
 \end_inset
 
-, as design maps in the fabrication of micropillar adhesives suited for
- the particular application.
+, as design maps in the fabrication of micro-pillar adhesives suited for
+ the required application.
 \end_layout
 
 \begin_layout Standard
@@ -2137,7 +1942,7 @@ literal "false"
 
 \end_inset
 
-respectively, while its disc tipped hair has the corresponding values of
+ respectively, while its disc tipped hair has the corresponding values of
  0.9 μN and 0.7 Nm
 \begin_inset script superscript
 
@@ -2147,7 +1952,7 @@ respectively, while its disc tipped hair has the corresponding values of
 
 \end_inset
 
-receptively.
+ receptively.
  The beetle's hairs are approximately 50 μm long, spaced 10 μm apart.
  Let us assume the hairs to have a elastic strain limit of 25%, which is
  a reasonable estimate considering that the curved geometry of its hairs
@@ -2163,17 +1968,12 @@ receptively.
 \end_inset
 
  = 0.1.
- Assuming the pad to have 100 hairs, a one dimensional analogue of the system
- will put N
-\begin_inset script subscript
-
-\begin_layout Plain Layout
-t
-\end_layout
-
+ Assuming that 100 hairs of the pad are in contact during locomotion, a
+ one dimensional analogue of the system will put 
+\begin_inset Formula $N_{t}=10$
 \end_inset
 
- = 10 in our model.
+ in our model.
  From equations 
 \begin_inset CommandInset ref
 LatexCommand ref
@@ -2194,44 +1994,18 @@ noprefix "false"
 
 \end_inset
 
-, 𝜃
-\begin_inset script subscript
-
-\begin_layout Plain Layout
-max
-\end_layout
-
+, 
+\begin_inset Formula $\theta_{max}$
 \end_inset
 
- and 𝜃
-\begin_inset script subscript
-
-\begin_layout Plain Layout
-limit
-\end_layout
-
+ and 
+\begin_inset Formula $\theta_{limit}$
 \end_inset
 
  are calculated to be 11.5° and 7.9°, respectively.
- For the beetle, 𝜃
-\begin_inset script subscript
-
-\begin_layout Plain Layout
-max
-\end_layout
-
-\end_inset
-
- is greater than 𝜃
-\begin_inset script subscript
-
-\begin_layout Plain Layout
-limit
-\end_layout
-
-\end_inset
-
-.
+ Thus, for the beetle, the elastic limit imposed by the pad allows it to
+ only tilt it by 7.9°, about 3.6° lower than the tilt necessary to achieve
+ maximum reversibility.
  However, we see from Figure 
 \begin_inset CommandInset ref
 LatexCommand ref
@@ -2242,10 +2016,17 @@ noprefix "false"
 
 \end_inset
 
- that, for the given conditions at 7.9° tilt, the reversibility is 9.6, close
- to the theoretical maximum (10).
- The beetle can reduce its adhesion force by ~ 10 times by tilting its pad
- by ~ 8°.
+ that, at a 7.9° tilt, the reversibility is 9.6, close to the theoretical
+ maximum (10).
+ The beetle can reduce its adhesion force by 
+\begin_inset Formula $\sim10$
+\end_inset
+
+ by tilting its pad by 
+\begin_inset Formula $\sim8\textdegree$
+\end_inset
+
+.
  Thus, the model seems consistent with nature's design of the beetle's pad.
  A detailed experimental investigation however is essential to prove if
  such a tilting mechanism is indeed employed by animals to switch adhesion.
@@ -2261,38 +2042,30 @@ We have proposed a method to control the adhesion of a hairy adhesive pad
  Increasing the tilt reduces adhesion due to the elastic force balance between
  the compressed and stretched hairs.
  Based on a simple spring model, we show that increasing the number of hairy
- structures enhances the range of tunable adhesion force or reversibility.
+ structures enhances the range of adjustable adhesion force or reversibility,
+ which highlights the advantage of a hairy design for controlling adhesion.
  Further, having a soft backing layer can trigger a spontaneous detachment
  of hairs as a result of its elastic recoil.
- High N
-\begin_inset script subscript
-
-\begin_layout Plain Layout
-t
-\end_layout
-
+ High 
+\begin_inset Formula $N_{t}$
 \end_inset
 
  and low 
 \begin_inset Formula $\hat{f_{p}}$
 \end_inset
 
- is suitable for enhancing reversibility of adhesion, while, low N
-\begin_inset script subscript
-
-\begin_layout Plain Layout
-t
-\end_layout
-
+ are suitable for enhancing reversibility of adhesion, while, low 
+\begin_inset Formula $N_{t}$
 \end_inset
 
 , high 
 \begin_inset Formula $\hat{f_{p}}$
 \end_inset
 
- and softer backing layer favors spontaneous detachment.
- The model is consistent with the design of a dock beetle's hairy pad and
- provides new strategies to design artificial reversible adhesives.
+ and softer backing layer favor spontaneous detachment.
+ The model is consistent with the natural design of a dock beetle's hairy
+ pad and provides new strategies to reversibly control adhesion in bio-inspired
+ artificial adhesives.
 \end_layout
 
 \begin_layout Section
@@ -2300,18 +2073,8 @@ Acknowledgment
 \end_layout
 
 \begin_layout Standard
-We acknowledge Deutsche Forschungsgemeinschaft for providing funding to
- make this project possible.
- 
-\end_layout
-
-\begin_layout Section
-\start_of_appendix
-Appendix
-\end_layout
-
-\begin_layout Standard
-Derivation
+We thank Thomas Endlein for fruitful discussions.
+ The project was funded by Deutsche Forschungsgemeinschaft.
 \end_layout
 
 \begin_layout Standard
