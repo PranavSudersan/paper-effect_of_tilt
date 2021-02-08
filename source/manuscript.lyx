@@ -95,7 +95,7 @@
 \begin_body
 
 \begin_layout Title
-Influence of tilt on hairy adhesive pad detachment
+Influence of tilt on adhesion of pillar array systems
 \end_layout
 
 \begin_layout Author
@@ -126,15 +126,7 @@ Max Planck Institute for Polymer Research, Ackermannweg 10, 55128 Mainz,
 \end_layout
 
 \begin_layout Email
-butt@mpip-mainz.mpg.de
-\end_layout
-
-\begin_layout Phone
-+49 6131 379 111
-\end_layout
-
-\begin_layout Fax
-+49 6131 379 310
+kappl@mpip-mainz.mpg.de
 \end_layout
 
 \begin_layout Abstract
@@ -153,7 +145,7 @@ Many creatures ranging from geckos to beetles can easily climb on surfaces
  Further, deformation of the pad's soft backing layer can trigger its spontaneou
 s detachment at low tilt angles due to an elastic recoil effect.
  Our model provides a new approach to switch the adhesion state in bio-inspired
- synthetic adhesives without the need of asymmetric structures.
+ synthetic array-based adhesives without the need of asymmetric structures.
 \end_layout
 
 \begin_layout Section
@@ -339,7 +331,7 @@ The theories presented so far suggests that low detachment force of a hairy
 \begin_layout Standard
 In this work, we present a new method of detachment by changing the tilt
  of the pad relative to the surface.
- Tilling the pad will result in an unbalanced elastic force due to the deformati
+ Tilting the pad will result in an unbalanced elastic force due to the deformati
 on of hairs, which can potentially reduce the net pull-off force.
  To investigate this, we model the hairy pad by 
 \begin_inset Quotes eld
@@ -770,7 +762,7 @@ noprefix "false"
 \end_inset
 
  hairs in contact.
- During this sequential detachment of hairs, there exists a maxima in force
+ During this sequential detachment of hairs, there exists a maximum in force
  at a particular number of contacts, 
 \begin_inset Formula $N_{max}$
 \end_inset
@@ -1189,7 +1181,7 @@ noprefix "false"
 \begin_layout Standard
 We introduce a parameter, 
 \emph on
-reversibility
+reduction factor
 \emph default
 , defined as:
 \end_layout
@@ -1206,18 +1198,17 @@ r=\frac{F_{max}}{F_{adh}\left(\theta\right)}\label{eq:reversib}
 \end_layout
 
 \begin_layout Standard
-Reversibility, 
+Reduction factor, 
 \begin_inset Formula $r$
 \end_inset
 
-, represents the extent to which adhesion can be controlled by changing
- tilt.
+, represents the extent to which adhesion can be reduced by changing tilt.
  A large value of 
 \begin_inset Formula $r$
 \end_inset
 
- implies that adhesion can reduced by a higher factor, and thus is more
- suitable to achieve reversible adhesion.
+ implies that adhesion can be reduced by a higher factor, and thus is more
+ suitable to easily detach.
 \end_layout
 
 \begin_layout Standard
@@ -1475,6 +1466,16 @@ name "fig:Mechanism-of-detachment"
 \end_inset
 
 
+\begin_inset Note Note
+status open
+
+\begin_layout Plain Layout
+invert plots
+\end_layout
+
+\end_inset
+
+
 \end_layout
 
 \end_inset
@@ -1488,11 +1489,11 @@ name "fig:Mechanism-of-detachment"
 \end_layout
 
 \begin_layout Paragraph
-Effect of tilt on reversible adhesion:
+Effect of tilt on adhesion:
 \end_layout
 
 \begin_layout Standard
-The reversibility in adhesion (equation 
+The reduction of adhesion during detachment (equation 
 \begin_inset CommandInset ref
 LatexCommand ref
 reference "eq:reversib"
@@ -1521,7 +1522,7 @@ noprefix "false"
 \begin_inset Formula $\hat{f_{p}}$
 \end_inset
 
-, adhesion force shows a maxima with increasing tilt angle.
+, adhesion force shows a maximum with increasing tilt angle.
  This is because, the net force on a tilted pad depends on a balance between
  the stretched hairs, on one end, and the compressed hairs, on the other
  end.
@@ -1544,7 +1545,8 @@ noprefix "false"
 \end_layout
 
 \begin_layout Standard
-We can calculate the maximum reversibility from the minima of adhesion w.r.t.
+We can calculate the maximum reduction factor from the minima of adhesion
+ w.r.t.
  
 \begin_inset Formula $\theta$
 \end_inset
@@ -1568,7 +1570,7 @@ noprefix "false"
 \begin_inset Formula $\theta_{max}$
 \end_inset
 
-, for maximum reversibility, 
+, for maximum reduction factor, 
 \begin_inset Formula $r_{max}$
 \end_inset
 
@@ -1635,8 +1637,16 @@ status open
 \begin_inset Caption Standard
 
 \begin_layout Plain Layout
-Reversibility of the hairy pad for a range of tilt angles.
- Inset shows the tilt angle for maximum reversibility as a function of 
+Adhesion reduction factor, 
+\begin_inset Formula $r$
+\end_inset
+
+, of the hairy pad for a range of tilt angles.
+ Inset shows the tilt angle for maximum 
+\begin_inset Formula $r$
+\end_inset
+
+ as a function of 
 \begin_inset Formula $\hat{f_{p}}$
 \end_inset
 
@@ -1645,6 +1655,16 @@ Reversibility of the hairy pad for a range of tilt angles.
 \begin_inset CommandInset label
 LatexCommand label
 name "fig:Adhesion-force-of"
+
+\end_inset
+
+
+\begin_inset Note Note
+status open
+
+\begin_layout Plain Layout
+change label to reduction factor
+\end_layout
 
 \end_inset
 
@@ -1830,8 +1850,8 @@ noprefix "false"
 \begin_inset Formula $\theta_{limit}$
 \end_inset
 
- to allow maximum possible reversibility to be feasible.
- Else, the pad's reversibility will be limited to its value at 
+ to allow maximum possible reduction in adhesion.
+ Else, the pad's reduction factor will be limited to its value at 
 \begin_inset Formula $\theta_{limit}$
 \end_inset
 
@@ -1859,7 +1879,7 @@ We see a trade-off in the conditions for reducing adhesion or to trigger
 \begin_inset Formula $N_{t}$
 \end_inset
 
- is suitable for enhanced reversibility in adhesion, while high 
+ are suitable for reater reduction in adhesion, while high 
 \begin_inset Formula $\hat{f_{p}}$
 \end_inset
 
@@ -1867,7 +1887,7 @@ We see a trade-off in the conditions for reducing adhesion or to trigger
 \begin_inset Formula $N_{t}$
 \end_inset
 
- is favorable to trigger spontaneous detachment.
+ are favorable to trigger spontaneous detachment.
  At the same time, the hairy pad must have an optimal value of 
 \begin_inset Formula $\hat{f_{p}}$
 \end_inset
@@ -2005,7 +2025,7 @@ noprefix "false"
  are calculated to be 11.5° and 7.9°, respectively.
  Thus, for the beetle, the elastic limit imposed by the pad allows it to
  only tilt it by 7.9°, about 3.6° lower than the tilt necessary to achieve
- maximum reversibility.
+ maximum reduction factor.
  However, we see from Figure 
 \begin_inset CommandInset ref
 LatexCommand ref
@@ -2016,7 +2036,7 @@ noprefix "false"
 
 \end_inset
 
- that, at a 7.9° tilt, the reversibility is 9.6, close to the theoretical
+ that, at a 7.9° tilt, the redution factor is 9.6, close to the theoretical
  maximum (10).
  The beetle can reduce its adhesion force by 
 \begin_inset Formula $\sim10$
@@ -2042,8 +2062,8 @@ We have proposed a method to control the adhesion of a hairy adhesive pad
  Increasing the tilt reduces adhesion due to the elastic force balance between
  the compressed and stretched hairs.
  Based on a simple spring model, we show that increasing the number of hairy
- structures enhances the range of adjustable adhesion force or reversibility,
- which highlights the advantage of a hairy design for controlling adhesion.
+ structures enhances the range of adjustable adhesion force, which highlights
+ the advantage of a hairy design for controlling adhesion.
  Further, having a soft backing layer can trigger a spontaneous detachment
  of hairs as a result of its elastic recoil.
  High 
@@ -2054,7 +2074,7 @@ We have proposed a method to control the adhesion of a hairy adhesive pad
 \begin_inset Formula $\hat{f_{p}}$
 \end_inset
 
- are suitable for enhancing reversibility of adhesion, while, low 
+ are suitable for reducing adhesion by a larger factor, while, low 
 \begin_inset Formula $N_{t}$
 \end_inset
 
@@ -2066,6 +2086,16 @@ We have proposed a method to control the adhesion of a hairy adhesive pad
  The model is consistent with the natural design of a dock beetle's hairy
  pad and provides new strategies to reversibly control adhesion in bio-inspired
  artificial adhesives.
+\begin_inset Note Note
+status open
+
+\begin_layout Plain Layout
+change conclusion
+\end_layout
+
+\end_inset
+
+
 \end_layout
 
 \begin_layout Section
@@ -2073,8 +2103,12 @@ Acknowledgment
 \end_layout
 
 \begin_layout Standard
-We thank Thomas Endlein for fruitful discussions.
- The project was funded by Deutsche Forschungsgemeinschaft.
+We are grateful to Thomas Endlein and Bat-El Pinchasik for fruitful discussions.
+ This work was funded by 
+\emph on
+Deutsche Forschungsgemeinschaft
+\emph default
+ (Grant number: PI 1351/2-1).
 \end_layout
 
 \begin_layout Standard
