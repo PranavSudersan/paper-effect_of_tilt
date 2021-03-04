@@ -2111,6 +2111,379 @@ Deutsche Forschungsgemeinschaft
  (Grant number: PI 1351/2-1).
 \end_layout
 
+\begin_layout Section
+\start_of_appendix
+Appendix
+\end_layout
+
+\begin_layout Subsection
+Derivation
+\end_layout
+
+\begin_layout Standard
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+setcounter{figure}{0} 
+\backslash
+renewcommand{
+\backslash
+thefigure}{A.
+\backslash
+arabic{figure}} 
+\end_layout
+
+\end_inset
+
+ 
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+setcounter{equation}{0} 
+\backslash
+renewcommand{
+\backslash
+theequation}{A.
+\backslash
+arabic{equation}} 
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+When 
+\begin_inset Formula $\theta>0\textdegree$
+\end_inset
+
+, the hairs will detach sequentially from left to right.
+ Suppose at a particular instant (Figure 
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "fig:Schematic"
+plural "false"
+caps "false"
+noprefix "false"
+
+\end_inset
+
+), there are 
+\begin_inset Formula $n$
+\end_inset
+
+ hairs in contact with the surface.
+ The origin is assumed to lie at the midpoint along the surface where the
+ 
+\begin_inset Formula $n$
+\end_inset
+
+ hairs are making contact.
+ The pad is at a vertical distance, 
+\begin_inset Formula $d'$
+\end_inset
+
+, from the origin.
+ For a particular tilt angle, 
+\begin_inset Formula $\theta$
+\end_inset
+
+, the net force on the whole pad at a distance 
+\begin_inset Formula $d$
+\end_inset
+
+ from the surface is,
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\[
+F_{net}\left(d,n,\theta\right)=\stackrel[i=1]{n}{\sum}k_{h}\left(l_{h,i}-l_{h,0}\right)
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula $l_{h,i}$
+\end_inset
+
+ is the length of the 
+\begin_inset Formula $i^{th}$
+\end_inset
+
+ hair, which is at a distance 
+\begin_inset Formula $x$
+\end_inset
+
+ from the origin.
+ From simple geometry, 
+\begin_inset Formula $l_{h,i}=d'-x\tan\theta$
+\end_inset
+
+.
+ Substituting in above and noting that 
+\begin_inset Formula $\stackrel[i=1]{n}{\sum}x=0$
+\end_inset
+
+ by symmetry, we get:
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\[
+F_{net}\left(d,n,\theta\right)=nk_{h}\left(d'-l_{h,0}\right)
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+From geometry, 
+\begin_inset Formula $d$
+\end_inset
+
+ and 
+\begin_inset Formula $d'$
+\end_inset
+
+ is related as:
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\[
+\frac{d}{\tan\theta}-\frac{d'}{\tan\theta}=\frac{\left(N_{t}-1\right)w\cos\theta}{2}-\frac{\left(n-1\right)w\cos\theta}{2}
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+Eliminating 
+\begin_inset Formula $d'$
+\end_inset
+
+ from the above two equations, we find the net force on the pad as a function
+ of distance to be:
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\begin{equation}
+F_{net}\left(d,n,\theta\right)=nk_{h}\left(d-l_{h,0}-\frac{N_{t}-n}{2}w\sin\theta\right)\label{eq:force_n_d-1}
+\end{equation}
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+For a particular value of 
+\begin_inset Formula $n$
+\end_inset
+
+, equation 
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "eq:force_n_d-1"
+plural "false"
+caps "false"
+noprefix "false"
+
+\end_inset
+
+ is valid until a certain distance, 
+\begin_inset Formula $d_{max}$
+\end_inset
+
+, above which its left most hair will detach.
+ Just before detachment, this hair will be at its maximum length, 
+\begin_inset Formula $l_{h,p}$
+\end_inset
+
+.
+ Once again from geometry, we see that 
+\begin_inset Formula $d_{max}$
+\end_inset
+
+ and 
+\begin_inset Formula $l_{h,p}$
+\end_inset
+
+ is related as:
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\[
+\frac{l_{h,p}}{\tan\theta}-\frac{d_{max}}{\tan\theta}=\left(n-1\right)w\cos\theta-\frac{\left(N_{t}-1\right)w\cos\theta}{2}
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+Substituting 
+\begin_inset Formula $l_{h,p}=\frac{f_{p}}{k_{h}}+l_{h,0}$
+\end_inset
+
+ in above and simplifying, we get:
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\begin{equation}
+d_{max}\left(n,\theta\right)=l_{h,0}+\frac{f_{p}}{k_{h}}+\left(\frac{N_{t}+1}{2}-n\right)w\sin\theta\label{eq:d_max-1}
+\end{equation}
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+Equation 
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "eq:force_n_d-1"
+plural "false"
+caps "false"
+noprefix "false"
+
+\end_inset
+
+ is valid for 
+\begin_inset Formula $d\leq d_{max}$
+\end_inset
+
+.
+ We can substitute 
+\begin_inset Formula $d_{max}$
+\end_inset
+
+ in equation 
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "eq:force_n_d-1"
+plural "false"
+caps "false"
+noprefix "false"
+
+\end_inset
+
+ to get the force at which the left most hair detaches from the surface:
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\begin{eqnarray}
+F_{net}\left(n,\theta\right)=nf_{p}-\frac{n\left(n-1\right)}{2}k_{h}w\sin\theta & \qquad & d=d_{max}\label{eq:seq_detach-1}
+\end{eqnarray}
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+Equation 
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "eq:seq_detach-1"
+plural "false"
+caps "false"
+noprefix "false"
+
+\end_inset
+
+ is the maximum force necessary to detach one hair of the pad when there
+ are 
+\begin_inset Formula $n$
+\end_inset
+
+ hairs in contact.
+ During this sequential detachment of hairs, there exists a maximum in force
+ at a particular number of contacts, 
+\begin_inset Formula $N_{max}$
+\end_inset
+
+.
+ Differentiating equation 
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "eq:seq_detach-1"
+plural "false"
+caps "false"
+noprefix "false"
+
+\end_inset
+
+ and equating it to zero we find:
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\begin{equation}
+N_{max}=\frac{f_{p}}{k_{h}w\sin\theta}+\frac{1}{2}\label{eq:n_max-1}
+\end{equation}
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+Substituting the above in equation 
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "eq:seq_detach-1"
+plural "false"
+caps "false"
+noprefix "false"
+
+\end_inset
+
+, the maximum adhesion force of a pad during a sequential detachment of
+ its 
+\begin_inset Formula $N_{t}$
+\end_inset
+
+ hairs will be:
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\begin{eqnarray}
+F_{adh}\left(\theta\right) & = & \left\{ \begin{array}{ccc}
+\frac{f_{p}}{2}\left[\frac{f_{p}}{k_{h}w\sin\theta}+1\right]+\frac{k_{h}w\sin\theta}{8} & \qquad & N_{t}\geq N_{max}\\
+N_{t}f_{p}-\frac{N_{t}\left(N_{t}-1\right)}{2}k_{h}w\sin\theta & \qquad & N_{t}<N_{max}
+\end{array}\right.\label{eq:seq_adh-1}
+\end{eqnarray}
+
+\end_inset
+
+
+\end_layout
+
 \begin_layout Standard
 \begin_inset CommandInset bibtex
 LatexCommand bibtex
