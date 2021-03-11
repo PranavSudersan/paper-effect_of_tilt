@@ -434,6 +434,10 @@ noprefix "false"
 \begin_inset Formula $w$
 \end_inset
 
+, and the array is of length, 
+\begin_inset Formula $L$
+\end_inset
+
 .
  The pad is oriented at an angle, 
 \begin_inset Formula $\theta$
@@ -776,7 +780,7 @@ The forces and distance are expressed in non-dimensional forms, as below:
 \begin_layout Standard
 \begin_inset Formula 
 \[
-\hat{f}_{p}=\frac{f_{p}}{k_{h}w},\quad\hat{F}_{net}=\frac{F_{net}}{k_{h}w},\quad\hat{d_{s}}=\frac{d_{s}-l_{h,0}}{w}
+\hat{f}_{p}=\frac{f_{p}}{k_{h}w},\quad\hat{F}_{net}=\frac{F_{net}}{k_{h}w},\quad\hat{d_{s}}=\frac{d_{s}-l_{h,0}}{w},\quad\hat{s}=\frac{s}{w}
 \]
 
 \end_inset
@@ -1054,15 +1058,15 @@ noprefix "false"
 \begin_inset Formula $\Delta l$
 \end_inset
 
- increases with each loss of hair contact.
- Since 
+ increases with each loss of hair contact when 
 \begin_inset Formula $\theta$
 \end_inset
 
- is kept constant, this implies that, once initiated, the leg's recoil will
- always be large enough to detach every subsequent hair, resulting in a
- spontaneous propagation of the detachment front until the pad completely
- breaks contact with the surface.
+ is constant.
+ This implies that, once initiated, the leg's recoil will always be large
+ enough to detach every subsequent hair, resulting in a spontaneous propagation
+ of the detachment front until the pad completely breaks contact with the
+ surface.
 \end_layout
 
 \begin_layout Subsection
@@ -1113,6 +1117,151 @@ name "fig:Free-pull"
 
 \end_layout
 
+\begin_layout Standard
+Similar to the previous case, we once again consider the situation where
+ the adhesive pad is pulled vertically upwards for detachment.
+ However now, the leg is assumed to be hinged freely to the array.
+ In this case, the array will reorient itself such that the net torque about
+ the hinge remains zero during the entire detachment process.
+ At any given instant, the tilt angle, 
+\begin_inset Formula $\theta$
+\end_inset
+
+, can be found by setting 
+\begin_inset Formula $M_{net}$
+\end_inset
+
+ to zero in equation 
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "eq:moment_n_d"
+plural "false"
+caps "false"
+noprefix "false"
+
+\end_inset
+
+ to get:
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\begin{equation}
+\theta\left(\hat{d}_{s},n\right)=\arcsin\left[\frac{\left(\hat{s}-\frac{n-1}{2}\right)\hat{d}_{s}}{\left(\hat{s}-\frac{n-1}{2}\right)^{2}+\frac{n^{2}-1}{12}}\right]\label{eq:theta_free_pull}
+\end{equation}
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+Using the above relation together with equations 
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "eq:force_n_d"
+plural "false"
+caps "false"
+noprefix "false"
+
+\end_inset
+
+, 
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "eq:d_max"
+plural "false"
+caps "false"
+noprefix "false"
+
+\end_inset
+
+ and 
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "eq:simul_detach"
+plural "false"
+caps "false"
+noprefix "false"
+
+\end_inset
+
+, we can find force-distance curves during a free vertical pull of the adhesive
+ pad (Figure 
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "fig:Free-pull"
+plural "false"
+caps "false"
+noprefix "false"
+
+\end_inset
+
+).
+ Since the position of the hinge will influence the net torque, we use the
+ ratio, 
+\begin_inset Formula $\hat{s}/L$
+\end_inset
+
+, to study its effect on the detachment forces.
+\end_layout
+
+\begin_layout Standard
+Maximum adhesion is seen when the hinge is positioned at the centre of the
+ array (
+\begin_inset Formula $\hat{s}/L=0.5$
+\end_inset
+
+).
+ Here, the net torque due to the hairs is balanced by symmetry and the array
+ remains parallel to the substrate until all hairs detach simultaneously
+ at 
+\begin_inset Formula $\hat{d_{s}}=0.1$
+\end_inset
+
+.
+ Shifting the position of the hinge further away from the array centre leads
+ to lower forces or adhesion.
+ The resulting torque imbalance will tilt the array, which reduces the net
+ force due the elastic contribution of the deformed hairs.
+ Higher 
+\begin_inset Formula $\hat{s}/L$
+\end_inset
+
+ increases the net torque to be balanced, leading to a higher tilt of the
+ array and thus lower net force.
+\end_layout
+
+\begin_layout Standard
+The force increases linearly until it reaches its maximum value when the
+ first hair is about to detach.
+ Beyond this point, the curves once again show the characteristic 
+\begin_inset Quotes eld
+\end_inset
+
+saw-tooth
+\begin_inset Quotes erd
+\end_inset
+
+ fluctuations as the subsequent hairs detach in sequence.
+ Nearly identical trend is seen for both a stiff and a soft leg.
+ The elastic recoil of the leg does slightly reduce the amplitude of the
+ fluctuations for the soft leg case.
+ However, no abrupt drop in the force is seen like before.
+ As the hairs detach, the array gets tilted more and more, making it less
+ likely for the recoil length, 
+\begin_inset Formula $\Delta l$
+\end_inset
+
+ to exceed 
+\begin_inset Formula $w\sin\theta$
+\end_inset
+
+ and detach the next hair.
+ Thus here, we don't see any propagation of the detachment front when the
+ leg is soft.
+\end_layout
+
 \begin_layout Subsection
 Flex
 \end_layout
@@ -1122,10 +1271,6 @@ Flex
 wide false
 sideways false
 status open
-
-\begin_layout Plain Layout
-
-\end_layout
 
 \begin_layout Plain Layout
 \begin_inset Graphics
@@ -1149,6 +1294,104 @@ Flex
 
 \end_layout
 
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+Instead of a vertical pull, the adhesive pad can also be detached by flexing
+ it about a hinge located outside the array.
+ Such a mode of detachment will be driven by a torque applied by the leg
+ to rotate the pad around the hinge until all the hairs lose contact.
+ Let 
+\begin_inset Formula $s_{h}$
+\end_inset
+
+ be the position of the hinge to the right of the array tip and 
+\begin_inset Formula $s_{l}$
+\end_inset
+
+ be the position of the leg to the left of the array tip.
+ At any particular instant, the force applied by the leg, 
+\begin_inset Formula $F_{net}=\left(s_{l}+s_{h}\right)M_{net}$
+\end_inset
+
+, where 
+\begin_inset Formula $M_{net}$
+\end_inset
+
+ is given by equation 
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "eq:moment_n_d"
+plural "false"
+caps "false"
+noprefix "false"
+
+\end_inset
+
+ at 
+\begin_inset Formula $s=-s_{h}$
+\end_inset
+
+.
+ Equation 
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "eq:force_n_d"
+plural "false"
+caps "false"
+noprefix "false"
+
+\end_inset
+
+ will give us the load acting on the hinge, 
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\bar no
+\strikeout off
+\xout off
+\uuline off
+\uwave off
+\noun off
+\color none
+
+\begin_inset Formula $F_{hinge}$
+\end_inset
+
+
+\family default
+\series default
+\shape default
+\size default
+\emph default
+\bar default
+\strikeout default
+\xout default
+\uuline default
+\uwave default
+\noun default
+\color inherit
+ to support the applied torque.
+ We look at how 
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\bar no
+\strikeout off
+\xout off
+\uuline off
+\uwave off
+\noun off
+\color none
+
+\begin_inset Formula $F_{hinge}$
 \end_inset
 
 
