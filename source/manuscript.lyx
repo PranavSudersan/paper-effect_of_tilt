@@ -463,15 +463,6 @@ noprefix "false"
 
  is the the net torque about the hinge, at a particular instant during the
  detachment process.
- 
-\begin_inset Formula $F_{adh}$
-\end_inset
-
- is the minimum force required to detach 
-\emph on
-all
-\emph default
- hairs from the surface.
 \end_layout
 
 \begin_layout Standard
@@ -516,6 +507,32 @@ Spring contact model of a hairy adhesive pad with a soft backing layer.
 \begin_inset CommandInset label
 LatexCommand label
 name "fig:Schematic"
+
+\end_inset
+
+
+\begin_inset Note Note
+status open
+
+\begin_layout Plain Layout
+Change 
+\begin_inset Quotes eld
+\end_inset
+
+hairs
+\begin_inset Quotes erd
+\end_inset
+
+ to 
+\begin_inset Quotes eld
+\end_inset
+
+array
+\begin_inset Quotes erd
+\end_inset
+
+, check everywhere in text.
+\end_layout
 
 \end_inset
 
@@ -903,17 +920,7 @@ The hairy adhesive pad can be detached by pulling it vertically upwards
 \begin_inset Formula $\theta$
 \end_inset
 
-, with the surface (Figure 
-\begin_inset CommandInset ref
-LatexCommand ref
-reference "fig:Fixed-pull"
-plural "false"
-caps "false"
-noprefix "false"
-
-\end_inset
-
-).
+, with the surface.
  This can be achieved if the hinge connecting the leg to the array is kept
  fixed.
  Equations 
@@ -951,6 +958,49 @@ noprefix "false"
 \end_layout
 
 \begin_layout Standard
+Increasing the tilt of the pad decreases its maximum force or adhesion (Figure
+ 
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "fig:Fixed-pull"
+plural "false"
+caps "false"
+noprefix "false"
+
+\end_inset
+
+).
+ Tilting the pad causes an inhomogeneous deformation of hairs, where, on
+ one end they are stretched, while, on the other end they are compressed.
+ The balance of the respective attractive and repulsive elastic forces of
+ the hairs ultimately results in a decrease in the net force.
+ We term this effect as 
+\begin_inset Quotes eld
+\end_inset
+
+
+\emph on
+elastic crippling
+\emph default
+
+\begin_inset Quotes erd
+\end_inset
+
+.
+ In comparison, when there is no tilt, all the hairs undergo identical deformati
+on and ultimately detaches simultaneously after a distance, 
+\begin_inset Formula $\hat{d_{s}}=0.1$
+\end_inset
+
+.
+ Thus, no 
+\emph on
+elastic crippling
+\emph default
+ occurs and the pad shows the maximum possible adhesion.
+\end_layout
+
+\begin_layout Standard
 For the case of a stiff leg, we see that at small distances, all hairs of
  the pad are in contact and under compression, resulting in a linear force
  response.
@@ -967,22 +1017,6 @@ saw-tooth
  The hairs of the pad with a higher tilt angle will start to detach first,
  followed by the ones with a lower tilt.
  
-\end_layout
-
-\begin_layout Standard
-Increasing the tilt of the pad decreases its maximum force or adhesion.
- Tilting the pad compresses the hairs at one end and stretches them on the
- other end.
- The balance of the attractive and repulsive elastic forces of the hairs
- ultimately results in a decrease in the net force.
- Any net torque in the system will be of course compensated by the fixed
- hinge.
- In comparison, when there is no tilt, all the hairs detach simultaneously
- after a distance, 
-\begin_inset Formula $\hat{d_{s}}=0.1$
-\end_inset
-
-, and the pad shows the maximum possible adhesion.
 \end_layout
 
 \begin_layout Standard
@@ -1187,17 +1221,7 @@ noprefix "false"
 \end_inset
 
 , we can find force-distance curves during a free vertical pull of the adhesive
- pad (Figure 
-\begin_inset CommandInset ref
-LatexCommand ref
-reference "fig:Free-pull"
-plural "false"
-caps "false"
-noprefix "false"
-
-\end_inset
-
-).
+ pad.
  Since the position of the hinge will influence the net torque, we use the
  ratio, 
 \begin_inset Formula $\hat{s}/L$
@@ -1208,8 +1232,19 @@ noprefix "false"
 
 \begin_layout Standard
 Maximum adhesion is seen when the hinge is positioned at the centre of the
- array (
+ array, i.e.
+ 
 \begin_inset Formula $\hat{s}/L=0.5$
+\end_inset
+
+ (Figure 
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "fig:Free-pull"
+plural "false"
+caps "false"
+noprefix "false"
+
 \end_inset
 
 ).
@@ -1223,7 +1258,11 @@ Maximum adhesion is seen when the hinge is positioned at the centre of the
  Shifting the position of the hinge further away from the array centre leads
  to lower forces or adhesion.
  The resulting torque imbalance will tilt the array, which reduces the net
- force due the elastic contribution of the deformed hairs.
+ force due to the 
+\emph on
+elastic crippling
+\emph default
+ effect.
  Higher 
 \begin_inset Formula $\hat{s}/L$
 \end_inset
@@ -1253,7 +1292,7 @@ saw-tooth
 \begin_inset Formula $\Delta l$
 \end_inset
 
- to exceed 
+, to exceed 
 \begin_inset Formula $w\sin\theta$
 \end_inset
 
@@ -1283,6 +1322,23 @@ status open
 
 \begin_layout Plain Layout
 Flex
+\begin_inset CommandInset label
+LatexCommand label
+name "fig:Flex"
+
+\end_inset
+
+
+\begin_inset Note Note
+status open
+
+\begin_layout Plain Layout
+change Fnet to Fpull, include sl and sh
+\end_layout
+
+\end_inset
+
+
 \end_layout
 
 \end_inset
@@ -1313,8 +1369,8 @@ Instead of a vertical pull, the adhesive pad can also be detached by flexing
 \end_inset
 
  be the position of the leg to the left of the array tip.
- At any particular instant, the force applied by the leg, 
-\begin_inset Formula $F_{net}=\left(s_{l}+s_{h}\right)M_{net}$
+ At any particular instant, the pulling force applied by the leg, 
+\begin_inset Formula $F_{pull}=M_{net}/\left(s_{l}+s_{h}\right)$
 \end_inset
 
 , where 
@@ -1331,7 +1387,7 @@ noprefix "false"
 
 \end_inset
 
- at 
+ for 
 \begin_inset Formula $s=-s_{h}$
 \end_inset
 
@@ -1363,7 +1419,7 @@ noprefix "false"
 \begin_inset Formula $F_{hinge}$
 \end_inset
 
-
+,
 \family default
 \series default
 \shape default
@@ -1377,24 +1433,95 @@ noprefix "false"
 \noun default
 \color inherit
  to support the applied torque.
- We look at how 
-\family roman
-\series medium
-\shape up
-\size normal
-\emph off
-\bar no
-\strikeout off
-\xout off
-\uuline off
-\uwave off
-\noun off
-\color none
-
-\begin_inset Formula $F_{hinge}$
+ Let us keep the lateral position of the leg and the hinge fixed, such that,
+ 
+\begin_inset Formula $s_{l}/L=1$
 \end_inset
 
+ and 
+\begin_inset Formula $s_{h}=10$
+\end_inset
 
+ and vary the vertical hinge distance, 
+\begin_inset Formula $d_{s}$
+\end_inset
+
+.
+\end_layout
+
+\begin_layout Standard
+Decreasing the hinge distance reduces the pulling force necessary to undergo
+ detachment by flexing (Figure 
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "fig:Flex"
+plural "false"
+caps "false"
+noprefix "false"
+
+\end_inset
+
+).
+ One can imagine that initially, when the array is parallel to the surface,
+ a lower value of 
+\begin_inset Formula $\hat{d}_{s}$
+\end_inset
+
+ means the hairs are at a more compressed state.
+ On flexing the pad around the hinge, the tilted array will once again lead
+ to an 
+\emph on
+elastic crippling
+\emph default
+ effect due to the inhomogeneous deformation of hairs, which is enhanced
+ for smaller 
+\begin_inset Formula $\hat{d}_{s}$
+\end_inset
+
+.
+ This results in a decrease in the net torque and thus lower 
+\begin_inset Formula $\hat{F}_{pull}$
+\end_inset
+
+.
+ 
+\begin_inset Formula $\hat{F}_{pull}$
+\end_inset
+
+ can be further reduced of course by increasing the lever arm (
+\begin_inset Formula $\hat{s}_{l}$
+\end_inset
+
+).
+ 
+\end_layout
+
+\begin_layout Standard
+Detachment by flexing requires that the point of hinge remains fixed and
+ stable during the process.
+ We see that generally, the normal load, acting on the hinge, 
+\begin_inset Formula $\hat{F}_{hinge}$
+\end_inset
+
+, follows a similar trend as 
+\begin_inset Formula $\hat{F}_{pull}$
+\end_inset
+
+.
+ For low values of 
+\begin_inset Formula $\hat{d}_{s}$
+\end_inset
+
+, initially 
+\begin_inset Formula $\hat{F}_{hinge}$
+\end_inset
+
+ goes to negative values due to the compressed hairs.
+ Thus, the hinge should adhere well with the surface to resist the negative
+ load in such cases.
+ As the detachment progresses, the array exerts a positive load on the hinge,
+ essentially transferring the array's normal adhesion onto the hinge as
+ load.
 \end_layout
 
 \begin_layout Section
@@ -1413,7 +1540,7 @@ reduction factor
 \begin_layout Standard
 \begin_inset Formula 
 \begin{equation}
-r=\frac{F_{max}}{F_{adh}}\label{eq:reversib}
+r=\frac{N_{t}f_{p}}{F_{adh}}\label{eq:reversib}
 \end{equation}
 
 \end_inset
@@ -1422,17 +1549,121 @@ r=\frac{F_{max}}{F_{adh}}\label{eq:reversib}
 \end_layout
 
 \begin_layout Standard
-Reduction factor, 
+Here, 
+\begin_inset Formula $F_{adh}$
+\end_inset
+
+ is the adhesion force required to detach the pad from the surface following
+ a particular detachment mechanism and 
+\begin_inset Formula $N_{t}f_{p}$
+\end_inset
+
+ is the maximum possible adhesion of the pad (equation 
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "eq:simul_detach"
+plural "false"
+caps "false"
+noprefix "false"
+
+\end_inset
+
+).
+ Reduction factor, 
 \begin_inset Formula $r$
 \end_inset
 
-, represents the extent to which adhesion can be reduced by changing tilt.
+, represents the extent to which adhesion can be reduced by manipulating
+ the mode of detachment.
  A large value of 
 \begin_inset Formula $r$
 \end_inset
 
  implies that adhesion can be reduced by a higher factor, and thus is more
  suitable to easily detach.
+\end_layout
+
+\begin_layout Standard
+\begin_inset Float figure
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\begin_layout Plain Layout
+\noindent
+\begin_inset Graphics
+	filename Reduction_factor-fp.pdf
+
+\end_inset
+
+
+\begin_inset Caption Standard
+
+\begin_layout Plain Layout
+Reduction factor_fp
+\begin_inset Note Note
+status open
+
+\begin_layout Plain Layout
+increase font of labels/numbers
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+ghgjh
+\end_layout
+
+\begin_layout Standard
+\begin_inset Float figure
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+\noindent
+\align center
+\begin_inset Graphics
+	filename Reduction_factor-Nt.pdf
+
+\end_inset
+
+
+\begin_inset Caption Standard
+
+\begin_layout Plain Layout
+Reduction factor Nt
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+
+
 \end_layout
 
 \begin_layout Paragraph
@@ -2122,6 +2353,43 @@ noprefix "false"
 
 , as design maps in the fabrication of micro-pillar adhesives suited for
  the required application.
+\end_layout
+
+\begin_layout Standard
+\begin_inset Float figure
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Graphics
+	filename Detachment_pathways.svg
+
+\end_inset
+
+
+\begin_inset Caption Standard
+
+\begin_layout Plain Layout
+Detachment pathways
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+
+
 \end_layout
 
 \begin_layout Standard
