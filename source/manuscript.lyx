@@ -2910,7 +2910,7 @@ Appendix
 \end_layout
 
 \begin_layout Subsection
-Derivation
+Derivations
 \end_layout
 
 \begin_layout Standard
@@ -2955,12 +2955,7 @@ arabic{equation}}
 \end_layout
 
 \begin_layout Standard
-When 
-\begin_inset Formula $\theta>0\textdegree$
-\end_inset
-
-, the hairs will detach sequentially from left to right.
- Suppose at a particular instant (Figure 
+Suppose at a particular instant (Figure 
 \begin_inset CommandInset ref
 LatexCommand ref
 reference "fig:Schematic"
@@ -2975,32 +2970,19 @@ noprefix "false"
 \end_inset
 
  hairs in contact with the surface.
- The origin is assumed to lie at the midpoint along the surface where the
+ The centre of the region of the array in contact is at a vertical distance,
  
-\begin_inset Formula $n$
-\end_inset
-
- hairs are making contact.
- The pad is at a vertical distance, 
 \begin_inset Formula $d'$
 \end_inset
 
-, from the origin.
- For a particular tilt angle, 
-\begin_inset Formula $\theta$
-\end_inset
-
-, the net force on the whole pad at a distance 
-\begin_inset Formula $d$
-\end_inset
-
- from the surface is,
+, from the surface.
+ The net force on the whole array is,
 \end_layout
 
 \begin_layout Standard
 \begin_inset Formula 
 \[
-F_{net}\left(d,n,\theta\right)=\stackrel[i=1]{n}{\sum}k_{h}\left(l_{h,i}-l_{h,0}\right)
+F_{net}=\stackrel[i=1]{n}{\sum}k_{h}\left(l_{h,i}-l_{h,0}\right)
 \]
 
 \end_inset
@@ -3016,18 +2998,22 @@ F_{net}\left(d,n,\theta\right)=\stackrel[i=1]{n}{\sum}k_{h}\left(l_{h,i}-l_{h,0}
 \begin_inset Formula $i^{th}$
 \end_inset
 
- hair, which is at a distance 
-\begin_inset Formula $x$
+ hair, which is at a horizontal distance, 
+\begin_inset Formula $x_{i}$
 \end_inset
 
- from the origin.
- From simple geometry, 
-\begin_inset Formula $l_{h,i}=d'-x\tan\theta$
+, from the centre of the contact region.
+ By simple geometry, 
+\begin_inset Formula $l_{h,i}=d'-x_{i}\tan\theta$
 \end_inset
 
 .
- Substituting in above and noting that 
-\begin_inset Formula $\stackrel[i=1]{n}{\sum}x=0$
+ Substituting 
+\begin_inset Formula $l_{h,i}$
+\end_inset
+
+ in above and noting that 
+\begin_inset Formula $\stackrel[i=1]{n}{\sum}x_{i}=0$
 \end_inset
 
  by symmetry, we get:
@@ -3036,7 +3022,7 @@ F_{net}\left(d,n,\theta\right)=\stackrel[i=1]{n}{\sum}k_{h}\left(l_{h,i}-l_{h,0}
 \begin_layout Standard
 \begin_inset Formula 
 \[
-F_{net}\left(d,n,\theta\right)=nk_{h}\left(d'-l_{h,0}\right)
+F_{net}=nk_{h}\left(d'-l_{h,0}\right)
 \]
 
 \end_inset
@@ -3046,7 +3032,7 @@ F_{net}\left(d,n,\theta\right)=nk_{h}\left(d'-l_{h,0}\right)
 
 \begin_layout Standard
 From geometry, 
-\begin_inset Formula $d$
+\begin_inset Formula $d_{s}$
 \end_inset
 
  and 
@@ -3059,7 +3045,7 @@ From geometry,
 \begin_layout Standard
 \begin_inset Formula 
 \[
-\frac{d}{\tan\theta}-\frac{d'}{\tan\theta}=\frac{\left(N_{t}-1\right)w\cos\theta}{2}-\frac{\left(n-1\right)w\cos\theta}{2}
+\frac{d_{s}}{\sin\theta}-\frac{d'}{\sin\theta}=s-\frac{\left(n-1\right)w}{2}
 \]
 
 \end_inset
@@ -3068,19 +3054,26 @@ From geometry,
 \end_layout
 
 \begin_layout Standard
-Eliminating 
+Substituting for 
 \begin_inset Formula $d'$
 \end_inset
 
- from the above two equations, we find the net force on the pad as a function
- of distance to be:
+, the net force, 
+\begin_inset Formula $F_{net}$
+\end_inset
+
+, on the pad as a function of distance, 
+\begin_inset Formula $d_{s}$
+\end_inset
+
+, is:
 \end_layout
 
 \begin_layout Standard
 \begin_inset Formula 
-\begin{equation}
-F_{net}\left(d,n,\theta\right)=nk_{h}\left(d-l_{h,0}-\frac{N_{t}-n}{2}w\sin\theta\right)\label{eq:force_n_d-1}
-\end{equation}
+\[
+F_{net}=nk_{h}\left[d_{s}-l_{h,0}-\left[s-\frac{\left(n-1\right)w}{2}\right]\sin\theta\right]
+\]
 
 \end_inset
 
@@ -3088,32 +3081,38 @@ F_{net}\left(d,n,\theta\right)=nk_{h}\left(d-l_{h,0}-\frac{N_{t}-n}{2}w\sin\thet
 \end_layout
 
 \begin_layout Standard
-For a particular value of 
+The above equation is valid for 
+\begin_inset Formula $d_{s}\leq d_{s,max}$
+\end_inset
+
+ at a particular value of 
 \begin_inset Formula $n$
 \end_inset
 
-, equation 
+.
+ We can get 
+\begin_inset Formula $d_{s,max}$
+\end_inset
+
+ by considering the situation just before the left most hair is about to
+ detach (Figure 
 \begin_inset CommandInset ref
 LatexCommand ref
-reference "eq:force_n_d-1"
+reference "fig:Schematic"
 plural "false"
 caps "false"
 noprefix "false"
 
 \end_inset
 
- is valid until a certain distance, 
-\begin_inset Formula $d_{max}$
-\end_inset
-
-, above which its left most hair will detach.
- Just before detachment, this hair will be at its maximum length, 
+).
+ This hair will be at its maximum length, 
 \begin_inset Formula $l_{h,p}$
 \end_inset
 
 .
  Once again from geometry, we see that 
-\begin_inset Formula $d_{max}$
+\begin_inset Formula $d_{s,max}$
 \end_inset
 
  and 
@@ -3126,7 +3125,7 @@ noprefix "false"
 \begin_layout Standard
 \begin_inset Formula 
 \[
-\frac{l_{h,p}}{\tan\theta}-\frac{d_{max}}{\tan\theta}=\left(n-1\right)w\cos\theta-\frac{\left(N_{t}-1\right)w\cos\theta}{2}
+\frac{l_{h,p}}{\sin\theta}-\frac{d_{s,max}}{\sin\theta}=\left(n-1\right)w-s
 \]
 
 \end_inset
@@ -3143,10 +3142,23 @@ Substituting
 \end_layout
 
 \begin_layout Standard
+
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\bar no
+\strikeout off
+\xout off
+\uuline off
+\uwave off
+\noun off
+\color none
 \begin_inset Formula 
-\begin{equation}
-d_{max}\left(n,\theta\right)=l_{h,0}+\frac{f_{p}}{k_{h}}+\left(\frac{N_{t}+1}{2}-n\right)w\sin\theta\label{eq:d_max-1}
-\end{equation}
+\[
+d_{s,max}=l_{h,0}+\frac{f_{p}}{k_{h}}+\left[s-\left(n-1\right)w\right]\sin\theta
+\]
 
 \end_inset
 
@@ -3154,123 +3166,182 @@ d_{max}\left(n,\theta\right)=l_{h,0}+\frac{f_{p}}{k_{h}}+\left(\frac{N_{t}+1}{2}
 \end_layout
 
 \begin_layout Standard
-Equation 
-\begin_inset CommandInset ref
-LatexCommand ref
-reference "eq:force_n_d-1"
-plural "false"
-caps "false"
-noprefix "false"
+The net torque about the hinge due to the deformed hairs of the array is,
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\[
+M_{net}=\stackrel[i=1]{n}{\sum}\lambda_{i}k_{h}\left(l_{h,i}-l_{h,0}\right)\cos\theta
+\]
 
 \end_inset
 
- is valid for 
-\begin_inset Formula $d\leq d_{max}$
+
+\end_layout
+
+\begin_layout Standard
+
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\bar no
+\strikeout off
+\xout off
+\uuline off
+\uwave off
+\noun off
+\color none
+Here, 
+\begin_inset Formula $\lambda_{i}=s-\left(\frac{n-1}{2}w-\frac{x_{i}}{\cos\theta}\right)$
+\end_inset
+
+ is the length of the lever arm between the 
+\family default
+\series default
+\shape default
+\size default
+\emph default
+\bar default
+\strikeout default
+\xout default
+\uuline default
+\uwave default
+\noun default
+\color inherit
+
+\begin_inset Formula $i^{th}$
+\end_inset
+
+ hair and the hinge.
+\end_layout
+
+\begin_layout Standard
+Substituting for 
+\begin_inset Formula $l_{h,i}$
+\end_inset
+
+ and eliminating 
+\begin_inset Formula $d'$
+\end_inset
+
+ as before, we get:
+\end_layout
+
+\begin_layout Standard
+
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\bar no
+\strikeout off
+\xout off
+\uuline off
+\uwave off
+\noun off
+\color none
+\begin_inset Formula 
+\[
+M_{net}=\stackrel[i=1]{n}{\sum}k_{h}\cos\theta\left[s-\left(\frac{n-1}{2}w-\frac{x_{i}}{\cos\theta}\right)\right]\left[d_{s}-\left(s-\frac{\left(n-1\right)w}{2}\right)\sin\theta-x_{i}\tan\theta-l_{h,0}\right]
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+To calculate 
+\begin_inset Formula $\stackrel[i=1]{n}{\sum}x_{i}^{2}$
+\end_inset
+
+, we follow:
+\end_layout
+
+\begin_layout Standard
+
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\bar no
+\strikeout off
+\xout off
+\uuline off
+\uwave off
+\noun off
+\color none
+\begin_inset Formula 
+\[
+\stackrel[i=1]{n}{\sum}x_{i}^{2}=2\stackrel[i=1]{\frac{n}{2}}{\sum}x_{i}^{2}=2\stackrel[i=1]{\frac{n}{2}}{\sum}\left[w\cos\theta\left(i-\frac{1}{2}\right)^{2}\right]=2w^{2}\cos^{2}\theta\left[\stackrel[i=1]{\frac{n}{2}}{\sum}i^{2}-\stackrel[i=1]{\frac{n}{2}}{\sum}i-\stackrel[i=1]{\frac{n}{2}}{\sum}\frac{1}{4}\right]
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\bar no
+\strikeout off
+\xout off
+\uuline off
+\uwave off
+\noun off
+\color none
+Using the identities 
+\begin_inset Formula $\stackrel[i=1]{N}{\sum}i^{2}=\frac{N\left(N+1\right)}{2}$
+\end_inset
+
+ and 
+\begin_inset Formula $\stackrel[i=1]{N}{\sum}i^{2}=\frac{N\left(N+1\right)\left(2N+1\right)}{6}$
+\end_inset
+
+ and simplifying, we get 
+\begin_inset Formula $\stackrel[i=1]{n}{\sum}x_{i}^{2}=n\left(\frac{n^{2}-1}{12}\right)w^{2}\cos^{2}\theta$
 \end_inset
 
 .
- We can substitute 
-\begin_inset Formula $d_{max}$
+ This, together with 
+\family default
+\series default
+\shape default
+\size default
+\emph default
+\bar default
+\strikeout default
+\xout default
+\uuline default
+\uwave default
+\noun default
+\color inherit
+
+\begin_inset Formula $\stackrel[i=1]{n}{\sum}x_{i}=0$
 \end_inset
 
- in equation 
-\begin_inset CommandInset ref
-LatexCommand ref
-reference "eq:force_n_d-1"
-plural "false"
-caps "false"
-noprefix "false"
-
+ (by symmetry), the expression for 
+\begin_inset Formula $M_{net}$
 \end_inset
 
- to get the force at which the left most hair detaches from the surface:
+ above can be simplified to finally get:
 \end_layout
 
 \begin_layout Standard
 \begin_inset Formula 
-\begin{eqnarray}
-F_{net}\left(n,\theta\right)=nf_{p}-\frac{n\left(n-1\right)}{2}k_{h}w\sin\theta & \qquad & d=d_{max}\label{eq:seq_detach-1}
-\end{eqnarray}
-
-\end_inset
-
-
-\end_layout
-
-\begin_layout Standard
-Equation 
-\begin_inset CommandInset ref
-LatexCommand ref
-reference "eq:seq_detach-1"
-plural "false"
-caps "false"
-noprefix "false"
-
-\end_inset
-
- is the maximum force necessary to detach one hair of the pad when there
- are 
-\begin_inset Formula $n$
-\end_inset
-
- hairs in contact.
- During this sequential detachment of hairs, there exists a maximum in force
- at a particular number of contacts, 
-\begin_inset Formula $N_{max}$
-\end_inset
-
-.
- Differentiating equation 
-\begin_inset CommandInset ref
-LatexCommand ref
-reference "eq:seq_detach-1"
-plural "false"
-caps "false"
-noprefix "false"
-
-\end_inset
-
- and equating it to zero we find:
-\end_layout
-
-\begin_layout Standard
-\begin_inset Formula 
-\begin{equation}
-N_{max}=\frac{f_{p}}{k_{h}w\sin\theta}+\frac{1}{2}\label{eq:n_max-1}
-\end{equation}
-
-\end_inset
-
-
-\end_layout
-
-\begin_layout Standard
-Substituting the above in equation 
-\begin_inset CommandInset ref
-LatexCommand ref
-reference "eq:seq_detach-1"
-plural "false"
-caps "false"
-noprefix "false"
-
-\end_inset
-
-, the maximum adhesion force of a pad during a sequential detachment of
- its 
-\begin_inset Formula $N_{t}$
-\end_inset
-
- hairs will be:
-\end_layout
-
-\begin_layout Standard
-\begin_inset Formula 
-\begin{eqnarray}
-F_{adh}\left(\theta\right) & = & \left\{ \begin{array}{ccc}
-\frac{f_{p}}{2}\left[\frac{f_{p}}{k_{h}w\sin\theta}+1\right]+\frac{k_{h}w\sin\theta}{8} & \qquad & N_{t}\geq N_{max}\\
-N_{t}f_{p}-\frac{N_{t}\left(N_{t}-1\right)}{2}k_{h}w\sin\theta & \qquad & N_{t}<N_{max}
-\end{array}\right.\label{eq:seq_adh-1}
-\end{eqnarray}
+\[
+M_{net}=nk_{h}\cos\theta\left[\left(d_{s}-l_{h,0}\right)\left[s-\frac{\left(n-1\right)w}{2}\right]-\left\{ \left[s-\frac{\left(n-1\right)w}{2}\right]^{2}+\frac{n^{2}-1}{12}w^{2}\right\} \sin\theta\right]
+\]
 
 \end_inset
 
