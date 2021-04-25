@@ -143,7 +143,17 @@ mushroom
 \begin_inset Quotes erd
 \end_inset
 
- shaped hairs.
+ shaped hairs
+\begin_inset Note Note
+status open
+
+\begin_layout Plain Layout
+remove this
+\end_layout
+
+\end_inset
+
+.
  In this study, we propose possible mechanisms by which such a hairy pad
  can be detached, using a spring-based model.
  We show that the adhesion force is significantly reduced due to elastic
@@ -873,7 +883,7 @@ Free pull,
 \emph on
 Flex
 \emph default
-, where the pad is hinged to an external point (claw-hinge) 
+, where the pad is hinged to an external point (claw-hinge), 
 \begin_inset Note Note
 status open
 
@@ -884,7 +894,7 @@ use these terms everywhere.
 
 \end_inset
 
- and detached in a rotary fashion.
+ and detached in a rotary fashion, emulating a claw function in insects.
  To analyse each case in detail, let us assume a pad with 
 \begin_inset Formula $N_{t}=25$
 \end_inset
@@ -975,8 +985,8 @@ The hairy adhesive pad can be detached by pulling it vertically upwards
 \end_inset
 
 , with the surface.
- This can be achieved if the hinge connecting the leg to the array is kept
- fixed.
+ This can be achieved if the hinge connecting the leg to the array (leg-hinge)
+ is kept fixed.
  Equations 
 \begin_inset CommandInset ref
 LatexCommand ref
@@ -1085,16 +1095,8 @@ For the case of a soft leg, we observe a similar effect of tilt angle on
  the force curves as before.
  The maximum adhesion force at a particular tilt is the same as that for
  the stiff leg.
- The 
-\begin_inset Quotes eld
-\end_inset
-
-saw-tooth
-\begin_inset Quotes erd
-\end_inset
-
- jitter are however minimized due to the leg's deformation, leading to a
- 
+ The saw-tooth jitter are however minimized due to the leg's deformation,
+ leading to a 
 \begin_inset Quotes eld
 \end_inset
 
@@ -1236,9 +1238,9 @@ name "fig:Free-pull"
 \begin_layout Standard
 Similar to the previous case, we once again consider the situation where
  the adhesive pad is pulled vertically upwards for detachment.
- However now, the leg is assumed to be hinged freely to the array.
- In this case, the array will reorient itself such that the net torque about
- the hinge remains zero during the entire detachment process.
+ However now, the leg-hinge is assumed to be free.
+ In this case, the array will reorient itself to maintain a zero net torque
+ about the leg-hinge during the entire detachment process.
  At any given instant, the tilt angle, 
 \begin_inset Formula $\theta$
 \end_inset
@@ -1304,19 +1306,19 @@ noprefix "false"
 
 , we can find force-distance curves during a free vertical pull of the adhesive
  pad.
- Since the position of the hinge will influence the net torque, we use the
- ratio, 
-\begin_inset Formula $\hat{s}/L$
+ Since the position of the leg-hinge will influence the net torque, we use
+ the ratio, 
+\begin_inset Formula $s/L$
 \end_inset
 
 , to study its effect on the detachment forces.
 \end_layout
 
 \begin_layout Standard
-Maximum adhesion is seen when the hinge is positioned at the centre of the
- array, i.e.
+Maximum adhesion is seen when the leg-hinge is positioned at the centre
+ of the array, i.e.
  
-\begin_inset Formula $\hat{s}/L=0.5$
+\begin_inset Formula $s/L=0.5$
 \end_inset
 
  (Figure 
@@ -1337,8 +1339,8 @@ noprefix "false"
 \end_inset
 
 .
- Shifting the position of the hinge further away from the array centre leads
- to lower forces or adhesion.
+ Shifting the position of the leg-hinge further away from the array centre
+ leads to lower forces or adhesion.
  The resulting torque imbalance will tilt the array, which reduces the net
  force due to the 
 \emph on
@@ -1346,7 +1348,7 @@ elastic weakening
 \emph default
  effect.
  Higher 
-\begin_inset Formula $\hat{s}/L$
+\begin_inset Formula $s/L$
 \end_inset
 
  increases the net torque to be balanced, leading to a higher tilt of the
@@ -1362,15 +1364,7 @@ fixed pull
 .
  A sharp maxima is seen, coinciding with the point when the first hair detaches.
  Beyond this, the force starts to decrease sharply and once again shows
- the characteristic 
-\begin_inset Quotes eld
-\end_inset
-
-saw-tooth
-\begin_inset Quotes erd
-\end_inset
-
- jitter as the subsequent hairs detach in sequence.
+ the characteristic saw-tooth jitter as the subsequent hairs detach in sequence.
  Nearly identical trend is seen for both a stiff and a soft leg.
  The elastic recoil of the leg does slightly reduce the amplitude of the
  jitter for the soft leg case.
@@ -1409,14 +1403,13 @@ status open
 \begin_inset Caption Standard
 
 \begin_layout Plain Layout
-Force curves for a hairy pad detached by flexing it about an external hinge
- point.
+Force curves for a hairy pad detached by flexing it about the claw.
  
 \begin_inset Formula $\hat{F}_{pull}=\frac{F_{pull}}{k_{h}w}$
 \end_inset
 
  is the normalised pulling force necessary to apply the torque about the
- hinge for detachment.
+ claw-hinge for detachment.
  
 \family roman
 \series medium
@@ -1447,7 +1440,7 @@ Force curves for a hairy pad detached by flexing it about an external hinge
 \uwave default
 \noun default
 \color inherit
- is the normalised reaction force on the hinge.
+ is the normalised reaction force on the claw-hinge.
  Here, 
 \begin_inset Formula $s_{l}/L=1$
 \end_inset
@@ -1475,10 +1468,6 @@ name "fig:Flex"
 
 \end_layout
 
-\begin_layout Plain Layout
-
-\end_layout
-
 \end_inset
 
 
@@ -1486,18 +1475,19 @@ name "fig:Flex"
 
 \begin_layout Standard
 Instead of a vertical pull, the adhesive pad can also be detached by rotating
- it about a hinge located outside the array.
+ it about the claw-hinge located outside the array.
  Such a mode of detachment will be driven by a torque applied by the leg
- to rotate the pad around the hinge until all the hairs lose contact.
+ to rotate the pad around the claw-hinge until all the hairs lose contact.
  Let 
 \begin_inset Formula $s_{h}$
 \end_inset
 
- be the position of the hinge to the right of the array tip and 
+ be the position of the claw-hinge to the right of the array tip and 
 \begin_inset Formula $s_{l}$
 \end_inset
 
- be the position of the leg to the left of the array tip.
+ be the position of the leg-hinge (assumed fixed) to the left of the array
+ tip.
  At any particular instant, the pulling force applied by the leg, 
 \begin_inset Formula $F_{pull}=M_{net}/\left(s_{l}+s_{h}\right)$
 \end_inset
@@ -1531,7 +1521,7 @@ noprefix "false"
 
 \end_inset
 
- will give us the load acting on the hinge, 
+ will give us the load acting on the claw-hinge, 
 \family roman
 \series medium
 \shape up
@@ -1545,7 +1535,7 @@ noprefix "false"
 \noun off
 \color none
 
-\begin_inset Formula $F_{hinge}$
+\begin_inset Formula $F_{claw-hinge}$
 \end_inset
 
 ,
@@ -1562,8 +1552,8 @@ noprefix "false"
 \noun default
 \color inherit
  to support the applied torque.
- Let us keep the lateral position of the leg and the hinge fixed, such that,
- 
+ Let us keep the lateral position of the leg-hinge and the claw-hinge fixed,
+ such that, 
 \begin_inset Formula $s_{l}/L=1$
 \end_inset
 
@@ -1571,7 +1561,7 @@ noprefix "false"
 \begin_inset Formula $s_{h}/w=10$
 \end_inset
 
- and vary the vertical hinge distance, 
+ and vary the vertical claw-hinge distance, 
 \begin_inset Formula $d_{s}$
 \end_inset
 
@@ -1579,8 +1569,8 @@ noprefix "false"
 \end_layout
 
 \begin_layout Standard
-Decreasing the hinge distance reduces the pulling force necessary to undergo
- detachment by flexing (Figure 
+Decreasing the claw-hinge distance reduces the pulling force necessary to
+ undergo detachment by flexing (Figure 
 \begin_inset CommandInset ref
 LatexCommand ref
 reference "fig:Flex"
@@ -1597,8 +1587,8 @@ noprefix "false"
 \end_inset
 
  means the hairs are at a more compressed state.
- On flexing the pad around the hinge, the tilted array will once again lead
- to an 
+ On flexing the pad around the claw-hinge, the tilted array will once again
+ lead to an 
 \emph on
 elastic weakening
 \emph default
@@ -1626,10 +1616,10 @@ elastic weakening
 \end_layout
 
 \begin_layout Standard
-Detachment by flexing requires that the point of hinge remains fixed and
- stable during the process.
+Detachment by flexing requires that the claw remains fixed and stable during
+ the process.
  We see that generally, the normal load, acting on the hinge, 
-\begin_inset Formula $\hat{F}_{hinge}$
+\begin_inset Formula $\hat{F}_{claw-hinge}$
 \end_inset
 
 , follows a similar trend as 
@@ -1642,15 +1632,14 @@ Detachment by flexing requires that the point of hinge remains fixed and
 \end_inset
 
 , 
-\begin_inset Formula $\hat{F}_{hinge}$
+\begin_inset Formula $\hat{F}_{claw-hinge}$
 \end_inset
 
  goes to negative values as a reaction to the compressed hairs.
- Thus, the hinge should adhere well with the surface to resist the negative
+ Thus, the claw should adhere well with the surface to resist the negative
  load in such cases.
- As the detachment progresses, the array exerts a positive load on the hinge,
- essentially transferring the array's normal adhesion onto the hinge as
- load.
+ As the detachment progresses, the array exerts a positive load on the claw,
+ essentially transferring the array's normal adhesion onto the claw as load.
 \end_layout
 
 \begin_layout Section
@@ -1960,10 +1949,10 @@ free pull
 \end_inset
 
  has no influence on the reduction factor.
- On the other hand, shifting the position of the hinge further away from
- the array (i.e.
+ On the other hand, shifting the position of the leg-hinge further away
+ from the array (i.e.
  high 
-\begin_inset Formula $\hat{s}/L$
+\begin_inset Formula $s/L$
 \end_inset
 
 ) results in large values of 
@@ -2940,7 +2929,7 @@ Non-homogenous deformation of hairs results in significant reductions in
  the adhesion of a hairy pad system.
  Such a condition can be achieved by either 1) pulling the pad while maintaining
  a constant tilt angle, 2) pulling the pad while maintaining a free leg
- joint or 3) flexing the pad around an external hinge.
+ joint or 3) flexing the pad around the claw.
  Strategic control of the joint's mobility can allow the leg to easily switch
  between the given mechanisms, thus providing a simple way to reduce adhesion
  as per necessity.
