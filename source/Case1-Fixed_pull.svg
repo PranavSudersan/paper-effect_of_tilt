@@ -36,15 +36,15 @@
      inkscape:pageopacity="0"
      inkscape:pageshadow="2"
      inkscape:window-width="1200"
-     inkscape:window-height="768"
+     inkscape:window-height="1577"
      id="namedview514"
      showgrid="false"
-     inkscape:zoom="0.3565474"
-     inkscape:cx="577.9979"
-     inkscape:cy="348.61154"
-     inkscape:window-x="1366"
-     inkscape:window-y="208"
-     inkscape:window-maximized="0"
+     inkscape:zoom="1.0084683"
+     inkscape:cx="345.31059"
+     inkscape:cy="334.02988"
+     inkscape:window-x="1358"
+     inkscape:window-y="-8"
+     inkscape:window-maximized="1"
      inkscape:current-layer="svg512"
      inkscape:document-rotation="0" />
   <defs
@@ -1907,56 +1907,42 @@
      style="fill:none;stroke:#000000;stroke-width:0.75px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;marker-end:url(#marker1952)"
      d="M 117.31636,105.71023 V 80.772842"
      id="path4819" />
-  <g
-     id="g3564"
-     transform="matrix(0,0.83568914,-0.83568914,0,88.363602,86.450852)"
-     style="fill:#000000;stroke:none;stroke-width:1.19662;stroke-linecap:butt;stroke-linejoin:round">
-    <use
-       transform="matrix(0,-0.18,-0.18,0,-19.7587,-29.580475)"
-       xlink:href="#DejaVuSans-770"
-       id="use3549"
-       x="0"
-       y="0"
-       width="100%"
-       height="100%"
-       style="fill:#000000;stroke:none;stroke-width:1.19662" />
-    <use
-       transform="matrix(0,-0.18,-0.18,0,-14.465575,-18.608035)"
-       xlink:href="#DejaVuSans-Oblique-70"
-       id="use3551"
-       x="0"
-       y="0"
-       width="100%"
-       height="100%"
-       style="fill:#000000;stroke:none;stroke-width:1.19662" />
-    <use
-       transform="matrix(0,-0.126,-0.126,0,-11.51245,-29.133815)"
-       xlink:href="#DejaVuSans-Oblique-110"
-       id="use3553"
-       x="0"
-       y="0"
-       width="100%"
-       height="100%"
-       style="fill:#000000;stroke:none;stroke-width:1.19662" />
-    <use
-       transform="matrix(0,-0.126,-0.126,0,-11.51245,-37.119555)"
-       xlink:href="#DejaVuSans-Oblique-101"
-       id="use3555"
-       x="0"
-       y="0"
-       width="100%"
-       height="100%"
-       style="fill:#000000;stroke:none;stroke-width:1.19662" />
-    <use
-       transform="matrix(0,-0.126,-0.126,0,-11.51245,-44.871505)"
-       xlink:href="#DejaVuSans-Oblique-116"
-       id="use3557"
-       x="0"
-       y="0"
-       width="100%"
-       height="100%"
-       style="fill:#000000;stroke:none;stroke-width:1.19662" />
-  </g>
+  <use
+     transform="matrix(0.15042405,0,0,-0.15042405,103.91413,74.362128)"
+     xlink:href="#DejaVuSans-Oblique-70"
+     id="use3551"
+     x="0"
+     y="0"
+     width="100%"
+     height="100%"
+     style="fill:#000000;stroke:none;stroke-width:1.19662" />
+  <use
+     transform="matrix(0.10529683,0,0,-0.10529683,112.71041,76.830023)"
+     xlink:href="#DejaVuSans-Oblique-110"
+     id="use3553"
+     x="0"
+     y="0"
+     width="100%"
+     height="100%"
+     style="fill:#000000;stroke:none;stroke-width:1.19662" />
+  <use
+     transform="matrix(0.10529683,0,0,-0.10529683,119.38401,76.830023)"
+     xlink:href="#DejaVuSans-Oblique-101"
+     id="use3555"
+     x="0"
+     y="0"
+     width="100%"
+     height="100%"
+     style="fill:#000000;stroke:none;stroke-width:1.19662" />
+  <use
+     transform="matrix(0.10529683,0,0,-0.10529683,125.86223,76.830023)"
+     xlink:href="#DejaVuSans-Oblique-116"
+     id="use3557"
+     x="0"
+     y="0"
+     width="100%"
+     height="100%"
+     style="fill:#000000;stroke:none;stroke-width:1.19662" />
   <g
      id="g3728"
      transform="matrix(0.72616973,0,0,0.72616973,-381.06284,99.891162)"
@@ -2102,56 +2088,42 @@
      style="fill:none;stroke:#000000;stroke-width:0.75px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;marker-end:url(#marker4925)"
      d="M 379.84317,81.851312 V 56.913922"
      id="path4921" />
-  <g
-     id="g4901"
-     transform="matrix(0,0.83568914,-0.83568914,0,350.89042,62.591922)"
-     style="fill:#000000;stroke:none;stroke-width:1.19662;stroke-linecap:butt;stroke-linejoin:round">
-    <use
-       transform="matrix(0,-0.18,-0.18,0,-19.7587,-29.580475)"
-       xlink:href="#DejaVuSans-770"
-       id="use4891"
-       x="0"
-       y="0"
-       width="100%"
-       height="100%"
-       style="fill:#000000;stroke:none;stroke-width:1.19662" />
-    <use
-       transform="matrix(0,-0.18,-0.18,0,-14.465575,-18.608035)"
-       xlink:href="#DejaVuSans-Oblique-70"
-       id="use4893"
-       x="0"
-       y="0"
-       width="100%"
-       height="100%"
-       style="fill:#000000;stroke:none;stroke-width:1.19662" />
-    <use
-       transform="matrix(0,-0.126,-0.126,0,-11.51245,-29.133815)"
-       xlink:href="#DejaVuSans-Oblique-110"
-       id="use4895"
-       x="0"
-       y="0"
-       width="100%"
-       height="100%"
-       style="fill:#000000;stroke:none;stroke-width:1.19662" />
-    <use
-       transform="matrix(0,-0.126,-0.126,0,-11.51245,-37.119555)"
-       xlink:href="#DejaVuSans-Oblique-101"
-       id="use4897"
-       x="0"
-       y="0"
-       width="100%"
-       height="100%"
-       style="fill:#000000;stroke:none;stroke-width:1.19662" />
-    <use
-       transform="matrix(0,-0.126,-0.126,0,-11.51245,-44.871505)"
-       xlink:href="#DejaVuSans-Oblique-116"
-       id="use4899"
-       x="0"
-       y="0"
-       width="100%"
-       height="100%"
-       style="fill:#000000;stroke:none;stroke-width:1.19662" />
-  </g>
+  <use
+     transform="matrix(0.15042405,0,0,-0.15042405,366.44095,50.503198)"
+     xlink:href="#DejaVuSans-Oblique-70"
+     id="use4893"
+     x="0"
+     y="0"
+     width="100%"
+     height="100%"
+     style="fill:#000000;stroke:none;stroke-width:1.19662" />
+  <use
+     transform="matrix(0.10529683,0,0,-0.10529683,375.23723,52.971093)"
+     xlink:href="#DejaVuSans-Oblique-110"
+     id="use4895"
+     x="0"
+     y="0"
+     width="100%"
+     height="100%"
+     style="fill:#000000;stroke:none;stroke-width:1.19662" />
+  <use
+     transform="matrix(0.10529683,0,0,-0.10529683,381.91083,52.971093)"
+     xlink:href="#DejaVuSans-Oblique-101"
+     id="use4897"
+     x="0"
+     y="0"
+     width="100%"
+     height="100%"
+     style="fill:#000000;stroke:none;stroke-width:1.19662" />
+  <use
+     transform="matrix(0.10529683,0,0,-0.10529683,388.38905,52.971093)"
+     xlink:href="#DejaVuSans-Oblique-116"
+     id="use4899"
+     x="0"
+     y="0"
+     width="100%"
+     height="100%"
+     style="fill:#000000;stroke:none;stroke-width:1.19662" />
   <g
      id="g4917"
      transform="matrix(0.72616973,0,0,0.72616973,-118.42867,76.032252)"
@@ -2277,56 +2249,42 @@
      d="m 676.26904,142.51164 c -1.69581,-4.37049 -0.0484,-8.42718 2.2757,-9.26076"
      id="path5049"
      sodipodi:nodetypes="cc" />
-  <g
-     id="g5061"
-     transform="matrix(0,0.83568914,-0.83568914,0,613.41729,38.591832)"
-     style="fill:#000000;stroke:none;stroke-width:1.19662;stroke-linecap:butt;stroke-linejoin:round">
-    <use
-       transform="matrix(0,-0.18,-0.18,0,-19.7587,-29.580475)"
-       xlink:href="#DejaVuSans-770"
-       id="use5051"
-       x="0"
-       y="0"
-       width="100%"
-       height="100%"
-       style="fill:#000000;stroke:none;stroke-width:1.19662" />
-    <use
-       transform="matrix(0,-0.18,-0.18,0,-14.465575,-18.608035)"
-       xlink:href="#DejaVuSans-Oblique-70"
-       id="use5053"
-       x="0"
-       y="0"
-       width="100%"
-       height="100%"
-       style="fill:#000000;stroke:none;stroke-width:1.19662" />
-    <use
-       transform="matrix(0,-0.126,-0.126,0,-11.51245,-29.133815)"
-       xlink:href="#DejaVuSans-Oblique-110"
-       id="use5055"
-       x="0"
-       y="0"
-       width="100%"
-       height="100%"
-       style="fill:#000000;stroke:none;stroke-width:1.19662" />
-    <use
-       transform="matrix(0,-0.126,-0.126,0,-11.51245,-37.119555)"
-       xlink:href="#DejaVuSans-Oblique-101"
-       id="use5057"
-       x="0"
-       y="0"
-       width="100%"
-       height="100%"
-       style="fill:#000000;stroke:none;stroke-width:1.19662" />
-    <use
-       transform="matrix(0,-0.126,-0.126,0,-11.51245,-44.871505)"
-       xlink:href="#DejaVuSans-Oblique-116"
-       id="use5059"
-       x="0"
-       y="0"
-       width="100%"
-       height="100%"
-       style="fill:#000000;stroke:none;stroke-width:1.19662" />
-  </g>
+  <use
+     transform="matrix(0.15042405,0,0,-0.15042405,628.96782,26.503108)"
+     xlink:href="#DejaVuSans-Oblique-70"
+     id="use5053"
+     x="0"
+     y="0"
+     width="100%"
+     height="100%"
+     style="fill:#000000;stroke:none;stroke-width:1.19662" />
+  <use
+     transform="matrix(0.10529683,0,0,-0.10529683,637.7641,28.971003)"
+     xlink:href="#DejaVuSans-Oblique-110"
+     id="use5055"
+     x="0"
+     y="0"
+     width="100%"
+     height="100%"
+     style="fill:#000000;stroke:none;stroke-width:1.19662" />
+  <use
+     transform="matrix(0.10529683,0,0,-0.10529683,644.4377,28.971003)"
+     xlink:href="#DejaVuSans-Oblique-101"
+     id="use5057"
+     x="0"
+     y="0"
+     width="100%"
+     height="100%"
+     style="fill:#000000;stroke:none;stroke-width:1.19662" />
+  <use
+     transform="matrix(0.10529683,0,0,-0.10529683,650.91592,28.971003)"
+     xlink:href="#DejaVuSans-Oblique-116"
+     id="use5059"
+     x="0"
+     y="0"
+     width="100%"
+     height="100%"
+     style="fill:#000000;stroke:none;stroke-width:1.19662" />
   <path
      style="fill:none;stroke:#000000;stroke-width:0.75px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;marker-end:url(#marker5085)"
      d="m 642.37004,57.851222 v -24.9374"
@@ -2468,141 +2426,84 @@
      y="-67.311371"
      ry="0"
      transform="rotate(16.6793)" />
-  <g
-     id="g1716"
-     style="stroke-linecap:butt;stroke-linejoin:round"
-     transform="translate(16.804228,241.54983)">
-    <rect
-       style="opacity:0.92;fill:#ffffff;stroke:none;stroke-width:0.750002;stroke-dasharray:6, 6;stroke-opacity:0.945946"
-       id="rect996"
-       width="6.4907198"
-       height="18.656748"
-       x="97.594002"
-       y="-58.615257"
-       ry="0" />
-    <g
-       id="g1354"
-       transform="matrix(0.66231957,0,0,0.66231957,-57.060066,-301.1599)"
-       style="fill:#000000;stroke-width:1.50985">
-      <use
-         transform="matrix(0.18,0,0,-0.18,242.41243,382.99811)"
-         xlink:href="#DejaVuSans-770"
-         id="use1345"
-         x="0"
-         y="0"
-         width="100%"
-         height="100%"
-         style="fill:#000000;stroke-width:1.50985" />
-      <use
-         transform="matrix(0.18,0,0,-0.18,230.81192,388.84529)"
-         xlink:href="#DejaVuSans-Oblique-100"
-         id="use1347"
-         x="0"
-         y="0"
-         width="100%"
-         height="100%"
-         style="fill:#000000;stroke-width:1.50985" />
-      <use
-         transform="matrix(0.126,0,0,-0.126,242.40997,391.79842)"
-         xlink:href="#DejaVuSans-Oblique-115"
-         id="use1349"
-         x="0"
-         y="0"
-         width="100%"
-         height="100%"
-         style="fill:#000000;stroke-width:1.50985" />
-    </g>
-  </g>
-  <g
-     id="g654"
-     style="stroke-linecap:butt;stroke-linejoin:round"
-     transform="translate(279.33104,227.4893)">
-    <rect
-       style="opacity:0.92;fill:#ffffff;stroke:none;stroke-width:0.750002;stroke-dasharray:6, 6;stroke-opacity:0.945946"
-       id="rect644"
-       width="6.4907198"
-       height="18.656748"
-       x="97.594002"
-       y="-58.615257"
-       ry="0" />
-    <g
-       id="g652"
-       transform="matrix(0.66231957,0,0,0.66231957,-57.060066,-301.1599)"
-       style="fill:#000000;stroke-width:1.50985">
-      <use
-         transform="matrix(0.18,0,0,-0.18,242.41243,382.99811)"
-         xlink:href="#DejaVuSans-770"
-         id="use646"
-         x="0"
-         y="0"
-         width="100%"
-         height="100%"
-         style="fill:#000000;stroke-width:1.50985" />
-      <use
-         transform="matrix(0.18,0,0,-0.18,230.81192,388.84529)"
-         xlink:href="#DejaVuSans-Oblique-100"
-         id="use648"
-         x="0"
-         y="0"
-         width="100%"
-         height="100%"
-         style="fill:#000000;stroke-width:1.50985" />
-      <use
-         transform="matrix(0.126,0,0,-0.126,242.40997,391.79842)"
-         xlink:href="#DejaVuSans-Oblique-115"
-         id="use650"
-         x="0"
-         y="0"
-         width="100%"
-         height="100%"
-         style="fill:#000000;stroke-width:1.50985" />
-    </g>
-  </g>
-  <g
-     id="g666"
-     style="stroke-linecap:butt;stroke-linejoin:round"
-     transform="translate(541.85791,215.48924)">
-    <rect
-       style="opacity:0.92;fill:#ffffff;stroke:none;stroke-width:0.750002;stroke-dasharray:6, 6;stroke-opacity:0.945946"
-       id="rect656"
-       width="6.4907198"
-       height="18.656748"
-       x="97.594002"
-       y="-58.615257"
-       ry="0" />
-    <g
-       id="g664"
-       transform="matrix(0.66231957,0,0,0.66231957,-57.060066,-301.1599)"
-       style="fill:#000000;stroke-width:1.50985">
-      <use
-         transform="matrix(0.18,0,0,-0.18,242.41243,382.99811)"
-         xlink:href="#DejaVuSans-770"
-         id="use658"
-         x="0"
-         y="0"
-         width="100%"
-         height="100%"
-         style="fill:#000000;stroke-width:1.50985" />
-      <use
-         transform="matrix(0.18,0,0,-0.18,230.81192,388.84529)"
-         xlink:href="#DejaVuSans-Oblique-100"
-         id="use660"
-         x="0"
-         y="0"
-         width="100%"
-         height="100%"
-         style="fill:#000000;stroke-width:1.50985" />
-      <use
-         transform="matrix(0.126,0,0,-0.126,242.40997,391.79842)"
-         xlink:href="#DejaVuSans-Oblique-115"
-         id="use662"
-         x="0"
-         y="0"
-         width="100%"
-         height="100%"
-         style="fill:#000000;stroke-width:1.50985" />
-    </g>
-  </g>
+  <rect
+     style="opacity:0.92;fill:#ffffff;stroke:none;stroke-width:0.750002;stroke-dasharray:6, 6;stroke-opacity:0.945946"
+     id="rect996"
+     width="6.4907198"
+     height="14.101089"
+     x="114.39823"
+     y="187.49023"
+     ry="0" />
+  <use
+     transform="matrix(0.11921752,0,0,-0.11921752,112.61541,197.92978)"
+     xlink:href="#DejaVuSans-Oblique-100"
+     id="use1347"
+     x="0"
+     y="0"
+     width="100%"
+     height="100%"
+     style="fill:#000000;stroke-width:1.50985" />
+  <use
+     transform="matrix(0.08345227,0,0,-0.08345227,120.29703,199.88569)"
+     xlink:href="#DejaVuSans-Oblique-115"
+     id="use1349"
+     x="0"
+     y="0"
+     width="100%"
+     height="100%"
+     style="fill:#000000;stroke-width:1.50985" />
+  <rect
+     style="opacity:0.92;fill:#ffffff;stroke:none;stroke-width:0.750002;stroke-dasharray:6, 6;stroke-opacity:0.945946"
+     id="rect644"
+     width="6.4907198"
+     height="14.195998"
+     x="376.92505"
+     y="173.33479"
+     ry="0" />
+  <use
+     transform="matrix(0.11921752,0,0,-0.11921752,375.14222,183.86925)"
+     xlink:href="#DejaVuSans-Oblique-100"
+     id="use648"
+     x="0"
+     y="0"
+     width="100%"
+     height="100%"
+     style="fill:#000000;stroke-width:1.50985" />
+  <use
+     transform="matrix(0.08345227,0,0,-0.08345227,382.82384,185.82516)"
+     xlink:href="#DejaVuSans-Oblique-115"
+     id="use650"
+     x="0"
+     y="0"
+     width="100%"
+     height="100%"
+     style="fill:#000000;stroke-width:1.50985" />
+  <rect
+     style="opacity:0.92;fill:#ffffff;stroke:none;stroke-width:0.750002;stroke-dasharray:6, 6;stroke-opacity:0.945946"
+     id="rect656"
+     width="6.4907198"
+     height="14.449734"
+     x="639.4519"
+     y="161.08099"
+     ry="0" />
+  <use
+     transform="matrix(0.11921752,0,0,-0.11921752,637.66909,171.86919)"
+     xlink:href="#DejaVuSans-Oblique-100"
+     id="use660"
+     x="0"
+     y="0"
+     width="100%"
+     height="100%"
+     style="fill:#000000;stroke-width:1.50985" />
+  <use
+     transform="matrix(0.08345227,0,0,-0.08345227,645.35071,173.8251)"
+     xlink:href="#DejaVuSans-Oblique-115"
+     id="use662"
+     x="0"
+     y="0"
+     width="100%"
+     height="100%"
+     style="fill:#000000;stroke-width:1.50985" />
   <g
      id="g690"
      transform="matrix(-0.15712443,0.2858455,-0.2858455,-0.15712443,525.15658,263.19798)"
@@ -2671,4 +2572,16 @@
        y="313.89288"
        style="font-style:italic;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:12px;font-family:sans-serif;-inkscape-font-specification:'sans-serif Italic';stroke-width:0.75"
        id="tspan708">propagation</tspan></text>
+  <text
+     xml:space="preserve"
+     style="font-style:normal;font-weight:normal;font-size:10px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#262626;fill-opacity:1;stroke:none;stroke-width:0.75;stroke-linecap:butt;stroke-linejoin:round"
+     x="123.0405"
+     y="167.40944"
+     id="text916-8"
+     transform="rotate(-0.4762821)"><tspan
+       sodipodi:role="line"
+       id="tspan914-4"
+       x="123.0405"
+       y="167.40944"
+       style="font-style:italic;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:10px;font-family:Arial;-inkscape-font-specification:'Arial Italic';fill:#262626;fill-opacity:1;stroke-width:0.75">leg-hinge</tspan></text>
 </svg>
