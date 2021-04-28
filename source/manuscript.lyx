@@ -13,7 +13,7 @@
 \end_preamble
 \use_default_options true
 \maintain_unincluded_children false
-\language english
+\language british
 \language_package default
 \inputencoding auto
 \fontencoding global
@@ -80,7 +80,7 @@
 \paragraph_indentation default
 \is_math_indent 0
 \math_numbering_side default
-\quotes_style english
+\quotes_style british
 \dynamic_quotes 0
 \papercolumns 1
 \papersides 1
@@ -135,13 +135,13 @@ Several creatures can climb on smooth surfaces with the help of hairy adhesive
  A rapid change from strong attachment to effortless detachment of the leg
  is enabled by the asymmetric geometry of the hairs.
  In this study, we propose possible mechanisms by which a hairy pad can
- be easily detached even when the hairs have no asymmetry.
- Based on a spring-based model, we consider three cases: vertical pulling
- of the pad while maintaining a 1) fixed or 2) free leg joint or 3) flexing
- the pad about the claw to detach the pad.
+ be easily detached even when the hairs possess no asymmetry.
+ Based on a spring-based model, we consider three modes of detachment: verticall
+y pulling the pad while maintaining either a 1) fixed or a 2) free leg joint,
+ or by 3) flexing the pad about the claw.
  We show that in all cases, the adhesion force can be significantly reduced
- due to elastic forces when the hairs deform non-uniformly, an effect that
- we call 
+ due to elastic forces when the hairs deform non-uniformly across the array,
+ an effect that we call 
 \begin_inset Quotes eld
 \end_inset
 
@@ -155,10 +155,10 @@ elastic weakening
 
 .
  Our proposed model illustrates the design advantage provided by hairy adhesive
- systems, which not only provides strong adhesion, but also allows it to
- detach easily, making it suitable as organs for fast locomotion.
- The presented approaches can be potentially used to achieve reversible
- adhesion in bio-inspired artificial systems without the need of asymmetric
+ systems, which not only provides strong adhesion, but also allows easy
+ detachment, making it suitable as organs for fast locomotion.
+ The presented approaches can be potentially used to switch the adhesion
+ state in bio-inspired artificial systems without the need of asymmetric
  structures.
 \end_layout
 
@@ -169,7 +169,7 @@ Introduction
 \begin_layout Standard
 Over the past few decades, there has been numerous studies to understand
  how animals such as geckos and insects are able to walk on surfaces of
- any direction defying gravity.
+ any direction while defying gravity.
  A microscopic observation reveals that, in many cases, animals have a dense
  array of hairy structures at the end of their legs 
 \begin_inset CommandInset citation
@@ -288,8 +288,9 @@ literal "false"
 
 \end_inset
 
- had identified two regimes of hair detachment: 1) a flaw sensitive regime,
- where contact failure occurs due to crack propagation leading to low σ
+ had identified two regimes of single hair detachment: 1) a flaw sensitive
+ regime, where contact failure occurs due to crack propagation leading to
+ low σ
 \begin_inset script subscript
 
 \begin_layout Plain Layout
@@ -328,7 +329,8 @@ spatula
 \end_inset
 
  shaped hair tips in a gecko's toe allows it to change adhesion by three
- orders of magnitude by laterally sliding and controlling the pulling angle.
+ orders of magnitude by laterally sliding and controlling the pulling angle
+ to disorient the hairs.
  Federle
 \begin_inset CommandInset citation
 LatexCommand cite
@@ -347,7 +349,7 @@ literal "false"
 The theories presented so far suggests that low detachment force of a hairy
  pad can be attained by 1) increasing the stress concentration by peeling
  the pad at high angles, or 2) laterally shearing the pad before pull-off,
- which requires the hairs to have an asymmetric geometry.
+ which requires the hairs to have an asymmetric geometry or curvature.
  However, some insects like male dock beetles predominantly possess flat
  
 \begin_inset Quotes eld
@@ -388,9 +390,9 @@ literal "false"
 \end_inset
 
 .
- Introducing asymmetry into the hair geometry for easy detachment is challenging
- due to limitations in current fabrication techniques and are difficult
- to scale-up for practical applications 
+ Introducing asymmetry into the pillar geometry of such mimics for easy
+ detachment is however challenging due to current limitations in fabrication
+ techniques and difficulty in scaling-up for practical applications 
 \begin_inset CommandInset citation
 LatexCommand cite
 key "RN57"
@@ -399,11 +401,38 @@ literal "false"
 \end_inset
 
 .
- Alternate strategies are thus desired for artificial adhesives with symmetric
- pillar geometries which can attach and detach in a reversible manner
+ Alternate strategies are thus desired to switch the adhesion state of symmetric
+ pillar arrays in a reversible manner, e.g.
+ by buckling the pillars under compressive load leading to their contact
+ loss 
 \begin_inset CommandInset citation
 LatexCommand cite
-key "RN186,RN185,RN161"
+key "RN279"
+literal "false"
+
+\end_inset
+
+ or by using special materials reacting to external stimuli such as magnetic
+ field
+\begin_inset CommandInset citation
+LatexCommand cite
+key "RN186"
+literal "false"
+
+\end_inset
+
+, UV light 
+\begin_inset CommandInset citation
+LatexCommand cite
+key "RN280"
+literal "false"
+
+\end_inset
+
+ or temperature
+\begin_inset CommandInset citation
+LatexCommand cite
+key "RN281"
 literal "false"
 
 \end_inset
@@ -412,16 +441,10 @@ literal "false"
 \end_layout
 
 \begin_layout Standard
-In this work, we theoretically propose the possible mechanisms of detachment
- of hairy adhesive pads via the 
-\begin_inset Quotes eld
-\end_inset
-
-spring contact model
-\begin_inset Quotes erd
-\end_inset
-
-
+In this work, we propose the possible mechanisms by which adhesive pads
+ with symmetric hairs can be easily detached under a theoretical framework.
+ The hairy pad is modelled as an array of springs and the force-balance
+ approach is used to quantify the net adhesion 
 \begin_inset CommandInset citation
 LatexCommand cite
 key "RN117"
@@ -430,8 +453,6 @@ literal "false"
 \end_inset
 
 .
- This model is based on the force-balance approach, which assumes the pad
- to behave like an array of springs.
  We hope our work to provide strategies to control the adhesion force of
  an artificial micro-pillar adhesive, which has applications in bio-inspired
  climbing robots, pick-and-place operations and reusable adhesives.
@@ -480,7 +501,7 @@ noprefix "false"
 \begin_inset Formula $s$
 \end_inset
 
-, from the tip along the array.
+, from the right end of the array.
  The hinge is at a vertical distance, 
 \begin_inset Formula $d_{s}$
 \end_inset
@@ -663,7 +684,7 @@ noprefix "false"
 \begin_inset Formula $d_{s,max}$
 \end_inset
 
-, above which its left most hair will detach.
+, above which the left most hair will detach.
  Just before detachment, this hair will be at its maximum length, 
 \begin_inset Formula $l_{h,p}$
 \end_inset
@@ -741,7 +762,7 @@ M_{net}=nk_{h}\cos\theta\left[\left(d_{s}-l_{h,0}\right)\Psi-\left\{ \Psi^{2}+\f
 \end_layout
 
 \begin_layout Standard
-Let us now consider the scenario where also the leg above the hinge can
+Let us now consider the scenario where even the leg above the hinge can
  undergo elastic stretching together with the hairs.
  When a hair detaches from the surface, the leg undergoes an elastic recoil
  due to the stored elastic energy.
@@ -873,19 +894,9 @@ Free pull,
 \emph on
 Flex
 \emph default
-, where the pad is hinged to an external point (claw-hinge), 
-\begin_inset Note Note
-status open
-
-\begin_layout Plain Layout
-use these terms everywhere.
- CHECK!
-\end_layout
-
-\end_inset
-
- and detached in a rotary fashion, emulating a claw function in insects.
- To analyse each case in detail, let us assume a pad with 
+, where the pad is hinged to an external point (claw-hinge), and detached
+ in a rotary fashion, emulating the claw function in insects.
+ To investigate each case in detail, let us assume a pad with 
 \begin_inset Formula $N_{t}=25$
 \end_inset
 
@@ -975,7 +986,7 @@ The hairy adhesive pad can be detached by pulling it vertically upwards
 \end_inset
 
 , with the surface.
- This can be achieved if the hinge connecting the leg to the array (leg-hinge)
+ This can be achieved if the joint connecting the leg to the array (leg-hinge)
  is kept fixed.
  Equations 
 \begin_inset CommandInset ref
@@ -1032,7 +1043,7 @@ noprefix "false"
  rather than simultaneously, further reducing the net adhesive power of
  the array.
  We term this effect of loss in adhesion due to a non-uniform hair deformation
- in the array as 
+ across the array as 
 \begin_inset Quotes eld
 \end_inset
 
@@ -1186,6 +1197,16 @@ Force distance curves for a hairy pad, pulled vertically upwards with a
 Free pull
 \emph default
 ).
+ 
+\begin_inset Formula $s$
+\end_inset
+
+ is the distance between the leg-hinge and the right end of the array and
+ 
+\begin_inset Formula $L$
+\end_inset
+
+ is the array length.
  The free hinge allows further tilting of the array during the vertical
  pull.
  The leg is either stiff (
@@ -1336,7 +1357,7 @@ noprefix "false"
 \emph on
 elastic weakening
 \emph default
- effect.
+ effect, as described in the previous section.
  Higher 
 \begin_inset Formula $s/L$
 \end_inset
@@ -1368,7 +1389,7 @@ fixed pull
 \begin_inset Formula $w\sin\theta$
 \end_inset
 
- and detach the next hair.
+ and detach the next adjacent hair.
  Thus here, we don't see any propagation of the detachment front when the
  leg is soft.
 \end_layout
@@ -1471,7 +1492,6 @@ Force curves for a hairy pad detached by flexing it about the claw.
 .
  The green dashed line represents the maximum possible adhesion for the
  pad.
- All values are normalized to dimensionless forms, as described in text.
  
 \begin_inset CommandInset label
 LatexCommand label
@@ -1507,7 +1527,7 @@ Instead of a vertical pull, the adhesive pad can also be detached by rotating
 \end_inset
 
  be the distance between the fixed leg-hinge and the right end of the array.
- Let us fix 
+ To illustrate the mechanism, let us fix 
 \begin_inset Formula $s_{l}/L=1$
 \end_inset
 
@@ -1528,7 +1548,11 @@ Instead of a vertical pull, the adhesive pad can also be detached by rotating
 \begin_inset Formula $M_{net}$
 \end_inset
 
- is given by equation 
+ is obtained by setting 
+\begin_inset Formula $s=-s_{h}$
+\end_inset
+
+ in equation 
 \begin_inset CommandInset ref
 LatexCommand ref
 reference "eq:moment_n_d"
@@ -1536,10 +1560,6 @@ plural "false"
 caps "false"
 noprefix "false"
 
-\end_inset
-
- for 
-\begin_inset Formula $s=-s_{h}$
 \end_inset
 
 .
@@ -1553,7 +1573,7 @@ noprefix "false"
 
 \end_inset
 
- will give us the load acting on the claw-hinge, 
+ will give us the reaction force acting on the claw-hinge, 
 \family roman
 \series medium
 \shape up
@@ -1570,7 +1590,7 @@ noprefix "false"
 \begin_inset Formula $F_{claw-hinge}$
 \end_inset
 
-,
+
 \family default
 \series default
 \shape default
@@ -1583,7 +1603,7 @@ noprefix "false"
 \uwave default
 \noun default
 \color inherit
- to support the applied torque.
+.
  
 \end_layout
 
@@ -1605,20 +1625,19 @@ noprefix "false"
 \begin_inset Formula $d_{s}$
 \end_inset
 
- means the hairs are at a more compressed state.
- On flexing the pad around the claw-hinge, the tilted array will once again
- lead to an 
+ means the hairs are in a more compressed state.
+ When the pad is subsequently rotated around the claw-hinge, the tilted
+ array will once again lead to an 
 \emph on
 elastic weakening
 \emph default
- effect due to the inhomogeneous deformation of hairs, which is enhanced
- for smaller 
-\begin_inset Formula $d$
-\end_inset
-
-.
+ effect due to the inhomogeneous deformation of hairs.
  This results in a decrease in the net torque and thus lower 
 \begin_inset Formula $F_{pull}$
+\end_inset
+
+ for smaller values of 
+\begin_inset Formula $d_{s}$
 \end_inset
 
 .
@@ -1682,8 +1701,8 @@ Detachment by flexing requires that the claw remains fixed and stable during
 
  goes to negative values, implying that the claw should adhere well with
  the surface to resist this negative load.
- As the detachment progresses, the array exerts a positive load on the claw,
- essentially transferring the array's forces onto the claw as load.
+ As the detachment progresses however, the array starts to exert a positive
+ load on the claw.
 \end_layout
 
 \begin_layout Section
@@ -1741,7 +1760,7 @@ noprefix "false"
 \begin_inset Formula $r$
 \end_inset
 
- implies that adhesion can be reduced by a higher factor, and this mode
+ implies that adhesion can be reduced by a greater factor, and this mode
  is more suitable to easily detach.
 \end_layout
 
@@ -1759,7 +1778,7 @@ The dimensionless parameter,
 \end_inset
 
 , governs the strength and compliance of the array, where, high values represent
- a dense array of strongly adhering and soft hairs.
+ a dense array of strongly adhering soft hairs.
  Let us consider the case of an adhesive pad with 
 \begin_inset Formula $N_{t}=25$
 \end_inset
@@ -1794,7 +1813,7 @@ The dimensionless parameter,
 \uwave default
 \noun default
 \color inherit
- influences the reduction factor in each mode of detachment (Figure 
+ influences the reduction factor under each mode of detachment (Figure 
 \begin_inset CommandInset ref
 LatexCommand ref
 reference "fig:Reduction-factor_fp"
@@ -1861,7 +1880,7 @@ Heat maps showing the effect of the dimensionless parameter,
 \end_inset
 
 , on the reduction factor for each mode of detachment.
- Here, the number of hairs, 
+ Here, we fix the number of hairs, 
 \family roman
 \series medium
 \shape up
@@ -1936,7 +1955,11 @@ noprefix "false"
 \begin_inset Formula $\theta$
 \end_inset
 
-, and then decreases, showing a maximum of 25 at an intermediate 
+, and then decreases, showing a maximum 
+\begin_inset Formula $r$
+\end_inset
+
+ of 25 at an intermediate 
 \begin_inset Formula $\theta$
 \end_inset
 
@@ -1966,7 +1989,7 @@ elastic weakening
 
 .
  On further tilting the array, eventually the proportion of stretched hairs
- overcomes the one under compression, which ultimately reduces 
+ will overcome the ones under compression, which ultimately reduces 
 \begin_inset Formula $r$
 \end_inset
 
@@ -2202,7 +2225,7 @@ Heat maps showing the effect of the number of hairs,
 \end_inset
 
 , on the reduction factor for each mode of detachment.
- Here, the dimensionless parameter, 
+ Here, we fix the dimensionless parameter, 
 \family roman
 \series medium
 \shape up
@@ -2263,14 +2286,22 @@ Detachment pathways:
 \end_layout
 
 \begin_layout Standard
-Based on the three modes of detachment discussed in the previous section,
+Based on the three modes of detachment discussed in the previous sections,
  one can think of several strategies to detach a hairy adhesive pad from
  the surface.
  To illustrate this, let us consider the adhesive system of a dock beetle.
- The beetle is known to have 3 sets of hairy adhesive pads in each of their
- legs, each possessing hairs of different geometries.
+ The beetle is known to have 3 sets of hairy pads in each of their legs,
+ each possessing hairs of different geometries.
  To keep our analysis simple, we will assume each leg to have only two pads,
- ignoring the tiny centre pad.
+ with identical hairs of 
+\begin_inset Quotes eld
+\end_inset
+
+mushroom
+\begin_inset Quotes erd
+\end_inset
+
+ geometry.
  The distal and proximal pads possess roughly 500 and 1000 hairs, respectively
 \begin_inset CommandInset citation
 LatexCommand cite
@@ -2290,7 +2321,7 @@ literal "false"
 
  hairs, we can model this as a one-dimensional system of 20 and 40 hairs,
  respectively, by combining the hairs along the width.
- Based on reported measurements 
+ Based on reported measurements
 \begin_inset CommandInset citation
 LatexCommand cite
 key "RN79"
@@ -2334,7 +2365,7 @@ hair
 \begin_inset Formula $s_{l}/L=1$
 \end_inset
 
-, measured relative to the tip of the distal pad.
+, measured relative to the right end of the distal pad.
  The beetle's leg is assumed to possess two joints which could serve as
  a hinges for rotation (H
 \begin_inset script subscript
@@ -2400,14 +2431,14 @@ noprefix "false"
 \end_inset
 
  to be fixed, such that both the distal and proximal pads can be combined
- into be a single long pad with 
+ to be a single long pad with 
 \begin_inset Formula $N_{t}=60$
 \end_inset
 
  hairs.
  Path 1 shows the case where the pad shows maximum possible adhesion.
- Here, the pad is vertically pulled upwards while keeping the array perfectly
- parallel to the surface.
+ Here, the combined pad is vertically pulled upwards while keeping the array
+ perfectly parallel to the surface.
  If the pad is detached by keeping H
 \begin_inset script subscript
 
@@ -2546,7 +2577,7 @@ noprefix "false"
 
 \end_inset
 
- to be free such that two pads can react distinctly, we can consider the
+ to be free such that two pads can behave distinctly, we can consider the
  scenario where the proximal pad is flexed around the distal pad at H
 \begin_inset script subscript
 
@@ -2674,9 +2705,9 @@ Force distance curves showing possible detachment pathways for a dock beetle's
  The curves are offset laterally for clarity.
  Colours represent the distinct detachment pathways, as labelled correspondingly
 , with arrows indicating the direction of retraction.
- Legend shows the specific detachment mechanism followed by a region of
- the pathway.
- The inset schematic shows the (here assumed) locations of different hinges
+ The different line style denotes the specific detachment mechanism followed
+ by any region of the pathway.
+ The inset schematic shows the assumed locations of the different hinges
  (H
 \begin_inset script subscript
 
@@ -2741,7 +2772,7 @@ name "fig:Detachment-pathways"
 The above analysis illustrates how the design of the beetle's hairy adhesive
  pads is suitable for modulating its adhesion.
  Effective control and release of its leg joints can help the insect to
- reduce the pad's adhesion, allowing it to detach easily with little effort.
+ reduce the pad's adhesion, allowing it to detach with little effort.
  High reduction in adhesion is seen when the pad is tilted relative to the
  surface during detachment, as a result of 
 \family default
@@ -2824,16 +2855,16 @@ drop
 \end_inset
 
  itself while upside down.
- This could be explained by the beetle freeing up its leg joints and and
- using just its body weight to provide the necessary force to detach all
- its legs via 
+ This could be explained by the beetle freeing up its leg joints and using
+ just its body weight to provide the necessary force to detach all its legs
+ via 
 \emph on
 free pull
 \emph default
  (similar to path 3 above).
  3) Only a fraction of the beetle's pads made contact with the surface during
- locomotion, which indicates that the pads should be in a slightly tilted
- state.
+ locomotion, which indicates that the pads should naturally be in a slightly
+ tilted state.
  This not only reduces the contact area, but also non-uniformly deforms
  the hairs, both leading to a reduction in adhesion for easy detachment.
  4) Contact images showed that the array 
@@ -2896,16 +2927,6 @@ noprefix "false"
 
 ).
  
-\begin_inset Note Note
-status open
-
-\begin_layout Plain Layout
-read paper and check this paragraph
-\end_layout
-
-\end_inset
-
-
 \end_layout
 
 \begin_layout Standard
@@ -2945,8 +2966,8 @@ noprefix "false"
 \end_inset
 
  will limit the reduction factor for each of the detachment mechanisms presented.
- Longer hairs can however result in lateral collapse or bundling of hairs,
- imposing additional constraint on 
+ Longer hairs can result in a lateral collapse or bundling of hairs, imposing
+ an additional constraint on 
 \begin_inset Formula $\theta_{limit}$
 \end_inset
 
@@ -2969,13 +2990,13 @@ Conclusion
 \end_layout
 
 \begin_layout Standard
-Non-homogenous deformation of hairs results in significant reductions in
+Inhomogeneous deformation of hairs results in significant reductions in
  the adhesion of a hairy pad system.
  Such a condition can be achieved by either 1) pulling the pad while maintaining
  a constant tilt angle, 2) pulling the pad while maintaining a free leg
  joint or 3) flexing the pad around the claw.
  Strategic control of the joint's mobility can allow the leg to easily switch
- between the given mechanisms, thus providing a simple way to reduce adhesion
+ between the above mechanisms, thus providing a simple way to reduce adhesion
  as per necessity.
  The presence of a deformable leg can further trigger a spontaneous propagation
  of hair detachment due to the leg's elastic recoil, making it suitable
@@ -2990,7 +3011,7 @@ ons while avoiding buckling and lateral bundling represent the optimal design
  The proposed theory is supported by previously reported experimental observatio
 ns of leg detachment in dock beetles and opens up new strategies to achieve
  reversible adhesion in bio-inspired artificial adhesives without the need
- of asymmetric structures
+ of asymmetric structures.
 \end_layout
 
 \begin_layout Section

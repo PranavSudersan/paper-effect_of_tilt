@@ -1,0 +1,213 @@
+\providecommand{\latin}[1]{#1}
+\makeatletter
+\providecommand{\doi}
+  {\begingroup\let\do\@makeother\dospecials
+  \catcode`\{=1 \catcode`\}=2 \doi@aux}
+\providecommand{\doi@aux}[1]{\endgroup\texttt{#1}}
+\makeatother
+\providecommand*\mcitethebibliography{\thebibliography}
+\csname @ifundefined\endcsname{endmcitethebibliography}
+  {\let\endmcitethebibliography\endthebibliography}{}
+\begin{mcitethebibliography}{23}
+\providecommand*\natexlab[1]{#1}
+\providecommand*\mciteSetBstSublistMode[1]{}
+\providecommand*\mciteSetBstMaxWidthForm[2]{}
+\providecommand*\mciteBstWouldAddEndPuncttrue
+  {\def\EndOfBibitem{\unskip.}}
+\providecommand*\mciteBstWouldAddEndPunctfalse
+  {\let\EndOfBibitem\relax}
+\providecommand*\mciteSetBstMidEndSepPunct[3]{}
+\providecommand*\mciteSetBstSublistLabelBeginEnd[3]{}
+\providecommand*\EndOfBibitem{}
+\mciteSetBstSublistMode{f}
+\mciteSetBstMaxWidthForm{subitem}{(\alph{mcitesubitemcount})}
+\mciteSetBstSublistLabelBeginEnd
+  {\mcitemaxwidthsubitemform\space}
+  {\relax}
+  {\relax}
+
+\bibitem[Hooke(1665)]{RN198}
+Hooke,~R. \emph{Micrographia, or, Some physiological descriptions of minute
+  bodies made by magnifying glasses : with observations and inquiries
+  thereupon}; The Royal Society, 1665\relax
+\mciteBstWouldAddEndPuncttrue
+\mciteSetBstMidEndSepPunct{\mcitedefaultmidpunct}
+{\mcitedefaultendpunct}{\mcitedefaultseppunct}\relax
+\EndOfBibitem
+\bibitem[Stork(1980)]{RN59}
+Stork,~N.~E. Experimental Analysis of Adhesion of Chrysolina Polita
+  (Chrysomelidae: Coleoptera) on a Variety of Surfaces. \emph{The Journal of
+  Experimental Biology} \textbf{1980}, \emph{88}, 91\relax
+\mciteBstWouldAddEndPuncttrue
+\mciteSetBstMidEndSepPunct{\mcitedefaultmidpunct}
+{\mcitedefaultendpunct}{\mcitedefaultseppunct}\relax
+\EndOfBibitem
+\bibitem[Labonte and Federle(2015)Labonte, and Federle]{RN40}
+Labonte,~D.; Federle,~W. Scaling and biomechanics of surface attachment in
+  climbing animals. \emph{Philos Trans R Soc Lond B Biol Sci} \textbf{2015},
+  \emph{370}, 20140027\relax
+\mciteBstWouldAddEndPuncttrue
+\mciteSetBstMidEndSepPunct{\mcitedefaultmidpunct}
+{\mcitedefaultendpunct}{\mcitedefaultseppunct}\relax
+\EndOfBibitem
+\bibitem[O'Rorke \latin{et~al.}(2016)O'Rorke, Steele, and Taylor]{RN120}
+O'Rorke,~R.~D.; Steele,~T. W.~J.; Taylor,~H.~K. Bioinspired fibrillar
+  adhesives: a review of analytical models and experimental evidence for
+  adhesion enhancement by surface patterns. \emph{Journal of Adhesion Science
+  and Technology} \textbf{2016}, \emph{30}, 362--391\relax
+\mciteBstWouldAddEndPuncttrue
+\mciteSetBstMidEndSepPunct{\mcitedefaultmidpunct}
+{\mcitedefaultendpunct}{\mcitedefaultseppunct}\relax
+\EndOfBibitem
+\bibitem[Persson(2003)]{RN29}
+Persson,~B. N.~J. On the mechanism of adhesion in biological systems. \emph{The
+  Journal of Chemical Physics} \textbf{2003}, \emph{118}\relax
+\mciteBstWouldAddEndPuncttrue
+\mciteSetBstMidEndSepPunct{\mcitedefaultmidpunct}
+{\mcitedefaultendpunct}{\mcitedefaultseppunct}\relax
+\EndOfBibitem
+\bibitem[Jagota and Stephen(2002)Jagota, and Stephen]{RN114}
+Jagota,~A.; Stephen,~J.~B. Mechanics of Adhesion through a Fibrillar
+  Microstructure. \emph{Integrative and Comparative Biology} \textbf{2002},
+  \emph{42}, 1140--1145\relax
+\mciteBstWouldAddEndPuncttrue
+\mciteSetBstMidEndSepPunct{\mcitedefaultmidpunct}
+{\mcitedefaultendpunct}{\mcitedefaultseppunct}\relax
+\EndOfBibitem
+\bibitem[Kendall(1975)]{RN147}
+Kendall,~K. Thin-film peeling-the elastic term. \emph{Journal of Physics D:
+  Applied Physics} \textbf{1975}, \emph{8}, 1449--1452\relax
+\mciteBstWouldAddEndPuncttrue
+\mciteSetBstMidEndSepPunct{\mcitedefaultmidpunct}
+{\mcitedefaultendpunct}{\mcitedefaultseppunct}\relax
+\EndOfBibitem
+\bibitem[Hui \latin{et~al.}(2004)Hui, Glassmaker, Tang, and Jagota]{RN72}
+Hui,~C.~Y.; Glassmaker,~N.~J.; Tang,~T.; Jagota,~A. Design of biomimetic
+  fibrillar interfaces: 2. Mechanics of enhanced adhesion. \emph{J R Soc
+  Interface} \textbf{2004}, \emph{1}, 35--48\relax
+\mciteBstWouldAddEndPuncttrue
+\mciteSetBstMidEndSepPunct{\mcitedefaultmidpunct}
+{\mcitedefaultendpunct}{\mcitedefaultseppunct}\relax
+\EndOfBibitem
+\bibitem[Tian \latin{et~al.}(2006)Tian, Pesika, Zeng, Rosenberg, Zhao,
+  McGuiggan, Autumn, and Israelachvili]{RN230}
+Tian,~Y.; Pesika,~N.; Zeng,~H.; Rosenberg,~K.; Zhao,~B.; McGuiggan,~P.;
+  Autumn,~K.; Israelachvili,~J. Adhesion and friction in gecko toe attachment
+  and detachment. \emph{Proceedings of the National Academy of Sciences of the
+  United States of America} \textbf{2006}, \emph{103}, 19320--19325\relax
+\mciteBstWouldAddEndPuncttrue
+\mciteSetBstMidEndSepPunct{\mcitedefaultmidpunct}
+{\mcitedefaultendpunct}{\mcitedefaultseppunct}\relax
+\EndOfBibitem
+\bibitem[Federle(2006)]{RN20}
+Federle,~W. Why are so many adhesive pads hairy? \emph{J Exp Biol}
+  \textbf{2006}, \emph{209}, 2611--21\relax
+\mciteBstWouldAddEndPuncttrue
+\mciteSetBstMidEndSepPunct{\mcitedefaultmidpunct}
+{\mcitedefaultendpunct}{\mcitedefaultseppunct}\relax
+\EndOfBibitem
+\bibitem[Bullock and Federle(2009)Bullock, and Federle]{RN19}
+Bullock,~J.~M.; Federle,~W. Division of labour and sex differences between
+  fibrillar, tarsal adhesive pads in beetles: effective elastic modulus and
+  attachment performance. \emph{J Exp Biol} \textbf{2009}, \emph{212},
+  1876--88\relax
+\mciteBstWouldAddEndPuncttrue
+\mciteSetBstMidEndSepPunct{\mcitedefaultmidpunct}
+{\mcitedefaultendpunct}{\mcitedefaultseppunct}\relax
+\EndOfBibitem
+\bibitem[Carbone \latin{et~al.}(2011)Carbone, Pierro, and Gorb]{RN112}
+Carbone,~G.; Pierro,~E.; Gorb,~S.~N. Origin of the superior adhesive
+  performance of mushroom-shaped microstructured surfaces. \emph{Soft Matter}
+  \textbf{2011}, \emph{7}, 5545--5552\relax
+\mciteBstWouldAddEndPuncttrue
+\mciteSetBstMidEndSepPunct{\mcitedefaultmidpunct}
+{\mcitedefaultendpunct}{\mcitedefaultseppunct}\relax
+\EndOfBibitem
+\bibitem[del Campo \latin{et~al.}(2007)del Campo, Greiner, and Arzt]{RN57}
+del Campo,~A.; Greiner,~C.; Arzt,~E. Contact shape controls adhesion of
+  bioinspired fibrillar surfaces. \emph{Langmuir} \textbf{2007}, \emph{23},
+  10235--43\relax
+\mciteBstWouldAddEndPuncttrue
+\mciteSetBstMidEndSepPunct{\mcitedefaultmidpunct}
+{\mcitedefaultendpunct}{\mcitedefaultseppunct}\relax
+\EndOfBibitem
+\bibitem[Paretkar \latin{et~al.}(2013)Paretkar, Kamperman, Martina, Zhao,
+  Creton, Lindner, Jagota, McMeeking, and Arzt]{RN279}
+Paretkar,~D.; Kamperman,~M.; Martina,~D.; Zhao,~J.; Creton,~C.; Lindner,~A.;
+  Jagota,~A.; McMeeking,~R.; Arzt,~E. Preload-responsive adhesion: effects of
+  aspect ratio, tip shape and alignment. \emph{Journal of The Royal Society
+  Interface} \textbf{2013}, \emph{10}, 20130171\relax
+\mciteBstWouldAddEndPuncttrue
+\mciteSetBstMidEndSepPunct{\mcitedefaultmidpunct}
+{\mcitedefaultendpunct}{\mcitedefaultseppunct}\relax
+\EndOfBibitem
+\bibitem[Drotlef \latin{et~al.}(2014)Drotlef, Blümler, and del Campo]{RN186}
+Drotlef,~D.-M.; Blümler,~P.; del Campo,~A. Magnetically Actuated Patterns for
+  Bioinspired Reversible Adhesion (Dry and Wet). \emph{Advanced Materials}
+  \textbf{2014}, \emph{26}, 775--779\relax
+\mciteBstWouldAddEndPuncttrue
+\mciteSetBstMidEndSepPunct{\mcitedefaultmidpunct}
+{\mcitedefaultendpunct}{\mcitedefaultseppunct}\relax
+\EndOfBibitem
+\bibitem[Kizilkan \latin{et~al.}(2017)Kizilkan, Strueben, Staubitz, and
+  Gorb]{RN280}
+Kizilkan,~E.; Strueben,~J.; Staubitz,~A.; Gorb,~S.~N. Bioinspired
+  photocontrollable microstructured transport device. \emph{Science Robotics}
+  \textbf{2017}, \emph{2}, eaak9454\relax
+\mciteBstWouldAddEndPuncttrue
+\mciteSetBstMidEndSepPunct{\mcitedefaultmidpunct}
+{\mcitedefaultendpunct}{\mcitedefaultseppunct}\relax
+\EndOfBibitem
+\bibitem[Cui \latin{et~al.}(2012)Cui, Drotlef, Larraza, Fernández-Blázquez,
+  Boesel, Ohm, Mezger, Zentel, and del Campo]{RN281}
+Cui,~J.; Drotlef,~D.-M.; Larraza,~I.; Fernández-Blázquez,~J.~P.;
+  Boesel,~L.~F.; Ohm,~C.; Mezger,~M.; Zentel,~R.; del Campo,~A. Bioinspired
+  Actuated Adhesive Patterns of Liquid Crystalline Elastomers. \emph{Advanced
+  Materials} \textbf{2012}, \emph{24}, 4601--4604\relax
+\mciteBstWouldAddEndPuncttrue
+\mciteSetBstMidEndSepPunct{\mcitedefaultmidpunct}
+{\mcitedefaultendpunct}{\mcitedefaultseppunct}\relax
+\EndOfBibitem
+\bibitem[Schargott \latin{et~al.}(2006)Schargott, Popov, and Gorb]{RN117}
+Schargott,~M.; Popov,~V.~L.; Gorb,~S. Spring model of biological attachment
+  pads. \emph{Journal of Theoretical Biology} \textbf{2006}, \emph{243},
+  48--53\relax
+\mciteBstWouldAddEndPuncttrue
+\mciteSetBstMidEndSepPunct{\mcitedefaultmidpunct}
+{\mcitedefaultendpunct}{\mcitedefaultseppunct}\relax
+\EndOfBibitem
+\bibitem[Bullock and Federle(2011)Bullock, and Federle]{RN79}
+Bullock,~J.~M.; Federle,~W. Beetle adhesive hairs differ in stiffness and
+  stickiness: in vivo adhesion measurements on individual setae.
+  \emph{Naturwissenschaften} \textbf{2011}, \emph{98}, 381--7\relax
+\mciteBstWouldAddEndPuncttrue
+\mciteSetBstMidEndSepPunct{\mcitedefaultmidpunct}
+{\mcitedefaultendpunct}{\mcitedefaultseppunct}\relax
+\EndOfBibitem
+\bibitem[Booth \latin{et~al.}(2018)Booth, Bacca, McMeeking, and Foster]{RN252}
+Booth,~J.~A.; Bacca,~M.; McMeeking,~R.~M.; Foster,~K.~L. Benefit of
+  Backing-Layer Compliance in Fibrillar Adhesive Patches-Resistance to Peel
+  Propagation in the Presence of Interfacial Misalignment. \emph{Advanced
+  Materials Interfaces} \textbf{2018}, \emph{5}, 1800272\relax
+\mciteBstWouldAddEndPuncttrue
+\mciteSetBstMidEndSepPunct{\mcitedefaultmidpunct}
+{\mcitedefaultendpunct}{\mcitedefaultseppunct}\relax
+\EndOfBibitem
+\bibitem[Gernay \latin{et~al.}(2017)Gernay, Labousse, Lambert, Compere, and
+  Gilet]{RN83}
+Gernay,~S.~M.; Labousse,~S.; Lambert,~P.; Compere,~P.; Gilet,~T. Multi-scale
+  tarsal adhesion kinematics of freely-walking dock beetles. \emph{J R Soc
+  Interface} \textbf{2017}, \emph{14}\relax
+\mciteBstWouldAddEndPuncttrue
+\mciteSetBstMidEndSepPunct{\mcitedefaultmidpunct}
+{\mcitedefaultendpunct}{\mcitedefaultseppunct}\relax
+\EndOfBibitem
+\bibitem[Peisker \latin{et~al.}(2013)Peisker, Michels, and Gorb]{RN53}
+Peisker,~H.; Michels,~J.; Gorb,~S.~N. Evidence for a material gradient in the
+  adhesive tarsal setae of the ladybird beetle Coccinella septempunctata.
+  \emph{Nat Commun} \textbf{2013}, \emph{4}, 1661\relax
+\mciteBstWouldAddEndPuncttrue
+\mciteSetBstMidEndSepPunct{\mcitedefaultmidpunct}
+{\mcitedefaultendpunct}{\mcitedefaultseppunct}\relax
+\EndOfBibitem
+\end{mcitethebibliography}
