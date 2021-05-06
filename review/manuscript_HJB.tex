@@ -19,10 +19,17 @@
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%% LyX specific LaTeX commands.
 
 
-\title{Mechanisms of detachment in hairy adhesive systems}
+\title{Mechanisms of detachment in fibrillar adhesive systems}
 
 
 \author{Pranav Sudersan}
+
+
+\affiliation{Max Planck Institute for Polymer Research, Ackermannweg 10, 55128
+Mainz, Germany}
+
+
+\author{Hans-J\"{u}rgen Butt}
 
 
 \affiliation{Max Planck Institute for Polymer Research, Ackermannweg 10, 55128
@@ -87,29 +94,32 @@ how animals such as geckos and insects are able to walk on surfaces
 of any direction while defying gravity. A microscopic observation
 reveals that, in many cases, animals have a dense array of hairy structures
 at the end of their legs \cite{RN198,RN59}. These hairy adhesive
-pads help the animal to stay attached to any surface or detach easily
+pads help the animal to stay attached to 
+surfaces or detach easily
 at will for countless cycles, a property that is referred to as \emph{reversible
 adhesion}. Previous attempts to theoretically explain adhesion in
 hairy pads\cite{RN40,RN120} has followed two fundamental approaches:
 either by energy balance, or by force balance. 
 
-In the energy balance approach, adhesion is usually characterized by ``work
-of adhesion'' (W\textsubscript{adh}), which is the energy required
+In the energy balance approach, adhesion is characterized by ``work
+of adhesion'' (W\textsubscript{adh}) which is the energy required
 to separate a pad from the surface. During detachment, the elastic
 energy stored in the hair is dissipated, which increases W\textsubscript{adh}
-and thus adhesion is enhanced\cite{RN29,RN114}. Detachment of an
+and thus adhesion is enhanced\cite{RN29,RN114}. 
+% I do not understand the last sentence. What precisely does "`adhesion is enhanced"' mean? If the work of adhesion is fixed, how can it be adhanced? 
+Detachment of an
 individual hair can be explained based on Kendall's peeling theory\cite{RN147},
 which predicts low forces at high peeling angles.
+% The last sentence seems to belonmg more to the next paragraph. 
 
-In the force balance approach, adhesion is characterized by pull-off
+In the force balance approach, adhesion is characterized by a pull-off
 force, F\textsubscript{p} (or stress, \textgreek{sv}\textsubscript{p}),
 which is the minimum force necessary to separate two surfaces from
 contact. Based on a ``cohesive zone model'', Hui et. al.\cite{RN72}
-had identified two regimes of single hair detachment: 1) a \emph{flaw sensitive}
-regime, where, for large hair raidus, contact failure occurs due to crack propagation, 
-initiated by a stress singularity at the edge of the hair, leading
-to low \textgreek{sv}\textsubscript{p}; 2) a \emph{flaw insensitive} regime,
-where, for small hair raidus, the contact interface fails simultaneously, leading to high
+had identified two regimes of single hair detachment: 1) a flaw sensitive
+regime, where contact failure occurs due to crack propagation leading
+to low \textgreek{sv}\textsubscript{p}, 2) a flaw insensitive regime,
+where the contact interface fails simultaneously, leading to high
 \textgreek{sv}\textsubscript{p}. Tian et. al. \cite{RN230} had shown
 that the ``spatula'' shaped hair tips in a gecko's toe allows it
 to change adhesion by three orders of magnitude by laterally sliding
@@ -118,13 +128,15 @@ had further argued that the curved shape of the hair helps the pad
 to stay attached when pulled proximally, and easily detached by elastic
 recoil when pushed distally. 
 
+% I suggest to describe both models a bit more in detail. What is a flaw sensitive regime? What does "`flaw"' mean and how is it related to adhesion? 
+
 The theories presented so far suggests that low detachment force of
 a hairy pad can be attained by 1) increasing the stress concentration
 by peeling the pad at high angles, or 2) laterally shearing the pad
 before pull-off, which requires the hairs to have an asymmetric geometry
 or curvature. However, some insects like male dock beetles predominantly
-possess flat ``mushroom'' tipped hairs on their pads\cite{RN19},
-which are relatively less asymmetric compared to the ``spatula''
+possess flat ``mushroom'' tipped hairs on their pads\cite{RN19}.
+They are relatively symmetric compared to the ``spatula''
 tipped hairs. This begs the question of how the beetle can still easily
 detach their legs during locomotion, since these mushroom shaped hairs
 should be resilient to detachment via lateral shearing. Artificial
@@ -140,9 +152,9 @@ the pillars under compressive load leading to their contact loss \cite{RN279}
 or by using special materials reacting to external stimuli such as
 magnetic field\cite{RN186}, UV light \cite{RN280} or temperature\cite{RN281}.
 
-In this work, we propose the possible mechanisms by which adhesive
-pads with symmetric hairs can be easily detached under a theoretical
-framework. The hairy pad is modelled as an array of springs and the
+In this work, we propose a mechanisms by which adhesive
+pads with symmetric hairs can easily detached from a surface. 
+The hairy pad is modeled as an array of springs and the
 force-balance approach is used to quantify the net adhesion \cite{RN117}.
 We hope our work to provide strategies to control the adhesion force
 of an artificial micro-pillar adhesive, which has applications in
@@ -160,12 +172,14 @@ $k_{l}$, and natural length, $l_{l,0}$. The leg is hinged to the
 array at a distance, $s$, from the right end of the array. The hinge
 is at a vertical distance, $d_{s}$, from the surface. The hairs are
 spaced apart by a width, $w$, and the array is of length, $L=\left(N_{t}-1\right)w$.
-The pad is oriented at an instantaneous angle, $\theta$, while making contact with
+The pad is oriented at an angle, $\theta$, while making contact with
 a flat smooth surface. Each hair can attain a maximum length, $l_{h,p}$,
 before pull-off, such that its pull-off force, $f_{p}=k_{h}\left(l_{h,p}-l_{h,0}\right)$.
 $F_{net}$ is the net force on the pad and $M_{net}$ is the the net
 torque about the hinge, at a particular instant during the detachment
 process.
+% Is the angle at the hinge fixed? What happens, when I start pulling vertically?
+
 
 \begin{figure}[H]
 \includegraphics{Figure1-model_schematic}\caption{Spring contact model of a hairy adhesive pad. The pad consists of
@@ -198,8 +212,7 @@ we can thus find:
 d_{s,max}=l_{h,0}+\frac{f_{p}}{k_{h}}+\left[s-\left(n-1\right)w\right]\sin\theta\label{eq:d_max}
 \end{equation}
 
-Equation \ref{eq:force_n_d} will be valid for $d_{s}\leq d_{s,max}$.
-
+Equation \ref{eq:force_n_d} will be valid for $d_{s}\leq d_{s,max}$. 
 The maximum possible adhesion of the array would be the case when
 all hairs detach simultaneously ($\theta=0\lyxmathsym{\textdegree}$):
 
@@ -208,7 +221,7 @@ F_{max}=N_{t}f_{p}\label{eq:simul_detach}
 \end{equation}
 
 The net torque, $M_{net}$, about the hinge can be similarly derived
-(see Appendix):
+(Appendix):
 
 \begin{equation}
 M_{net}=nk_{h}\cos\theta\left[\left(d_{s}-l_{h,0}\right)\Psi-\left\{ \Psi^{2}+\frac{n^{2}-1}{12}w^{2}\right\} \sin\theta\right]\label{eq:moment_n_d}
@@ -674,7 +687,7 @@ without the need of asymmetric structures.
 
 \section{Acknowledgment}
 
-We are grateful to Hans-J\"{u}rgen Butt, Thomas Endlein, Ren\textcyr{\`\cyre} Hensel and
+We are grateful to Thomas Endlein, Ren\textcyr{\`\cyre} Hensel and
 Bat-El Pinchasik for fruitful discussions. This work was funded by
 \emph{Deutsche Forschungsgemeinschaft} (Grant number: PI 1351/2-1).
 

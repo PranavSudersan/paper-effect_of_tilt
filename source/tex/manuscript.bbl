@@ -35,7 +35,7 @@ Hooke,~R. \emph{Micrographia, or, Some physiological descriptions of minute
 {\mcitedefaultendpunct}{\mcitedefaultseppunct}\relax
 \EndOfBibitem
 \bibitem[Stork(1980)]{RN59}
-Stork,~N.~E. Experimental Analysis of Adhesion of Chrysolina Polita
+Stork,~N.~E. Experimental Analysis of Adhesion of \emph{Chrysolina Polita}
   (Chrysomelidae: Coleoptera) on a Variety of Surfaces. \emph{The Journal of
   Experimental Biology} \textbf{1980}, \emph{88}, 91\relax
 \mciteBstWouldAddEndPuncttrue
@@ -204,8 +204,8 @@ Gernay,~S.~M.; Labousse,~S.; Lambert,~P.; Compere,~P.; Gilet,~T. Multi-scale
 \EndOfBibitem
 \bibitem[Peisker \latin{et~al.}(2013)Peisker, Michels, and Gorb]{RN53}
 Peisker,~H.; Michels,~J.; Gorb,~S.~N. Evidence for a material gradient in the
-  adhesive tarsal setae of the ladybird beetle Coccinella septempunctata.
-  \emph{Nat Commun} \textbf{2013}, \emph{4}, 1661\relax
+  adhesive tarsal setae of the ladybird beetle \emph{Coccinella
+  septempunctata}. \emph{Nat Commun} \textbf{2013}, \emph{4}, 1661\relax
 \mciteBstWouldAddEndPuncttrue
 \mciteSetBstMidEndSepPunct{\mcitedefaultmidpunct}
 {\mcitedefaultendpunct}{\mcitedefaultseppunct}\relax
