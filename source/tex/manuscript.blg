@@ -1,49 +1,46 @@
 This is BibTeX, Version 0.99d (TeX Live 2019/W32TeX)
 Capacity: max_strings=100000, hash_size=100000, hash_prime=85009
 The top-level auxiliary file: manuscript.aux
-The style file: achemso.bst
-Reallocated singl_function (elt_size=4) to 100 items from 50.
-Database file #1: acs-manuscript.bib
-Database file #2: references.bib
-achemso 2019-02-14 v3.12a
-You've used 23 entries,
-            2538 wiz_defined-function locations,
-            955 strings with 15127 characters,
-and the built_in function-call counts, 7857 in all, are:
-= -- 629
-> -- 441
-< -- 13
-+ -- 174
-- -- 151
-* -- 849
-:= -- 1057
-add.period$ -- 43
-call.type$ -- 23
-change.case$ -- 4
-chr.to.int$ -- 2
-cite$ -- 23
-duplicate$ -- 439
-empty$ -- 548
-format.name$ -- 178
-if$ -- 1530
+The style file: elsarticle-num.bst
+Database file #1: references.bib
+You've used 22 entries,
+            2924 wiz_defined-function locations,
+            879 strings with 13815 characters,
+and the built_in function-call counts, 7431 in all, are:
+= -- 748
+> -- 244
+< -- 0
++ -- 96
+- -- 74
+* -- 694
+:= -- 1083
+add.period$ -- 41
+call.type$ -- 22
+change.case$ -- 21
+chr.to.int$ -- 0
+cite$ -- 22
+duplicate$ -- 207
+empty$ -- 784
+format.name$ -- 91
+if$ -- 1892
 int.to.chr$ -- 0
-int.to.str$ -- 1
-missing$ -- 0
-newline$ -- 160
-num.names$ -- 66
-pop$ -- 41
+int.to.str$ -- 22
+missing$ -- 23
+newline$ -- 93
+num.names$ -- 22
+pop$ -- 113
 preamble$ -- 1
 purify$ -- 0
 quote$ -- 0
-skip$ -- 23
+skip$ -- 371
 stack$ -- 0
-substring$ -- 424
-swap$ -- 448
-text.length$ -- 44
+substring$ -- 405
+swap$ -- 77
+text.length$ -- 0
 text.prefix$ -- 0
-top$ -- 1
-type$ -- 155
+top$ -- 0
+type$ -- 0
 warning$ -- 0
-while$ -- 79
-width$ -- 0
-write$ -- 310
+while$ -- 41
+width$ -- 24
+write$ -- 220
