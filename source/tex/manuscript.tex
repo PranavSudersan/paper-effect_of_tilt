@@ -1,42 +1,33 @@
 %% LyX 2.3.6 created this file.  For more info, see http://www.lyx.org/.
 %% Do not edit unless you really know what you are doing.
-\documentclass[british]{achemso}
+\documentclass[review]{elsarticle}
+
+\usepackage[unicode=true,colorlinks=false,hidelinks]{hyperref}
+\usepackage[pagewise]{lineno}
+\usepackage{float}
+\usepackage{url}
+
+\modulolinenumbers[5]
+
+\journal{Acta Biomaterialia}
 \usepackage[T2A,LGR,T1]{fontenc}
-\usepackage{babel}
+%\usepackage{babel}
 \usepackage{textcomp}
 \usepackage{amstext}
 \usepackage{amssymb}
 \usepackage{stackrel}
 \usepackage{graphicx}
 \usepackage{subscript}
-\usepackage[unicode=true,pdfusetitle,
- bookmarks=true,bookmarksnumbered=false,bookmarksopen=false,
- breaklinks=false,pdfborder={0 0 0},pdfborderstyle={},backref=false,colorlinks=false]
- {hyperref}
+%\usepackage[unicode=true,pdfusetitle,
+% bookmarks=true,bookmarksnumbered=false,bookmarksopen=false,
+% breaklinks=false,pdfborder={0 0 0},pdfborderstyle={},backref=false,colorlinks=false]
+% {hyperref}
 
+%
 \makeatletter
-
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%% LyX specific LaTeX commands.
 
 
-\title{Mechanisms of detachment in hairy adhesive systems}
-
-
-\author{Pranav Sudersan}
-
-
-\affiliation{Max Planck Institute for Polymer Research, Ackermannweg 10, 55128
-Mainz, Germany}
-
-
-\author{Michael Kappl}
-
-
-\affiliation{Max Planck Institute for Polymer Research, Ackermannweg 10, 55128
-Mainz, Germany}
-
-
-\email{kappl@mpip-mainz.mpg.de}
 
 \DeclareRobustCommand{\greektext}{%
   \fontencoding{LGR}\selectfont\def\encodingdefault{LGR}}
@@ -52,14 +43,33 @@ Mainz, Germany}
 
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%% User specified LaTeX commands.
-\SectionNumbersOn
+\makeatother
+
+%\SectionNumbersOn
 %\setkeys{acs}{doi = true}
 \setkeys{Gin}{width=\linewidth}
 \usepackage{subcaption}
+\bibliographystyle{elsarticle-num}
 
-\makeatother
+
 
 \begin{document}
+
+\begin{frontmatter}
+
+\title{Mechanisms of detachment in hairy adhesive systems}
+
+
+\author[mymainaddress]{Pranav Sudersan}
+
+
+\author[mymainaddress]{Michael Kappl\corref{mycorrespondingauthor}}
+\cortext[mycorrespondingauthor]{Corresponding author}
+\ead{kappl@mpip-mainz.mpg.de}
+
+\address[mymainaddress]{Max Planck Institute for Polymer Research, Ackermannweg 10, 55128
+Mainz, Germany}
+
 \begin{abstract}
 Several creatures can climb on smooth surfaces with the help of hairy
 adhesive pads on their legs. A rapid change from strong attachment
@@ -76,13 +86,22 @@ Our proposed model illustrates the design advantage provided by hairy
 adhesive systems, which not only provides strong adhesion, but also
 allows easy detachment, making it suitable as organs for fast locomotion.
 The presented approaches can be potentially used to switch the adhesion
-state in bio-inspired artificial systems without the need of asymmetric
+state in bio-inspired artificial fibrillar adhesives without the need of asymmetric
 structures.
 \end{abstract}
 
+\begin{keyword}
+fibrillar adhesion \sep reversible adhesion \sep contact splitting \sep beetle \sep biomechanics 
+\end{keyword}
+
+\end{frontmatter}
+
+\linenumbers
+
+
 \section{Introduction}
 
-Over the past few decades, there has been numerous studies to understand
+Over the past few decades, there have been numerous studies to understand
 how animals such as geckos and insects are able to walk on surfaces
 of any direction while defying gravity. A microscopic observation
 reveals that, in many cases, animals have a dense array of hairy structures
@@ -90,21 +109,21 @@ at the end of their legs \cite{RN198,RN59}. These hairy adhesive
 pads help the animal to stay attached to any surface or detach easily
 at will for countless cycles, a property that is referred to as \emph{reversible
 adhesion}. Previous attempts to theoretically explain adhesion in
-hairy pads\cite{RN40,RN120} has followed two fundamental approaches:
+hairy pads \cite{RN40,RN120} has followed two fundamental approaches:
 either by energy balance, or by force balance. 
 
 In the energy balance approach, adhesion is usually characterized by ``work
 of adhesion'' (W\textsubscript{adh}), which is the energy required
 to separate a pad from the surface. During detachment, the elastic
 energy stored in the hair is dissipated, which increases W\textsubscript{adh}
-and thus adhesion is enhanced\cite{RN29,RN114}. Detachment of an
-individual hair can be explained based on Kendall's peeling theory\cite{RN147},
+and thus adhesion is enhanced \cite{RN29,RN114}. Detachment of an
+individual hair can be explained based on Kendall's peeling theory \cite{RN147},
 which predicts low forces at high peeling angles.
 
 In the force balance approach, adhesion is characterized by pull-off
 force, F\textsubscript{p} (or stress, \textgreek{sv}\textsubscript{p}),
 which is the minimum force necessary to separate two surfaces from
-contact. Based on a ``cohesive zone model'', Hui et. al.\cite{RN72}
+contact. Based on a ``cohesive zone model'', Hui et. al. \cite{RN72}
 had identified two regimes of single hair detachment: 1) a \emph{flaw sensitive}
 regime, where, for large hair raidus, contact failure occurs due to crack propagation, 
 initiated by a stress singularity at the edge of the hair, leading
@@ -113,7 +132,7 @@ where, for small hair raidus, the contact interface fails simultaneously, leadin
 \textgreek{sv}\textsubscript{p}. Tian et. al. \cite{RN230} had shown
 that the ``spatula'' shaped hair tips in a gecko's toe allows it
 to change adhesion by three orders of magnitude by laterally sliding
-and controlling the pulling angle to disorient the hairs. Federle\cite{RN20}
+and controlling the pulling angle to disorient the hairs. Federle \cite{RN20}
 had further argued that the curved shape of the hair helps the pad
 to stay attached when pulled proximally, and easily detached by elastic
 recoil when pushed distally. 
@@ -123,14 +142,14 @@ a hairy pad can be attained by 1) increasing the stress concentration
 by peeling the pad at high angles, or 2) laterally shearing the pad
 before pull-off, which requires the hairs to have an asymmetric geometry
 or curvature. However, some insects like male dock beetles predominantly
-possess flat ``mushroom'' tipped hairs on their pads\cite{RN19},
+possess flat ``mushroom'' tipped hairs on their pads \cite{RN19},
 which are relatively less asymmetric compared to the ``spatula''
 tipped hairs. This begs the question of how the beetle can still easily
 detach their legs during locomotion, since these mushroom shaped hairs
 should be resilient to detachment via lateral shearing. Artificial
 micro-pillar adhesives mimicking the mushroom shaped hairs of the
 beetle have in fact demonstrated its superior adhesive strength in
-comparison to other geometries\cite{RN112,RN57}. Introducing asymmetry
+comparison to other geometries \cite{RN112,RN57}. Introducing asymmetry
 into the pillar geometry of such mimics for easy detachment is however
 challenging due to current limitations in fabrication techniques and
 difficulty in scaling-up for practical applications \cite{RN57}.
@@ -138,7 +157,7 @@ Alternate strategies are thus desired to switch the adhesion state
 of symmetric pillar arrays in a reversible manner, e.g. by buckling
 the pillars under compressive load leading to their contact loss \cite{RN279}
 or by using special materials reacting to external stimuli such as
-magnetic field\cite{RN186}, UV light \cite{RN280} or temperature\cite{RN281}.
+magnetic field \cite{RN186}, UV light \cite{RN280} or temperature \cite{RN281}.
 
 In this work, we propose the possible mechanisms by which adhesive
 pads with symmetric hairs can be easily detached under a theoretical
@@ -182,7 +201,7 @@ the surface. The net force on the whole pad will be,
 F_{net}=\stackrel[i=1]{n}{\sum}k_{h}\left(l_{h,i}-l_{h,0}\right)
 \]
 
-Simplifying, we get (see Appendix section for derivation):
+Simplifying, we get (see Appendix for derivation):
 
 \begin{equation}
 F_{net}=nk_{h}\left[d_{s}-l_{h,0}-\Psi\sin\theta\right]\label{eq:force_n_d}
@@ -422,7 +441,7 @@ increasing the lever arm ($s_{l}+s_{h}$).
 
 Detachment by flexing requires that the claw remains fixed and stable
 during the process. We see that generally, the normal load, acting
-on the hinge, $F_{claw-hinge}$, follows a similar trend as $F_{pull}$.
+on the hinge, $F_{claw-hinge}$, follows a similar trend as $F_{pull}$ (Figure \ref{fig:Flex}).
 For low values of $d_{s}$, $F_{claw-hinge}$ goes to negative values,
 implying that the claw should adhere well with the surface to resist
 this negative load. As the detachment progresses however, the array
@@ -497,7 +516,7 @@ lever arm ($\hat{s}_{l}$). In contrast, for the previous cases of
 \emph{free pull} and \emph{fixed pull}, the reduction factor is capped
 to the maximum number of hairs in the array ($N_{t}=25$). Here, \emph{elastic
 weakening} can only reduce the array's adhesion force from $N_{t}$
-hairs down to a single hair.
+hairs down to a single hair at most.
 
 \paragraph{Effect of $N_{t}$:}
 
@@ -532,14 +551,14 @@ system of a dock beetle. The beetle is known to have 3 sets of hairy
 pads in each of their legs, each possessing hairs of different geometries.
 To keep our analysis simple, we will assume each leg to have only
 two pads, with identical hairs of ``mushroom'' geometry. The distal
-and proximal pads possess roughly 500 and 1000 hairs, respectively\cite{RN19}.
+and proximal pads possess roughly 500 and 1000 hairs, respectively \cite{RN19}.
 Assuming the pads to be rectangular arrays of $20\times25$ and $40\times25$
 hairs, we can model this as a one-dimensional system of 20 and 40
 hairs, respectively, by combining the hairs along the width. Based
-on reported measurements\cite{RN79}, the beetle's combined ``hair''
+on reported measurements \cite{RN79}, the beetle's ``combined hair''
 is thus considered to have an effective pull-off force, $f_{p}=0.5\times25=12.5$
-\textgreek{m}N and spring constant, $k_{h}=0.5\times25=12.5$ N/m
-. The beetle's hairs are approximately $l_{h,0}=40$ \textgreek{m}m
+\textgreek{m}N and spring constant, $k_{h}=0.5\times25=12.5$ N m\protect\textsuperscript{-1}.
+The beetle's hairs are approximately $l_{h,0}=40$ \textgreek{m}m
 long, spaced $w=10$ \textgreek{m}m apart. The adhesive pad also has
 a claw, around 200 \textgreek{m}m long, and the leg is connected roughly
 at the end of the proximal pad. This will put $\hat{s}_{h}=20$ and
@@ -553,7 +572,7 @@ it.
 Based on the above assumptions, we can come up with force-distance
 curves to detach the beetle's leg via various pathways (Figure \ref{fig:Detachment-pathways}).
 First, let us assume the hinge H\textsubscript{2} to be fixed, such
-that both the distal and proximal pads can be combined to be a single
+that both the distal and proximal pads are combined to be a single
 long pad with $N_{t}=60$ hairs. Path 1 shows the case where the pad
 shows maximum possible adhesion. Here, the combined pad is vertically
 pulled upwards while keeping the array perfectly parallel to the surface.
@@ -572,7 +591,7 @@ mechanisms would be to first apply a load on the pad (path 4) and
 compress the hairs until point $b$. Beyond this point, the claw can
 be used as a hinge to detach the pad via flexing it around H\textsubscript{3},
 which once again reduces the adhesion force. Now, if we assume the
-hinge H\textsubscript{2} to be free such that two pads can behave
+hinge H\textsubscript{2} to be free such that the two pads can behave
 distinctly, we can consider the scenario where the proximal pad is
 flexed around the distal pad at H\textsubscript{2} while keeping
 H\textsubscript{1} fixed (path 5). After the proximal pad has completely
@@ -604,7 +623,7 @@ Considering that hair deformation occurs at length scales below 10
 \textgreek{m}m, direct observation of this effect on running beetles
 would be challenging. A recent study on PDMS micro-pillar arrays,
 however, does indeed show a strong reduction in the adhesion force
-due to slight misalignments with the surface\cite{RN252}. Based on
+due to slight misalignments with the surface \cite{RN252}. Based on
 previously reported microscopic investigation of freely walking dock
 beetles \cite{RN83}, we argue that the following experimental observations
 provide support to our proposed theory: 1) The detachment was shown
@@ -621,10 +640,10 @@ not only reduces the contact area, but also non-uniformly deforms
 the hairs, both leading to a reduction in adhesion for easy detachment.
 4) Contact images showed that the array ``peels'' from the proximal
 to distal direction during detachment. However, the beetle's hairs
-are attached to a relatively stiff backing\cite{RN53}, so it wouldn't
+are attached to a relatively stiff backing \cite{RN53}, so it wouldn't
 be able to ``peel'' its array, since peeling, strictly speaking,
 depends on the elastic contribution of a thin flexible backing as
-it bends during the process\cite{RN147}. Rather, the ``peeling''
+it bends during the process \cite{RN147}. Rather, the ``peeling''
 observed in the beetle's case should be a result of the pad detaching
 from the surface in a tilted orientation, causing the hairs to detach
 in sequence. 5) The time scale of detachment was reported to be an
@@ -669,20 +688,20 @@ while avoiding buckling and lateral bundling represent the optimal
 design conditions to maximize the range of control over adhesion.
 The proposed theory is supported by previously reported experimental
 observations of leg detachment in dock beetles and opens up new strategies
-to achieve reversible adhesion in bio-inspired artificial adhesives
+to achieve reversible adhesion in bio-inspired artificial fibrillar adhesives
 without the need of asymmetric structures.
 
 \section{Acknowledgment}
 
-We are grateful to Hans-J\"{u}rgen Butt, Thomas Endlein, Ren\textcyr{\`\cyre} Hensel and
-Bat-El Pinchasik for fruitful discussions. This work was funded by
-\emph{Deutsche Forschungsgemeinschaft} (Grant number: PI 1351/2-1).
+We are grateful to Hans-J\"{u}rgen Butt and Thomas Endlein for reviewing the text, and thank Ren\textcyr{\`\cyre} Hensel and
+Bat-El Pinchasik for fruitful discussions. This work was supported by the Deutsche Forschungsgemeinschaft
+[Grant number: PI 1351/2-1] and the Max Planck Graduate Center with the Johannes Gutenberg-Universit\"{a}t Mainz [MPGC]. 
 
 \appendix
 
-\section{Appendix}
+\section{{Derivations}}
 
-\subsection{Derivations}
+%\subsection{Derivations}
 
 \setcounter{figure}{0} \renewcommand{\thefigure}{A.\arabic{figure}} 
 \setcounter{equation}{0} \renewcommand{\theequation}{A.\arabic{equation}} 
