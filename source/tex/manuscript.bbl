@@ -54,6 +54,15 @@ K.~Kendall, \href{http://dx.doi.org/10.1088/0022-3727/8/13/005}{Thin-film
 \newblock \href {http://dx.doi.org/10.1088/0022-3727/8/13/005}
   {\path{doi:10.1088/0022-3727/8/13/005}}.
 
+\bibitem{RN296}
+T.~Endlein, A.~Ji, D.~Samuel, N.~Yao, Z.~Wang, W.~J.~P. Barnes, W.~Federle,
+  M.~Kappl, Z.~Dai, \href{https://doi.org/10.1098/rsif.2012.0838}{Sticking like
+  sticky tape: tree frogs use friction forces to enhance attachment on
+  overhanging surfaces}, Journal of The Royal Society Interface 10~(80) (2013)
+  20120838.
+\newblock \href {http://dx.doi.org/10.1098/rsif.2012.0838}
+  {\path{doi:10.1098/rsif.2012.0838}}.
+
 \bibitem{RN72}
 C.~Y. Hui, N.~J. Glassmaker, T.~Tang, A.~Jagota,
   \href{https://www.ncbi.nlm.nih.gov/pubmed/16849151}{Design of biomimetic
@@ -148,6 +157,23 @@ M.~Schargott, V.~L. Popov, S.~Gorb,
   (2006) 48--53.
 \newblock \href {http://dx.doi.org/https://doi.org/10.1016/j.jtbi.2006.05.023}
   {\path{doi:https://doi.org/10.1016/j.jtbi.2006.05.023}}.
+
+\bibitem{RN253}
+M.~Bacca, J.~A. Booth, K.~L. Turner, R.~M. McMeeking,
+  \href{https://www.sciencedirect.com/science/article/pii/S0022509616301508}{Load
+  sharing in bioinspired fibrillar adhesives with backing layer interactions
+  and interfacial misalignment}, Journal of the Mechanics and Physics of Solids
+  96 (2016) 428--444.
+\newblock \href {http://dx.doi.org/https://doi.org/10.1016/j.jmps.2016.04.008}
+  {\path{doi:https://doi.org/10.1016/j.jmps.2016.04.008}}.
+
+\bibitem{RN273}
+R.~Hensel, J.~Thiemecke, J.~A. Booth,
+  \href{https://pubs.acs.org/doi/abs/10.1021/acsami.1c00978}{Preventing
+  catastrophic failure of microfibrillar adhesives in compliant systems based
+  on statistical analysis of adhesive strength}, ACS Applied Materials \&
+  Interfaces\href {http://dx.doi.org/10.1021/acsami.1c00978}
+  {\path{doi:10.1021/acsami.1c00978}}.
 
 \bibitem{RN79}
 J.~M. Bullock, W.~Federle,

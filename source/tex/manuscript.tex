@@ -57,7 +57,7 @@
 
 \begin{frontmatter}
 
-\title{Mechanisms of detachment in hairy adhesive systems}
+\title{Mechanisms of detachment in fibrillar adhesive systems}
 
 
 \author[mymainaddress]{Pranav Sudersan}
@@ -74,20 +74,21 @@ Mainz, Germany}
 Several creatures can climb on smooth surfaces with the help of hairy
 adhesive pads on their legs. A rapid change from strong attachment
 to effortless detachment of the leg is enabled by the asymmetric geometry
-of the hairs. In this study, we propose possible mechanisms by which
-a hairy pad can be easily detached even when the hairs possess no
-asymmetry. Based on a spring-based model, we consider three modes
+of the hairs. In this study, we propose mechanisms by which
+a hairy pad can be easily detached, even when the hairs possess no
+asymmetry. Here, we examine the possible function of the leg joint and the claws.
+Based on a spring-based model, we consider three modes
 of detachment: vertically pulling the pad while maintaining either
 a 1) fixed or a 2) free leg joint, or by 3) flexing the pad about
 the claw. We show that in all cases, the adhesion force can be significantly
 reduced due to elastic forces when the hairs deform non-uniformly
 across the array, an effect that we call ``\emph{elastic weakening}''.
-Our proposed model illustrates the design advantage provided by hairy
+Our proposed model illustrates the design advantage provided by such fibrillar
 adhesive systems, which not only provides strong adhesion, but also
 allows easy detachment, making it suitable as organs for fast locomotion.
 The presented approaches can be potentially used to switch the adhesion
-state in bio-inspired artificial fibrillar adhesives without the need of asymmetric
-structures.
+state in bio-inspired fibrillar adhesives, by incorporating artificial joints and claws into their design, 
+without the need of asymmetric or stimuli-responsive fibrillar structures.
 \end{abstract}
 
 \begin{keyword}
@@ -104,8 +105,8 @@ fibrillar adhesion \sep reversible adhesion \sep contact splitting \sep beetle \
 Over the past few decades, there have been numerous studies to understand
 how animals such as geckos and insects are able to walk on surfaces
 of any direction while defying gravity. A microscopic observation
-reveals that, in many cases, animals have a dense array of hairy structures
-at the end of their legs \cite{RN198,RN59}. These hairy adhesive
+reveals that, in many cases, animals have a dense array of fibrillar structures
+at the end of their legs \cite{RN198,RN59}. These "hairy" adhesive
 pads help the animal to stay attached to any surface or detach easily
 at will for countless cycles, a property that is referred to as \emph{reversible
 adhesion}. Previous attempts to theoretically explain adhesion in
@@ -117,7 +118,7 @@ of adhesion'' (W\textsubscript{adh}), which is the energy required
 to separate a pad from the surface. During detachment, the elastic
 energy stored in the hair is dissipated, which increases W\textsubscript{adh}
 and thus adhesion is enhanced \cite{RN29,RN114}. Detachment of an
-individual hair can be explained based on Kendall's peeling theory \cite{RN147},
+individual hair can be explained based on Kendall's peeling theory \cite{RN147, RN296},
 which predicts low forces at high peeling angles.
 
 In the force balance approach, adhesion is characterized by pull-off
@@ -138,7 +139,7 @@ to stay attached when pulled proximally, and easily detached by elastic
 recoil when pushed distally. 
 
 The theories presented so far suggests that low detachment force of
-a hairy pad can be attained by 1) increasing the stress concentration
+a fibrillar adhesive pad can be attained by 1) increasing the stress concentration
 by peeling the pad at high angles, or 2) laterally shearing the pad
 before pull-off, which requires the hairs to have an asymmetric geometry
 or curvature. However, some insects like male dock beetles predominantly
@@ -162,7 +163,7 @@ magnetic field \cite{RN186}, UV light \cite{RN280} or temperature \cite{RN281}.
 In this work, we propose the possible mechanisms by which adhesive
 pads with symmetric hairs can be easily detached under a theoretical
 framework. The hairy pad is modelled as an array of springs and the
-force-balance approach is used to quantify the net adhesion \cite{RN117}.
+force-balance approach is used to quantify the net adhesion \cite{RN117, RN253}.
 We hope our work to provide strategies to control the adhesion force
 of an artificial micro-pillar adhesive, which has applications in
 bio-inspired climbing robots, pick-and-place operations and reusable
@@ -170,7 +171,7 @@ adhesives.
 
 \section{Model}
 
-The hairy pad is assumed to be a one dimensional array of $N_{t}$
+The fibrillar adhesive pad is assumed to be a one dimensional array of $N_{t}$
 hairs, each behaving like a spring with spring constant, $k_{h}$,
 and natural length, $l_{h,0}$ (Figure \ref{fig:Schematic}). The
 array backing is assumed to be stiff. The pad is attached to a linearly
@@ -187,7 +188,7 @@ torque about the hinge, at a particular instant during the detachment
 process.
 
 \begin{figure}[H]
-\includegraphics{Figure1-model_schematic}\caption{Spring contact model of a hairy adhesive pad. The pad consists of
+\includegraphics{Figure1-model_schematic}\caption{Spring contact model of a fibrillar adhesive pad. The pad consists of
 an array of $N_{t}$ hairs connected to a deformable leg at the hinge.
 At a particular distance, $d_{s}$, $n$ number of hairs are in contact
 and the array is oriented at a tilt angle, $\theta$, with the surface.
@@ -284,7 +285,7 @@ two cases involving vertical detachment.
 \subsection{Fixed pull}
 
 \begin{figure}[H]
-\includegraphics{Case1-Fixed_pull}\caption{Force distance curves for a hairy pad, pulled vertically upwards with
+\includegraphics{Case1-Fixed_pull}\caption{Force distance curves for a fibrillar adhesive pad, pulled vertically upwards with
 a fixed hinge between the pad and the leg (\emph{Fixed pull}). The
 tilt angle, $\theta$, of the array is kept fixed during detachment.
 The leg is either stiff ($k_{l}\rightarrow\infty$) or soft ($k_{l}/k_{h}=10$).
@@ -293,7 +294,7 @@ represents the maximum possible adhesion for the pad. All values are
 normalized to dimensionless forms, as described in text.\label{fig:Fixed-pull}}
 \end{figure}
 
-The hairy adhesive pad can be detached by pulling it vertically upwards
+The fibrillar adhesive pad can be detached by pulling it vertically upwards
 while maintaining a constant tilt angle, $\theta$, with the surface.
 This can be achieved if the joint connecting the leg to the array
 (leg-hinge) is kept fixed. Equations \ref{eq:force_n_d}, \ref{eq:d_max}
@@ -340,13 +341,15 @@ shows that $\Delta l$ increases with every subsequent loss of hair
 contact if $\theta$ is kept constant. This implies that, once initiated,
 the leg's recoil will always be large enough to detach every remaining
 hair, resulting in a spontaneous propagation of the detachment front
-until the pad completely breaks contact with the surface.
+until the pad completely breaks contact with the surface. This is consistent with 
+a recent report of catastrophic failure, due to a similar recoil effect of the measurement system,
+seen in micro-fibrillar adhesives with a narrow variance of individual fibril adhesive strengths \cite{RN273}.
 
 \subsection{Free pull}
 
 \begin{figure}[H]
 
-\includegraphics{Case2-Free_pull}\caption{Force distance curves for a hairy pad, pulled vertically upwards with
+\includegraphics{Case2-Free_pull}\caption{Force distance curves for a fibrillar adhesive pad, pulled vertically upwards with
 a free hinge between the pad and the leg (\emph{Free pull}). $s$
 is the distance between the leg-hinge and the right end of the array
 and $L$ is the array length. The free hinge allows further tilting
@@ -404,7 +407,7 @@ of the detachment front when the leg is soft.
 \subsection{Flex}
 
 \begin{figure}[H]
-\includegraphics{Case3-Fixed_flex}\caption{Force curves for a hairy pad detached by flexing it about the claw.
+\includegraphics{Case3-Fixed_flex}\caption{Force curves for a fibrillar adhesive pad detached by flexing it about the claw.
 $\hat{F}_{pull}=\frac{F_{pull}}{k_{h}w}$ is the normalised pulling
 force necessary to apply the torque about the claw-hinge for detachment,
 $\hat{F}_{hinge}=\frac{F_{hinge}}{k_{h}w}$ is the normalised reaction
@@ -545,7 +548,7 @@ to dimensionless forms, as described in text. \label{fig:Reduction-factor-Nt}}
 \paragraph{Detachment pathways:}
 
 Based on the three modes of detachment discussed in the previous sections,
-one can think of several strategies to detach a hairy adhesive pad
+one can think of several strategies to detach a fibrillar adhesive pad
 from the surface. To illustrate this, let us consider the adhesive
 system of a dock beetle. The beetle is known to have 3 sets of hairy
 pads in each of their legs, each possessing hairs of different geometries.
@@ -674,10 +677,10 @@ angles to which the pad can be tilted while avoiding bundling.
 \section{Conclusion}
 
 Inhomogeneous deformation of hairs results in significant reductions
-in the adhesion of a hairy pad system. Such a condition can be achieved
+in the adhesion of a fibrillar system. Such a condition can be achieved
 by either 1) pulling the pad while maintaining a constant tilt angle,
 2) pulling the pad while maintaining a free leg joint or 3) flexing
-the pad around the claw. Strategic control of the joint's mobility
+the pad around the claw. Strategic control of the joint's mobility or claw
 can allow the leg to easily switch between the above mechanisms, thus
 providing a simple way to reduce adhesion as per necessity. The presence
 of a deformable leg can further trigger a spontaneous propagation
@@ -687,14 +690,15 @@ of hairs, with a hair geometry that allows for large deformations
 while avoiding buckling and lateral bundling represent the optimal
 design conditions to maximize the range of control over adhesion.
 The proposed theory is supported by previously reported experimental
-observations of leg detachment in dock beetles and opens up new strategies
-to achieve reversible adhesion in bio-inspired artificial fibrillar adhesives
-without the need of asymmetric structures.
+observations of leg detachment in dock beetles and highlights possible role of the leg joint and claws to 
+enable reversible adhesion. Similar strategies could potentially be adopted in the design of bio-inspired 
+artificial fibrillar adhesives to easily switch the adhesion state without the need of asymmetric structures.
 
 \section{Acknowledgment}
 
-We are grateful to Hans-J\"{u}rgen Butt and Thomas Endlein for reviewing the text, and thank Ren\textcyr{\`\cyre} Hensel and
-Bat-El Pinchasik for fruitful discussions. This work was supported by the Deutsche Forschungsgemeinschaft
+We are grateful to Prof. Dr. Hans-J\"{u}rgen Butt and Dr. Thomas Endlein (Max Planck Institute for Polymer Research, Germany) for reviewing the text, and thank Dr. Ren\textcyr{\`\cyre} Hensel
+(Leibniz Institute for New Materials, Germany) and
+Dr. Bat-El Pinchasik (Tel-Aviv University, Israel) for fruitful discussions. This work was supported by the Deutsche Forschungsgemeinschaft
 [Grant number: PI 1351/2-1] and the Max Planck Graduate Center with the Johannes Gutenberg-Universit\"{a}t Mainz [MPGC]. 
 
 \appendix
