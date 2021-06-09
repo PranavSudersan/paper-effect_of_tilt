@@ -62,9 +62,8 @@
 
 \author[mymainaddress]{Pranav Sudersan}
 
-
 \author[mymainaddress]{Michael Kappl\corref{mycorrespondingauthor}}
-\cortext[mycorrespondingauthor]{Corresponding author}
+\cortext[mycorrespondingauthor]{Corresponding author. \emph{Telephone:} +49 6131 379-114}
 \ead{kappl@mpip-mainz.mpg.de}
 
 \address[mymainaddress]{Max Planck Institute for Polymer Research, Ackermannweg 10, 55128
@@ -99,6 +98,11 @@ fibrillar adhesion \sep reversible adhesion \sep contact splitting \sep beetle \
 
 \linenumbers
 
+\section*{Statement of Significance}
+Insects such as flies or beetles have the ability to walk on any surface against gravity. It was previously shown that
+these insects possess a dense array of micrometer sized hairs on their legs. These hairy legs are responsible for the 
+insect's strong adhesion to surfaces by resisting contact failure due to micro-roughness or defects on the surface.
+In this work, we theoretically show that, a hairy design of the leg not only provides strong adhesion, but can also allow easy detachment from a surface. This is achieved simply by modulating the leg's tilt relative to the surface with the aid of its leg joint or claws. Such a design can thus inspire artificial adhesives with switchable adhesion properties.
 
 \section{Introduction}
 
@@ -119,17 +123,17 @@ to separate a pad from the surface. During detachment, the elastic
 energy stored in the hair is dissipated, which increases W\textsubscript{adh}
 and thus adhesion is enhanced \cite{RN29,RN114}. Detachment of an
 individual hair can be explained based on Kendall's peeling theory \cite{RN147, RN296},
-which predicts low forces at high peeling angles.
+which predicts low adhesion at high peeling angles.
 
 In the force balance approach, adhesion is characterized by pull-off
 force, F\textsubscript{p} (or stress, \textgreek{sv}\textsubscript{p}),
 which is the minimum force necessary to separate two surfaces from
 contact. Based on a ``cohesive zone model'', Hui et. al. \cite{RN72}
 had identified two regimes of single hair detachment: 1) a \emph{flaw sensitive}
-regime, where, for large hair raidus, contact failure occurs due to crack propagation, 
+regime, where, for large hair radius, contact failure occurs due to crack propagation, 
 initiated by a stress singularity at the edge of the hair, leading
 to low \textgreek{sv}\textsubscript{p}; 2) a \emph{flaw insensitive} regime,
-where, for small hair raidus, the contact interface fails simultaneously, leading to high
+where, for small hair radius, the contact interface fails simultaneously, leading to high
 \textgreek{sv}\textsubscript{p}. Tian et. al. \cite{RN230} had shown
 that the ``spatula'' shaped hair tips in a gecko's toe allows it
 to change adhesion by three orders of magnitude by laterally sliding
@@ -177,19 +181,19 @@ and natural length, $l_{h,0}$ (Figure \ref{fig:Schematic}). The
 array backing is assumed to be stiff. The pad is attached to a linearly
 deformable leg, assumed to be another spring with spring constant,
 $k_{l}$, and natural length, $l_{l,0}$. The leg is hinged to the
-array at a distance, $s$, from the right end of the array. The hinge
+array at a distance, $s$, from the right end of the array. The hinge (or joint) 
 is at a vertical distance, $d_{s}$, from the surface. The hairs are
 spaced apart by a width, $w$, and the array is of length, $L=\left(N_{t}-1\right)w$.
 The pad is oriented at an instantaneous angle, $\theta$, while making contact with
 a flat smooth surface. Each hair can attain a maximum length, $l_{h,p}$,
 before pull-off, such that its pull-off force, $f_{p}=k_{h}\left(l_{h,p}-l_{h,0}\right)$.
 $F_{net}$ is the net force on the pad and $M_{net}$ is the the net
-torque about the hinge, at a particular instant during the detachment
+torque about the joint, at a particular instant during the detachment
 process.
 
 \begin{figure}[H]
-\includegraphics{Figure1-model_schematic}\caption{Spring contact model of a fibrillar adhesive pad. The pad consists of
-an array of $N_{t}$ hairs connected to a deformable leg at the hinge.
+\includegraphics{Figure1-model_schematic}\caption{\textbf{Spring contact model of a fibrillar adhesive pad.} The pad consists of
+an array of $N_{t}$ hairs connected to a deformable leg at the joint.
 At a particular distance, $d_{s}$, $n$ number of hairs are in contact
 and the array is oriented at a tilt angle, $\theta$, with the surface.
 \label{fig:Schematic}}
@@ -202,7 +206,7 @@ the surface. The net force on the whole pad will be,
 F_{net}=\stackrel[i=1]{n}{\sum}k_{h}\left(l_{h,i}-l_{h,0}\right)
 \]
 
-Simplifying, we get (see Appendix for derivation):
+Simplifying, we get (see Appendix A for derivation):
 
 \begin{equation}
 F_{net}=nk_{h}\left[d_{s}-l_{h,0}-\Psi\sin\theta\right]\label{eq:force_n_d}
@@ -227,14 +231,14 @@ all hairs detach simultaneously ($\theta=0\lyxmathsym{\textdegree}$):
 F_{max}=N_{t}f_{p}\label{eq:simul_detach}
 \end{equation}
 
-The net torque, $M_{net}$, about the hinge can be similarly derived
-(see Appendix):
+The net torque, $M_{net}$, about the joint can be similarly derived
+(see Appendix A):
 
 \begin{equation}
 M_{net}=nk_{h}\cos\theta\left[\left(d_{s}-l_{h,0}\right)\Psi-\left\{ \Psi^{2}+\frac{n^{2}-1}{12}w^{2}\right\} \sin\theta\right]\label{eq:moment_n_d}
 \end{equation}
 
-Let us now consider the scenario where even the leg above the hinge
+Let us now consider the scenario where even the leg above the joint
 can undergo elastic stretching together with the hairs. When a hair
 detaches from the surface, the leg undergoes an elastic recoil due
 to the stored elastic energy. Suppose the leg relaxes upward by a
@@ -272,9 +276,9 @@ force values represent attraction by convention.
 
 We consider three possible mechanisms to detach the adhesive pad from
 a surface: 1) \emph{Fixed pull}, where the pad is pulled vertically
-up while keeping a fixed leg-hinge, 2) \emph{Free pull,} where the
-pad is pulled vertically up while keeping the leg-hinge free to allow
-rotation of the array and 3) \emph{Flex}, where the pad is hinged
+up while keeping a fixed leg joint; 2) \emph{Free pull,} where the
+pad is pulled vertically up while keeping the leg joint free to allow
+rotation of the array; 3) \emph{Flex}, where the pad is hinged
 to an external point (claw-hinge), and detached in a rotary fashion,
 emulating the claw function in insects. To investigate each case in
 detail, let us assume a pad with $N_{t}=25$ hairs and $\hat{f_{p}}=0.1$
@@ -285,8 +289,9 @@ two cases involving vertical detachment.
 \subsection{Fixed pull}
 
 \begin{figure}[H]
-\includegraphics{Case1-Fixed_pull}\caption{Force distance curves for a fibrillar adhesive pad, pulled vertically upwards with
-a fixed hinge between the pad and the leg (\emph{Fixed pull}). The
+\includegraphics{Case1-Fixed_pull}\caption{\textbf{Detachment by fixed pull.} 
+Force distance curves for a fibrillar adhesive pad, pulled vertically upwards with
+a fixed joint between the pad and the leg (\emph{Fixed pull}). The
 tilt angle, $\theta$, of the array is kept fixed during detachment.
 The leg is either stiff ($k_{l}\rightarrow\infty$) or soft ($k_{l}/k_{h}=10$).
 Positive force values represent attraction. The green dashed line
@@ -296,8 +301,8 @@ normalized to dimensionless forms, as described in text.\label{fig:Fixed-pull}}
 
 The fibrillar adhesive pad can be detached by pulling it vertically upwards
 while maintaining a constant tilt angle, $\theta$, with the surface.
-This can be achieved if the joint connecting the leg to the array
-(leg-hinge) is kept fixed. Equations \ref{eq:force_n_d}, \ref{eq:d_max}
+This can be achieved if the joint connecting the leg to the array is kept fixed. 
+Equations \ref{eq:force_n_d}, \ref{eq:d_max}
 and \ref{eq:simul_detach} can be used to get the resulting force-distance
 curves. 
 
@@ -349,10 +354,11 @@ seen in micro-fibrillar adhesives with a narrow variance of individual fibril ad
 
 \begin{figure}[H]
 
-\includegraphics{Case2-Free_pull}\caption{Force distance curves for a fibrillar adhesive pad, pulled vertically upwards with
-a free hinge between the pad and the leg (\emph{Free pull}). $s$
-is the distance between the leg-hinge and the right end of the array
-and $L$ is the array length. The free hinge allows further tilting
+\includegraphics{Case2-Free_pull}\caption{\textbf{Detachment by free pull.} 
+Force distance curves for a fibrillar adhesive pad, pulled vertically upwards with
+a free joint between the pad and the leg (\emph{Free pull}). $s$
+is the distance between the leg joint and the right end of the array
+and $L$ is the array length. The free joint allows further tilting
 of the array during the vertical pull. The leg is either stiff ($k_{l}\rightarrow\infty$)
 or soft ($k_{l}/k_{h}=10$). Positive force values represent attraction.
 The green dashed line represents the maximum possible adhesion for
@@ -363,9 +369,9 @@ in text. \label{fig:Free-pull}}
 
 Similar to the previous case, we once again consider the situation
 where the adhesive pad is pulled vertically upwards for detachment.
-However now, the leg-hinge is assumed to be free. In this case, the
+However now, the leg joint is assumed to be free. In this case, the
 array will reorient itself to maintain a zero net torque about the
-leg-hinge during the entire detachment process. At any given instant,
+joint during the entire detachment process. At any given instant,
 the tilt angle, $\theta$, can be found by setting $M_{net}$ to zero
 in equation \ref{eq:moment_n_d} to get:
 
@@ -376,14 +382,14 @@ in equation \ref{eq:moment_n_d} to get:
 Using the above relation together with equations \ref{eq:force_n_d},
 \ref{eq:d_max} and \ref{eq:simul_detach}, we can find force-distance
 curves during a free vertical pull of the adhesive pad. Since the
-position of the leg-hinge will influence the net torque, we use the
+position of the leg joint will influence the net torque, we use the
 ratio, $s/L$, to study its effect on the detachment forces.
 
-Maximum adhesion is seen when the leg-hinge is positioned at the centre
+Maximum adhesion is seen when the leg joint is positioned at the centre
 of the array, i.e. $s/L=0.5$ (Figure \ref{fig:Free-pull}). Here,
 the net torque due to the hairs is balanced by symmetry and the array
 remains parallel to the substrate until all hairs detach simultaneously
-at $\hat{d_{s}}=0.1$. Shifting the position of the leg-hinge further
+at $\hat{d_{s}}=0.1$. Shifting the position of the joint further
 away from the array centre leads to lower forces or adhesion. The
 resulting torque imbalance will tilt the array, which reduces the
 net force due to the \emph{elastic weakening} effect, as described
@@ -407,7 +413,8 @@ of the detachment front when the leg is soft.
 \subsection{Flex}
 
 \begin{figure}[H]
-\includegraphics{Case3-Fixed_flex}\caption{Force curves for a fibrillar adhesive pad detached by flexing it about the claw.
+\includegraphics{Case3-Fixed_flex}\caption{\textbf{Detachment by flex.}
+Force curves for a fibrillar adhesive pad detached by flexing it about the claw.
 $\hat{F}_{pull}=\frac{F_{pull}}{k_{h}w}$ is the normalised pulling
 force necessary to apply the torque about the claw-hinge for detachment,
 $\hat{F}_{hinge}=\frac{F_{hinge}}{k_{h}w}$ is the normalised reaction
@@ -422,7 +429,7 @@ by rotating it about the claw-hinge, located outside the array. Such
 a mode of detachment will be driven by a torque applied by the leg
 to rotate the pad around the claw-hinge until all the hairs lose contact.
 Let $s_{h}$ be the distance between the claw-hinge and the right
-end of the array; $s_{l}$ be the distance between the fixed leg-hinge
+end of the array; $s_{l}$ be the distance between the fixed leg joint
 and the right end of the array. To illustrate the mechanism, let us
 fix $s_{l}/L=1$ and $s_{h}/w=10$ and vary the vertical claw-hinge
 distance, $d_{s}$. At any particular instant, the pulling force applied
@@ -475,13 +482,14 @@ governs the strength and compliance of the array, where, high values
 represent a dense array of strongly adhering soft hairs. Let us consider
 the case of an adhesive pad with $N_{t}=25$ hairs and look at how
 $\hat{f}_{p}$ influences the reduction factor under each mode of
-detachment (Figure \ref{fig:Reduction-factor_fp}). From the heat
-maps, one can generally say that lower values of $\hat{f}_{p}$ increase
+detachment (Figure \ref{fig:Reduction-factor_fp}). From the colour plots, 
+one can generally say that lower values of $\hat{f}_{p}$ increase
 the reduction factor and thus provide a greater possibility of controlling
 adhesion.
 
 \begin{figure}[H]
-\noindent \includegraphics{Reduction_factor-fp}\caption{Heat maps showing the effect of the dimensionless parameter, $\hat{f}_{p}$,
+\noindent \includegraphics{Reduction_factor-fp}\caption{\textbf{Effect of $\hat{f}_{p}$ on reduction factor.}
+Colour plots showing the effect of the dimensionless parameter, $\hat{f}_{p}$,
 on the reduction factor for each mode of detachment. Here, we fix
 the number of hairs, $N_{t}=25$. All values are normalized to dimensionless
 forms, as described in text. \label{fig:Reduction-factor_fp}}
@@ -503,7 +511,7 @@ adhesion of the array down.
 
 For the case of detachment via \emph{free pull}, $\hat{f}_{p}$ has
 no influence on the reduction factor. On the other hand, shifting
-the position of the leg-hinge further away from the array (i.e. high
+the position of the leg joint further away from the array (i.e. high
 $s/L$) results in large values of $r$. In this scenario, the higher
 torque exerted by the array leads to a higher tilt, and thus increases
 the reduction factor via \emph{elastic weakening}, saturating to the
@@ -525,7 +533,7 @@ hairs down to a single hair at most.
 
 Let us now fix $\hat{f}_{p}=0.1$ and investigate the influence of
 the number of hairs, $N_{t}$, on the reduction factor (Figure \ref{fig:Reduction-factor-Nt}).
-The heat maps show that high $N_{t}$ increases $r$ irrespective
+The colour plots show that high $N_{t}$ increases $r$ irrespective
 of the mode of detachment. Under a tilted state, more number of hairs
 are compressed when $N_{t}$ is high, which reduces the net adhesion.
 This highlights the advantage of having a split contact design found
@@ -537,7 +545,8 @@ of \emph{elastic weakening}, as discussed in the previous section.
 
 \begin{figure}[H]
 \noindent \begin{centering}
-\includegraphics{Reduction_factor-Nt}\caption{Heat maps showing the effect of the number of hairs, $N_{t}$, on
+\includegraphics{Reduction_factor-Nt}\caption{\textbf{Effect of $N_{t}$ on reduction factor.} 
+Colour plots showing the effect of the number of hairs, $N_{t}$, on
 the reduction factor for each mode of detachment. Here, we fix the
 dimensionless parameter, $\hat{f}_{p}=0.1$. All values are normalized
 to dimensionless forms, as described in text. \label{fig:Reduction-factor-Nt}}
@@ -574,12 +583,12 @@ it.
 
 Based on the above assumptions, we can come up with force-distance
 curves to detach the beetle's leg via various pathways (Figure \ref{fig:Detachment-pathways}).
-First, let us assume the hinge H\textsubscript{2} to be fixed, such
-that both the distal and proximal pads are combined to be a single
+First, let us assume the joint H\textsubscript{2} to be fixed, such
+that both the distal and proximal pads can be combined to behave like a single
 long pad with $N_{t}=60$ hairs. Path 1 shows the case where the pad
 shows maximum possible adhesion. Here, the combined pad is vertically
 pulled upwards while keeping the array perfectly parallel to the surface.
-If the pad is detached by keeping H\textsubscript{1} fixed and maintaining
+If this combined pad is detached by keeping H\textsubscript{1} fixed and maintaining
 a tilt of $1\lyxmathsym{\textdegree}$ with the surface (path 2),
 the forces dramatically reduces, with around 10 times reduction in
 the adhesion compared to path 1. We can also detach the pad by switching
@@ -588,13 +597,13 @@ initially the leg is pulled vertically up while keeping H\textsubscript{1}
 fixed, stretching the hairs. On reaching point $a$, H\textsubscript{1}
 is set free, which results in a sudden drop in force due to the excess
 torque by the stretched hairs, tilting the array. Beyond this, the
-force curve follows the free pull mechanism, with $\thicksim3.5$
+force curve follows the \emph{free pull} mechanism, with $\thicksim3.5$
 times reduction in adhesion. An alternate strategy of switching between
 mechanisms would be to first apply a load on the pad (path 4) and
 compress the hairs until point $b$. Beyond this point, the claw can
 be used as a hinge to detach the pad via flexing it around H\textsubscript{3},
 which once again reduces the adhesion force. Now, if we assume the
-hinge H\textsubscript{2} to be free such that the two pads can behave
+joint H\textsubscript{2} to be free such that the two pads can behave
 distinctly, we can consider the scenario where the proximal pad is
 flexed around the distal pad at H\textsubscript{2} while keeping
 H\textsubscript{1} fixed (path 5). After the proximal pad has completely
@@ -603,7 +612,8 @@ the distal pad via \emph{free pull} with very little force. This pathway
 results in a $\thicksim5$ times reduction in adhesion. 
 
 \begin{figure}[H]
-\includegraphics{Detachment_pathways}\caption{Force distance curves showing possible detachment pathways for a dock
+\includegraphics{Detachment_pathways}\caption{\textbf{Beetle leg detachment pathways.}
+Force distance curves showing possible detachment pathways for a dock
 beetle's leg, derived from the spring contact model. The curves are
 offset laterally for clarity. Colours represent the distinct detachment
 pathways, as labelled correspondingly, with arrows indicating the
@@ -632,7 +642,7 @@ beetles \cite{RN83}, we argue that the following experimental observations
 provide support to our proposed theory: 1) The detachment was shown
 to follow a three-dimensional twist of the leg, which suggests a complex
 inhomogeneous deformation of hairs across the array, leading to \emph{elastic
-weakening}. 2) The beetle can at times instantaneously detach all
+weakening}, which is suited for easy detachment. 2) The beetle can at times instantaneously detach all
 its legs and ``drop'' itself while upside down. This could be explained
 by the beetle freeing up its leg joints and using just its body weight
 to provide the necessary force to detach all its legs via \emph{free
@@ -648,7 +658,7 @@ be able to ``peel'' its array, since peeling, strictly speaking,
 depends on the elastic contribution of a thin flexible backing as
 it bends during the process \cite{RN147}. Rather, the ``peeling''
 observed in the beetle's case should be a result of the pad detaching
-from the surface in a tilted orientation, causing the hairs to detach
+from the surface in a tilted orientation, causing the hairs to distinctly detach
 in sequence. 5) The time scale of detachment was reported to be an
 order of magnitude shorter than the attachment time scale, which could
 be a result of the elastic recoil of the leg causing a spontaneous
@@ -658,7 +668,7 @@ There exists a limit to how much the pad can tilt, depending on its
 geometry and material properties. Suppose the hair has a maximum linear
 elastic strain limit, $\varepsilon_{m}$, and natural length, $l_{h,0}$.
 Based on Figure \ref{fig:Schematic}, if the right most hair is compressed
-to its elastic limit, we can show from simple geometry, that, the
+to its elastic limit, one can derive from simple geometry, that, the
 corresponding maximum limit in tilt angle is given by: 
 \[
 \theta_{limit}=\arctan\frac{l_{h,0}\varepsilon_{m}}{\left(N_{t}-1\right)w}
@@ -759,7 +769,7 @@ we get:
 d_{s,max}=l_{h,0}+\frac{f_{p}}{k_{h}}+\left[s-\left(n-1\right)w\right]\sin\theta
 \]
 
-The net torque about the hinge due to the deformed hairs of the array
+The net torque about the joint due to the deformed hairs of the array
 is,
 
 \[
@@ -768,7 +778,7 @@ M_{net}=\stackrel[i=1]{n}{\sum}\lambda_{i}k_{h}\left(l_{h,i}-l_{h,0}\right)\cos\
 
 Here, $\lambda_{i}=s-\left(\frac{n-1}{2}w-\frac{x_{i}}{\cos\theta}\right)$
 is the length of the lever arm between the $i^{th}$ hair and the
-hinge.
+joint.
 
 Substituting for $l_{h,i}$ and eliminating $d'$ as before, we get:
 

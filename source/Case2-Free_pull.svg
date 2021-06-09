@@ -1,20 +1,20 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <svg
-   xmlns:dc="http://purl.org/dc/elements/1.1/"
-   xmlns:cc="http://creativecommons.org/ns#"
-   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
-   xmlns:svg="http://www.w3.org/2000/svg"
-   xmlns="http://www.w3.org/2000/svg"
-   xmlns:xlink="http://www.w3.org/1999/xlink"
-   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
-   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
    height="532.12427pt"
    version="1.1"
    viewBox="0 0 774.32239 532.12425"
    width="774.32239pt"
    id="svg614"
    sodipodi:docname="Case2-Free_pull.svg"
-   inkscape:version="1.0.1 (3bc2e813f5, 2020-09-07)">
+   inkscape:version="1.1 (c68e22c387, 2021-05-23)"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:xlink="http://www.w3.org/1999/xlink"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:dc="http://purl.org/dc/elements/1.1/">
   <metadata
      id="metadata618">
     <rdf:RDF>
@@ -35,18 +35,20 @@
      guidetolerance="10"
      inkscape:pageopacity="0"
      inkscape:pageshadow="2"
-     inkscape:window-width="1200"
-     inkscape:window-height="1577"
+     inkscape:window-width="1920"
+     inkscape:window-height="1137"
      id="namedview616"
      showgrid="false"
-     inkscape:zoom="2.0166181"
-     inkscape:cx="122.0014"
-     inkscape:cy="270.17163"
-     inkscape:window-x="1358"
+     inkscape:zoom="4.0332362"
+     inkscape:cx="171.45041"
+     inkscape:cy="243.60091"
+     inkscape:window-x="-8"
      inkscape:window-y="-8"
      inkscape:window-maximized="1"
      inkscape:current-layer="svg614"
-     inkscape:document-rotation="0" />
+     inkscape:document-rotation="0"
+     inkscape:pagecheckerboard="0"
+     inkscape:document-units="pt" />
   <defs
      id="defs4">
     <style
@@ -2892,5 +2894,5 @@
        id="tspan914-4"
        x="48.686371"
        y="115.22007"
-       style="font-style:italic;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:9.99998px;font-family:Arial;-inkscape-font-specification:'Arial Italic';fill:#262626;fill-opacity:1;stroke-width:0.75">leg-hinge</tspan></text>
+       style="font-style:italic;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:9.99998px;font-family:Arial;-inkscape-font-specification:'Arial Italic';fill:#262626;fill-opacity:1;stroke-width:0.75">leg joint</tspan></text>
 </svg>
