@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.20 (TeX Live 2019/W32TeX) (preloaded format=pdflatex 2020.6.9)  9 JUN 2021 19:40
+This is pdfTeX, Version 3.14159265-2.6-1.40.20 (TeX Live 2019/W32TeX) (preloaded format=pdflatex 2020.6.9)  10 AUG 2021 18:25
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1105,12 +1105,6 @@ LaTeX Font Info:    Try loading font information for T1+cmtt on input line 97.
 (c:/texlive/2019/texmf-dist/tex/latex/base/t1cmtt.fd
 File: t1cmtt.fd 2014/09/29 v2.5h Standard LaTeX font definitions
 )
-LaTeX Font Info:    Try loading font information for T1+cmss on input line 101.
-
-
-(c:/texlive/2019/texmf-dist/tex/latex/base/t1cmss.fd
-File: t1cmss.fd 2014/09/29 v2.5h Standard LaTeX font definitions
-)
 Overfull \hbox (2.22168pt too wide) has occurred while \output is active
 [] 
  []
@@ -1135,40 +1129,40 @@ Package hyperref Warning: Token not allowed in a PDF string (Unicode):
 
 
 {c:/texlive/2019/texmf-var/fonts/map/pdftex/updmap/pdftex.map}] [2] [3]
-<Figure1-model_schematic.pdf, id=118, 921.45242pt x 660.97935pt>
+<Figure1-model_schematic.pdf, id=117, 921.45242pt x 660.97935pt>
 File: Figure1-model_schematic.pdf Graphic file (type pdf)
 <use Figure1-model_schematic.pdf>
 Package pdftex.def Info: Figure1-model_schematic.pdf  used on input line 189.
 (pdftex.def)             Requested size: 345.0pt x 247.47331pt.
 
 [4 <./Figure1-model_schematic.pdf>] [5]
-<Case1-Fixed_pull.pdf, id=188, 777.10338pt x 568.42668pt>
+<Case1-Fixed_pull.pdf, id=186, 777.10338pt x 568.42668pt>
 File: Case1-Fixed_pull.pdf Graphic file (type pdf)
 <use Case1-Fixed_pull.pdf>
 Package pdftex.def Info: Case1-Fixed_pull.pdf  used on input line 286.
 (pdftex.def)             Requested size: 345.0pt x 252.35493pt.
  [6] [7 <./Case1-Fixed_pull.pdf>]
-<Case2-Free_pull.pdf, id=353, 777.22609pt x 534.11974pt>
+<Case2-Free_pull.pdf, id=351, 777.22609pt x 534.11974pt>
 File: Case2-Free_pull.pdf Graphic file (type pdf)
 <use Case2-Free_pull.pdf>
 Package pdftex.def Info: Case2-Free_pull.pdf  used on input line 351.
 (pdftex.def)             Requested size: 345.0pt x 237.0835pt.
 
 [8] [9 <./Case2-Free_pull.pdf>]
-<Case3-Fixed_flex.pdf, id=515, 1007.765pt x 720.6925pt>
+<Case3-Fixed_flex.pdf, id=514, 1007.765pt x 720.6925pt>
 File: Case3-Fixed_flex.pdf Graphic file (type pdf)
 <use Case3-Fixed_flex.pdf>
 Package pdftex.def Info: Case3-Fixed_flex.pdf  used on input line 410.
 (pdftex.def)             Requested size: 345.0pt x 246.72572pt.
  [10] [11 <./Case3-Fixed_flex.pdf>] [12]
-<Reduction_factor-fp.pdf, id=651, 1189.61235pt x 387.0366pt>
+<Reduction_factor-fp.pdf, id=649, 1189.61235pt x 387.0366pt>
 File: Reduction_factor-fp.pdf Graphic file (type pdf)
 <use Reduction_factor-fp.pdf>
 Package pdftex.def Info: Reduction_factor-fp.pdf  used on input line 485.
 (pdftex.def)             Requested size: 345.0pt x 112.24364pt.
 
 [13 <./Reduction_factor-fp.pdf>]
-<Reduction_factor-Nt.pdf, id=723, 1166.5261pt x 387.0366pt>
+<Reduction_factor-Nt.pdf, id=720, 1166.5261pt x 387.0366pt>
 File: Reduction_factor-Nt.pdf Graphic file (type pdf)
 <use Reduction_factor-Nt.pdf>
 Package pdftex.def Info: Reduction_factor-Nt.pdf  used on input line 542.
@@ -1179,7 +1173,7 @@ Overfull \hbox (2.22168pt too wide) in paragraph at lines 541--546
  []
 
 [14 <./Reduction_factor-Nt.pdf>] [15]
-<Detachment_pathways.pdf, id=805, 608.2725pt x 499.8675pt>
+<Detachment_pathways.pdf, id=801, 608.2725pt x 499.8675pt>
 File: Detachment_pathways.pdf Graphic file (type pdf)
 <use Detachment_pathways.pdf>
 Package pdftex.def Info: Detachment_pathways.pdf  used on input line 609.
@@ -1210,65 +1204,48 @@ Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 801.
 Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 801.
 Package rerunfilecheck Info: File `manuscript.out' has not changed.
 (rerunfilecheck)             Checksum: 1C354903C3C5DF753C9FDCFC5F768CF1;1013.
-
-
-LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
-
 Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 801.
  ) 
 Here is how much of TeX's memory you used:
- 12819 strings out of 492623
- 182659 string characters out of 6133291
- 246317 words of memory out of 5000000
- 16506 multiletter control sequences out of 15000+600000
- 20540 words of font info for 53 fonts, out of 8000000 for 9000
+ 12747 strings out of 492623
+ 181620 string characters out of 6133291
+ 244535 words of memory out of 5000000
+ 16442 multiletter control sequences out of 15000+600000
+ 19765 words of font info for 52 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 42i,7n,40p,857b,513s stack positions out of 5000i,500n,10000p,200000b,80000s
-pdfTeX warning (dest): name{figure.caption.11} has been referenced but does n
-ot exist, replaced by a fixed one
-
-pdfTeX warning (dest): name{figure.caption.9} has been referenced but does not 
-exist, replaced by a fixed one
-
-pdfTeX warning (dest): name{figure.caption.7} has been referenced but does not 
-exist, replaced by a fixed one
-
-pdfTeX warning (dest): name{figure.caption.5} has been referenced but does not 
-exist, replaced by a fixed one
-
-{c:/texlive/2019/texmf-dist/fonts/enc/dvips/cm-super/cm-super-t1.enc}{c:/texliv
-e/2019/texmf-dist/fonts/enc/dvips/cm-super/cm-super-t2a.enc}{c:/texlive/2019/te
-xmf-dist/fonts/enc/dvips/cm-super/cm-super-ts1.enc}<c:/texlive/2019/texmf-dist/
-fonts/type1/public/amsfonts/cm/cmex10.pfb><c:/texlive/2019/texmf-dist/fonts/typ
-e1/public/amsfonts/cm/cmmi10.pfb><c:/texlive/2019/texmf-dist/fonts/type1/public
-/amsfonts/cm/cmmi5.pfb><c:/texlive/2019/texmf-dist/fonts/type1/public/amsfonts/
-cm/cmmi6.pfb><c:/texlive/2019/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi7.p
-fb><c:/texlive/2019/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi8.pfb><c:/tex
-live/2019/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb><c:/texlive/2019/
-texmf-dist/fonts/type1/public/amsfonts/cm/cmr5.pfb><c:/texlive/2019/texmf-dist/
-fonts/type1/public/amsfonts/cm/cmr7.pfb><c:/texlive/2019/texmf-dist/fonts/type1
-/public/amsfonts/cm/cmr8.pfb><c:/texlive/2019/texmf-dist/fonts/type1/public/ams
-fonts/cm/cmsy10.pfb><c:/texlive/2019/texmf-dist/fonts/type1/public/amsfonts/cm/
-cmsy6.pfb><c:/texlive/2019/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy7.pfb>
-<c:/texlive/2019/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy8.pfb><c:/texliv
-e/2019/texmf-dist/fonts/type1/public/cbfonts/grmn1000.pfb><c:/texlive/2019/texm
-f-dist/fonts/type1/public/amsfonts/symbols/msbm10.pfb><c:/texlive/2019/texmf-di
-st/fonts/type1/public/cm-super/sfbx0800.pfb><c:/texlive/2019/texmf-dist/fonts/t
-ype1/public/cm-super/sfbx1000.pfb><c:/texlive/2019/texmf-dist/fonts/type1/publi
-c/cm-super/sfrm0600.pfb><c:/texlive/2019/texmf-dist/fonts/type1/public/cm-super
-/sfrm0700.pfb><c:/texlive/2019/texmf-dist/fonts/type1/public/cm-super/sfrm0800.
-pfb><c:/texlive/2019/texmf-dist/fonts/type1/public/cm-super/sfrm1000.pfb><c:/te
-xlive/2019/texmf-dist/fonts/type1/public/cm-super/sfrm1440.pfb><c:/texlive/2019
-/texmf-dist/fonts/type1/public/cm-super/sfss0500.pfb><c:/texlive/2019/texmf-dis
-t/fonts/type1/public/cm-super/sfti0600.pfb><c:/texlive/2019/texmf-dist/fonts/ty
-pe1/public/cm-super/sfti0800.pfb><c:/texlive/2019/texmf-dist/fonts/type1/public
-/cm-super/sfti1000.pfb><c:/texlive/2019/texmf-dist/fonts/type1/public/cm-super/
-sftt0800.pfb><c:/texlive/2019/texmf-dist/fonts/type1/public/cm-super/sftt1000.p
-fb>
-Output written on manuscript.pdf (24 pages, 1760625 bytes).
+ 42i,7n,40p,857b,501s stack positions out of 5000i,500n,10000p,200000b,80000s
+{c:/texlive/2019/texmf-dist/fonts/enc/dvips/cm-super/cm-super-t1.enc}{c:/texl
+ive/2019/texmf-dist/fonts/enc/dvips/cm-super/cm-super-t2a.enc}{c:/texlive/2019/
+texmf-dist/fonts/enc/dvips/cm-super/cm-super-ts1.enc}<c:/texlive/2019/texmf-dis
+t/fonts/type1/public/amsfonts/cm/cmex10.pfb><c:/texlive/2019/texmf-dist/fonts/t
+ype1/public/amsfonts/cm/cmmi10.pfb><c:/texlive/2019/texmf-dist/fonts/type1/publ
+ic/amsfonts/cm/cmmi5.pfb><c:/texlive/2019/texmf-dist/fonts/type1/public/amsfont
+s/cm/cmmi6.pfb><c:/texlive/2019/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi7
+.pfb><c:/texlive/2019/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi8.pfb><c:/t
+exlive/2019/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb><c:/texlive/201
+9/texmf-dist/fonts/type1/public/amsfonts/cm/cmr5.pfb><c:/texlive/2019/texmf-dis
+t/fonts/type1/public/amsfonts/cm/cmr7.pfb><c:/texlive/2019/texmf-dist/fonts/typ
+e1/public/amsfonts/cm/cmr8.pfb><c:/texlive/2019/texmf-dist/fonts/type1/public/a
+msfonts/cm/cmsy10.pfb><c:/texlive/2019/texmf-dist/fonts/type1/public/amsfonts/c
+m/cmsy6.pfb><c:/texlive/2019/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy7.pf
+b><c:/texlive/2019/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy8.pfb><c:/texl
+ive/2019/texmf-dist/fonts/type1/public/cbfonts/grmn1000.pfb><c:/texlive/2019/te
+xmf-dist/fonts/type1/public/amsfonts/symbols/msbm10.pfb><c:/texlive/2019/texmf-
+dist/fonts/type1/public/cm-super/sfbx0800.pfb><c:/texlive/2019/texmf-dist/fonts
+/type1/public/cm-super/sfbx1000.pfb><c:/texlive/2019/texmf-dist/fonts/type1/pub
+lic/cm-super/sfrm0600.pfb><c:/texlive/2019/texmf-dist/fonts/type1/public/cm-sup
+er/sfrm0700.pfb><c:/texlive/2019/texmf-dist/fonts/type1/public/cm-super/sfrm080
+0.pfb><c:/texlive/2019/texmf-dist/fonts/type1/public/cm-super/sfrm1000.pfb><c:/
+texlive/2019/texmf-dist/fonts/type1/public/cm-super/sfrm1440.pfb><c:/texlive/20
+19/texmf-dist/fonts/type1/public/cm-super/sfti0600.pfb><c:/texlive/2019/texmf-d
+ist/fonts/type1/public/cm-super/sfti0800.pfb><c:/texlive/2019/texmf-dist/fonts/
+type1/public/cm-super/sfti1000.pfb><c:/texlive/2019/texmf-dist/fonts/type1/publ
+ic/cm-super/sftt0800.pfb><c:/texlive/2019/texmf-dist/fonts/type1/public/cm-supe
+r/sftt1000.pfb>
+Output written on manuscript.pdf (24 pages, 1749174 bytes).
 PDF statistics:
- 1158 PDF objects out of 1200 (max. 8388607)
- 837 compressed objects within 9 object streams
- 84 named destinations out of 1000 (max. 500000)
+ 1121 PDF objects out of 1200 (max. 8388607)
+ 801 compressed objects within 9 object streams
+ 80 named destinations out of 1000 (max. 500000)
  116 words of extra memory for PDF output out of 10000 (max. 10000000)
 
