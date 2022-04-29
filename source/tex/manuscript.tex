@@ -73,12 +73,12 @@ Mainz, Germany}
 Several creatures can climb on smooth surfaces with the help of hairy
 adhesive pads on their legs. A rapid change from strong attachment
 to effortless detachment of the leg is enabled by the asymmetric geometry
-of the hairs. In this study, we propose mechanisms by which
+of the tarsal hairs. In this study, we propose mechanisms by which
 a hairy pad can be easily detached, even when the hairs possess no
-asymmetry. Here, we examine the possible function of the leg joint and the claws.
+asymmetry. Here, we examine the possible function of the tibia-tarsus (t-t) leg joint and the claws.
 Based on a spring-based model, we consider three modes
 of detachment: vertically pulling the pad while maintaining either
-a 1) fixed or a 2) free leg joint, or by 3) flexing the pad about
+a 1) fixed or a 2) free t-t leg joint, or by 3) flexing the pad about
 the claw. We show that in all cases, the adhesion force can be significantly
 reduced due to elastic forces when the hairs deform non-uniformly
 across the array. %, an effect that we call ``\emph{elastic weakening}''.
@@ -162,6 +162,8 @@ In this work, we propose the possible mechanisms by which adhesive
 pads with symmetric hairs can be easily detached under a theoretical
 framework. The hairy pad is modelled as an array of springs and the
 force-balance approach is used to quantify the net adhesion \cite{RN117, RN253}.
+Here, we focus our analysis to only normal adhesion force necessary to separate 
+the pad from a flat surface.
 We hope our work to provide strategies to control the adhesion force
 of an artificial micro-pillar adhesive, which has applications in
 bio-inspired climbing robots, pick-and-place operations and reusable
@@ -175,19 +177,19 @@ and natural length, $l_{h,0}$ (Figure \ref{fig:Schematic}). The
 array backing is assumed to be stiff. The pad is attached to a linearly
 deformable leg, assumed to be another spring with spring constant,
 $k_{l}$, and natural length, $l_{l,0}$. The leg is hinged to the
-array at a distance, $s$, from the right end of the array. The hinge (or joint) 
+array at a distance, $s$, from the right end of the array. The hinge, analogous to the tarsus-tibia (t-t) leg joint of an insect, 
 is at a vertical distance, $d_{s}$, from the surface. The hairs are
 spaced apart by a width, $w$, and the array is of length, $L=\left(N_{t}-1\right)w$.
 The pad is oriented at an instantaneous angle, $\theta$, while making contact with
 a flat smooth surface. Each hair can attain a maximum length, $l_{h,p}$,
 before pull-off, such that its pull-off force, $f_{p}=k_{h}\left(l_{h,p}-l_{h,0}\right)$.
 $F_{net}$ is the net force on the pad and $M_{net}$ is the the net
-torque about the joint, at a particular instant during the detachment
-process.
+moment about the hinge, at a particular instant during the detachment
+process. The contact points between the hair and the surface is assumed to be laterally fixed due to high friction forces.
 
 \begin{figure}[H]
 \includegraphics{Figure1-model_schematic}\caption{\textbf{Spring contact model of a fibrillar adhesive pad.} The pad consists of
-an array of $N_{t}$ hairs connected to a deformable leg at the joint.
+an array of $N_{t}$ hairs connected to a deformable leg at the hinge.
 At a particular distance, $d_{s}$, $n$ number of hairs are in contact
 and the array is oriented at a tilt angle, $\theta$, with the surface.
 \label{fig:Schematic}}
@@ -225,7 +227,7 @@ all hairs detach simultaneously ($\theta=0\lyxmathsym{\textdegree}$):
 F_{max}=N_{t}f_{p}\label{eq:simul_detach}
 \end{equation}
 
-The net torque, $M_{net}$, about the joint can be similarly derived
+The net moment, $M_{net}$, about the joint can be similarly derived
 (see Appendix A):
 
 \begin{equation}
@@ -270,24 +272,25 @@ force values represent attraction by convention.
 
 We consider three possible mechanisms to detach the adhesive pad from
 a surface: 1) \emph{Fixed pull}, where the pad is pulled vertically
-up while keeping a fixed leg joint; 2) \emph{Free pull,} where the
-pad is pulled vertically up while keeping the leg joint free to allow
+up while keeping a fixed hinge (t-t leg joint); 2) \emph{Free pull,} where the
+pad is pulled vertically up while keeping the hinge (t-t leg joint) free to allow
 rotation of the array; 3) \emph{Flex}, where the pad is hinged
 to an external point (claw-hinge), and detached in a rotary fashion,
 emulating the claw function in insects. To investigate each case in
-detail, let us assume a pad with $N_{t}=25$ hairs and $\hat{f_{p}}=0.1$
-attached to a stiff leg ($k_{l}\rightarrow\infty$). The situation
-of a soft leg ($k_{l}/k_{h}=10$) is also considered for the first
+detail, let us assume a pad to be a one dimensional analogue of a 
+dock beetle's adhesive pad \cite{RN19, RN79} with $N_{t}=25$ hairs and $\hat{f_{p}}=0.1$
+attached to a stiff leg (tibia) with $k_{l}\rightarrow\infty$. The situation
+of a soft leg (tibia) with $k_{l}/k_{h}=10$ is also considered for the first
 two cases involving vertical detachment.
 
 \subsection{Fixed pull}
 
 \begin{figure}[H]
-\includegraphics{Case1-Fixed_pull}\caption{\textbf{Detachment by fixed pull.} 
+\includegraphics{Case1-Fixed_pull}\caption{\textbf{Detachment by \emph{Fixed Pull}.} 
 Force distance curves for a fibrillar adhesive pad, pulled vertically upwards with
-a fixed joint between the pad and the leg (\emph{Fixed pull}). The
+a fixed hinge (tarsus-tibia leg joint). The
 tilt angle, $\theta$, of the array is kept fixed during detachment.
-The leg is either stiff ($k_{l}\rightarrow\infty$) or soft ($k_{l}/k_{h}=10$).
+The leg (tibia) is either stiff ($k_{l}\rightarrow\infty$) or soft ($k_{l}/k_{h}=10$).
 Positive force values represent attraction. The green dashed line
 represents the maximum possible adhesion for the pad. All values are
 normalized to dimensionless forms, as described in text.\label{fig:Fixed-pull}}
@@ -295,7 +298,7 @@ normalized to dimensionless forms, as described in text.\label{fig:Fixed-pull}}
 
 The fibrillar adhesive pad can be detached by pulling it vertically upwards
 while maintaining a constant tilt angle, $\theta$, with the surface.
-This can be achieved if the joint connecting the leg to the array is kept fixed. 
+This can be achieved if the hinge (t-t leg joint) is kept fixed. 
 Equations \ref{eq:force_n_d}, \ref{eq:d_max}
 and \ref{eq:simul_detach} can be used to get the resulting force-distance
 curves. 
@@ -315,7 +318,7 @@ deformation and ultimately detaches simultaneously after a distance,
 $\hat{d_{s}}=0.1$. Here, no \emph{elastic weakening} occurs and the
 pad shows the maximum possible adhesion.
 
-For the case of a stiff leg, we see that at small distances, all hairs
+For the case of a stiff leg (tibia), we see that at small distances, all hairs
 of the pad are in contact with the surface, resulting in a linear
 force response. On further pulling, the hairs will start to detach
 sequentially from left to right, indicated by a characteristic ``saw-tooth''
@@ -323,7 +326,7 @@ jitter in the force curves. The hairs of the pad with a higher tilt
 angle will start to detach first, followed by the ones with a lower
 tilt. 
 
-For the case of a soft leg, we observe a similar effect of tilt angle
+For the case of a soft leg (tibia), we observe a similar effect of tilt angle
 on the force curves as before. The maximum adhesion force at a particular
 tilt is the same as that for the stiff leg. The saw-tooth jitter are
 however minimized due to the leg's deformation, leading to a ``dampened''
@@ -348,12 +351,12 @@ seen in micro-fibrillar adhesives with a narrow variance of individual fibril ad
 
 \begin{figure}[H]
 
-\includegraphics{Case2-Free_pull}\caption{\textbf{Detachment by free pull.} 
+\includegraphics{Case2-Free_pull}\caption{\textbf{Detachment by \emph{Free Pull}.} 
 Force distance curves for a fibrillar adhesive pad, pulled vertically upwards with
-a free joint between the pad and the leg (\emph{Free pull}). $s$
+a free hinge (tarsus-tibia leg joint). $s$
 is the distance between the leg joint and the right end of the array
 and $L$ is the array length. The free joint allows further tilting
-of the array during the vertical pull. The leg is either stiff ($k_{l}\rightarrow\infty$)
+of the array during the vertical pull. The leg (tibia) is either stiff ($k_{l}\rightarrow\infty$)
 or soft ($k_{l}/k_{h}=10$). Positive force values represent attraction.
 The green dashed line represents the maximum possible adhesion for
 the pad. All values are normalized to dimensionless forms, as described
