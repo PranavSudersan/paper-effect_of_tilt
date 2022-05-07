@@ -35,6 +35,11 @@ R.~D. O'Rorke, T.~W.~J. Steele, H.~K. Taylor,
 \newblock \href {http://dx.doi.org/10.1080/01694243.2015.1101183}
   {\path{doi:10.1080/01694243.2015.1101183}}.
 
+\bibitem{Popov2016BiologicalMW}
+V.~L. Popov, A.~{\'E}. Filippov, S.~N. Gorb, Biological microstructures with
+  high adhesion and friction. numerical approach, Physics-Uspekhi 59 (2016)
+  829--845.
+
 \bibitem{RN29}
 B.~N.~J. Persson, On the mechanism of adhesion in biological systems, J Chem
   Phys 118~(16).
@@ -78,6 +83,121 @@ Y.~Tian, N.~Pesika, H.~Zeng, K.~Rosenberg, B.~Zhao, P.~McGuiggan, K.~Autumn,
 \newblock \href {http://dx.doi.org/10.1073/pnas.0608841103}
   {\path{doi:10.1073/pnas.0608841103}}.
 
+\bibitem{pantano2011}
+A.~Pantano, N.~M. Pugno, S.~N. Gorb, Numerical simulations demonstrate that the
+  double tapering of the spatualae of lizards and insects maximize both
+  detachment resistance and stability, International Journal of Fracture
+  171~(2) (2011) 169–175.
+\newblock \href {http://dx.doi.org/10.1007/s10704-011-9596-8}
+  {\path{doi:10.1007/s10704-011-9596-8}}.
+
+\bibitem{sauer2013}
+R.~A. Sauer, M.~Holl, A detailed 3d finite element analysis of the peeling
+  behaviour of a gecko spatula, Computer Methods in Biomechanics and Biomedical
+  Engineering 16~(6) (2013) 577–591.
+\newblock \href {http://dx.doi.org/10.1080/10255842.2011.628944}
+  {\path{doi:10.1080/10255842.2011.628944}}.
+
+\bibitem{Wu2015}
+X.~Wu, X.~Wang, T.~Mei, S.~Sun,
+  \href{https://royalsocietypublishing.org/doi/abs/10.1098/rspa.2015.0085}{Mechanical
+  analyses on the digital behaviour of the tokay gecko (\emph{Gekko gecko})
+  based on a multi-level directional adhesion model}, Proceedings of the Royal
+  Society A: Mathematical, Physical and Engineering Sciences 471~(2179) (2015)
+  20150085.
+\newblock \href {http://dx.doi.org/10.1098/rspa.2015.0085}
+  {\path{doi:10.1098/rspa.2015.0085}}.
+
+\bibitem{kligerman2020}
+Y.~Kligerman, P.~Breitman, M.~Varenberg, Biomimetic wall-shaped hierarchical
+  micro-structure: Numerical simulation of sliding inception, Bioinspiration \&
+  Biomimetics 15~(4) (2020) 046011.
+\newblock \href {http://dx.doi.org/10.1088/1748-3190/ab8ba3}
+  {\path{doi:10.1088/1748-3190/ab8ba3}}.
+
+\bibitem{Grill2021}
+M.~J. Grill, C.~Meier, W.~A. Wall,
+  \href{https://doi.org/10.1080/00218464.2019.1699795}{Investigation of the
+  peeling and pull-off behavior of adhesive elastic fibers via a novel
+  computational beam interaction model}, The Journal of Adhesion 97~(8) (2021)
+  730--759.
+\newblock \href {http://dx.doi.org/10.1080/00218464.2019.1699795}
+  {\path{doi:10.1080/00218464.2019.1699795}}.
+
+\bibitem{Gouravaraju2021}
+S.~Gouravaraju, R.~A. Sauer, S.~S. Gautam,
+  \href{https://doi.org/10.1080/00218464.2020.1746652}{On the presence of a
+  critical detachment angle in gecko spatula peeling - a numerical
+  investigation using an adhesive friction model}, The Journal of Adhesion
+  97~(13) (2021) 1234--1254.
+\newblock \href {http://dx.doi.org/10.1080/00218464.2020.1746652}
+  {\path{doi:10.1080/00218464.2020.1746652}}.
+
+\bibitem{RN57}
+A.~del Campo, C.~Greiner, E.~Arzt,
+  \href{https://www.ncbi.nlm.nih.gov/pubmed/17722937}{Contact shape controls
+  adhesion of bioinspired fibrillar surfaces}, Langmuir 23~(20) (2007)
+  10235--10243.
+\newblock \href {http://dx.doi.org/10.1021/la7010502}
+  {\path{doi:10.1021/la7010502}}.
+
+\bibitem{Murphy2007}
+M.~P. Murphy, B.~Aksak, M.~Sitti,
+  \href{https://doi.org/10.1163/156856107782328380}{Adhesion and anisotropic
+  friction enhancements of angled heterogeneous micro-fiber arrays with
+  spherical and spatula tips}, Journal of Adhesion Science and Technology
+  21~(12-13) (2007) 1281--1296.
+\newblock \href {http://dx.doi.org/10.1163/156856107782328380}
+  {\path{doi:10.1163/156856107782328380}}.
+
+\bibitem{Menguc2012}
+Y.~Mengüç, S.~Y. Yang, S.~Kim, J.~A. Rogers, M.~Sitti,
+  \href{https://onlinelibrary.wiley.com/doi/abs/10.1002/adfm.201101783}{Gecko-inspired
+  controllable adhesive structures applied to micromanipulation}, Advanced
+  Functional Materials 22~(6) (2012) 1246--1254.
+\newblock \href {http://dx.doi.org/https://doi.org/10.1002/adfm.201101783}
+  {\path{doi:https://doi.org/10.1002/adfm.201101783}}.
+
+\bibitem{Chary2013}
+S.~Chary, J.~Tamelier, K.~Turner,
+  \href{https://doi.org/10.1088/0964-1726/22/2/025013}{A microfabricated
+  gecko-inspired controllable and reusable dry adhesive}, Smart Materials and
+  Structures 22~(2) (2013) 025013.
+\newblock \href {http://dx.doi.org/10.1088/0964-1726/22/2/025013}
+  {\path{doi:10.1088/0964-1726/22/2/025013}}.
+
+\bibitem{Kim2017}
+J.-K. Kim, M.~Varenberg,
+  \href{https://royalsocietypublishing.org/doi/abs/10.1098/rsif.2017.0832}{Biomimetic
+  wall-shaped adhesive microstructure for shear-induced attachment: the effects
+  of pulling angle and preliminary displacement}, Journal of The Royal Society
+  Interface 14~(137) (2017) 20170832.
+\newblock \href {http://dx.doi.org/10.1098/rsif.2017.0832}
+  {\path{doi:10.1098/rsif.2017.0832}}.
+
+\bibitem{autumn2000}
+K.~Autumn, Y.~A. Liang, S.~T. Hsieh, W.~Zesch, W.~P. Chan, T.~W. Kenny,
+  R.~Fearing, R.~J. Full, Adhesive force of a single gecko foot-hair, Nature
+  405~(6787) (2000) 681–685.
+\newblock \href {http://dx.doi.org/10.1038/35015073}
+  {\path{doi:10.1038/35015073}}.
+
+\bibitem{Langer2004}
+M.~G. Langer, J.~P. Ruppersberg, S.~Gorb,
+  \href{https://royalsocietypublishing.org/doi/abs/10.1098/rspb.2004.2850}{Adhesion
+  forces measured at the level of a terminal plate of the fly's seta},
+  Proceedings of the Royal Society of London. Series B: Biological Sciences
+  271~(1554) (2004) 2209--2215.
+\newblock \href {http://dx.doi.org/10.1098/rspb.2004.2850}
+  {\path{doi:10.1098/rspb.2004.2850}}.
+
+\bibitem{Varenberg2010}
+M.~Varenberg, N.~M. Pugno, S.~N. Gorb,
+  \href{http://dx.doi.org/10.1039/C003207G}{Spatulate structures in biological
+  fibrillar adhesion}, Soft Matter 6 (2010) 3269--3272.
+\newblock \href {http://dx.doi.org/10.1039/C003207G}
+  {\path{doi:10.1039/C003207G}}.
+
 \bibitem{RN20}
 W.~Federle, \href{https://www.ncbi.nlm.nih.gov/pubmed/16809452}{Why are so many
   adhesive pads hairy?}, J Exp Biol 209~(Pt 14) (2006) 2611--21.
@@ -101,13 +221,13 @@ G.~Carbone, E.~Pierro, S.~N. Gorb, \href{http://dx.doi.org/10.1039/C0SM01482F
 \newblock \href {http://dx.doi.org/10.1039/C0SM01482F}
   {\path{doi:10.1039/C0SM01482F}}.
 
-\bibitem{RN57}
-A.~del Campo, C.~Greiner, E.~Arzt,
-  \href{https://www.ncbi.nlm.nih.gov/pubmed/17722937}{Contact shape controls
-  adhesion of bioinspired fibrillar surfaces}, Langmuir 23~(20) (2007)
-  10235--10243.
-\newblock \href {http://dx.doi.org/10.1021/la7010502}
-  {\path{doi:10.1021/la7010502}}.
+\bibitem{Heepe2014}
+L.~Heepe, G.~Carbone, E.~Pierro, A.~E. Kovalev, S.~N. Gorb,
+  \href{https://doi.org/10.1063/1.4860991}{Adhesion tilt-tolerance in
+  bio-inspired mushroom-shaped adhesive microstructure}, Applied Physics
+  Letters 104~(1) (2014) 011906.
+\newblock \href {http://dx.doi.org/10.1063/1.4860991}
+  {\path{doi:10.1063/1.4860991}}.
 
 \bibitem{RN279}
 D.~Paretkar, M.~Kamperman, D.~Martina, J.~Zhao, C.~Creton, A.~Lindner,
@@ -159,6 +279,14 @@ M.~Bacca, J.~A. Booth, K.~L. Turner, R.~M. McMeeking,
 \newblock \href {http://dx.doi.org/https://doi.org/10.1016/j.jmps.2016.04.008}
   {\path{doi:https://doi.org/10.1016/j.jmps.2016.04.008}}.
 
+\bibitem{RN79}
+J.~M. Bullock, W.~Federle,
+  \href{https://www.ncbi.nlm.nih.gov/pubmed/21465175}{Beetle adhesive hairs
+  differ in stiffness and stickiness: in vivo adhesion measurements on
+  individual setae}, Naturwissenschaften 98~(5) (2011) 381--387.
+\newblock \href {http://dx.doi.org/10.1007/s00114-011-0781-4}
+  {\path{doi:10.1007/s00114-011-0781-4}}.
+
 \bibitem{RN273}
 R.~Hensel, J.~Thiemecke, J.~A. Booth,
   \href{https://pubs.acs.org/doi/abs/10.1021/acsami.1c00978}{Preventing
@@ -167,14 +295,6 @@ R.~Hensel, J.~Thiemecke, J.~A. Booth,
   13~(16) (2021) 19422–19429.
 \newblock \href {http://dx.doi.org/10.1021/acsami.1c00978}
   {\path{doi:10.1021/acsami.1c00978}}.
-
-\bibitem{RN79}
-J.~M. Bullock, W.~Federle,
-  \href{https://www.ncbi.nlm.nih.gov/pubmed/21465175}{Beetle adhesive hairs
-  differ in stiffness and stickiness: in vivo adhesion measurements on
-  individual setae}, Naturwissenschaften 98~(5) (2011) 381--387.
-\newblock \href {http://dx.doi.org/10.1007/s00114-011-0781-4}
-  {\path{doi:10.1007/s00114-011-0781-4}}.
 
 \bibitem{RN252}
 J.~A. Booth, M.~Bacca, R.~M. McMeeking, K.~L. Foster,
@@ -194,6 +314,20 @@ S.~M. Gernay, S.~Labousse, P.~Lambert, P.~Compere, T.~Gilet,
 \newblock \href {http://dx.doi.org/10.1098/rsif.2017.0493}
   {\path{doi:10.1098/rsif.2017.0493}}.
 
+\bibitem{niederegger2003}
+S.~Niederegger, S.~Gorb, Tarsal movements in flies during leg attachment and
+  detachment on a smooth substrate, Journal of Insect Physiology 49~(6) (2003)
+  611–620.
+\newblock \href {http://dx.doi.org/10.1016/s0022-1910(03)00048-9}
+  {\path{doi:10.1016/s0022-1910(03)00048-9}}.
+
+\bibitem{kang2017}
+O.~H. Kang, S.~H. Lee, J.~H. Yun, H.~Yi, M.~K. Kwak, S.~R. Lee, Adhesion
+  tunable bio-inspired dry adhesives by twisting, International Journal of
+  Precision Engineering and Manufacturing 18~(10) (2017) 1433–1437.
+\newblock \href {http://dx.doi.org/10.1007/s12541-017-0171-8}
+  {\path{doi:10.1007/s12541-017-0171-8}}.
+
 \bibitem{RN53}
 H.~Peisker, J.~Michels, S.~N. Gorb,
   \href{https://www.ncbi.nlm.nih.gov/pubmed/23552076}{Evidence for a material
@@ -201,5 +335,16 @@ H.~Peisker, J.~Michels, S.~N. Gorb,
   septempunctata}}, Nat Commun 4 (2013) 1661.
 \newblock \href {http://dx.doi.org/10.1038/ncomms2576}
   {\path{doi:10.1038/ncomms2576}}.
+
+\bibitem{ENDLEIN2007}
+T.~Endlein, W.~Federle,
+  \href{https://www.sciencedirect.com/science/article/pii/S109564330700284X}{To
+  stick and not getting stuck — detachment control in ants}, Comparative
+  Biochemistry and Physiology Part A: Molecular \& Integrative Physiology
+  146~(4, Supplement) (2007) S121--S122, abstracts of the Annual Main Meeting
+  of the Society for Experimental Biology, Glasgow, Scotland, 31st March - 4th
+  April, 2007.
+\newblock \href {http://dx.doi.org/https://doi.org/10.1016/j.cbpa.2007.01.222}
+  {\path{doi:https://doi.org/10.1016/j.cbpa.2007.01.222}}.
 
 \end{thebibliography}
