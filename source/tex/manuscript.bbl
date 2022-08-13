@@ -10,12 +10,12 @@ R.~Hooke,
   \href{https://search.library.wisc.edu/catalog/9910000368102121}{Micrographia,
   or, Some physiological descriptions of minute bodies made by magnifying
   glasses : with observations and inquiries thereupon}, The Royal Society,
-  1665.
+  London, 1665.
 
 \bibitem{RN59}
 N.~E. Stork, Experimental analysis of adhesion of \emph{Chrysolina Polita}
-  (chrysomelidae: Coleoptera) on a variety of surfaces, The Journal of
-  Experimental Biology 88~(1) (1980) 91.
+  (chrysomelidae: Coleoptera) on a variety of surfaces, J Exp Biol 88~(1)
+  (1980) 91.
 
 \bibitem{RN40}
 D.~Labonte, W.~Federle,
@@ -30,29 +30,40 @@ R.~D. O'Rorke, T.~W.~J. Steele, H.~K. Taylor,
   \href{https://doi.org/10.1080/01694243.2015.1101183
   https://www.tandfonline.com/doi/pdf/10.1080/01694243.2015.1101183?needAccess=true}{Bioinspired
   fibrillar adhesives: a review of analytical models and experimental evidence
-  for adhesion enhancement by surface patterns}, Journal of Adhesion Science
-  and Technology 30~(4) (2016) 362--391.
+  for adhesion enhancement by surface patterns}, J Adhes Sci Technol 30~(4)
+  (2016) 362--391.
 \newblock \href {http://dx.doi.org/10.1080/01694243.2015.1101183}
   {\path{doi:10.1080/01694243.2015.1101183}}.
 
+\bibitem{Popov2016BiologicalMW}
+V.~L. Popov, A.~{\'E}. Filippov, S.~N. Gorb, Biological microstructures with
+  high adhesion and friction. numerical approach, Physics-Uspekhi 59 (2016)
+  829--845.
+
 \bibitem{RN29}
-B.~N.~J. Persson, On the mechanism of adhesion in biological systems, The
-  Journal of Chemical Physics 118~(16).
+B.~N.~J. Persson, On the mechanism of adhesion in biological systems, J Chem
+  Phys 118~(16).
 \newblock \href {http://dx.doi.org/10.1063/1.1562192}
   {\path{doi:10.1063/1.1562192}}.
 
 \bibitem{RN114}
-A.~Jagota, J.~B. Stephen, \href{www.jstor.org/stable/3884754
-  https://watermark.silverchair.com/i1540-7063-042-06-1140.pdf?token=AQECAHi208BE49Ooan9kkhW_Ercy7Dm3ZL_9Cf3qfKAc485ysgAAAo8wggKLBgkqhkiG9w0BBwagggJ8MIICeAIBADCCAnEGCSqGSIb3DQEHATAeBglghkgBZQMEAS4wEQQMTcTaXermnsx79ssUAgEQgIICQmJIdaEd7o-Vpq7M4X70uphORuHyjK8lyQzYlfsAicOyiemAKF33VpShzPlthgqrj8OFigUfzID8qbRsWRjWByxmbCHE0gVubhP9EYrETYYnjBoGtIdV7cAHjWi4Z0zxBN8k4vvXbf7zRu4cygITknkrwbudAgw-VyOKs0WzJRMdf1iTyACmWmwKUb-QXSGbHAb0hBAZ3Qlw4xGHK4q_B8UikwnSvvnnIQfNN5tNSO7VH5ID_zxe70Q-ryS7HADgvHA2uuoKwlhZZtVu1u3-_JCoMjnVBEgKw1SOYZJPdm8c7BuUs4yNVi_-z60GolIsY-leFeOHyTAjY72Tv2yf3jh2oiRJAwvSRwV506XFNDP0AQAw83PEnbBmYsWL9HrQygf8HiiQVtSwIitAePHAxsZAQ41a8W-l6DUmFuTv-p7nSYKAN_ZXLrXzdaMoRhRP_Wqy4O5daebA1iNkwEYXtol6ZOkIvH69ScMdnOsEtMQCDIgmP3LPlKRFTze18krv-WX1BHD9jqFufSrJdUosfYwaaxSQnMXnhHOjkUWTt8pT1gVuEC4v-6eaBA-FHhIK9RnRpuDmmUZr9YdZV4YrdSVDkkmzkuUP0GkYSy_qEeRQb6NqOUjY1_e7LNg64yXxWt6jP8xzCrOW2tQRHkv2t0PAhDO1QHGumNlFCsrv5bTaJF1HjPkfiL0gLgQh82l47MNPLQU4J1qVGyH0Ygtk2_1zhUJKHDUYCe_B6SekGbqzpYMOHNzOI4DgbH7cIfpRT06i}{Mechanics
-  of adhesion through a fibrillar microstructure}, Integrative and Comparative
-  Biology 42~(6) (2002) 1140--1145.
+A.~Jagota, J.~B. Stephen, \href{https://www.jstor.org/stable/3884754}{Mechanics
+  of adhesion through a fibrillar microstructure}, Integr Comp Biol 42~(6)
+  (2002) 1140--1145.
 
 \bibitem{RN147}
 K.~Kendall, \href{http://dx.doi.org/10.1088/0022-3727/8/13/005}{Thin-film
-  peeling-the elastic term}, Journal of Physics D: Applied Physics 8~(13)
-  (1975) 1449--1452.
+  peeling-the elastic term}, J Phys D Appl Phys 8~(13) (1975) 1449--1452.
 \newblock \href {http://dx.doi.org/10.1088/0022-3727/8/13/005}
   {\path{doi:10.1088/0022-3727/8/13/005}}.
+
+\bibitem{RN296}
+T.~Endlein, A.~Ji, D.~Samuel, N.~Yao, Z.~Wang, W.~J.~P. Barnes, W.~Federle,
+  M.~Kappl, Z.~Dai, \href{https://doi.org/10.1098/rsif.2012.0838}{Sticking like
+  sticky tape: tree frogs use friction forces to enhance attachment on
+  overhanging surfaces}, J R Soc Interface 10~(80) (2013) 20120838.
+\newblock \href {http://dx.doi.org/10.1098/rsif.2012.0838}
+  {\path{doi:10.1098/rsif.2012.0838}}.
 
 \bibitem{RN72}
 C.~Y. Hui, N.~J. Glassmaker, T.~Tang, A.~Jagota,
@@ -67,11 +78,125 @@ Y.~Tian, N.~Pesika, H.~Zeng, K.~Rosenberg, B.~Zhao, P.~McGuiggan, K.~Autumn,
   J.~Israelachvili, \href{https://pubmed.ncbi.nlm.nih.gov/17148600
   https://www.ncbi.nlm.nih.gov/pmc/articles/PMC1748224/
   https://www.ncbi.nlm.nih.gov/pmc/articles/PMC1748224/pdf/zpq19320.pdf}{Adhesion
-  and friction in gecko toe attachment and detachment}, Proceedings of the
-  National Academy of Sciences of the United States of America 103~(51) (2006)
-  19320--19325.
+  and friction in gecko toe attachment and detachment}, Proc Natl Acad Sci U S
+  A 103~(51) (2006) 19320--19325.
 \newblock \href {http://dx.doi.org/10.1073/pnas.0608841103}
   {\path{doi:10.1073/pnas.0608841103}}.
+
+\bibitem{pantano2011}
+A.~Pantano, N.~M. Pugno, S.~N. Gorb, Numerical simulations demonstrate that the
+  double tapering of the spatualae of lizards and insects maximize both
+  detachment resistance and stability, International Journal of Fracture
+  171~(2) (2011) 169–175.
+\newblock \href {http://dx.doi.org/10.1007/s10704-011-9596-8}
+  {\path{doi:10.1007/s10704-011-9596-8}}.
+
+\bibitem{sauer2013}
+R.~A. Sauer, M.~Holl, A detailed 3d finite element analysis of the peeling
+  behaviour of a gecko spatula, Computer Methods in Biomechanics and Biomedical
+  Engineering 16~(6) (2013) 577–591.
+\newblock \href {http://dx.doi.org/10.1080/10255842.2011.628944}
+  {\path{doi:10.1080/10255842.2011.628944}}.
+
+\bibitem{Wu2015}
+X.~Wu, X.~Wang, T.~Mei, S.~Sun,
+  \href{https://royalsocietypublishing.org/doi/abs/10.1098/rspa.2015.0085}{Mechanical
+  analyses on the digital behaviour of the tokay gecko (\emph{Gekko gecko})
+  based on a multi-level directional adhesion model}, Proceedings of the Royal
+  Society A: Mathematical, Physical and Engineering Sciences 471~(2179) (2015)
+  20150085.
+\newblock \href {http://dx.doi.org/10.1098/rspa.2015.0085}
+  {\path{doi:10.1098/rspa.2015.0085}}.
+
+\bibitem{kligerman2020}
+Y.~Kligerman, P.~Breitman, M.~Varenberg, Biomimetic wall-shaped hierarchical
+  micro-structure: Numerical simulation of sliding inception, Bioinspiration \&
+  Biomimetics 15~(4) (2020) 046011.
+\newblock \href {http://dx.doi.org/10.1088/1748-3190/ab8ba3}
+  {\path{doi:10.1088/1748-3190/ab8ba3}}.
+
+\bibitem{Grill2021}
+M.~J. Grill, C.~Meier, W.~A. Wall,
+  \href{https://doi.org/10.1080/00218464.2019.1699795}{Investigation of the
+  peeling and pull-off behavior of adhesive elastic fibers via a novel
+  computational beam interaction model}, The Journal of Adhesion 97~(8) (2021)
+  730--759.
+\newblock \href {http://dx.doi.org/10.1080/00218464.2019.1699795}
+  {\path{doi:10.1080/00218464.2019.1699795}}.
+
+\bibitem{Gouravaraju2021}
+S.~Gouravaraju, R.~A. Sauer, S.~S. Gautam,
+  \href{https://doi.org/10.1080/00218464.2020.1746652}{On the presence of a
+  critical detachment angle in gecko spatula peeling - a numerical
+  investigation using an adhesive friction model}, The Journal of Adhesion
+  97~(13) (2021) 1234--1254.
+\newblock \href {http://dx.doi.org/10.1080/00218464.2020.1746652}
+  {\path{doi:10.1080/00218464.2020.1746652}}.
+
+\bibitem{RN57}
+A.~del Campo, C.~Greiner, E.~Arzt,
+  \href{https://www.ncbi.nlm.nih.gov/pubmed/17722937}{Contact shape controls
+  adhesion of bioinspired fibrillar surfaces}, Langmuir 23~(20) (2007)
+  10235--10243.
+\newblock \href {http://dx.doi.org/10.1021/la7010502}
+  {\path{doi:10.1021/la7010502}}.
+
+\bibitem{Murphy2007}
+M.~P. Murphy, B.~Aksak, M.~Sitti,
+  \href{https://doi.org/10.1163/156856107782328380}{Adhesion and anisotropic
+  friction enhancements of angled heterogeneous micro-fiber arrays with
+  spherical and spatula tips}, Journal of Adhesion Science and Technology
+  21~(12-13) (2007) 1281--1296.
+\newblock \href {http://dx.doi.org/10.1163/156856107782328380}
+  {\path{doi:10.1163/156856107782328380}}.
+
+\bibitem{Menguc2012}
+Y.~Mengüç, S.~Y. Yang, S.~Kim, J.~A. Rogers, M.~Sitti,
+  \href{https://onlinelibrary.wiley.com/doi/abs/10.1002/adfm.201101783}{Gecko-inspired
+  controllable adhesive structures applied to micromanipulation}, Advanced
+  Functional Materials 22~(6) (2012) 1246--1254.
+\newblock \href {http://dx.doi.org/https://doi.org/10.1002/adfm.201101783}
+  {\path{doi:https://doi.org/10.1002/adfm.201101783}}.
+
+\bibitem{Chary2013}
+S.~Chary, J.~Tamelier, K.~Turner,
+  \href{https://doi.org/10.1088/0964-1726/22/2/025013}{A microfabricated
+  gecko-inspired controllable and reusable dry adhesive}, Smart Materials and
+  Structures 22~(2) (2013) 025013.
+\newblock \href {http://dx.doi.org/10.1088/0964-1726/22/2/025013}
+  {\path{doi:10.1088/0964-1726/22/2/025013}}.
+
+\bibitem{Kim2017}
+J.-K. Kim, M.~Varenberg,
+  \href{https://royalsocietypublishing.org/doi/abs/10.1098/rsif.2017.0832}{Biomimetic
+  wall-shaped adhesive microstructure for shear-induced attachment: the effects
+  of pulling angle and preliminary displacement}, Journal of The Royal Society
+  Interface 14~(137) (2017) 20170832.
+\newblock \href {http://dx.doi.org/10.1098/rsif.2017.0832}
+  {\path{doi:10.1098/rsif.2017.0832}}.
+
+\bibitem{autumn2000}
+K.~Autumn, Y.~A. Liang, S.~T. Hsieh, W.~Zesch, W.~P. Chan, T.~W. Kenny,
+  R.~Fearing, R.~J. Full, Adhesive force of a single gecko foot-hair, Nature
+  405~(6787) (2000) 681–685.
+\newblock \href {http://dx.doi.org/10.1038/35015073}
+  {\path{doi:10.1038/35015073}}.
+
+\bibitem{Langer2004}
+M.~G. Langer, J.~P. Ruppersberg, S.~Gorb,
+  \href{https://royalsocietypublishing.org/doi/abs/10.1098/rspb.2004.2850}{Adhesion
+  forces measured at the level of a terminal plate of the fly's seta},
+  Proceedings of the Royal Society of London. Series B: Biological Sciences
+  271~(1554) (2004) 2209--2215.
+\newblock \href {http://dx.doi.org/10.1098/rspb.2004.2850}
+  {\path{doi:10.1098/rspb.2004.2850}}.
+
+\bibitem{Varenberg2010}
+M.~Varenberg, N.~M. Pugno, S.~N. Gorb,
+  \href{http://dx.doi.org/10.1039/C003207G}{Spatulate structures in biological
+  fibrillar adhesion}, Soft Matter 6 (2010) 3269--3272.
+\newblock \href {http://dx.doi.org/10.1039/C003207G}
+  {\path{doi:10.1039/C003207G}}.
 
 \bibitem{RN20}
 W.~Federle, \href{https://www.ncbi.nlm.nih.gov/pubmed/16809452}{Why are so many
@@ -84,7 +209,7 @@ J.~M. Bullock, W.~Federle,
   \href{https://www.ncbi.nlm.nih.gov/pubmed/19483006}{Division of labour and
   sex differences between fibrillar, tarsal adhesive pads in beetles: effective
   elastic modulus and attachment performance}, J Exp Biol 212~(Pt 12) (2009)
-  1876--88.
+  1876--1888.
 \newblock \href {http://dx.doi.org/10.1242/jeb.030551}
   {\path{doi:10.1242/jeb.030551}}.
 
@@ -96,20 +221,20 @@ G.~Carbone, E.~Pierro, S.~N. Gorb, \href{http://dx.doi.org/10.1039/C0SM01482F
 \newblock \href {http://dx.doi.org/10.1039/C0SM01482F}
   {\path{doi:10.1039/C0SM01482F}}.
 
-\bibitem{RN57}
-A.~del Campo, C.~Greiner, E.~Arzt,
-  \href{https://www.ncbi.nlm.nih.gov/pubmed/17722937}{Contact shape controls
-  adhesion of bioinspired fibrillar surfaces}, Langmuir 23~(20) (2007)
-  10235--43.
-\newblock \href {http://dx.doi.org/10.1021/la7010502}
-  {\path{doi:10.1021/la7010502}}.
+\bibitem{Heepe2014}
+L.~Heepe, G.~Carbone, E.~Pierro, A.~E. Kovalev, S.~N. Gorb,
+  \href{https://doi.org/10.1063/1.4860991}{Adhesion tilt-tolerance in
+  bio-inspired mushroom-shaped adhesive microstructure}, Applied Physics
+  Letters 104~(1) (2014) 011906.
+\newblock \href {http://dx.doi.org/10.1063/1.4860991}
+  {\path{doi:10.1063/1.4860991}}.
 
 \bibitem{RN279}
 D.~Paretkar, M.~Kamperman, D.~Martina, J.~Zhao, C.~Creton, A.~Lindner,
   A.~Jagota, R.~McMeeking, E.~Arzt,
   \href{https://doi.org/10.1098/rsif.2013.0171}{Preload-responsive adhesion:
-  effects of aspect ratio, tip shape and alignment}, Journal of The Royal
-  Society Interface 10~(83) (2013) 20130171.
+  effects of aspect ratio, tip shape and alignment}, J R Soc Interface 10~(83)
+  (2013) 20130171.
 \newblock \href {http://dx.doi.org/10.1098/rsif.2013.0171}
   {\path{doi:10.1098/rsif.2013.0171}}.
 
@@ -117,17 +242,16 @@ D.~Paretkar, M.~Kamperman, D.~Martina, J.~Zhao, C.~Creton, A.~Lindner,
 D.-M. Drotlef, P.~Blümler, A.~del Campo,
   \href{https://onlinelibrary.wiley.com/doi/abs/10.1002/adma.201303087
   https://onlinelibrary.wiley.com/doi/pdfdirect/10.1002/adma.201303087?download=true}{Magnetically
-  actuated patterns for bioinspired reversible adhesion (dry and wet)},
-  Advanced Materials 26~(5) (2014) 775--779.
+  actuated patterns for bioinspired reversible adhesion (dry and wet)}, Adv
+  Mater 26~(5) (2014) 775--779.
 \newblock \href {http://dx.doi.org/10.1002/adma.201303087}
   {\path{doi:10.1002/adma.201303087}}.
 
 \bibitem{RN280}
 E.~Kizilkan, J.~Strueben, A.~Staubitz, S.~N. Gorb,
-  \href{http://robotics.sciencemag.org/content/2/2/eaak9454.abstract
-  https://robotics.sciencemag.org/content/robotics/2/2/eaak9454.full.pdf}{Bioinspired
-  photocontrollable microstructured transport device}, Science Robotics 2~(2)
-  (2017) eaak9454.
+  \href{https://robotics.sciencemag.org/content/2/2/eaak9454}{Bioinspired
+  photocontrollable microstructured transport device}, Sci Robot 2~(2) (2017)
+  eaak9454.
 \newblock \href {http://dx.doi.org/10.1126/scirobotics.aak9454}
   {\path{doi:10.1126/scirobotics.aak9454}}.
 
@@ -135,34 +259,49 @@ E.~Kizilkan, J.~Strueben, A.~Staubitz, S.~N. Gorb,
 J.~Cui, D.-M. Drotlef, I.~Larraza, J.~P. Fernández-Blázquez, L.~F. Boesel,
   C.~Ohm, M.~Mezger, R.~Zentel, A.~del Campo,
   \href{https://doi.org/10.1002/adma.201200895}{Bioinspired actuated adhesive
-  patterns of liquid crystalline elastomers}, Advanced Materials 24~(34) (2012)
+  patterns of liquid crystalline elastomers}, Adv Mater 24~(34) (2012)
   4601--4604.
 \newblock \href {http://dx.doi.org/https://doi.org/10.1002/adma.201200895}
   {\path{doi:https://doi.org/10.1002/adma.201200895}}.
 
 \bibitem{RN117}
 M.~Schargott, V.~L. Popov, S.~Gorb,
-  \href{http://www.sciencedirect.com/science/article/pii/S0022519306001986
-  https://pdf.sciencedirectassets.com/272314/1-s2.0-S0022519306X09116/1-s2.0-S0022519306001986/main.pdf?X-Amz-Security-Token=IQoJb3JpZ2luX2VjEIH%2F%2F%2F%2F%2F%2F%2F%2F%2F%2FwEaCXVzLWVhc3QtMSJIMEYCIQDZQ%2BfWcCb4offjcxpoQPTjdtAhvelZxCuKbktklYMi3AIhAIOsnO9KDikIOEny3tdoKA9%2BpkDfW%2FSYs%2FZDSaE44C7wKrQDCFoQAhoMMDU5MDAzNTQ2ODY1IgwMFEoqOAgfRShVgyIqkQNX74A1ZF1hdpio%2FRTDLtnNmcBgLhT2CqeABI1l2s%2Bqv%2B38wpzzgAM3RYCzReEU1tjU%2FwU4a%2Fm7wl5nS5bdivcaRC1Gpf07sEGTnyWB%2FuX%2BJ5v%2FTina3xTavGc3Y5v8Pq9dBW9qKFWDPMvfBeK20FmM6KUL%2FwylsbWV5o8RpViONybI%2BUqLST884mc5XSG2I8VDfYEVlycsnGNV6iqJcvfIJElnp3MEFjJ%2FaN2Ncq9sgYA1JhlIpbs60AOyBzq1AgX14I%2F2OI3BuBBrimGGetxLZB7qtPRdEJh507HJjB66AkXBNdy9A%2BLpmHRosVX90dEAhsSuroCRMP7UOc4U%2F%2B31jUpyOpyX1dCnekSX7mJGEOt8z8tqQJx1iP0FkhnJIoJq%2BYqTUhdjeZ5eLdM7kzD0Xnwcf0i7Q2dmf4qP%2Bwe5rGJrzzMPh1IGAMi%2F1yPhfbCgo0N4bFoYmWQESZHHrQnY4e%2BIAB8g7%2FHYqzOvDqC%2BOJh%2BRLynuB4tzP4qcGzlVCnb6sSouT8iDeERaxqPHEDjxDCuyv3yBTrqAZS7kxgSbjzRPE2DCc0o5pUUTEAO78kkx2fyHU9c7OhQ7plI5cQwrBOASq%2BAbVeHdUsSDWf%2BbpBWbsR9Qco%2F4Xqy9mp%2F6gfrSjltMTolC7sG4BGnF4fRaMBaVdhqzbFBje0qWjfanXLSgKmcQY95rPc6E1SbKmbvsufNuJoYcOvpwVe7%2BLKauqyZ2lo7C0cl9hDYr251RZkFgm7ZQAVQhKKpPfpcYHuyHLR7fWNNYQQtWmLt49fjWMdQKExCqWgMF6bPQ7FnGhcnWStvZqOJLMhbyTkxKJ6RKYV2Z2cBvZH8GRQjDKPW0Q8b3Q%3D%3D&X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Date=20200304T093202Z&X-Amz-SignedHeaders=host&X-Amz-Expires=300&X-Amz-Credential=ASIAQ3PHCVTYUZHYWFD4%2F20200304%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Signature=70bc0bb78504aabb32918a830e216176c7c1a17b60fd8eff4eadcb639525118b&hash=67f7f6edc99673411293898de67d1ee11ceb03432a6402dc5f7f8d1f51ea2799&host=68042c943591013ac2b2430a89b270f6af2c76d8dfd086a07176afe7c76c2c61&pii=S0022519306001986&tid=spdf-763edadc-167a-46ab-b282-c6cc1d260878&sid=1d749c2f5b5788483b8ac925b86c418ebdc3gxrqb&type=client}{Spring
-  model of biological attachment pads}, Journal of Theoretical Biology 243~(1)
-  (2006) 48--53.
+  \href{https://www.sciencedirect.com/science/article/pii/S0022519306001986}{Spring
+  model of biological attachment pads}, J Theor Biol 243~(1) (2006) 48--53.
 \newblock \href {http://dx.doi.org/https://doi.org/10.1016/j.jtbi.2006.05.023}
   {\path{doi:https://doi.org/10.1016/j.jtbi.2006.05.023}}.
+
+\bibitem{RN253}
+M.~Bacca, J.~A. Booth, K.~L. Turner, R.~M. McMeeking,
+  \href{https://www.sciencedirect.com/science/article/pii/S0022509616301508}{Load
+  sharing in bioinspired fibrillar adhesives with backing layer interactions
+  and interfacial misalignment}, J Mech Phys Solids 96 (2016) 428--444.
+\newblock \href {http://dx.doi.org/https://doi.org/10.1016/j.jmps.2016.04.008}
+  {\path{doi:https://doi.org/10.1016/j.jmps.2016.04.008}}.
 
 \bibitem{RN79}
 J.~M. Bullock, W.~Federle,
   \href{https://www.ncbi.nlm.nih.gov/pubmed/21465175}{Beetle adhesive hairs
   differ in stiffness and stickiness: in vivo adhesion measurements on
-  individual setae}, Naturwissenschaften 98~(5) (2011) 381--7.
+  individual setae}, Naturwissenschaften 98~(5) (2011) 381--387.
 \newblock \href {http://dx.doi.org/10.1007/s00114-011-0781-4}
   {\path{doi:10.1007/s00114-011-0781-4}}.
+
+\bibitem{RN273}
+R.~Hensel, J.~Thiemecke, J.~A. Booth,
+  \href{https://pubs.acs.org/doi/abs/10.1021/acsami.1c00978}{Preventing
+  catastrophic failure of microfibrillar adhesives in compliant systems based
+  on statistical analysis of adhesive strength}, ACS Appl Mater Interfaces
+  13~(16) (2021) 19422–19429.
+\newblock \href {http://dx.doi.org/10.1021/acsami.1c00978}
+  {\path{doi:10.1021/acsami.1c00978}}.
 
 \bibitem{RN252}
 J.~A. Booth, M.~Bacca, R.~M. McMeeking, K.~L. Foster,
   \href{https://doi.org/10.1002/admi.201800272
   https://onlinelibrary.wiley.com/doi/pdfdirect/10.1002/admi.201800272?download=true}{Benefit
   of backing-layer compliance in fibrillar adhesive patches-resistance to peel
-  propagation in the presence of interfacial misalignment}, Advanced Materials
+  propagation in the presence of interfacial misalignment}, Adv Mater
   Interfaces 5~(15) (2018) 1800272.
 \newblock \href {http://dx.doi.org/https://doi.org/10.1002/admi.201800272}
   {\path{doi:https://doi.org/10.1002/admi.201800272}}.
@@ -171,9 +310,23 @@ J.~A. Booth, M.~Bacca, R.~M. McMeeking, K.~L. Foster,
 S.~M. Gernay, S.~Labousse, P.~Lambert, P.~Compere, T.~Gilet,
   \href{https://www.ncbi.nlm.nih.gov/pubmed/29142016}{Multi-scale tarsal
   adhesion kinematics of freely-walking dock beetles}, J R Soc Interface
-  14~(136).
+  14~(136) (2017) 20170493.
 \newblock \href {http://dx.doi.org/10.1098/rsif.2017.0493}
   {\path{doi:10.1098/rsif.2017.0493}}.
+
+\bibitem{niederegger2003}
+S.~Niederegger, S.~Gorb, Tarsal movements in flies during leg attachment and
+  detachment on a smooth substrate, Journal of Insect Physiology 49~(6) (2003)
+  611–620.
+\newblock \href {http://dx.doi.org/10.1016/s0022-1910(03)00048-9}
+  {\path{doi:10.1016/s0022-1910(03)00048-9}}.
+
+\bibitem{kang2017}
+O.~H. Kang, S.~H. Lee, J.~H. Yun, H.~Yi, M.~K. Kwak, S.~R. Lee, Adhesion
+  tunable bio-inspired dry adhesives by twisting, International Journal of
+  Precision Engineering and Manufacturing 18~(10) (2017) 1433–1437.
+\newblock \href {http://dx.doi.org/10.1007/s12541-017-0171-8}
+  {\path{doi:10.1007/s12541-017-0171-8}}.
 
 \bibitem{RN53}
 H.~Peisker, J.~Michels, S.~N. Gorb,
@@ -182,5 +335,16 @@ H.~Peisker, J.~Michels, S.~N. Gorb,
   septempunctata}}, Nat Commun 4 (2013) 1661.
 \newblock \href {http://dx.doi.org/10.1038/ncomms2576}
   {\path{doi:10.1038/ncomms2576}}.
+
+\bibitem{ENDLEIN2007}
+T.~Endlein, W.~Federle,
+  \href{https://www.sciencedirect.com/science/article/pii/S109564330700284X}{To
+  stick and not getting stuck — detachment control in ants}, Comparative
+  Biochemistry and Physiology Part A: Molecular \& Integrative Physiology
+  146~(4, Supplement) (2007) S121--S122, abstracts of the Annual Main Meeting
+  of the Society for Experimental Biology, Glasgow, Scotland, 31st March - 4th
+  April, 2007.
+\newblock \href {http://dx.doi.org/https://doi.org/10.1016/j.cbpa.2007.01.222}
+  {\path{doi:https://doi.org/10.1016/j.cbpa.2007.01.222}}.
 
 \end{thebibliography}
