@@ -1,0 +1,497 @@
+#LyX 2.3 created this file. For more info see http://www.lyx.org/
+\lyxformat 544
+\begin_document
+\begin_header
+\save_transient_properties true
+\origin unavailable
+\textclass article
+\use_default_options true
+\maintain_unincluded_children false
+\language british
+\language_package default
+\inputencoding auto
+\fontencoding global
+\font_roman "default" "default"
+\font_sans "default" "default"
+\font_typewriter "default" "default"
+\font_math "auto" "auto"
+\font_default_family default
+\use_non_tex_fonts false
+\font_sc false
+\font_osf false
+\font_sf_scale 100 100
+\font_tt_scale 100 100
+\use_microtype false
+\use_dash_ligatures true
+\graphics default
+\default_output_format default
+\output_sync 0
+\bibtex_command default
+\index_command default
+\paperfontsize default
+\spacing single
+\use_hyperref false
+\papersize default
+\use_geometry false
+\use_package amsmath 1
+\use_package amssymb 1
+\use_package cancel 1
+\use_package esint 1
+\use_package mathdots 1
+\use_package mathtools 1
+\use_package mhchem 1
+\use_package stackrel 1
+\use_package stmaryrd 1
+\use_package undertilde 1
+\cite_engine basic
+\cite_engine_type default
+\biblio_style plain
+\use_bibtopic false
+\use_indices false
+\paperorientation portrait
+\suppress_date false
+\justification true
+\use_refstyle 1
+\use_minted 0
+\index Index
+\shortcut idx
+\color #008000
+\end_index
+\secnumdepth 3
+\tocdepth 3
+\paragraph_separation indent
+\paragraph_indentation default
+\is_math_indent 0
+\math_numbering_side default
+\quotes_style british
+\dynamic_quotes 0
+\papercolumns 1
+\papersides 1
+\paperpagestyle default
+\tracking_changes false
+\output_changes false
+\html_math_output 0
+\html_css_as_file 0
+\html_be_strict false
+\end_header
+
+\begin_body
+
+\begin_layout Standard
+Reviewer #1: I've really appreciated this study! I believe it provides new
+ insight in the reversible adhesion mechanism in insects, which may be of
+ interest also for engineering applications.
+ It is also well written and relatively easy to follow.
+ However I have a some questions the authors should address before the paper
+ may be accepted for publication.
+ 
+\end_layout
+
+\begin_layout Description
+1) The author state that for the "flex" case see fig.
+ 5 the reduction factor can go up of two order of magnitudes, provided that
+ the quantity "ds" takes negative values.
+ This is very counterintuitive and not easy to imagine.
+ Maybe it is even unrealistic or unphysical.
+ Indeed value of ds<0 would require the adhesive pad (or its backing layer)
+ to pass through the adhering underlying surface.
+ I believe this cannot occur in reality and must be excluded from the analysis.
+ One, then, concludes that the reduction factor for the "flex" is very close
+ to 1 in any configuration.
+ 
+\end_layout
+
+\begin_layout Standard
+
+\emph on
+A: We believe the confusion arises here because of the definition of 
+\begin_inset Formula $\hat{d_{s}}$
+\end_inset
+
+.
+ Referring to Figure 4 (
+\begin_inset Quotes bld
+\end_inset
+
+flex
+\begin_inset Quotes brd
+\end_inset
+
+ case), the description shows that 
+\begin_inset Formula $\hat{d_{s}}$
+\end_inset
+
+ is the normalized form of 
+\begin_inset Formula $d_{s}$
+\end_inset
+
+, defined as
+\begin_inset Formula $\hat{d_{s}}=\frac{d_{s}-l_{h,0}}{w}$
+\end_inset
+
+, which is the claw-hinge length (
+\begin_inset Formula $d_{s}$
+\end_inset
+
+) relative to the uncompressed hair length (
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\bar no
+\strikeout off
+\xout off
+\uuline off
+\uwave off
+\noun off
+\color none
+
+\begin_inset Formula $l_{h,0}$
+\end_inset
+
+
+\family default
+\series default
+\shape default
+\size default
+\emph on
+\bar default
+\strikeout default
+\xout default
+\uuline default
+\uwave default
+\noun default
+\color inherit
+).
+ Considering this normalized definition,
+\emph default
+ 
+\emph on
+
+\begin_inset Formula $\hat{d_{s}}<0$
+\end_inset
+
+ should be physically possible.
+ To make this clear to the reader, we have added the definition of 
+\begin_inset Formula $\hat{d_{s}}$
+\end_inset
+
+ into the description of Figures 5 and 6 as well.
+\end_layout
+
+\begin_layout Description
+2) Limiting the geometry to cases with ds>0 I would conclude that the "flex"
+ case is the one with the worse behavior.
+ This is indeed the consequence of the fact that pillars barely can be already
+ pre-compressed.
+ Indeed, in the case of initial no-compression of the pillars, during the
+ pulling process each pillar will start to be elongated and no one will
+ be in a compression state, as instead it happens in the "free-pull" case.
+ 
+\end_layout
+
+\begin_layout Standard
+
+\emph on
+A: Based on above clarification, the 
+\begin_inset Quotes bld
+\end_inset
+
+flex
+\begin_inset Quotes brd
+\end_inset
+
+ case should not be the worst scenario since 
+\begin_inset Formula $\hat{d_{s}}<0$
+\end_inset
+
+ is possible.
+ Further considering that the necessary load required to pre-compress the
+ pillars is roughly the same order of magnitude as the the array's total
+ adhesion force (see Figure 4), such a condition should be feasible.
+\end_layout
+
+\begin_layout Description
+3) Similar consideration applies also to the "fixed pull" case.
+ Indeed, inducing compression on some of the pillars case can only be caused
+ only by the weight of the insect.
+ And maybe such forces are very very small.
+ 
+\end_layout
+
+\begin_layout Standard
+
+\emph on
+A: Similar to above 
+\begin_inset Quotes bld
+\end_inset
+
+flex
+\begin_inset Quotes brd
+\end_inset
+
+ case, the necessary normal load for the 'fixed pull' case to compress the
+ pillars is also of similar magnitude as the adhesion force.
+ We however do agree that the weight of the insect may put a limit onto
+ how large of a load can be applied on the leg to compress the hairs, and
+ have included this limitation in the text (see page 20 lines 12-15).
+\end_layout
+
+\begin_layout Description
+4) I believe the "free-pull" case should be the optimal configuration, as
+ in this case during the pulling process, torque balance will require some
+ pillars to be compressed thus leading to the so called "elastic-weakening"
+ phenomenon.
+ 
+\end_layout
+
+\begin_layout Standard
+
+\emph on
+A: Taking into account the limit induced by an insect's weight to compress
+ the hairs, we agree the 'free pull' case could be optimal in some biological
+ systems.
+ However, artificial systems could be designed in ways to allow sufficient
+ load and compress the pillars.
+ In this case 'fixed pull' and 'flex' modes may also be preferable, depending
+ on the the design conditions.
+ Overall, we see that the 'flex' mode offers the highest reduction factor
+ (see Appendix A in manuscript and point 6 below), and thus could offer
+ the best configuration for reversible adhesion.
+\end_layout
+
+\begin_layout Description
+5) The authors assert that the optimal configuration would be obtained with
+ the use of pillars able to support compression loads without undergo buckling.
+ I may agree with this point, but also let us consider this ideal situation:
+ assume the pillars undergo buckling as soon as a compressive load is applied
+ (so they can support only tractive loads), and consider the "free-pull"
+ case with s/L=1.
+ In such a case the equilibrium of the backing layer would require that
+ the applied pull-force would be totally supported by a single pillar (which
+ would also work under very tilted conditions) thus causing an avalanche
+ of subsequent pillar detachments (one after the other) leading to a spontaneous
+ propagation of the detachment front.
+ So I'm not very sure that the best condition is the one which avoids buckling.
+ 
+\end_layout
+
+\begin_layout Standard
+
+\emph on
+A: This is quite an interesting scenario! Yes, for the 'free pull' case,
+ buckling of pillars under compression would indeed result in the the backing
+ layer experiencing a net clockwise torque, which would drive it to further
+ tilt and detach the remaining pillars in sequence.
+ However, this may also make it a bit tricky to have the array to show strong
+ adhesion when we want it to, since the pillars would buckle quickly under
+ small loads, thus limiting its reversible adhesive properties.
+ For example, Patekar et.
+ al.
+ (doi.org/10.1098/rsif.2013.0171) has shown that buckling induced by sufficient
+ vertical load can be a way to 'switch off' the adhesion of a micropillar
+ array.
+ When relying on our 'free pull'-based detachment case, the design conditions
+ of the array would thus need to be optimized to take advantage of the buckling
+ induced detachment while also showing strong adhesion when the backing
+ layer is kept fixed and parallel to the surface.
+ Thank you for your insight, we have now included this effect in the manuscript
+ and have rephrased our comment on buckling (see page 20 lines 8-12).
+\end_layout
+
+\begin_layout Description
+6) It is stated that the increase of Nt augments the reduction factor! This
+ is not very clear to me.
+ To make an example, let us double "Nt" while halving the quantity "w" and
+ the stiffness "kh" of each pillar! In this case I do not expect any change
+ in the adhesive behavior of the system.
+ So what should count really is the ratio kh/w i.e.
+ the stiffness density and not the number Nt.
+\end_layout
+
+\begin_layout Standard
+
+\emph on
+A: If we understand correctly, the situation you are describing here is
+ a consequence of an interplay between the parameters 
+\begin_inset Formula $\hat{f}_{p}=\frac{f_{p}}{k_{h}w}$
+\end_inset
+
+ (Figure 5) and 
+\begin_inset Formula $N_{t}$
+\end_inset
+
+ (Figure 6), both of which we have considered separately by keeping one
+ parameter constant while varying the other parameter.
+ It should thus be possible to get the same reduction factor for multiple
+ combinations of 
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\bar no
+\strikeout off
+\xout off
+\uuline off
+\uwave off
+\noun off
+\color none
+
+\begin_inset Formula $\hat{f}_{p}$
+\end_inset
+
+ and 
+\family default
+\series default
+\shape default
+\size default
+\emph on
+\bar default
+\strikeout default
+\xout default
+\uuline default
+\uwave default
+\noun default
+\color inherit
+
+\begin_inset Formula $N_{t}$
+\end_inset
+
+, such as the case you described for example.
+ Our rational behind choosing 
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\bar no
+\strikeout off
+\xout off
+\uuline off
+\uwave off
+\noun off
+\color none
+
+\begin_inset Formula $\hat{f}_{p}$
+\end_inset
+
+ and 
+\family default
+\series default
+\shape default
+\size default
+\emph on
+\bar default
+\strikeout default
+\xout default
+\uuline default
+\uwave default
+\noun default
+\color inherit
+
+\begin_inset Formula $N_{t}$
+\end_inset
+
+ as separate parameters for  analysis is because, 
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\bar no
+\strikeout off
+\xout off
+\uuline off
+\uwave off
+\noun off
+\color none
+
+\begin_inset Formula $\hat{f}_{p}$
+\end_inset
+
+ 
+\family default
+\series default
+\shape default
+\size default
+\emph on
+\bar default
+\strikeout default
+\xout default
+\uuline default
+\uwave default
+\noun default
+\color inherit
+depends mainly on the material and adhesive property of the pillars, 
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\bar no
+\strikeout off
+\xout off
+\uuline off
+\uwave off
+\noun off
+\color none
+while 
+\family default
+\series default
+\shape default
+\size default
+\emph on
+\bar default
+\strikeout default
+\xout default
+\uuline default
+\uwave default
+\noun default
+\color inherit
+
+\begin_inset Formula $N_{t}$
+\end_inset
+
+ relates only to the geometric design of the array itself.
+ This was an attempt to decouple the physical properties of the adhesive
+ and its fabrication limitations.
+ An alternative way to look at how reduction factor changes might be to
+ use a single parameter 
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\bar no
+\strikeout off
+\xout off
+\uuline off
+\uwave off
+\noun off
+\color none
+
+\begin_inset Formula $\chi=\frac{f_{p}N_{t}}{k_{h}w}$
+\end_inset
+
+
+\family default
+\series default
+\shape default
+\size default
+\emph on
+\bar default
+\strikeout default
+\xout default
+\uuline default
+\uwave default
+\noun default
+\color inherit
+.
+ We have included this plot in the appendix section A of the manuscript,
+ for reference (page 22 and page 16 lines 1-4).
+\end_layout
+
+\end_body
+\end_document

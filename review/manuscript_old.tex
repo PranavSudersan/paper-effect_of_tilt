@@ -190,7 +190,7 @@ the surface. The net force on the whole pad will be,
 F_{net}=\stackrel[i=1]{n}{\sum}k_{h}\left(l_{h,i}-l_{h,0}\right)
 \]
 
-Simplifying, we get (see Appendix B for derivation):
+Simplifying, we get (see Appendix A for derivation):
 
 \begin{equation}
 F_{net}=nk_{h}\left[d_{s}-l_{h,0}-\Psi\sin\theta\right]\label{eq:force_n_d}
@@ -216,7 +216,7 @@ F_{max}=N_{t}f_{p}\label{eq:simul_detach}
 \end{equation}
 
 The net moment, $M_{net}$, about the joint can be similarly derived
-(see Appendix B):
+(see Appendix A):
 
 \begin{equation}
 M_{net}=nk_{h}\cos\theta\left[\left(d_{s}-l_{h,0}\right)\Psi-\left\{ \Psi^{2}+\frac{n^{2}-1}{12}w^{2}\right\} \sin\theta\right]\label{eq:moment_n_d}
@@ -249,7 +249,7 @@ $d_{s}=d_{s,max}$).
 We express the forces and distances in non-dimensional forms, as below:
 
 \[
-\hat{f}_{p}=\frac{f_{p}}{k_{h}w},\quad\hat{F}_{net}=\frac{F_{net}}{k_{h}w},\quad\hat{d_{s}}=\frac{d_{s}-l_{h,0}}{w},\quad\hat{s}=\frac{s}{L}
+\hat{f}_{p}=\frac{f_{p}}{k_{h}w},\quad\hat{F}_{net}=\frac{F_{net}}{k_{h}w},\quad\hat{d_{s}}=\frac{d_{s}-l_{h,0}}{w},\quad\hat{s}=\frac{s}{w}
 \]
 
 Here, $\hat{f_{p}}$ is a parameter which encapsulates the hair's
@@ -473,8 +473,8 @@ detachment (Figure \ref{fig:Reduction-factor_fp}).
 \noindent \includegraphics{Reduction_factor-fp}\caption{\textbf{Effect of $\hat{f}_{p}$ on reduction factor.}
 Colour plots showing the effect of the dimensionless parameter, $\hat{f}_{p}$,
 on the reduction factor for each mode of detachment. Here, we fix
-the number of hairs, $N_{t}=25$. The dimensionless parameters $\hat{d_{s}}=\frac{d_{s}-l_{h,0}}{w}$ and 
-$\hat{s}=\frac{s}{L}$, as described in text. \label{fig:Reduction-factor_fp}}
+the number of hairs, $N_{t}=25$. All values are normalized to dimensionless
+forms, as described in text. \label{fig:Reduction-factor_fp}}
 \end{figure}
 
 When detachment follows the \emph{fixed pull} method (Figure \ref{fig:Reduction-factor_fp}),
@@ -521,18 +521,18 @@ in many biological systems. A higher number of hairs offers a better
 control over adhesion and thus is more suited for reversible attachment
 and detachment during locomotion. The specific trends of reduction
 factor for each mode of detachment can be understood by similar arguments
-of \emph{elastic weakening}, as discussed in the previous section. 
+of \emph{elastic weakening}, as discussed in the previous section.
 
 \begin{figure}[H]
 \noindent \begin{centering}
 \includegraphics{Reduction_factor-Nt}\caption{\textbf{Effect of $N_{t}$ on reduction factor.} 
 Colour plots showing the effect of the number of hairs, $N_{t}$, on
 the reduction factor for each mode of detachment. Here, we fix the
-dimensionless parameter, $\hat{f}_{p}=0.1$. The dimensionless parameters $\hat{d_{s}}=\frac{d_{s}-l_{h,0}}{w}$ and $\hat{s}=\frac{s}{L}$, as described in text. \label{fig:Reduction-factor-Nt}}
+dimensionless parameter, $\hat{f}_{p}=0.1$. All values are normalized
+to dimensionless forms, as described in text. \label{fig:Reduction-factor-Nt}}
 \par\end{centering}
 \end{figure}
 
-Figures \ref{fig:Reduction-factor_fp} and \ref{fig:Reduction-factor-Nt} can be combined into a single set of colour plots by defining a new dimensionless parameter,  $\chi=\hat{f}_{p} N_{t}=\frac{f_{p}N_{t}}{k_{h}w}$ (see Appendix A). Overall, we see that \emph{flex} mode of detachment shows the highest reduction factor among the three modes, with the optimal value of $\chi \sim 1$.
 
 \paragraph{Detachment pathways:}
 
@@ -658,12 +658,11 @@ detachment mechanisms presented. Longer hairs can result in a lateral
 collapse or bundling of hairs, imposing an additional constraint on
 $\theta_{limit}$. Large deformation of hairs can also lead to buckling,
 which will further limit the reduction in adhesion due to the smaller
-effective modulus. Buckling could also, interestingly, promote easier detachment in the \emph{free pull} mode.  
-When the compressed hairs at one end of the array buckle, 
-there would be an excess clockwise moment in the array system (Figure \ref{fig:Free-pull}). 
-This excess moment could subsequently drive the detachment of the remaining hairs.  In the case of biological systems, the ability of an insect to provide the load necessary to tilt and compress its hairy adhesive pad against the surface would further introduce limitations to follow any of the detachment modes discussed here.
-All things considered, the geometry and elastic properties of the individual hairs are 
-crucial parameters to consider in the design of an optimal array system which shows reversible adhesion via \emph{elastic weakening}.
+effective modulus. Thus, the geometry of the individual hairs is also
+crucial in effectively reducing adhesion by \emph{elastic weakening}.
+Ideally, hairs with large diameters would be preferable to eliminate
+buckling, and optimally long hairs would provide a large range of
+angles to which the pad can be tilted while avoiding bundling.
 
 Our analysis had been limited to normal forces during detachment. A similar analysis considering the energy required to detach the array will however not yield any \emph{elastic weakening} effect. Since we had assumed a purely elastic system, the initial and final energy of the system would be the same regardless of the mode of detachment, and thus the work of adhesion would remain identical in all scenarios. The reduction of adhesion force is however advantageous since an insect wouldn't then need a strong muscular to system to detach its legs, which are typically capable of attachment forces several times its body weight \cite{ENDLEIN2007}.
 
@@ -696,21 +695,12 @@ Dr. Bat-El Pinchasik (Tel-Aviv University, Israel) for fruitful discussions. Thi
 
 \appendix
 
-\section{{Reduction factor: master plot}}
-
-\setcounter{figure}{0} \renewcommand{\thefigure}{A.\arabic{figure}} 
-\setcounter{equation}{0} \renewcommand{\theequation}{A.\arabic{equation}} 
-
-\begin{figure}[H]
-\noindent \begin{centering}
-\includegraphics{Reduction_factor-chi}\caption{\textbf{Effect of $\chi$ on reduction factor.} 
-Here, we define a unified dimensionless design parameter $\chi=\frac{f_{p}N_{t}}{k_{h}w}$, combining $\hat{f}_{p}$ and $N_{t}$ into a single number. The dimensionless parameters $\hat{d_{s}}=\frac{d_{s}-l_{h,0}}{w}$ and $\hat{s}=\frac{s}{L}$, as described in text. \label{fig:Reduction-factor-chi}}
-\par\end{centering}
-\end{figure}
-
 \section{{Derivations}}
 
 %\subsection{Derivations}
+
+\setcounter{figure}{0} \renewcommand{\thefigure}{A.\arabic{figure}} 
+\setcounter{equation}{0} \renewcommand{\theequation}{A.\arabic{equation}} 
 
 Suppose at a particular instant (Figure \ref{fig:Schematic}), there
 are $n$ hairs in contact with the surface. The centre of the region

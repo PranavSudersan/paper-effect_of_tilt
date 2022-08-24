@@ -1,4 +1,7 @@
 %% LyX 2.3.6 created this file.  For more info, see http://www.lyx.org/.
+%DIF LATEXDIFF DIFFERENCE FILE
+%DIF DEL manuscript_old.tex   Sat Aug 13 07:48:09 2022
+%DIF ADD manuscript.tex       Wed Aug 24 15:12:57 2022
 %% Do not edit unless you really know what you are doing.
 \documentclass[review]{elsarticle}
 
@@ -50,8 +53,87 @@
 \setkeys{Gin}{width=\linewidth}
 \usepackage{subcaption}
 \bibliographystyle{elsarticle-num}
-
-
+%DIF PREAMBLE EXTENSION ADDED BY LATEXDIFF
+%DIF UNDERLINE PREAMBLE %DIF PREAMBLE
+\RequirePackage[normalem]{ulem} %DIF PREAMBLE
+\RequirePackage{color}\definecolor{RED}{rgb}{1,0,0}\definecolor{BLUE}{rgb}{0,0,1} %DIF PREAMBLE
+\providecommand{\DIFaddtex}[1]{{\protect\color{blue}\uwave{#1}}} %DIF PREAMBLE
+\providecommand{\DIFdeltex}[1]{{\protect\color{red}\sout{#1}}}                      %DIF PREAMBLE
+%DIF SAFE PREAMBLE %DIF PREAMBLE
+\providecommand{\DIFaddbegin}{} %DIF PREAMBLE
+\providecommand{\DIFaddend}{} %DIF PREAMBLE
+\providecommand{\DIFdelbegin}{} %DIF PREAMBLE
+\providecommand{\DIFdelend}{} %DIF PREAMBLE
+\providecommand{\DIFmodbegin}{} %DIF PREAMBLE
+\providecommand{\DIFmodend}{} %DIF PREAMBLE
+%DIF FLOATSAFE PREAMBLE %DIF PREAMBLE
+\providecommand{\DIFaddFL}[1]{\DIFadd{#1}} %DIF PREAMBLE
+\providecommand{\DIFdelFL}[1]{\DIFdel{#1}} %DIF PREAMBLE
+\providecommand{\DIFaddbeginFL}{} %DIF PREAMBLE
+\providecommand{\DIFaddendFL}{} %DIF PREAMBLE
+\providecommand{\DIFdelbeginFL}{} %DIF PREAMBLE
+\providecommand{\DIFdelendFL}{} %DIF PREAMBLE
+%DIF HYPERREF PREAMBLE %DIF PREAMBLE
+\providecommand{\DIFadd}[1]{\texorpdfstring{\DIFaddtex{#1}}{#1}} %DIF PREAMBLE
+\providecommand{\DIFdel}[1]{\texorpdfstring{\DIFdeltex{#1}}{}} %DIF PREAMBLE
+\newcommand{\DIFscaledelfig}{0.5}
+%DIF HIGHLIGHTGRAPHICS PREAMBLE %DIF PREAMBLE
+\RequirePackage{settobox} %DIF PREAMBLE
+\RequirePackage{letltxmacro} %DIF PREAMBLE
+\newsavebox{\DIFdelgraphicsbox} %DIF PREAMBLE
+\newlength{\DIFdelgraphicswidth} %DIF PREAMBLE
+\newlength{\DIFdelgraphicsheight} %DIF PREAMBLE
+% store original definition of \includegraphics %DIF PREAMBLE
+\LetLtxMacro{\DIFOincludegraphics}{\includegraphics} %DIF PREAMBLE
+\newcommand{\DIFaddincludegraphics}[2][]{{\color{blue}\fbox{\DIFOincludegraphics[#1]{#2}}}} %DIF PREAMBLE
+\newcommand{\DIFdelincludegraphics}[2][]{% %DIF PREAMBLE
+\sbox{\DIFdelgraphicsbox}{\DIFOincludegraphics[#1]{#2}}% %DIF PREAMBLE
+\settoboxwidth{\DIFdelgraphicswidth}{\DIFdelgraphicsbox} %DIF PREAMBLE
+\settoboxtotalheight{\DIFdelgraphicsheight}{\DIFdelgraphicsbox} %DIF PREAMBLE
+\scalebox{\DIFscaledelfig}{% %DIF PREAMBLE
+\parbox[b]{\DIFdelgraphicswidth}{\usebox{\DIFdelgraphicsbox}\\[-\baselineskip] \rule{\DIFdelgraphicswidth}{0em}}\llap{\resizebox{\DIFdelgraphicswidth}{\DIFdelgraphicsheight}{% %DIF PREAMBLE
+\setlength{\unitlength}{\DIFdelgraphicswidth}% %DIF PREAMBLE
+\begin{picture}(1,1)% %DIF PREAMBLE
+\thicklines\linethickness{2pt} %DIF PREAMBLE
+{\color[rgb]{1,0,0}\put(0,0){\framebox(1,1){}}}% %DIF PREAMBLE
+{\color[rgb]{1,0,0}\put(0,0){\line( 1,1){1}}}% %DIF PREAMBLE
+{\color[rgb]{1,0,0}\put(0,1){\line(1,-1){1}}}% %DIF PREAMBLE
+\end{picture}% %DIF PREAMBLE
+}\hspace*{3pt}}} %DIF PREAMBLE
+} %DIF PREAMBLE
+\LetLtxMacro{\DIFOaddbegin}{\DIFaddbegin} %DIF PREAMBLE
+\LetLtxMacro{\DIFOaddend}{\DIFaddend} %DIF PREAMBLE
+\LetLtxMacro{\DIFOdelbegin}{\DIFdelbegin} %DIF PREAMBLE
+\LetLtxMacro{\DIFOdelend}{\DIFdelend} %DIF PREAMBLE
+\DeclareRobustCommand{\DIFaddbegin}{\DIFOaddbegin \let\includegraphics\DIFaddincludegraphics} %DIF PREAMBLE
+\DeclareRobustCommand{\DIFaddend}{\DIFOaddend \let\includegraphics\DIFOincludegraphics} %DIF PREAMBLE
+\DeclareRobustCommand{\DIFdelbegin}{\DIFOdelbegin \let\includegraphics\DIFdelincludegraphics} %DIF PREAMBLE
+\DeclareRobustCommand{\DIFdelend}{\DIFOaddend \let\includegraphics\DIFOincludegraphics} %DIF PREAMBLE
+\LetLtxMacro{\DIFOaddbeginFL}{\DIFaddbeginFL} %DIF PREAMBLE
+\LetLtxMacro{\DIFOaddendFL}{\DIFaddendFL} %DIF PREAMBLE
+\LetLtxMacro{\DIFOdelbeginFL}{\DIFdelbeginFL} %DIF PREAMBLE
+\LetLtxMacro{\DIFOdelendFL}{\DIFdelendFL} %DIF PREAMBLE
+\DeclareRobustCommand{\DIFaddbeginFL}{\DIFOaddbeginFL \let\includegraphics\DIFaddincludegraphics} %DIF PREAMBLE
+\DeclareRobustCommand{\DIFaddendFL}{\DIFOaddendFL \let\includegraphics\DIFOincludegraphics} %DIF PREAMBLE
+\DeclareRobustCommand{\DIFdelbeginFL}{\DIFOdelbeginFL \let\includegraphics\DIFdelincludegraphics} %DIF PREAMBLE
+\DeclareRobustCommand{\DIFdelendFL}{\DIFOaddendFL \let\includegraphics\DIFOincludegraphics} %DIF PREAMBLE
+%DIF COLORLISTINGS PREAMBLE %DIF PREAMBLE
+\RequirePackage{listings} %DIF PREAMBLE
+\RequirePackage{color} %DIF PREAMBLE
+\lstdefinelanguage{DIFcode}{ %DIF PREAMBLE
+%DIF DIFCODE_UNDERLINE %DIF PREAMBLE
+  moredelim=[il][\color{red}\sout]{\%DIF\ <\ }, %DIF PREAMBLE
+  moredelim=[il][\color{blue}\uwave]{\%DIF\ >\ } %DIF PREAMBLE
+} %DIF PREAMBLE
+\lstdefinestyle{DIFverbatimstyle}{ %DIF PREAMBLE
+	language=DIFcode, %DIF PREAMBLE
+	basicstyle=\ttfamily, %DIF PREAMBLE
+	columns=fullflexible, %DIF PREAMBLE
+	keepspaces=true %DIF PREAMBLE
+} %DIF PREAMBLE
+\lstnewenvironment{DIFverbatim}{\lstset{style=DIFverbatimstyle}}{} %DIF PREAMBLE
+\lstnewenvironment{DIFverbatim*}{\lstset{style=DIFverbatimstyle,showspaces=true}}{} %DIF PREAMBLE
+%DIF END PREAMBLE EXTENSION ADDED BY LATEXDIFF
 
 \begin{document}
 
@@ -190,7 +272,7 @@ the surface. The net force on the whole pad will be,
 F_{net}=\stackrel[i=1]{n}{\sum}k_{h}\left(l_{h,i}-l_{h,0}\right)
 \]
 
-Simplifying, we get (see Appendix B for derivation):
+Simplifying, we get (see Appendix \DIFdelbegin \DIFdel{A }\DIFdelend \DIFaddbegin \DIFadd{B }\DIFaddend for derivation):
 
 \begin{equation}
 F_{net}=nk_{h}\left[d_{s}-l_{h,0}-\Psi\sin\theta\right]\label{eq:force_n_d}
@@ -216,7 +298,7 @@ F_{max}=N_{t}f_{p}\label{eq:simul_detach}
 \end{equation}
 
 The net moment, $M_{net}$, about the joint can be similarly derived
-(see Appendix B):
+(see Appendix \DIFdelbegin \DIFdel{A}\DIFdelend \DIFaddbegin \DIFadd{B}\DIFaddend ):
 
 \begin{equation}
 M_{net}=nk_{h}\cos\theta\left[\left(d_{s}-l_{h,0}\right)\Psi-\left\{ \Psi^{2}+\frac{n^{2}-1}{12}w^{2}\right\} \sin\theta\right]\label{eq:moment_n_d}
@@ -249,8 +331,9 @@ $d_{s}=d_{s,max}$).
 We express the forces and distances in non-dimensional forms, as below:
 
 \[
-\hat{f}_{p}=\frac{f_{p}}{k_{h}w},\quad\hat{F}_{net}=\frac{F_{net}}{k_{h}w},\quad\hat{d_{s}}=\frac{d_{s}-l_{h,0}}{w},\quad\hat{s}=\frac{s}{L}
-\]
+\hat{f}_{p}=\frac{f_{p}}{k_{h}w},\quad\hat{F}_{net}=\frac{F_{net}}{k_{h}w},\quad\hat{d_{s}}=\frac{d_{s}-l_{h,0}}{w},\quad\hat{s}=\DIFdelbegin \DIFdel{\frac{s}{w}
+}\DIFdelend \DIFaddbegin \DIFadd{\frac{s}{L}
+}\DIFaddend \]
 
 Here, $\hat{f_{p}}$ is a parameter which encapsulates the hair's
 adhesion force, stiffness and array density. Unless specified, positive
@@ -473,8 +556,8 @@ detachment (Figure \ref{fig:Reduction-factor_fp}).
 \noindent \includegraphics{Reduction_factor-fp}\caption{\textbf{Effect of $\hat{f}_{p}$ on reduction factor.}
 Colour plots showing the effect of the dimensionless parameter, $\hat{f}_{p}$,
 on the reduction factor for each mode of detachment. Here, we fix
-the number of hairs, $N_{t}=25$. The dimensionless parameters $\hat{d_{s}}=\frac{d_{s}-l_{h,0}}{w}$ and 
-$\hat{s}=\frac{s}{L}$, as described in text. \label{fig:Reduction-factor_fp}}
+the number of hairs, $N_{t}=25$. \DIFdelbeginFL \DIFdelFL{All values are normalized to }\DIFdelendFL \DIFaddbeginFL \DIFaddFL{The }\DIFaddendFL dimensionless \DIFdelbeginFL \DIFdelFL{forms}\DIFdelendFL \DIFaddbeginFL \DIFaddFL{parameters $\hat{d_{s}}=\frac{d_{s}-l_{h,0}}{w}$ and 
+$\hat{s}=\frac{s}{L}$}\DIFaddendFL , as described in text. \label{fig:Reduction-factor_fp}}
 \end{figure}
 
 When detachment follows the \emph{fixed pull} method (Figure \ref{fig:Reduction-factor_fp}),
@@ -528,13 +611,15 @@ of \emph{elastic weakening}, as discussed in the previous section.
 \includegraphics{Reduction_factor-Nt}\caption{\textbf{Effect of $N_{t}$ on reduction factor.} 
 Colour plots showing the effect of the number of hairs, $N_{t}$, on
 the reduction factor for each mode of detachment. Here, we fix the
-dimensionless parameter, $\hat{f}_{p}=0.1$. The dimensionless parameters $\hat{d_{s}}=\frac{d_{s}-l_{h,0}}{w}$ and $\hat{s}=\frac{s}{L}$, as described in text. \label{fig:Reduction-factor-Nt}}
+dimensionless parameter, $\hat{f}_{p}=0.1$. \DIFdelbeginFL \DIFdelFL{All values are normalized
+to }\DIFdelendFL \DIFaddbeginFL \DIFaddFL{The }\DIFaddendFL dimensionless \DIFdelbeginFL \DIFdelFL{forms}\DIFdelendFL \DIFaddbeginFL \DIFaddFL{parameters $\hat{d_{s}}=\frac{d_{s}-l_{h,0}}{w}$ and $\hat{s}=\frac{s}{L}$}\DIFaddendFL , as described in text. \label{fig:Reduction-factor-Nt}}
 \par\end{centering}
 \end{figure}
 
-Figures \ref{fig:Reduction-factor_fp} and \ref{fig:Reduction-factor-Nt} can be combined into a single set of colour plots by defining a new dimensionless parameter,  $\chi=\hat{f}_{p} N_{t}=\frac{f_{p}N_{t}}{k_{h}w}$ (see Appendix A). Overall, we see that \emph{flex} mode of detachment shows the highest reduction factor among the three modes, with the optimal value of $\chi \sim 1$.
+\DIFaddbegin \DIFadd{Figures \ref{fig:Reduction-factor_fp} and \ref{fig:Reduction-factor-Nt} can be combined into a single set of colour plots by defining a new dimensionless parameter,  $\chi=\hat{f}_{p} N_{t}=\frac{f_{p}N_{t}}{k_{h}w}$ (see Appendix A). Overall, we see that }\emph{\DIFadd{flex}} \DIFadd{mode of detachment shows the highest reduction factor among the three modes, with the optimal value of $\chi \sim 1$.
+}
 
-\paragraph{Detachment pathways:}
+\DIFaddend \paragraph{Detachment pathways:}
 
 Based on the three modes of detachment discussed in the previous sections,
 one can think of several strategies to detach fibrillar adhesive pads
@@ -658,12 +743,16 @@ detachment mechanisms presented. Longer hairs can result in a lateral
 collapse or bundling of hairs, imposing an additional constraint on
 $\theta_{limit}$. Large deformation of hairs can also lead to buckling,
 which will further limit the reduction in adhesion due to the smaller
-effective modulus. Buckling could also, interestingly, promote easier detachment in the \emph{free pull} mode.  
+effective modulus. \DIFdelbegin \DIFdel{Thus, the geometry of the individual hairs is also
+crucial in effectively reducing adhesion by }\emph{\DIFdel{elastic weakening}}%DIFAUXCMD
+\DIFdel{. 
+Ideally, hairswith large diameters would be preferable to eliminate
+buckling, and optimally long hairs would provide a large range of angles to which the pad can be tilted while avoiding bundling}\DIFdelend \DIFaddbegin \DIFadd{Buckling could also, interestingly, promote easier detachment in the }\emph{\DIFadd{free pull}} \DIFadd{mode.  
 When the compressed hairs at one end of the array buckle, 
 there would be an excess clockwise moment in the array system (Figure \ref{fig:Free-pull}). 
 This excess moment could subsequently drive the detachment of the remaining hairs.  In the case of biological systems, the ability of an insect to provide the load necessary to tilt and compress its hairy adhesive pad against the surface would further introduce limitations to follow any of the detachment modes discussed here.
 All things considered, the geometry and elastic properties of the individual hairs are 
-crucial parameters to consider in the design of an optimal array system which shows reversible adhesion via \emph{elastic weakening}.
+crucial parameters to consider in the design of an optimal array system which shows reversible adhesion via }\emph{\DIFadd{elastic weakening}}\DIFaddend .
 
 Our analysis had been limited to normal forces during detachment. A similar analysis considering the energy required to detach the array will however not yield any \emph{elastic weakening} effect. Since we had assumed a purely elastic system, the initial and final energy of the system would be the same regardless of the mode of detachment, and thus the work of adhesion would remain identical in all scenarios. The reduction of adhesion force is however advantageous since an insect wouldn't then need a strong muscular to system to detach its legs, which are typically capable of attachment forces several times its body weight \cite{ENDLEIN2007}.
 
@@ -696,21 +785,27 @@ Dr. Bat-El Pinchasik (Tel-Aviv University, Israel) for fruitful discussions. Thi
 
 \appendix
 
-\section{{Reduction factor: master plot}}
+\section{{\DIFdelbegin \DIFdel{Derivations}\DIFdelend \DIFaddbegin \DIFadd{Reduction factor: master plot}\DIFaddend }}
 
-\setcounter{figure}{0} \renewcommand{\thefigure}{A.\arabic{figure}} 
+%DIF < \subsection{Derivations}
+\DIFdelbegin %DIFDELCMD < 
+
+%DIFDELCMD < %%%
+\DIFdelend \setcounter{figure}{0} \renewcommand{\thefigure}{A.\arabic{figure}} 
 \setcounter{equation}{0} \renewcommand{\theequation}{A.\arabic{equation}} 
+\DIFaddbegin 
 
 \begin{figure}[H]
 \noindent \begin{centering}
-\includegraphics{Reduction_factor-chi}\caption{\textbf{Effect of $\chi$ on reduction factor.} 
-Here, we define a unified dimensionless design parameter $\chi=\frac{f_{p}N_{t}}{k_{h}w}$, combining $\hat{f}_{p}$ and $N_{t}$ into a single number. The dimensionless parameters $\hat{d_{s}}=\frac{d_{s}-l_{h,0}}{w}$ and $\hat{s}=\frac{s}{L}$, as described in text. \label{fig:Reduction-factor-chi}}
+\includegraphics{Reduction_factor-chi}\caption{\textbf{\DIFaddFL{Effect of $\chi$ on reduction factor.}} 
+\DIFaddFL{Here, we define a unified dimensionless design parameter $\chi=\frac{f_{p}N_{t}}{k_{h}w}$, combining $\hat{f}_{p}$ and $N_{t}$ into a single number. The dimensionless parameters $\hat{d_{s}}=\frac{d_{s}-l_{h,0}}{w}$ and $\hat{s}=\frac{s}{L}$, as described in text. }\label{fig:Reduction-factor-chi}}
 \par\end{centering}
 \end{figure}
 
-\section{{Derivations}}
+\section{{\DIFadd{Derivations}}}
 
-%\subsection{Derivations}
+%DIF > \subsection{Derivations}
+\DIFaddend 
 
 Suppose at a particular instant (Figure \ref{fig:Schematic}), there
 are $n$ hairs in contact with the surface. The centre of the region
