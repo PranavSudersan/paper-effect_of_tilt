@@ -226,26 +226,20 @@ Let us now consider the scenario where even the leg above the joint
 can undergo elastic stretching together with the hairs. When a hair
 detaches from the surface, the leg undergoes an elastic recoil due
 to the stored elastic energy. Suppose the leg relaxes upward by a
-recoil length, $\Delta l$, at the point of the joint. For $n$ hairs in contact, when a hair detaches, 
-the array's tilt angle will change from initial $\theta_{b}$ to $\theta_{a}$ as a result of joint rotation. 
-The $i^{th}$ hair of the array thus deforms by $\Delta l_{i}$, which by geometry, is derived as:
-\begin{equation}
-\Delta l_{i}=\Delta l + iw\left(\tan \theta_{a}-\tan \theta_{b}\right)\label{eq:delta_li}
-\end{equation}
-
- The force balance before and after a hair detaches is thus given respectively by:
+recoil length, $\Delta l$. For $n$ hairs in contact, the force balance
+before and after a hair detaches is given respectively by:
 
 \[
 \begin{array}{c}
 \stackrel[i=1]{n}{\sum}k_{h}\left(l_{h,i}-l_{h,0}\right)=k_{l}\left(l_{l}-l_{l,0}\right)\\
-\stackrel[i=1]{n-1}{\sum}k_{h}\left(l_{h,i}+\Delta l_{i}-l_{h,0}\right)=k_{l}\left(l_{l}-\Delta l-l_{l,0}\right)
+\stackrel[i=1]{n-1}{\sum}k_{h}\left(l_{h,i}+\Delta l-l_{h,0}\right)=k_{l}\left(l_{l}-\Delta l-l_{l,0}\right)
 \end{array}
 \]
 
-Solving the above two equations with equation \ref{eq:delta_li} for $\Delta l$, we get:
+Solving the above two equations for $\Delta l$, we get:
 
 \begin{equation}
-\Delta l=\frac{f_{p}-k_{h}w(n/2)(n-1)\left(\tan \theta_{a}-\tan \theta_{b}\right)}{k_{h}\left(n-1\right)+k_{l}}\label{eq:backing_deform}
+\Delta l=\frac{f_{p}}{k_{h}\left(n-1\right)+k_{l}}\label{eq:backing_deform}
 \end{equation}
 
 Thus, $d_{s}$ shifts by $\Delta l$ in equations \ref{eq:force_n_d}
@@ -260,7 +254,7 @@ We express the forces and distances in non-dimensional forms, as below:
 
 Here, $\hat{f_{p}}$ is a parameter which encapsulates the hair's
 adhesion force, stiffness and array density. Unless specified, positive
-force values represent attraction by convention. Python scripts were written to solve the above equations under specific detachment conditions (available in the public repository \url{https://github.com/PranavSudersan/paper-effect_of_tilt/blob/main/codes/Fibrillar\%20adhesion\%20-\%20Effect\%20of\%20tilt.ipynb})
+force values represent attraction by convention.
 
 \section{Detachment mechanisms}
 
@@ -295,7 +289,7 @@ while maintaining a constant tilt angle, $\theta$, with the surface.
 This can be achieved if the joint is kept fixed. 
 Equations \ref{eq:force_n_d}, \ref{eq:d_max}
 and \ref{eq:simul_detach} can be used to get the resulting force-distance
-curves for such a scenario. To summarize the numerical procedure in brief, we start with an initial $n=25$ hairs. ${F}_{net}$ is then calculated for increasing ${d_{s}}$, until $d_{s}= d_{s,max}$, upon which $n$ value is decremented by 1. The above process is repeated for increasing $d_{s}$ until $n=0$, indicating complete detachment. For the case of the soft leg, on each instance when $n$ is decremented,  ${d_{s}}$ is increased by an additional $\Delta l$ value (equation \ref{eq:backing_deform}) in order to account for the recoil effect of the leg.
+curves for such a scenario. 
 
 Increasing the tilt of the pad decreases its maximum force or adhesion
 (Figure \ref{fig:Fixed-pull}). Tilting the pad causes an inhomogeneous
@@ -316,8 +310,8 @@ For the case of a stiff leg (tibia), we see that at small distances, all hairs
 of the pad are in contact with the surface, resulting in a linear
 force response. On further pulling, the hairs will start to detach
 sequentially from left to right, indicated by a characteristic saw-tooth
-jitter in the force curves. The pad with a higher tilt
-angle initiates hair detachment first, in comparison to a pad with a lower
+jitter in the force curves. The hairs of the pad with a higher tilt
+angle will start to detach first, followed by the ones with a lower
 tilt. 
 
 For the case of a soft leg (tibia), we observe a similar effect of tilt angle
@@ -334,7 +328,7 @@ length, $\Delta l>w\sin\theta$, the adjacent hair will be stretched
 more than its maximum length ($l_{h,p}$), and thus will also detach,
 leading to further recoil of the leg. Equation (\ref{eq:backing_deform})
 shows that $\Delta l$ increases with every subsequent loss of hair
-contact if $\theta$ is kept constant (i.e. $\theta_{b}=\theta_{a}$). This implies that, once initiated,
+contact if $\theta$ is kept constant. This implies that, once initiated,
 the leg's recoil will always be large enough to detach every remaining
 hair, resulting in a spontaneous propagation of the detachment front
 until the pad completely breaks contact with the surface. This is consistent with 
@@ -372,8 +366,7 @@ in equation (\ref{eq:moment_n_d}) to get:
 
 Using the above relation together with equations \ref{eq:force_n_d},
 \ref{eq:d_max} and \ref{eq:simul_detach}, we can find force-distance
-curves during a free vertical pull of the adhesive pad. 
-A similar numerical procedure as \emph{fixed pull} is followed here. Since the
+curves during a free vertical pull of the adhesive pad. Since the
 position of the joint will influence the net moment, we use the
 ratio, $s/L$, to study its effect on the detachment forces.
 
@@ -397,8 +390,8 @@ jitter as the subsequent hairs detach in sequence. Nearly identical
 trend is seen for both a stiff and a soft leg (tibia). The elastic recoil
 of the leg does slightly reduce the amplitude of the jitter for the
 soft leg case. However, no abrupt drop in the force is seen like before.
-As the hairs detach, the array gets tilted more and more (i.e. $\theta_{b}<\theta_{a}$), making it
-less likely for the recoil length, $\Delta l$, to exceed $w\sin\theta_{a}$
+As the hairs detach, the array gets tilted more and more, making it
+less likely for the recoil length, $\Delta l$, to exceed $w\sin\theta$
 and detach the next adjacent hair. Thus here, we don't see any propagation
 of the detachment front when the leg is soft.
 
@@ -423,7 +416,7 @@ to rotate the pad around the claw-hinge until all the hairs lose contact.
 Let $s_{h}$ be the distance between the claw-hinge and the right
 end of the array; $s_{l}$ be the distance between the joint
 and the right end of the array. The joint is assumed to be fixed here. To illustrate the mechanism, let us
-fix $s_{l}/L=1$ (here, $L=24w$) and $s_{h}/w=10$ and vary the vertical claw-hinge
+fix $s_{l}/L=1$ and $s_{h}/w=10$ and vary the vertical claw-hinge
 distance, $d_{s}$. At any particular instant, the pulling force applied
 by the leg, $F_{pull}=M_{net}/\left(s_{l}+s_{h}\right)$, where $M_{net}$
 is obtained by setting $s=-s_{h}$ in equation (\ref{eq:moment_n_d}).
@@ -445,7 +438,7 @@ Detachment by flexing requires that the claw remains fixed and stable
 during the process. We see that generally, the normal load, acting
 on the hinge, $F_{claw-hinge}$, follows a similar trend as $F_{pull}$ (Figure \ref{fig:Flex}).
 For low values of $d_{s}$, $F_{claw-hinge}$ goes to negative values,
-implying that the claw should stick well with the surface, perhaps by mechanical interlocking, to resist
+implying that the claw should adhere well with the surface to resist
 this negative load. As the detachment progresses however, the array
 starts to exert a positive load on the claw.
 
@@ -523,9 +516,9 @@ the number of hairs, $N_{t}$, on the reduction factor (Figure \ref{fig:Reduction
 The colour plots show that high $N_{t}$ increases $r$ irrespective
 of the mode of detachment. Under a tilted state, more hairs
 are compressed when $N_{t}$ is high, which reduces the net adhesion.
-This highlights another advantage of having a split contact design found
-in many biological systems. A design comprising of a large number of hairs not only enhances the adhesion due to scaling effects \cite{Kamperman2010}, but could also offer a better
-control over adhesion, making it quite suitable for reversible attachment
+This highlights the advantage of having a split contact design found
+in many biological systems. A higher number of hairs offers a better
+control over adhesion and thus is more suited for reversible attachment
 and detachment during locomotion. The specific trends of reduction
 factor for each mode of detachment can be understood by similar arguments
 of \emph{elastic weakening}, as discussed in the previous section. 
@@ -633,7 +626,7 @@ weakening}, which is suited for easy detachment. Similar twisting action during 
 its legs and drop itself while upside down. This could be explained
 by the beetle freeing up its joints and using just its body weight
 to provide the necessary force to detach all its legs via \emph{free
-pull} (similar to path 3 above). Lateral video recordings showed that in this scenario, claws were the last to detach when a leg loses contact with the surface, which also indicates a \emph{flex} mode of detachment (similar to path 5). 3) Only a fraction of the beetle's
+pull} (similar to path 3 above). 3) Only a fraction of the beetle's
 pads made contact with the surface during locomotion, which indicates
 that the pads should naturally be in a slightly tilted state. This
 not only reduces the contact area, but also non-uniformly deforms
@@ -676,11 +669,11 @@ Our analysis had been limited to normal forces during detachment. A similar anal
 
 \section{Conclusion}
 
-Controlled detachment of a fibrillar system similar to an insect's tarsal hairy adhesive pads can be achieved
+Inhomogeneous deformation of hairs results in significant reductions
+in the adhesion of a fibrillar system similar to an insect's tarsal hairy adhesive pads. Such a condition can be achieved
 by either 1) pulling the pad while maintaining a constant tilt angle,
 2) pulling the pad while maintaining a free tibia-tarsus leg joint or 3) flexing
-the pad around the claw. In all three scenarios, an inhomogeneous deformation of hairs across the array results in significant reductions
-in the net adhesion due to an elastic effect. Strategic control of the joint's mobility or claw
+the pad around the claw. Strategic control of the joint's mobility or claw
 can allow the leg to easily switch between the above mechanisms, thus
 providing a simple way to reduce adhesion as per necessity. The presence
 of a deformable leg can further trigger a spontaneous propagation
@@ -689,7 +682,7 @@ for fast detachment. Arrays with low $\hat{f}_{p}$ and large number
 of hairs, with a hair geometry that allows for large deformations
 while avoiding buckling and lateral bundling represent the optimal
 design conditions to maximize the range of control over adhesion.
-The proposed model has been compared with previously reported experimental
+The proposed model is supported by previously reported experimental
 observations of leg detachment in dock beetles and highlights possible role of the joint and claws to 
 enable reversible adhesion. Similar strategies could potentially be adopted in the design of bio-inspired 
 artificial fibrillar adhesives to easily switch the adhesion state without the need of asymmetric structures.

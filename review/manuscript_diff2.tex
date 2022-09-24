@@ -1,4 +1,7 @@
 %% LyX 2.3.6 created this file.  For more info, see http://www.lyx.org/.
+%DIF LATEXDIFF DIFFERENCE FILE
+%DIF DEL manuscript_old2.tex   Wed Aug 24 15:12:57 2022
+%DIF ADD manuscript.tex        Sat Sep 24 16:55:18 2022
 %% Do not edit unless you really know what you are doing.
 \documentclass[review]{elsarticle}
 
@@ -50,8 +53,87 @@
 \setkeys{Gin}{width=\linewidth}
 \usepackage{subcaption}
 \bibliographystyle{elsarticle-num}
-
-
+%DIF PREAMBLE EXTENSION ADDED BY LATEXDIFF
+%DIF UNDERLINE PREAMBLE %DIF PREAMBLE
+\RequirePackage[normalem]{ulem} %DIF PREAMBLE
+\RequirePackage{color}\definecolor{RED}{rgb}{1,0,0}\definecolor{BLUE}{rgb}{0,0,1} %DIF PREAMBLE
+\providecommand{\DIFaddtex}[1]{{\protect\color{blue}\uwave{#1}}} %DIF PREAMBLE
+\providecommand{\DIFdeltex}[1]{{\protect\color{red}\sout{#1}}}                      %DIF PREAMBLE
+%DIF SAFE PREAMBLE %DIF PREAMBLE
+\providecommand{\DIFaddbegin}{} %DIF PREAMBLE
+\providecommand{\DIFaddend}{} %DIF PREAMBLE
+\providecommand{\DIFdelbegin}{} %DIF PREAMBLE
+\providecommand{\DIFdelend}{} %DIF PREAMBLE
+\providecommand{\DIFmodbegin}{} %DIF PREAMBLE
+\providecommand{\DIFmodend}{} %DIF PREAMBLE
+%DIF FLOATSAFE PREAMBLE %DIF PREAMBLE
+\providecommand{\DIFaddFL}[1]{\DIFadd{#1}} %DIF PREAMBLE
+\providecommand{\DIFdelFL}[1]{\DIFdel{#1}} %DIF PREAMBLE
+\providecommand{\DIFaddbeginFL}{} %DIF PREAMBLE
+\providecommand{\DIFaddendFL}{} %DIF PREAMBLE
+\providecommand{\DIFdelbeginFL}{} %DIF PREAMBLE
+\providecommand{\DIFdelendFL}{} %DIF PREAMBLE
+%DIF HYPERREF PREAMBLE %DIF PREAMBLE
+\providecommand{\DIFadd}[1]{\texorpdfstring{\DIFaddtex{#1}}{#1}} %DIF PREAMBLE
+\providecommand{\DIFdel}[1]{\texorpdfstring{\DIFdeltex{#1}}{}} %DIF PREAMBLE
+\newcommand{\DIFscaledelfig}{0.5}
+%DIF HIGHLIGHTGRAPHICS PREAMBLE %DIF PREAMBLE
+\RequirePackage{settobox} %DIF PREAMBLE
+\RequirePackage{letltxmacro} %DIF PREAMBLE
+\newsavebox{\DIFdelgraphicsbox} %DIF PREAMBLE
+\newlength{\DIFdelgraphicswidth} %DIF PREAMBLE
+\newlength{\DIFdelgraphicsheight} %DIF PREAMBLE
+% store original definition of \includegraphics %DIF PREAMBLE
+\LetLtxMacro{\DIFOincludegraphics}{\includegraphics} %DIF PREAMBLE
+\newcommand{\DIFaddincludegraphics}[2][]{{\color{blue}\fbox{\DIFOincludegraphics[#1]{#2}}}} %DIF PREAMBLE
+\newcommand{\DIFdelincludegraphics}[2][]{% %DIF PREAMBLE
+\sbox{\DIFdelgraphicsbox}{\DIFOincludegraphics[#1]{#2}}% %DIF PREAMBLE
+\settoboxwidth{\DIFdelgraphicswidth}{\DIFdelgraphicsbox} %DIF PREAMBLE
+\settoboxtotalheight{\DIFdelgraphicsheight}{\DIFdelgraphicsbox} %DIF PREAMBLE
+\scalebox{\DIFscaledelfig}{% %DIF PREAMBLE
+\parbox[b]{\DIFdelgraphicswidth}{\usebox{\DIFdelgraphicsbox}\\[-\baselineskip] \rule{\DIFdelgraphicswidth}{0em}}\llap{\resizebox{\DIFdelgraphicswidth}{\DIFdelgraphicsheight}{% %DIF PREAMBLE
+\setlength{\unitlength}{\DIFdelgraphicswidth}% %DIF PREAMBLE
+\begin{picture}(1,1)% %DIF PREAMBLE
+\thicklines\linethickness{2pt} %DIF PREAMBLE
+{\color[rgb]{1,0,0}\put(0,0){\framebox(1,1){}}}% %DIF PREAMBLE
+{\color[rgb]{1,0,0}\put(0,0){\line( 1,1){1}}}% %DIF PREAMBLE
+{\color[rgb]{1,0,0}\put(0,1){\line(1,-1){1}}}% %DIF PREAMBLE
+\end{picture}% %DIF PREAMBLE
+}\hspace*{3pt}}} %DIF PREAMBLE
+} %DIF PREAMBLE
+\LetLtxMacro{\DIFOaddbegin}{\DIFaddbegin} %DIF PREAMBLE
+\LetLtxMacro{\DIFOaddend}{\DIFaddend} %DIF PREAMBLE
+\LetLtxMacro{\DIFOdelbegin}{\DIFdelbegin} %DIF PREAMBLE
+\LetLtxMacro{\DIFOdelend}{\DIFdelend} %DIF PREAMBLE
+\DeclareRobustCommand{\DIFaddbegin}{\DIFOaddbegin \let\includegraphics\DIFaddincludegraphics} %DIF PREAMBLE
+\DeclareRobustCommand{\DIFaddend}{\DIFOaddend \let\includegraphics\DIFOincludegraphics} %DIF PREAMBLE
+\DeclareRobustCommand{\DIFdelbegin}{\DIFOdelbegin \let\includegraphics\DIFdelincludegraphics} %DIF PREAMBLE
+\DeclareRobustCommand{\DIFdelend}{\DIFOaddend \let\includegraphics\DIFOincludegraphics} %DIF PREAMBLE
+\LetLtxMacro{\DIFOaddbeginFL}{\DIFaddbeginFL} %DIF PREAMBLE
+\LetLtxMacro{\DIFOaddendFL}{\DIFaddendFL} %DIF PREAMBLE
+\LetLtxMacro{\DIFOdelbeginFL}{\DIFdelbeginFL} %DIF PREAMBLE
+\LetLtxMacro{\DIFOdelendFL}{\DIFdelendFL} %DIF PREAMBLE
+\DeclareRobustCommand{\DIFaddbeginFL}{\DIFOaddbeginFL \let\includegraphics\DIFaddincludegraphics} %DIF PREAMBLE
+\DeclareRobustCommand{\DIFaddendFL}{\DIFOaddendFL \let\includegraphics\DIFOincludegraphics} %DIF PREAMBLE
+\DeclareRobustCommand{\DIFdelbeginFL}{\DIFOdelbeginFL \let\includegraphics\DIFdelincludegraphics} %DIF PREAMBLE
+\DeclareRobustCommand{\DIFdelendFL}{\DIFOaddendFL \let\includegraphics\DIFOincludegraphics} %DIF PREAMBLE
+%DIF COLORLISTINGS PREAMBLE %DIF PREAMBLE
+\RequirePackage{listings} %DIF PREAMBLE
+\RequirePackage{color} %DIF PREAMBLE
+\lstdefinelanguage{DIFcode}{ %DIF PREAMBLE
+%DIF DIFCODE_UNDERLINE %DIF PREAMBLE
+  moredelim=[il][\color{red}\sout]{\%DIF\ <\ }, %DIF PREAMBLE
+  moredelim=[il][\color{blue}\uwave]{\%DIF\ >\ } %DIF PREAMBLE
+} %DIF PREAMBLE
+\lstdefinestyle{DIFverbatimstyle}{ %DIF PREAMBLE
+	language=DIFcode, %DIF PREAMBLE
+	basicstyle=\ttfamily, %DIF PREAMBLE
+	columns=fullflexible, %DIF PREAMBLE
+	keepspaces=true %DIF PREAMBLE
+} %DIF PREAMBLE
+\lstnewenvironment{DIFverbatim}{\lstset{style=DIFverbatimstyle}}{} %DIF PREAMBLE
+\lstnewenvironment{DIFverbatim*}{\lstset{style=DIFverbatimstyle,showspaces=true}}{} %DIF PREAMBLE
+%DIF END PREAMBLE EXTENSION ADDED BY LATEXDIFF
 
 \begin{document}
 
@@ -226,26 +308,30 @@ Let us now consider the scenario where even the leg above the joint
 can undergo elastic stretching together with the hairs. When a hair
 detaches from the surface, the leg undergoes an elastic recoil due
 to the stored elastic energy. Suppose the leg relaxes upward by a
-recoil length, $\Delta l$, at the point of the joint. For $n$ hairs in contact, when a hair detaches, 
+recoil length, $\Delta l$\DIFaddbegin \DIFadd{, at the point of the joint}\DIFaddend . For $n$ hairs in contact, \DIFdelbegin \DIFdel{the }\DIFdelend \DIFaddbegin \DIFadd{when a hair detaches, 
 the array's tilt angle will change from initial $\theta_{b}$ to $\theta_{a}$ as a result of joint rotation. 
 The $i^{th}$ hair of the array thus deforms by $\Delta l_{i}$, which by geometry, is derived as:
-\begin{equation}
-\Delta l_{i}=\Delta l + iw\left(\tan \theta_{a}-\tan \theta_{b}\right)\label{eq:delta_li}
-\end{equation}
+}\begin{equation}
+\DIFadd{\Delta l_{i}=\Delta l + iw\left(\tan \theta_{a}-\tan \theta_{b}\right)\label{eq:delta_li}
+}\end{equation}
 
- The force balance before and after a hair detaches is thus given respectively by:
+ \DIFadd{The }\DIFaddend force balance before and after a hair detaches is \DIFaddbegin \DIFadd{thus }\DIFaddend given respectively by:
 
 \[
-\begin{array}{c}
+\DIFdelbegin %DIFDELCMD < \begin{array}{c}
+%DIFDELCMD < \stackrel[i=1]{n}{\sum}k_{h}\left(l_{h,i}-l_{h,0}\right)=k_{l}\left(l_{l}-l_{l,0}\right)\\
+%DIFDELCMD < \stackrel[i=1]{n-1}{\sum}k_{h}\left(l_{h,i}+\Delta l-l_{h,0}\right)=k_{l}\left(l_{l}-\Delta l-l_{l,0}\right)
+%DIFDELCMD < \end{array}%%%
+\DIFdelend \DIFaddbegin \begin{array}{c}
 \stackrel[i=1]{n}{\sum}k_{h}\left(l_{h,i}-l_{h,0}\right)=k_{l}\left(l_{l}-l_{l,0}\right)\\
 \stackrel[i=1]{n-1}{\sum}k_{h}\left(l_{h,i}+\Delta l_{i}-l_{h,0}\right)=k_{l}\left(l_{l}-\Delta l-l_{l,0}\right)
-\end{array}
+\end{array}\DIFaddend 
 \]
 
-Solving the above two equations with equation \ref{eq:delta_li} for $\Delta l$, we get:
+Solving the above two equations \DIFaddbegin \DIFadd{with equation \ref{eq:delta_li} }\DIFaddend for $\Delta l$, we get:
 
 \begin{equation}
-\Delta l=\frac{f_{p}-k_{h}w(n/2)(n-1)\left(\tan \theta_{a}-\tan \theta_{b}\right)}{k_{h}\left(n-1\right)+k_{l}}\label{eq:backing_deform}
+\Delta l=\DIFdelbegin \DIFdel{\frac{f_{p}}{k_{h}\left(n-1\right)+k_{l}}}\DIFdelend \DIFaddbegin \DIFadd{\frac{f_{p}-k_{h}w(n/2)(n-1)\left(\tan \theta_{a}-\tan \theta_{b}\right)}{k_{h}\left(n-1\right)+k_{l}}}\DIFaddend \label{eq:backing_deform}
 \end{equation}
 
 Thus, $d_{s}$ shifts by $\Delta l$ in equations \ref{eq:force_n_d}
@@ -260,7 +346,8 @@ We express the forces and distances in non-dimensional forms, as below:
 
 Here, $\hat{f_{p}}$ is a parameter which encapsulates the hair's
 adhesion force, stiffness and array density. Unless specified, positive
-force values represent attraction by convention. Python scripts were written to solve the above equations under specific detachment conditions (available in the public repository \url{https://github.com/PranavSudersan/paper-effect_of_tilt/blob/main/codes/Fibrillar\%20adhesion\%20-\%20Effect\%20of\%20tilt.ipynb})
+force values represent attraction by convention. \DIFaddbegin \DIFadd{Python scripts were written to solve the above equations under specific detachment conditions (available in the public repository }\url{https://github.com/PranavSudersan/paper-effect_of_tilt/blob/main/codes/Fibrillar\%20adhesion\%20-\%20Effect\%20of\%20tilt.ipynb}\DIFadd{)
+}\DIFaddend 
 
 \section{Detachment mechanisms}
 
@@ -295,7 +382,8 @@ while maintaining a constant tilt angle, $\theta$, with the surface.
 This can be achieved if the joint is kept fixed. 
 Equations \ref{eq:force_n_d}, \ref{eq:d_max}
 and \ref{eq:simul_detach} can be used to get the resulting force-distance
-curves for such a scenario. To summarize the numerical procedure in brief, we start with an initial $n=25$ hairs. ${F}_{net}$ is then calculated for increasing ${d_{s}}$, until $d_{s}= d_{s,max}$, upon which $n$ value is decremented by 1. The above process is repeated for increasing $d_{s}$ until $n=0$, indicating complete detachment. For the case of the soft leg, on each instance when $n$ is decremented,  ${d_{s}}$ is increased by an additional $\Delta l$ value (equation \ref{eq:backing_deform}) in order to account for the recoil effect of the leg.
+curves for such a scenario. \DIFaddbegin \DIFadd{To summarize the numerical procedure in brief, we start with an initial $n=25$ hairs. ${F}_{net}$ is then calculated for increasing ${d_{s}}$, until $d_{s}= d_{s,max}$, upon which $n$ value is decremented by 1. The above process is repeated for increasing $d_{s}$ until $n=0$, indicating complete detachment. For the case of the soft leg, on each instance when $n$ is decremented,  ${d_{s}}$ is increased by an additional $\Delta l$ value (equation \ref{eq:backing_deform}) in order to account for the recoil effect of the leg.
+}\DIFaddend 
 
 Increasing the tilt of the pad decreases its maximum force or adhesion
 (Figure \ref{fig:Fixed-pull}). Tilting the pad causes an inhomogeneous
@@ -316,8 +404,8 @@ For the case of a stiff leg (tibia), we see that at small distances, all hairs
 of the pad are in contact with the surface, resulting in a linear
 force response. On further pulling, the hairs will start to detach
 sequentially from left to right, indicated by a characteristic saw-tooth
-jitter in the force curves. The pad with a higher tilt
-angle initiates hair detachment first, in comparison to a pad with a lower
+jitter in the force curves. The \DIFdelbegin \DIFdel{hairs of the }\DIFdelend pad with a higher tilt
+angle \DIFdelbegin \DIFdel{will start to detach first, followed by the ones }\DIFdelend \DIFaddbegin \DIFadd{initiates hair detachment first, in comparison to a pad }\DIFaddend with a lower
 tilt. 
 
 For the case of a soft leg (tibia), we observe a similar effect of tilt angle
@@ -334,7 +422,7 @@ length, $\Delta l>w\sin\theta$, the adjacent hair will be stretched
 more than its maximum length ($l_{h,p}$), and thus will also detach,
 leading to further recoil of the leg. Equation (\ref{eq:backing_deform})
 shows that $\Delta l$ increases with every subsequent loss of hair
-contact if $\theta$ is kept constant (i.e. $\theta_{b}=\theta_{a}$). This implies that, once initiated,
+contact if $\theta$ is kept constant \DIFdelbegin \DIFdel{. }\DIFdelend \DIFaddbegin \DIFadd{(i.e. $\theta_{b}=\theta_{a}$). }\DIFaddend This implies that, once initiated,
 the leg's recoil will always be large enough to detach every remaining
 hair, resulting in a spontaneous propagation of the detachment front
 until the pad completely breaks contact with the surface. This is consistent with 
@@ -373,7 +461,7 @@ in equation (\ref{eq:moment_n_d}) to get:
 Using the above relation together with equations \ref{eq:force_n_d},
 \ref{eq:d_max} and \ref{eq:simul_detach}, we can find force-distance
 curves during a free vertical pull of the adhesive pad. 
-A similar numerical procedure as \emph{fixed pull} is followed here. Since the
+\DIFaddbegin \DIFadd{A similar numerical procedure as }\emph{\DIFadd{fixed pull}} \DIFadd{is followed here. }\DIFaddend Since the
 position of the joint will influence the net moment, we use the
 ratio, $s/L$, to study its effect on the detachment forces.
 
@@ -397,9 +485,10 @@ jitter as the subsequent hairs detach in sequence. Nearly identical
 trend is seen for both a stiff and a soft leg (tibia). The elastic recoil
 of the leg does slightly reduce the amplitude of the jitter for the
 soft leg case. However, no abrupt drop in the force is seen like before.
-As the hairs detach, the array gets tilted more and more (i.e. $\theta_{b}<\theta_{a}$), making it
-less likely for the recoil length, $\Delta l$, to exceed $w\sin\theta_{a}$
-and detach the next adjacent hair. Thus here, we don't see any propagation
+As the hairs detach, the array gets tilted more and more \DIFaddbegin \DIFadd{(i.e. $\theta_{b}<\theta_{a}$)}\DIFaddend , making it
+less likely for the recoil length, $\Delta l$, to exceed \DIFdelbegin \DIFdel{$w\sin\theta$
+}\DIFdelend \DIFaddbegin \DIFadd{$w\sin\theta_{a}$
+}\DIFaddend and detach the next adjacent hair. Thus here, we don't see any propagation
 of the detachment front when the leg is soft.
 
 \subsection{Flex}
@@ -423,7 +512,7 @@ to rotate the pad around the claw-hinge until all the hairs lose contact.
 Let $s_{h}$ be the distance between the claw-hinge and the right
 end of the array; $s_{l}$ be the distance between the joint
 and the right end of the array. The joint is assumed to be fixed here. To illustrate the mechanism, let us
-fix $s_{l}/L=1$ (here, $L=24w$) and $s_{h}/w=10$ and vary the vertical claw-hinge
+fix $s_{l}/L=1$ \DIFaddbegin \DIFadd{(here, $L=24w$) }\DIFaddend and $s_{h}/w=10$ and vary the vertical claw-hinge
 distance, $d_{s}$. At any particular instant, the pulling force applied
 by the leg, $F_{pull}=M_{net}/\left(s_{l}+s_{h}\right)$, where $M_{net}$
 is obtained by setting $s=-s_{h}$ in equation (\ref{eq:moment_n_d}).
@@ -445,7 +534,7 @@ Detachment by flexing requires that the claw remains fixed and stable
 during the process. We see that generally, the normal load, acting
 on the hinge, $F_{claw-hinge}$, follows a similar trend as $F_{pull}$ (Figure \ref{fig:Flex}).
 For low values of $d_{s}$, $F_{claw-hinge}$ goes to negative values,
-implying that the claw should stick well with the surface, perhaps by mechanical interlocking, to resist
+implying that the claw should \DIFdelbegin \DIFdel{adhere }\DIFdelend \DIFaddbegin \DIFadd{stick }\DIFaddend well with the surface\DIFaddbegin \DIFadd{, perhaps by mechanical interlocking, }\DIFaddend to resist
 this negative load. As the detachment progresses however, the array
 starts to exert a positive load on the claw.
 
@@ -523,9 +612,11 @@ the number of hairs, $N_{t}$, on the reduction factor (Figure \ref{fig:Reduction
 The colour plots show that high $N_{t}$ increases $r$ irrespective
 of the mode of detachment. Under a tilted state, more hairs
 are compressed when $N_{t}$ is high, which reduces the net adhesion.
-This highlights another advantage of having a split contact design found
-in many biological systems. A design comprising of a large number of hairs not only enhances the adhesion due to scaling effects \cite{Kamperman2010}, but could also offer a better
-control over adhesion, making it quite suitable for reversible attachment
+This highlights \DIFdelbegin \DIFdel{the }\DIFdelend \DIFaddbegin \DIFadd{another }\DIFaddend advantage of having a split contact design found
+in many biological systems. A \DIFdelbegin \DIFdel{higher }\DIFdelend \DIFaddbegin \DIFadd{design comprising of a large }\DIFaddend number of hairs \DIFdelbegin \DIFdel{offers }\DIFdelend \DIFaddbegin \DIFadd{not only enhances the adhesion due to scaling effects \mbox{%DIFAUXCMD
+\cite{Kamperman2010}}\hskip0pt%DIFAUXCMD
+, but could also offer }\DIFaddend a better
+control over adhesion\DIFdelbegin \DIFdel{and thus is more suited }\DIFdelend \DIFaddbegin \DIFadd{, making it quite suitable }\DIFaddend for reversible attachment
 and detachment during locomotion. The specific trends of reduction
 factor for each mode of detachment can be understood by similar arguments
 of \emph{elastic weakening}, as discussed in the previous section. 
@@ -633,7 +724,7 @@ weakening}, which is suited for easy detachment. Similar twisting action during 
 its legs and drop itself while upside down. This could be explained
 by the beetle freeing up its joints and using just its body weight
 to provide the necessary force to detach all its legs via \emph{free
-pull} (similar to path 3 above). Lateral video recordings showed that in this scenario, claws were the last to detach when a leg loses contact with the surface, which also indicates a \emph{flex} mode of detachment (similar to path 5). 3) Only a fraction of the beetle's
+pull} (similar to path 3 above). \DIFaddbegin \DIFadd{Lateral video recordings showed that in this scenario, claws were the last to detach when a leg loses contact with the surface, which also indicates a }\emph{\DIFadd{flex}} \DIFadd{mode of detachment (similar to path 5). }\DIFaddend 3) Only a fraction of the beetle's
 pads made contact with the surface during locomotion, which indicates
 that the pads should naturally be in a slightly tilted state. This
 not only reduces the contact area, but also non-uniformly deforms
@@ -676,11 +767,12 @@ Our analysis had been limited to normal forces during detachment. A similar anal
 
 \section{Conclusion}
 
-Controlled detachment of a fibrillar system similar to an insect's tarsal hairy adhesive pads can be achieved
+\DIFdelbegin \DIFdel{Inhomogeneous deformation of hairs results in significant reductions
+in the adhesion of }\DIFdelend \DIFaddbegin \DIFadd{Controlled detachment of }\DIFaddend a fibrillar system similar to an insect's tarsal hairy adhesive pads \DIFdelbegin \DIFdel{. Such a condition }\DIFdelend can be achieved
 by either 1) pulling the pad while maintaining a constant tilt angle,
 2) pulling the pad while maintaining a free tibia-tarsus leg joint or 3) flexing
-the pad around the claw. In all three scenarios, an inhomogeneous deformation of hairs across the array results in significant reductions
-in the net adhesion due to an elastic effect. Strategic control of the joint's mobility or claw
+the pad around the claw. \DIFaddbegin \DIFadd{In all three scenarios, an inhomogeneous deformation of hairs across the array results in significant reductions
+in the net adhesion due to an elastic effect. }\DIFaddend Strategic control of the joint's mobility or claw
 can allow the leg to easily switch between the above mechanisms, thus
 providing a simple way to reduce adhesion as per necessity. The presence
 of a deformable leg can further trigger a spontaneous propagation
@@ -689,7 +781,7 @@ for fast detachment. Arrays with low $\hat{f}_{p}$ and large number
 of hairs, with a hair geometry that allows for large deformations
 while avoiding buckling and lateral bundling represent the optimal
 design conditions to maximize the range of control over adhesion.
-The proposed model has been compared with previously reported experimental
+The proposed model \DIFdelbegin \DIFdel{is supported by }\DIFdelend \DIFaddbegin \DIFadd{has been compared with }\DIFaddend previously reported experimental
 observations of leg detachment in dock beetles and highlights possible role of the joint and claws to 
 enable reversible adhesion. Similar strategies could potentially be adopted in the design of bio-inspired 
 artificial fibrillar adhesives to easily switch the adhesion state without the need of asymmetric structures.

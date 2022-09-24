@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.21 (MiKTeX 20.11) (preloaded format=pdflatex 2020.12.31)  24 AUG 2022 15:44
+This is pdfTeX, Version 3.14159265-2.6-1.40.21 (MiKTeX 20.11) (preloaded format=pdflatex 2020.12.31)  24 SEP 2022 17:10
 entering extended mode
 **./manuscript.tex
 (manuscript.tex
@@ -1028,74 +1028,79 @@ File: Figure1-model_schematic.pdf Graphic file (type pdf)
 Package pdftex.def Info: Figure1-model_schematic.pdf  used on input line 179.
 (pdftex.def)             Requested size: 345.0pt x 247.47331pt.
 
-[4] [5 <./Figure1-model_schematic.pdf>] [6]
-<Case1-Fixed_pull.pdf, id=226, 777.10338pt x 568.42668pt>
+[4] [5 <./Figure1-model_schematic.pdf>]
+Overfull \hbox (1.9154pt too wide) in paragraph at lines 261--264
+\T1/cmtt/m/n/10 com / PranavSudersan / paper-[]effect _ of _ tilt / blob / main
+ / codes / Fibrillar %
+ []
+
+[6]
+<Case1-Fixed_pull.pdf, id=229, 777.10338pt x 568.42668pt>
 File: Case1-Fixed_pull.pdf Graphic file (type pdf)
 <use Case1-Fixed_pull.pdf>
-Package pdftex.def Info: Case1-Fixed_pull.pdf  used on input line 277.
+Package pdftex.def Info: Case1-Fixed_pull.pdf  used on input line 283.
 (pdftex.def)             Requested size: 345.0pt x 252.35493pt.
- [7] [8 <./Case1-Fixed_pull.pdf>]
-<Case2-Free_pull.pdf, id=392, 777.22609pt x 534.11974pt>
+ [7] [8 <./Case1-Fixed_pull.pdf>] [9]
+<Case2-Free_pull.pdf, id=405, 777.22609pt x 534.11974pt>
 File: Case2-Free_pull.pdf Graphic file (type pdf)
 <use Case2-Free_pull.pdf>
-Package pdftex.def Info: Case2-Free_pull.pdf  used on input line 342.
+Package pdftex.def Info: Case2-Free_pull.pdf  used on input line 348.
 (pdftex.def)             Requested size: 345.0pt x 237.0835pt.
-
-[9] [10 <./Case2-Free_pull.pdf>]
-<Case3-Fixed_flex.pdf, id=554, 1007.765pt x 720.6925pt>
+ [10 <./Case2-Free_pull.pdf>]
+<Case3-Fixed_flex.pdf, id=561, 1007.765pt x 720.6925pt>
 File: Case3-Fixed_flex.pdf Graphic file (type pdf)
 <use Case3-Fixed_flex.pdf>
-Package pdftex.def Info: Case3-Fixed_flex.pdf  used on input line 401.
+Package pdftex.def Info: Case3-Fixed_flex.pdf  used on input line 408.
 (pdftex.def)             Requested size: 345.0pt x 246.72572pt.
- [11] [12 <./Case3-Fixed_flex.pdf>] [13]
-<Reduction_factor-fp.pdf, id=689, 1189.61235pt x 385.0291pt>
+ [11]
+[12 <./Case3-Fixed_flex.pdf>] [13]
+<Reduction_factor-fp.pdf, id=697, 1189.61235pt x 385.0291pt>
 File: Reduction_factor-fp.pdf Graphic file (type pdf)
 <use Reduction_factor-fp.pdf>
-Package pdftex.def Info: Reduction_factor-fp.pdf  used on input line 473.
+Package pdftex.def Info: Reduction_factor-fp.pdf  used on input line 480.
 (pdftex.def)             Requested size: 345.0pt x 111.66145pt.
-
-[14 <./Reduction_factor-fp.pdf>]
-<Reduction_factor-Nt.pdf, id=757, 1166.5261pt x 385.0291pt>
+ [14 <./Reduction_factor-fp.pdf>]
+<Reduction_factor-Nt.pdf, id=767, 1166.5261pt x 385.0291pt>
 File: Reduction_factor-Nt.pdf Graphic file (type pdf)
 <use Reduction_factor-Nt.pdf>
-Package pdftex.def Info: Reduction_factor-Nt.pdf  used on input line 528.
+Package pdftex.def Info: Reduction_factor-Nt.pdf  used on input line 535.
 (pdftex.def)             Requested size: 345.0pt x 113.87047pt.
 
-Overfull \hbox (2.22168pt too wide) in paragraph at lines 527--531
+Overfull \hbox (2.22168pt too wide) in paragraph at lines 534--538
   [] 
  []
 
 [15] [16 <./Reduction_factor-Nt.pdf>]
-<Detachment_pathways.pdf, id=836, 608.2725pt x 499.8675pt>
+<Detachment_pathways.pdf, id=847, 608.2725pt x 499.8675pt>
 File: Detachment_pathways.pdf Graphic file (type pdf)
 <use Detachment_pathways.pdf>
-Package pdftex.def Info: Detachment_pathways.pdf  used on input line 595.
+Package pdftex.def Info: Detachment_pathways.pdf  used on input line 602.
 (pdftex.def)             Requested size: 345.0pt x 283.524pt.
  [17] [18 <./Detachment_pathways.pdf>]
 [19] [20]
-<Reduction_factor-chi.pdf, id=949, 1175.4187pt x 385.0291pt>
+<Reduction_factor-chi.pdf, id=960, 1175.4187pt x 385.0291pt>
 File: Reduction_factor-chi.pdf Graphic file (type pdf)
 <use Reduction_factor-chi.pdf>
-Package pdftex.def Info: Reduction_factor-chi.pdf  used on input line 706.
+Package pdftex.def Info: Reduction_factor-chi.pdf  used on input line 713.
 (pdftex.def)             Requested size: 345.0pt x 113.00684pt.
 
-Overfull \hbox (2.22168pt too wide) in paragraph at lines 705--707
+Overfull \hbox (2.22168pt too wide) in paragraph at lines 712--714
   [] 
  []
 
 [21] [22 <./Reduction_factor-chi.pdf>]
-Overfull \hbox (47.77776pt too wide) detected at line 779
+Overfull \hbox (47.77776pt too wide) detected at line 786
 \OML/cmm/m/it/10 M[] \OT1/cmr/m/n/10 =[] \OML/cmm/m/it/10 k[] []  [] []
  []
 
 
-Overfull \hbox (17.00502pt too wide) detected at line 785
+Overfull \hbox (17.00502pt too wide) detected at line 792
 [] \OML/cmm/m/it/10 x[] \OT1/cmr/m/n/10 = 2 [] \OML/cmm/m/it/10 x[] \OT1/cmr/m/
 n/10 = 2 [] [] = 2\OML/cmm/m/it/10 w[] [][]  []
  []
 
 
-Overfull \hbox (34.9579pt too wide) detected at line 795
+Overfull \hbox (34.9579pt too wide) detected at line 802
 \OML/cmm/m/it/10 M[] \OT1/cmr/m/n/10 = \OML/cmm/m/it/10 nk[] []  []
  []
 
@@ -1104,18 +1109,18 @@ Package rerunfilecheck Info: File `manuscript.out' has not changed.
 (rerunfilecheck)             Checksum: DEECD518A02C38EBFAC00D9B8F6B031B;1212.
  ) 
 Here is how much of TeX's memory you used:
- 13433 strings out of 479697
- 201083 string characters out of 2866657
- 473028 words of memory out of 3000000
- 30225 multiletter control sequences out of 15000+200000
+ 13439 strings out of 479697
+ 201189 string characters out of 2866657
+ 473075 words of memory out of 3000000
+ 30229 multiletter control sequences out of 15000+200000
  421023 words of font info for 67 fonts, out of 3000000 for 9000
  1141 hyphenation exceptions out of 8191
- 80i,7n,85p,961b,606s stack positions out of 5000i,500n,10000p,200000b,50000s
- <C:\Users\adwait\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\ect
-t1000.pk> <C:\Users\adwait\AppData\Local\MiKTeX\fonts/pk/ljfour/lh/lh-t2a/dpi60
-0\larm1000.pk> <C:\Users\adwait\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/e
-c/dpi600\ecrm0600.pk> <C:\Users\adwait\AppData\Local\MiKTeX\fonts/pk/ljfour/jkn
-appen/ec/dpi600\ecbi0800.pk> <C:\Users\adwait\AppData\Local\MiKTeX\fonts/pk/ljf
+ 80i,7n,85p,961b,602s stack positions out of 5000i,500n,10000p,200000b,50000s
+ <C:\Users\adwait\AppData\Local\MiKTeX\fonts/pk/ljfour/lh/lh-t2a/dpi600\larm1
+000.pk> <C:\Users\adwait\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi60
+0\ecrm0600.pk> <C:\Users\adwait\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/e
+c/dpi600\ecbi0800.pk> <C:\Users\adwait\AppData\Local\MiKTeX\fonts/pk/ljfour/jkn
+appen/ec/dpi600\ectt1000.pk> <C:\Users\adwait\AppData\Local\MiKTeX\fonts/pk/ljf
 our/jknappen/ec/dpi600\tcrm1000.pk> <C:\Users\adwait\AppData\Local\MiKTeX\fonts
 /pk/ljfour/jknappen/ec/dpi600\ecbx0800.pk> <C:\Users\adwait\AppData\Local\MiKTe
 X\fonts/pk/ljfour/jknappen/ec/dpi600\ecss0500.pk> <C:\Users\adwait\AppData\Loca
@@ -1147,9 +1152,9 @@ s/adwait/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy8.pfb
 ><C:/Users/adwait/AppData/Local/Programs/MiKTeX/fonts/type1/public/cbgreek/grmn
 1000.pfb><C:/Users/adwait/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsf
 onts/symbols/msbm10.pfb>
-Output written on manuscript.pdf (29 pages, 4116572 bytes).
+Output written on manuscript.pdf (29 pages, 4126038 bytes).
 PDF statistics:
- 1744 PDF objects out of 2073 (max. 8388607)
- 105 named destinations out of 1000 (max. 500000)
+ 1770 PDF objects out of 2073 (max. 8388607)
+ 107 named destinations out of 1000 (max. 500000)
  129 words of extra memory for PDF output out of 10000 (max. 10000000)
 
